@@ -1,0 +1,160 @@
+﻿#  Lo script di gioco va in questo file.
+
+#  Dichiara i personaggi usati in questo gioco. L'argomento 'color' colora il nome del personaggio.
+
+define bk = Character("???", color="#0000cf")
+define c = Character("Check", color="4e1212")
+image bg1 = im.Scale("bg1.png", 1920, 1080)
+image bg1 = im.Scale("bg1.png", 1920, 1080)
+image bg2 = im.Scale("bg2.png", 1920, 1080)
+image bg3 = im.Scale("bg3.webp", 1920, 1080)
+image bg4 = im.Scale("bg4.png", 1920, 1080)
+
+image dis = "disembodied.png"
+
+# Il gioco comincia qui.
+
+label start:
+
+    scene bg1
+
+    play music "audio/beat.mp3"
+
+    pause 0
+
+
+
+    "La prima volta eri sconcertato, {w} la seconda eri spaesato,{w} ma gia alla terza questo vuoto comincia a sembrarti confortante."
+
+    "Un momento di quiete e tranquillità in mezzo alla follia…{w} Subito interrotto da una risata acuta e meno che dignitosa. "
+
+    play sound "audio/laugh.mp3"
+    bk "Ahahahahaahahah. {p}Il tuo aspetto. {w} Troppo ridicolo hehehehahaa."
+
+    bk "Ahem"
+
+    pause .7
+
+    "Una volta calmatasi, la voce femminile si aggiusta su un tono più grave e nobile."
+
+    bk """
+    Pardon. Scusa la mia reazione fuori luogo, ma attendevo da tempo di vedere come tu fossi fatto.
+
+    Sembra che dovrai abituarti ancora un po’ a questo piano prima di poter materializzare una forma fisica completa.{w} Pff.
+
+    Ma è comico in vero. É così forte il tuo desiderio di sapere di più che pur non essendo capace di manifestare un corpo intero,{w} per prima cosa hai creato una bocca per domandare e delle orecchie per decifrare ogni risposta.
+    """
+
+
+    show dis:
+        xalign 0.5
+        yalign 0.5
+
+    "In quel momento ti rendi conto che il tuo udito e la tua voce sono funzionanti."
+
+    "Ti rendi conto anche del fatto che in questo momento sei una bocca e delle orecchie incorporee.{w} Questo spiega la reazione della donna."
+
+    "Incidentalmente non hai ancora gli occhi, non sei quindi in grado di vedere il tuo interlocutore nè lo spazio circostante, ma le costellazioni di gemme che lei chiama frammenti adornano il tuo “campo visivo” ciò nonostante."
+
+    menu:
+        "Macche diamine!":
+            pass
+        "Sono ANCORA PIÙ CONFUSO di prima!":
+            pass
+
+    hide dis
+
+    bk "Capisco la tua confusione.{w} Stai pur certo, ciò che hai visto non è un altro mondo. Hai semplicemente potuto osservare l’unica e sola Hinamizawa da due prospettive diverse."
+
+    scene bg2 with dissolve
+
+    pause 1
+
+    scene bg3 with dissolve
+
+    pause 1
+
+    scene bg4 with dissolve
+
+    bk """
+        Sii onorato, non è un’esperienza normalmente permessa ad un comune essere umano, limitato per tutta la vita ad uno degli infiniti frammenti di realtà.
+
+        E nonostante questo privilegio vedo che una cosa resta uguale...{w} La tua mancanza di conoscenza è a dir poco sconcertante.
+
+        Allora, sei stufo di annegare nella tua stessa frustrazione?{w} Stufo di conoscere così poco?{w} La tua sete di conoscenza è accesa?
+    """
+
+    show dis
+
+    menu:
+        "Sissignora.":
+            call sissignora
+
+        "Si però parlami con rispetto":
+            bk "Sei 100 anni in anticipo per meritare la mia cortesia, giovanotto. Ora rispondi come si conviene."
+
+            menu:
+                "Sissignora.":
+                    call sissignora
+
+                "Non mi piace la tua attitudine.":
+                    bk "Mhhh. proviamo in questo modo."
+
+                    menu:
+                        "Sissignora":
+                            bk """
+                                Come puoi vedere, usando i miei poteri sono in grado di controllare le tue risposte.
+
+                                Però riconosco che infringere sul tuo libero arbitrio sarebbe contraddittorio alla proposta della quale voglio renderti partecipe.
+
+                                Per cui...{w} come dire...{w} hai le mie scuse, per il momento.
+                            """
+                            call sissignora
+
+
+        "Naah":
+            bk "Uuuhm. Capito..."
+            play sound "audio/boing.mp3"
+            bk "Addio!"
+
+            return
+
+    return
+
+
+
+    label sissignora:
+        hide dis
+
+        bk """
+            Tu desideri sapere di più, io ho bisogno di alleati, i nostri interessi coincidono.{p}E sia, ti concederò di attingere ai miei secoli di esperienza.
+
+            Tuttavia non posso semplicemente chiarire ogni tuo dubbio.{p}Un alleato incapace di ragionare da se è solo un peso.{w} Che ne diresti piuttosto di un gioco?{w} Perfetto per combattere la noia.
+
+            Le regole sono le seguenti.
+        """
+        play sound "audio/truth.mp3"
+
+        bk "Da adesso {i}{color=#0000cf}Tutto ciò che dirò in blu sarà una verità che trascende i frammenti.{/color}{/i}"
+
+        bk """
+            Tuttavia utilizzerò questo potere solo in risposta ai tuoi interrogativi, e solo se li riterrò degni di essere esauditi.{w} Sta a te formulare delle domande su quanto hai visto durante i tuoi viaggi.
+
+            Inoltre,{w} hai diritto a {b}tre{/b} risposte prima del prossimo frammento.{w} Non di più, non di meno.
+
+            Non sei felice?{w} Grazie a me potresti perfino confermare o confutare quei quesiti che la mancanza di informazioni ti ha portato ad abbandonare.
+
+            Ebbene forza. Chiedi pure.
+        """
+
+        menu:
+            "CONTINUA DOPO LA FASE CHAT":
+                pass
+
+        return
+
+
+    # Questo finisce il gioco.
+
+
+
