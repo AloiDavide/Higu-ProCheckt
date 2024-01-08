@@ -1,0 +1,312 @@
+{
+  "main": {
+    "id": "bcc24b6be5f4f1b4",
+    "type": "split",
+    "children": [
+      {
+        "id": "d32a78aa2a7497f3",
+        "type": "tabs",
+        "dimension": 58.62068965517241,
+        "children": [
+          {
+            "id": "83d3b3877f897325",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tre difese.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54944dec30fa64fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Meakashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "23ee077427ae0b0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Meakashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "004a27dfd18f8b4d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Lambdadelta.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "42dee68cbbeed75f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bernkastel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f1d19227528de258",
+        "type": "split",
+        "dimension": 41.37931034482759,
+        "children": [
+          {
+            "id": "03565ed56bcd0363",
+            "type": "tabs",
+            "dimension": 68.46011131725417,
+            "children": [
+              {
+                "id": "5cf73090de0c7883",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Il gioco di Check e Hanabi.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7671e7643d965a85",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Wincon di Check.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "7a66d50282bd0ea9",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Il gioco di Check e Hanabi.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "4f5cfe1a992f40a6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Lambdadelta.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          },
+          {
+            "id": "0e94bddcf3c2b7b0",
+            "type": "tabs",
+            "dimension": 31.539888682745826,
+            "children": [
+              {
+                "id": "15d26f0d48fc19f6",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Witches game.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              },
+              {
+                "id": "32a41f2ea3cb7e31",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "piano di Takano.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "horizontal"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "33611d6a054778b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "2257fa44604e6202",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8dc8fc813439e31",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a481412a258b13d8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0c3fc3c79a81c34c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "ef434ea8bf77f4e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "c83110b04dd0a78a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c8f51fea2473011b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Wincon di Check.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d7ba87e4d861d05b",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Wincon di Check.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "676718ea933c05da",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b5d6347c3fbecb2f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Wincon di Check.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7671e7643d965a85",
+  "lastOpenFiles": [
+    "tre difese.md",
+    "Wincon di Check.md",
+    "Il gioco di Check e Hanabi.md",
+    "Scaletta Meakashi.md",
+    "Apparecchiare la scachhiera.md",
+    "prossimo tip.md",
+    "piano di Takano.md",
+    "Home.md",
+    "Lambdadelta.md",
+    "Witches game.md",
+    "Wincon di Lambda.md",
+    "Wincon di Bern.md",
+    "Bern.md",
+    "Sonozaki.md",
+    "Ooishi.md",
+    "Bernkastel.md"
+  ]
+}
