@@ -1,5 +1,5 @@
 Theme color: Orange
-Main menu: Sonozaki field o Saiguden
+Main menu: Discarica al tramonto
 
 ### Note narrative
 - Esplorazione del personaggio di Hanabi.

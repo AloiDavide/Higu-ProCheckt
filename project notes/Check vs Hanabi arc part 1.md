@@ -2,7 +2,11 @@ Il progetto renpy che accompagna Meakashi e Tsumihoroboshi
 Nome in codice da decidere
 
 Theme color: Green
-BG: discarica al tramonto
+Sfondo menu: Hinamizawa vantage point
+Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
+- stanza riunioni
+- cucina
+- scantinato
 
 Alla fine di Meakashi Check ha perso, ma essendo contrattato con Bernkastel. Aka. Bern e Lambda organizzano il prossimo round come parte del loro gioco.
 

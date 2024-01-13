@@ -27,35 +27,15 @@ screen tips():
     vbox xalign 0.5 yalign 0.5 spacing 30:
 
         hbox xalign 0.5 yalign 0.5 spacing 30:
-            #imagebutton:
-            #    tooltip "Welcome To Hinamizawa 3"
-            #    idle bern_kekkai
-            #    hover bern_kekkai
-            #    action Jump("wth3")
 
             imagebutton:
-                tooltip "Le luci nel cielo sono frammenti"
+                tooltip "Allestire la scacchiera"
                 idle fragplane_A
                 hover bern_kekkai_B
                 action Jump("wth4")
 
-            imagebutton:
-                tooltip "Nascita di una pedina"
-                idle vortex_A
-                hover vortex_B
-                action Jump("wthnb")
-            imagebutton:
-                tooltip "CHECK fuori da Check"
-                idle small_shrine_A
-                hover small_shrine_over_B
-                action Jump("intermissionA")
 
-        hbox xalign 0.5 yalign 0.5 spacing 30:
-            imagebutton:
-                tooltip "Turnabout Witch"
-                idle bern_kekkai_B
-                hover courtroom_B
-                action Jump("returnal")
+
 
 
 

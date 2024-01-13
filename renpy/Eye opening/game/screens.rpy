@@ -357,10 +357,10 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    vbox xalign 0.65 yalign 0.5:
+    vbox xalign 0.74 yalign 0.54:
         add "gui/HiguLogo.png"
 
-        text "HounDogs and Crunter present. Welcome to Hinamizawa...":
+        text "{color=#E29F00}HounDogs{/color} and {color=#00D915}Crunter{/color} present. Welcome to Hinamizawa...":
             outlines [(5, "#000")]
             size 30
             xalign 0.87
@@ -372,28 +372,13 @@ screen main_menu():
             xalign 0.97
             font "static/POORICH.TTF"
 
-        text "Himatsubushi":
+        text "Meakashi":
             outlines [(2, "#000")]
             size 70
-            color "#0000cf"
+            color "#00D915"
             xalign 0.5
             font "static/yuminl.ttf"
 
-    if persistent.light_novel:
-        $postit = im.Scale("overlay/post it.png",400,400)
-        add postit:
-            xalign 0.95
-            yalign 0.95
-
-        text "Reincarnato in un altro mondo come agente speciale, ma visto che continuo a morire ho stretto un patto con una strega per salvare la mia organizzazione dalla dittatura.":
-                outlines [(1, "#101010")]
-                size 33
-                xsize 350
-                xalign 0.93
-                yalign 0.92
-                color "#0000cf"
-
-                font "static/POORICH.TTF"
 
 
         text "":

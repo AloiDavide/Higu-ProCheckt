@@ -21,6 +21,18 @@
             }
           },
           {
+            "id": "5e0443c92616e65a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check vs Hanabi arc part 2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "a98a408b8a58d25f",
             "type": "leaf",
             "state": {
@@ -68,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       },
       {
         "id": "c639f795584202d5",
@@ -138,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -154,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Lambdadelta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Lambdadelta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Lambdadelta.md"
               }
             }
           }
@@ -214,12 +228,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "767a5dffbbe2be53",
+  "active": "0c3fc3c79a81c34c",
   "lastOpenFiles": [
     "Check vs Hanabi arc part 1.md",
-    "Home.md",
     "Scaletta Meakashi.md",
     "Check vs Hanabi arc part 2.md",
+    "Home.md",
     "tre difese.md",
     "Wincon di Check.md",
     "Il gioco di Check e Hanabi.md",

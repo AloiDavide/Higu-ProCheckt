@@ -12,7 +12,7 @@
 ##
 ## The _() surrounding the string marks it as eligible for translation.
 
-define config.name = _("Higurashi: The Lost Tips - Himatsubushi")
+define config.name = _("Higurashi: Gli indizi perduti - Meakashi")
 
 
 ## Determines if the title given above is shown on the main menu screen. Set
@@ -150,7 +150,7 @@ define config.save_directory = "Tips-1665508900"
 ##
 ## The icon displayed on the taskbar or dock.
 
-define config.window_icon = "gui/rika.png"
+define config.window_icon = "gui/window_icon.png"
 
 
 ## Build configuration #########################################################
