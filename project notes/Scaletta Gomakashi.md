@@ -1,3 +1,7 @@
+---
+tags:
+  - index
+---
 
 ## Progressione storia base:
 - Festival 83
@@ -9,8 +13,9 @@
 
 
 
-- [[Apparecchiare la scachhiera]]
-- Trafiletto Check e Larry a Hinamizawa
+- [[Apparecchiare la scacchiera (superiore)]]
+- [[Apparecchiare la scacchiera (inferiore)]]
+
 
 Inizio 1983
 - Sfondo campo

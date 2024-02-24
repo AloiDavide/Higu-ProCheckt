@@ -4,100 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d32a78aa2a7497f3",
+        "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 58.62068965517241,
         "children": [
           {
-            "id": "767a5dffbbe2be53",
+            "id": "950d6ff6fbc684c7",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5e0443c92616e65a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check vs Hanabi arc part 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a98a408b8a58d25f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check vs Hanabi arc part 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "23ee077427ae0b0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaletta Meakashi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "004a27dfd18f8b4d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Lambdadelta.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "42dee68cbbeed75f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bernkastel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 4
-      },
-      {
-        "id": "c639f795584202d5",
-        "type": "tabs",
-        "dimension": 41.37931034482759,
-        "children": [
-          {
-            "id": "54944dec30fa64fb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaletta Meakashi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -129,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#central  ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -147,12 +62,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -168,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Lambdadelta.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Lambdadelta.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,16 +119,14 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Lambdadelta.md"
-              }
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,25 +138,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0c3fc3c79a81c34c",
+  "active": "950d6ff6fbc684c7",
   "lastOpenFiles": [
-    "Check vs Hanabi arc part 1.md",
-    "Scaletta Meakashi.md",
-    "Check vs Hanabi arc part 2.md",
-    "Home.md",
     "tre difese.md",
+    "Gioco Bern VS Lambda.md",
+    "Bernkastel.md",
+    "Scaletta Gomakashi.md",
+    "Personaggi.md",
+    "Gioco Check VS Hanabi.md",
+    "Gomakashi.md",
+    "Canzoni da usare.md",
+    "Higurashi - Gli indizi perduti..md",
     "Wincon di Check.md",
-    "Il gioco di Check e Hanabi.md",
-    "Apparecchiare la scachhiera.md",
-    "prossimo tip.md",
-    "piano di Takano.md",
-    "Lambdadelta.md",
-    "Witches game.md",
-    "Wincon di Lambda.md",
-    "Wincon di Bern.md",
-    "Bern.md",
-    "Sonozaki.md",
     "Ooishi.md",
-    "Bernkastel.md"
+    "Bern.md",
+    "Apparecchiare la scacchiera (superiore).md",
+    "prossimo tip.md",
+    "Sonozaki.md",
+    "Apparecchiare la scacchiera (inferiore).md",
+    "Untitled.canvas",
+    "Check.md",
+    "Hanabi.md",
+    "wincon locali di Check.md",
+    "Yougisamashi.md",
+    "Majojirashi.md",
+    "Larry.md",
+    "Lambdadelta.md",
+    "Terry.md",
+    "Kabedaoshi.md",
+    "Tsumihoroboshi.md",
+    "desktop.ini",
+    "~syncthing~Higurashi - Gli indizi perduti..md.tmp",
+    "Untitled"
   ]
 }
