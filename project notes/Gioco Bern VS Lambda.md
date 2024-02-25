@@ -35,9 +35,7 @@ Ad esempio, alla fine di Meakashi Check perde, ma essendo contrattato con Bernka
 ## wincon di Lambda
 - Continuare a vincere fino alla resa e scomparsa di [[Bernkastel|Bern]].
 - Cioè, almeno una delle [[tre difese]] deve sempre fermare Rika.
-
 - Soddisfare il suo ego.
-
 
 ## wincon di Hanabi
 - Deve vincere il gioco contro Check, altrimenti viene eliminato.

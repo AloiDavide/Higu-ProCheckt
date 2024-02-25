@@ -1,0 +1,28 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 17, in script
+    call screen tips
+ScriptError: could not find label 'wth4'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\bootstrap.py", line 274, in bootstrap
+    renpy.main.main()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\main.py", line 660, in main
+    run(restart)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\main.py", line 146, in run
+    renpy.execution.run_context(True)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\execution.py", line 938, in run_context
+    context.run()
+  File "game/script.rpy", line 17, in script
+    call screen tips
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\script.py", line 927, in lookup
+    raise ScriptError("could not find label '%s'." % str(original))
+ScriptError: could not find label 'wth4'.
+
+Windows-10-10.0.19045 AMD64
+Ren'Py 8.0.2.22081402
+Higurashi: Gli indizi perduti - Meakashi 1.0
+Sun Feb 25 01:13:53 2024
