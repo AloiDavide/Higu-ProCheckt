@@ -2,9 +2,11 @@
 tags:
   - arc
 ---
+## Witch teasing arc
+
 L'arco degli indizi perduti parallelo a Himatsubushi.
 
-> *Check fa la conoscenza di Bern e si unisce a la sua causa, scopre di potere vedere i frammenti dalla prospettiva degli alti, viene confrontato da Lambda e finisce in un gioco contro Hanabi.*
+> Check fa la conoscenza di Bern e si unisce a la sua causa, scopre di potere vedere i frammenti dalla prospettiva degli alti, viene confrontato da Lambda e finisce in un gioco contro Hanabi.
 
 
 

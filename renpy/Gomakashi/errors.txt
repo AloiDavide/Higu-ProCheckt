@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 42: hbox expects a non-empty block.
-    hbox xalign 0.5 yalign 0.5 spacing 30:
-                                          ^
+File "game/assets.rpy", line 196: An attribute can only have zero or one displayables, two found.
+    "sprites/la/shades.png"
+                           ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Sat Jan 13 16:55:18 2024
+Wed Feb 28 17:46:33 2024

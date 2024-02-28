@@ -2,6 +2,7 @@
 tags:
   - arc
 ---
+## Misdirection/falsification arc
 
 L'arco degli indizi perduti parallelo a Meakashi.
 

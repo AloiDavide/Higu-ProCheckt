@@ -20,18 +20,55 @@
             }
           },
           {
-            "id": "fa9c40e059c3a602",
+            "id": "312199dda18db686",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gioco Bern VS Lambda.md",
+                "file": "Gomakashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a0271090f1653f6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Gomakashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a13c0ecd0520f744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allestire la scacchiera (superiore).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0826eede4e937982",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allestire la scacchiera (inferiore).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -60,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#central  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,7 +119,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -98,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Gioco Check VS Hanabi.md",
+                "file": "Allestire la scacchiera (inferiore).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Gioco Check VS Hanabi.md",
+                "file": "Allestire la scacchiera (inferiore).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Gioco Check VS Hanabi.md"
+                "file": "Allestire la scacchiera (inferiore).md"
               }
             }
           }
@@ -158,30 +196,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "950d6ff6fbc684c7",
+  "active": "0826eede4e937982",
   "lastOpenFiles": [
-    "Gioco Bern VS Lambda.md",
+    "Allestire la scacchiera (superiore).md",
+    "Allestire la scacchiera (inferiore).md",
+    "Gomakashi.md",
     "Gioco Check VS Hanabi.md",
+    "Higurashi - Gli indizi perduti..md",
+    "Scaletta Gomakashi.md",
+    "Majojirashi.md",
+    "Yougisamashi.md",
+    "Gioco Bern VS Lambda.md",
     "tre difese.md",
     "Bernkastel.md",
-    "Scaletta Gomakashi.md",
     "Personaggi.md",
-    "Gomakashi.md",
     "Canzoni da usare.md",
-    "Higurashi - Gli indizi perduti..md",
     "Wincon di Check.md",
     "Ooishi.md",
     "Bern.md",
-    "Apparecchiare la scacchiera (superiore).md",
     "prossimo tip.md",
     "Sonozaki.md",
-    "Apparecchiare la scacchiera (inferiore).md",
     "Untitled.canvas",
     "Check.md",
     "Hanabi.md",
     "wincon locali di Check.md",
-    "Yougisamashi.md",
-    "Majojirashi.md",
     "Larry.md",
     "Lambdadelta.md",
     "Terry.md",

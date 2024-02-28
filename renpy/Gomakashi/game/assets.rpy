@@ -1,3 +1,6 @@
+init python:
+    def head_tilt_func(img):
+        return Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
 init:
     $ sshake = Shake((0, 0, 0, 0), 1.0, dist=15)
 init:
@@ -7,13 +10,19 @@ init:
     transform unflip:
         xzoom 1
 
-    #CHECK
+
     image check_objection = Transform("sprites/ck/wright.png", xoffset=-658)
     image hanabi_objection = Transform("sprites/hb/von karma.png", xoffset=-693)
     image leftdist = Transform("sprites/ck/f_distinctive.png", xoffset=70, yoffset=-30)
 
-    layeredimage check:
 
+
+
+
+    #CHECK
+
+
+    layeredimage check:
         group pose:
             attribute defa:
                 "sprites/ck/def.png"
@@ -113,7 +122,149 @@ init:
         .2
         repeat
 
-    #HANABI
+
+
+
+
+#------------------------------------------------
+            #   LARRY
+#------------------------------------------------
+#attribute tilt:
+#                transform_anchor False
+#                rotate_pad False
+#                anchor (0.5,0.5)
+#                #align (0.1, 0.1)
+
+#                rotate -10
+
+#                "sprites/la/border_head.png"
+
+    layeredimage larrys_head:
+        always:
+            "sprites/la/border_head.png"
+
+        group eyes:
+            attribute close:
+                "sprites/ck/close.png"
+            attribute sus:
+                "sprites/ck/sus.png"
+            attribute think:
+                "sprites/ck/think.png"
+
+        attribute shades default:
+            "sprites/la/shades.png"
+
+
+
+    #Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
+
+    transform head_tilt:
+        crop (150, 80, 350, 350)
+        transform_anchor True
+        rotate_pad False
+        rotate -15
+        align (0.5,0.5)
+        offset (-658, -258)
+
+
+    #image larrys_tilted_head = head_tilt_func("larrys_head")
+
+
+    # LARRY
+    layeredimage larry:
+
+
+
+        group pose:
+            attribute defa default:
+                "sprites/la/border.png"
+            attribute notes:
+                "sprites/la/notes.png"
+
+        
+        group head:
+            attribute head_defa default:
+                "sprites/la/head.png"
+            attribute tilt:
+                at head_tilt
+                "sprites/la/head.png"
+
+        attribute shades default:
+            if_all "tilt" at head_tilt
+            "sprites/la/shades.png"
+
+        attribute shades default:
+            if_not "tilt"
+            "sprites/la/shades.png"
+
+        group mouth:
+            attribute yep :
+                "sprites/ck/mouths/yep0.png"
+            attribute nope:
+                "sprites/ck/mouths/nope0.png"
+            attribute smile:
+                "sprites/ck/mouths/smile2.png"
+            attribute worried:
+                "sprites/ck/mouths/worried0.png"
+            attribute shout:
+                "sprites/ck/mouths/worried0.png"
+
+            attribute yep_talk:
+                "yep_talk"
+            attribute nope_talk:
+                "nope_talk"
+            attribute smile_talk:
+                "smile_talk"
+            attribute worried_talk:
+                "worried_talk"
+            attribute shout_talk:
+                "shout_talk"
+
+
+    image yep_talk:
+        "sprites/ck/mouths/yep1.png"
+        .2
+        "sprites/ck/mouths/yep2.png"
+        .2
+        repeat
+
+    image nope_talk:
+        "sprites/ck/mouths/nope1.png"
+        .2
+        "sprites/ck/mouths/nope2.png"
+        .2
+        repeat
+
+    image worried_talk:
+        "sprites/ck/mouths/nope1.png"
+        .2
+        "sprites/ck/mouths/nope2.png"
+        .2
+        repeat
+
+    image smile_talk:
+        "sprites/ck/mouths/yep1.png"
+        .2
+        "sprites/ck/mouths/yep2.png"
+        .2
+        repeat
+
+    image shout_talk:
+        "sprites/ck/mouths/shout1.png"
+        .2
+        "sprites/ck/mouths/shout2.png"
+        .2
+        repeat
+
+
+
+
+
+
+
+#------------------------------------------------
+            #   HANABI
+#------------------------------------------------
     layeredimage hnb:
 
         group body:
@@ -430,15 +581,13 @@ define longerFade = Fade(6,0,4)
 #CHARACTERS
 define n = Character(None, what_style= "wideN")
 define ck = Character("Check", who_color = "#480000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
-
-define la = Character("Larry", who_color = "#fae69f", what_style= "wide", who_style = "border")
+define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry")
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define hb = Character("Hanabi", dynamic=True, who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "nope", "sneer", "smirk", "laugh"]))
 define ld = Character("lambdadelta", dynamic=True, who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
 define yw = Character("yellow_witch", dynamic=True, who_color = "#ffe674", what_style= "wide", who_style = "border")
 define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
-
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
 
 
@@ -463,6 +612,7 @@ image field = im.Scale("bg/field.png", 1920, 1080)
 image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
 image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
 image basement = im.Scale("bg/basement.png", 1920, 1080)
+image dam = im.Scale("bg/dam.png", 1920, 1080)
 
 
 

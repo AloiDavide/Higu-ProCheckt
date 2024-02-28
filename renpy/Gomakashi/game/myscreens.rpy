@@ -32,7 +32,7 @@ screen tips():
                 tooltip "Allestire la scacchiera"
                 idle fragplane_A
                 hover bern_kekkai_B
-                action Jump("wth4")
+                action Jump("chess_layer0")
 
 
 

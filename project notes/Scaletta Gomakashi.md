@@ -13,8 +13,8 @@ tags:
 
 
 
-- [[Apparecchiare la scacchiera (superiore)]]
-- [[Apparecchiare la scacchiera (inferiore)]]
+- [[Allestire la scacchiera (superiore)]]
+- [[Allestire la scacchiera (inferiore)]]
 
 
 Inizio 1983

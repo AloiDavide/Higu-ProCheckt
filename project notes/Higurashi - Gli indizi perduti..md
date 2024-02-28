@@ -15,13 +15,13 @@ tags:
 
 # Archi degli indizi perduti
 
-### [[Yougisamashi]] - Rousing suspicion arc
+### [[Yougisamashi]] - Suspicion rousing arc
 Parallelo di  Tatarigoroshi
 ### [[Majojirashi]] - Witch teasing arc
 Parallelo di Himatsubushi
 Icona: Bernkastel
 
-### [[Gomakashi]] - Falsifying arc
+### [[Gomakashi]] - Misdirection/Falsification arc
 Parallelo di Meakashi
 Icona: Hanabi
 
@@ -68,3 +68,4 @@ gimon
 
 shimeshi
 Kotaeshimeshi
+

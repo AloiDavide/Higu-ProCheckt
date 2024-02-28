@@ -2,6 +2,8 @@
 tags:
   - arc
 ---
+## Suspicion rousing arc
+
 L'arco degli indizi perduti parallelo a Tatarigoroshi.
 
 >Check e Larry seguono gli eventi di Tatari, ma finiscono per litigare sulla condotta di Keiichi.
