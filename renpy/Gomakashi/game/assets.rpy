@@ -24,7 +24,7 @@ init:
 
     layeredimage check:
         group pose:
-            attribute defa:
+            attribute plain:
                 "sprites/ck/def.png"
             attribute sor default:
                 "sprites/ck/sorcerer.png"
@@ -49,19 +49,24 @@ init:
 
 
         group flippable:
-            attribute p:
+            attribute p if_any ["sor", "objection"]:
                 "sprites/ck/hat.png"
 
-            attribute p:
+            attribute p if_any ["sor", "objection"]:
                 "sprites/ck/distinctive.png"
 
-            attribute fp:
+            attribute fp if_any ["sor", "objection"]:
                 "sprites/ck/f_hat.png"
 
             attribute fp if_any "sor":
                 "sprites/ck/f_distinctive.png"
+
             attribute fp if_any "objection":
                 "leftdist"
+
+            attribute fp if_any "plain":
+                "sprites/ck/f_bkg.png"
+
 
         group mouth:
             attribute yep default:
@@ -129,55 +134,22 @@ init:
 #------------------------------------------------
             #   LARRY
 #------------------------------------------------
-#attribute tilt:
-#                transform_anchor False
-#                rotate_pad False
-#                anchor (0.5,0.5)
-#                #align (0.1, 0.1)
 
-#                rotate -10
-
-#                "sprites/la/border_head.png"
-
-    layeredimage larrys_head:
-        always:
-            "sprites/la/border_head.png"
-
-        group eyes:
-            attribute close:
-                "sprites/ck/close.png"
-            attribute sus:
-                "sprites/ck/sus.png"
-            attribute think:
-                "sprites/ck/think.png"
-
-        attribute shades default:
-            "sprites/la/shades.png"
-
-
-
-    #Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
 
     transform head_tilt:
         crop (150, 80, 350, 350)
         transform_anchor True
         rotate_pad False
-        rotate -15
+        rotate -13
         align (0.5,0.5)
-        offset (-658, -258)
-
-
-    #image larrys_tilted_head = head_tilt_func("larrys_head")
+        offset (-655, -250)
 
 
     # LARRY
     layeredimage larry:
-
-
-
         group pose:
             attribute defa default:
-                "sprites/la/border.png"
+                "sprites/la/defa.png"
             attribute notes:
                 "sprites/la/notes.png"
 
@@ -197,65 +169,68 @@ init:
             if_not "tilt"
             "sprites/la/shades.png"
 
+        attribute drop:
+            if_all "tilt" at head_tilt
+            "sprites/la/drop.png"
+
+        attribute drop:
+            if_not "tilt"
+            "sprites/la/drop.png"
+
+        group eyes:
+            if_all "tilt" at head_tilt
+            attribute neutral default:
+                "sprites/la/eyes/neutral.png"
+            attribute scared:
+                "sprites/la/eyes/scared.png"
+            attribute close:
+                "sprites/la/eyes/close.png"
+            attribute cry:
+                "sprites/la/eyes/cry.png"
+            attribute focus:
+                "sprites/la/eyes/focus.png"
+            attribute evil:
+                "sprites/la/eyes/evil.png"
+
+
+        group eyes:
+            if_not "tilt"
+            attribute neutral default:
+                "sprites/la/eyes/neutral.png"
+            attribute scared:
+                "sprites/la/eyes/scared.png"
+            attribute close:
+                "sprites/la/eyes/close.png"
+            attribute cry:
+                "sprites/la/eyes/cry.png"
+            attribute focus:
+                "sprites/la/eyes/focus.png"
+            attribute evil:
+                "sprites/la/eyes/evil.png"
+
         group mouth:
-            attribute yep :
-                "sprites/ck/mouths/yep0.png"
-            attribute nope:
-                "sprites/ck/mouths/nope0.png"
-            attribute smile:
-                "sprites/ck/mouths/smile2.png"
-            attribute worried:
-                "sprites/ck/mouths/worried0.png"
-            attribute shout:
-                "sprites/ck/mouths/worried0.png"
+            if_all "tilt" at head_tilt
+            attribute straight default:
+                "sprites/la/mouths/straight0.png"
 
-            attribute yep_talk:
-                "yep_talk"
-            attribute nope_talk:
-                "nope_talk"
-            attribute smile_talk:
-                "smile_talk"
-            attribute worried_talk:
-                "worried_talk"
-            attribute shout_talk:
-                "shout_talk"
+            attribute straight_talk:
+                "straight_talk"
+
+        group mouth:
+            if_not "tilt"
+            attribute straight default:
+                "sprites/la/mouths/straight0.png"
+
+            attribute straight_talk:
+                "straight_talk"
 
 
-    image yep_talk:
-        "sprites/ck/mouths/yep1.png"
+    image straight_talk:
+        "sprites/la/mouths/talk1.png"
         .2
-        "sprites/ck/mouths/yep2.png"
+        "sprites/la/mouths/talk2.png"
         .2
         repeat
-
-    image nope_talk:
-        "sprites/ck/mouths/nope1.png"
-        .2
-        "sprites/ck/mouths/nope2.png"
-        .2
-        repeat
-
-    image worried_talk:
-        "sprites/ck/mouths/nope1.png"
-        .2
-        "sprites/ck/mouths/nope2.png"
-        .2
-        repeat
-
-    image smile_talk:
-        "sprites/ck/mouths/yep1.png"
-        .2
-        "sprites/ck/mouths/yep2.png"
-        .2
-        repeat
-
-    image shout_talk:
-        "sprites/ck/mouths/shout1.png"
-        .2
-        "sprites/ck/mouths/shout2.png"
-        .2
-        repeat
-
 
 
 
@@ -581,7 +556,7 @@ define longerFade = Fade(6,0,4)
 #CHARACTERS
 define n = Character(None, what_style= "wideN")
 define ck = Character("Check", who_color = "#480000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
-define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry")
+define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["straight"]))
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define hb = Character("Hanabi", dynamic=True, who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "nope", "sneer", "smirk", "laugh"]))
@@ -600,6 +575,8 @@ image rika niya = "sprites/rika niya.png"
 
 #BACKGROUNDS
 image black = im.Scale("bg/black.jpg", 1920, 1080)
+image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
+image purplenoise = im.Scale("bg/purplenoise.png", 1920, 1080)
 image red = im.Scale("bg/red.png", 1920, 1080)
 image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
 image bern_kekkai = im.Scale("bg/bern kekkai.png", 1920, 1080)
@@ -613,11 +590,15 @@ image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
 image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
 image basement = im.Scale("bg/basement.png", 1920, 1080)
 image dam = im.Scale("bg/dam.png", 1920, 1080)
+image satokopat = im.Scale("bg/satokopat.webp", 1920, 1080)
+image torakku = im.Scale("bg/torakku.png", 1920, 1080)
+image koya = im.Scale("bg/koya.png", 1920, 1080)
 
 
 
 
 #OVERLAYS
+image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
 image welcome = im.Scale("overlay/welcome.png", 1920, 1080)
 image frag_overlay = im.Scale("overlay/frag_overlay70.png", 1920, 1080)
 image frag_lines = im.Scale("overlay/frag_overlay0.png", 1920, 1080)

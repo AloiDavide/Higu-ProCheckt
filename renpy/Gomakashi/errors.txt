@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/assets.rpy", line 196: An attribute can only have zero or one displayables, two found.
-    "sprites/la/shades.png"
-                           ^
+File "game/assets.rpy", line 67: attribute expects a non-empty block.
+    attribute fp if_any "plain":
+                                ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Wed Feb 28 17:46:33 2024
+Thu Feb 29 17:30:46 2024

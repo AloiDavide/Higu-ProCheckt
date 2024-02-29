@@ -64,4 +64,4 @@ OSError: Couldn't find file 'gui/satok.webp'.
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.2.22081402
 Higurashi: The Lost Tips - Tatarigoroshi 1.0
-Sun Jan 21 16:39:43 2024
+Thu Feb 29 17:13:58 2024
