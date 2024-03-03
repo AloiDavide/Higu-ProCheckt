@@ -8,6 +8,8 @@ Gli eventi dell'82 nella prima metà di Meakashi sono preparazione da parte di C
 
 [[Lambdadelta]] e [[Bernkastel]] hanno concordato di sottoporre [[Check]] e [[Hanabi]] a una sfida parallela alla propria.
 
+Check ha avuto la prima scelta del campo di battaglia.
+Al secondo round sceglie Hanabi.
 
 ## Wincon di Check locali
 

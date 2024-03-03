@@ -8,19 +8,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "950d6ff6fbc684c7",
+            "id": "6f1f313eebe59991",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gioco Check VS Hanabi.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
-            "id": "312199dda18db686",
+            "id": "194b2ab2747ad1da",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +28,7 @@
             }
           },
           {
-            "id": "a0271090f1653f6b",
+            "id": "b984d4f2edc94de0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -44,7 +40,7 @@
             }
           },
           {
-            "id": "a13c0ecd0520f744",
+            "id": "4464cdb520cc16fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +52,7 @@
             }
           },
           {
-            "id": "0826eede4e937982",
+            "id": "6b58bd69ab9393a8",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +62,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad35b0a24749c0de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gioco Check VS Hanabi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c3ff8412ee760950",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "tre difese.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d3837784708d6b90",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gioco Bern VS Lambda.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -136,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allestire la scacchiera (inferiore).md",
+                "file": "Scaletta Gomakashi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allestire la scacchiera (inferiore).md",
+                "file": "Scaletta Gomakashi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allestire la scacchiera (inferiore).md"
+                "file": "Scaletta Gomakashi.md"
               }
             }
           }
@@ -196,20 +228,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0826eede4e937982",
+  "active": "b984d4f2edc94de0",
   "lastOpenFiles": [
-    "Scaletta Gomakashi.md",
-    "Allestire la scacchiera (superiore).md",
+    "Gioco Bern VS Lambda.md",
     "Allestire la scacchiera (inferiore).md",
+    "Allestire la scacchiera (superiore).md",
+    "Scaletta Gomakashi.md",
     "Gomakashi.md",
     "Gioco Check VS Hanabi.md",
     "Higurashi - Gli indizi perduti..md",
+    "tre difese.md",
+    "Personaggi.md",
     "Majojirashi.md",
     "Yougisamashi.md",
-    "Gioco Bern VS Lambda.md",
-    "tre difese.md",
     "Bernkastel.md",
-    "Personaggi.md",
     "Canzoni da usare.md",
     "Wincon di Check.md",
     "Ooishi.md",

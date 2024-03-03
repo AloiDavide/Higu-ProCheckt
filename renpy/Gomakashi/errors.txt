@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/assets.rpy", line 67: attribute expects a non-empty block.
-    attribute fp if_any "plain":
-                                ^
+File "game/screens.rpy", line 396: Line is indented, but the preceding one-line python statement does not expect a block. Please check this line's indentation.
+    add postit:
+    ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Thu Feb 29 17:30:46 2024
+Sun Mar  3 00:19:27 2024

@@ -4,7 +4,7 @@ Consegna: Inizio 1983
 - [x] Get Larry a working layered sprite
 - [ ] Clean larry around the edges, deploy the blue background
 - [ ] Commission new mouths for larry
-- [ ] Think about new
+- [ ] Think about new hb sprite
 
 
 - [ ] Storyboard write and create first scene
@@ -21,16 +21,15 @@ Bantler
 
 Parlano della prima metà del gioco.
 
-Possibili cose da menzionare:
+## Possibili cose da menzionare:
 - Ooops wrong capelli verdi, come sarà mai successo? (e chi sa ride), ma finalmente qualcuno che ragiona con la logica, mi porterà di sicuro alla verità.
-- "La finestra di capelli verdi 2.0 su Hinamizawa partiva dall'82, quella di akasaka era prima"
-- hb mi stai dicendo che è tutto un comblotto E che si sono presi la briga di monitorare Rena ler anni a decine di chilometri di distanza?
+- hb mi stai dicendo che è tutto un gomblotto e che si sono presi la briga di monitorare Rena ler anni a decine di chilometri di distanza?
 - satoshi
 - tortura
 - rapporto gemelle
 - dinamiche sonozaki
 - teorie di Shion
-- incontro con Rena oni
+- incontro con Rena al bus stop
 - Shion a scuola: impersona bene Mion
 
 

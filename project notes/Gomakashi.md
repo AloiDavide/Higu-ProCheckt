@@ -24,6 +24,7 @@ Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
 
 # Todo generale
 - [ ] Capire come mettere il postit fuori dalle palle
+- [ ] Togliere le ridondanze dalla repository
 
 ---
 
@@ -31,9 +32,12 @@ Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
 
 ## Check gameplan
 - Dimostrare che è tutto un complotto dei Sonozaki mentre raccoglie più informazioni possibili.
+- Check è Battler di episodio 2. Non ha capito le meccaniche.
 ## Hanabi gameplan
+- Pensa che Check scompare quando perde non sa che non ha mai avuto una vera wincon. Per Lambda lui serve solo a guadagnare tempo.
 - Tenterà di convincere Check che non c'è nessun complotto, ma è una bait per fargli sospettare di più i Sonozaki e poi togliergli il tappeto da sotto i piedi alla fine.
 - Vuole anche convincerlo che Satoko è sus per lo stesso motivo.
+- Dice che Shion è innocente.
 
 
 ## Risultati

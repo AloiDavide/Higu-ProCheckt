@@ -12,3 +12,4 @@ In base a questo cambia chiaramente la sua attitudine.
 ---
 
 # Storyboard
+Inizio con un pan di vita quotidiana a hinamizawa

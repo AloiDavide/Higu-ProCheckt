@@ -357,7 +357,7 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    vbox xalign 0.74 yalign 0.54:
+    vbox xalign 0.74 yalign 0.06:
         add "gui/HiguLogo.png"
 
         text "{color=#E29F00}HounDogs{/color} and {color=#00D915}Crunter{/color} present. Welcome to Hinamizawa...":
@@ -381,15 +381,43 @@ screen main_menu():
 
 
 
-        text "":
-            outlines [(1, "#101010")]
-            size 40
-            xsize 700
-            xalign 0.95
-            yalign 0.95
-            justify True
+
+
+
+    $postit_a = im.Scale("overlay/postit_a.png",100,100)
+    $postit_b = im.Scale("overlay/postit_b.png",400,400)
+    imagebutton:
+        xalign 0.95
+        yalign 0.95
+
+        idle postit_a
+        hover postit_b
+
+        tooltip "a"
+        action NullAction()
+
+    $ tooltip = GetTooltip()
+    if tooltip:
+        text "Reincarnato in un altro mondo come agente speciale, ma visto che continuo a morire ho stretto un patto con una strega per salvare la mia organizzazione dalla dittatura.":
+            outlines [(0, "#101010")]
+            size 30
+            xsize 350
+            xpos 0.765
+            ypos 0.68
             color "#0000cf"
-            font "static/POORICH.TTF"
+            font "static/Caveat-Bold.TTF"
+
+        text "(titolo di prova)":
+            outlines [(0, "#101010")]
+            size 30
+            xsize 350
+            xpos 0.765
+            ypos 0.9
+            color "#0000cf"
+            font "static/Caveat-Bold.TTF"
+
+
+        #this is just a webhook
 
     ## This empty frame darkens the main menu.
     frame:
