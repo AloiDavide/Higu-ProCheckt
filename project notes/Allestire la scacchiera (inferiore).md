@@ -2,10 +2,7 @@ Consegna: Inizio 1983
 
 
 - [x] Get Larry a working layered sprite
-- [ ] Clean larry around the edges, deploy the blue background
-- [ ] Commission new mouths for larry
-- [ ] Think about new hb sprite
-
+- [x] Clean larry around the edges, deploy the blue background
 
 - [ ] Storyboard write and create first scene
 - [ ] Get inspired
@@ -41,8 +38,6 @@ Check sovrappensiero sta avendo piccoli scorci delle vite passate.
 - Larry che torna e piange
 - red
 
-- [x] Get assets
-- [x] Get sepia filter
 
 Capo, che impressione le ha dato?
 

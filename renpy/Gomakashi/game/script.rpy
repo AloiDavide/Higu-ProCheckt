@@ -9,10 +9,10 @@ define config.default_sfx_volume = 0.5
 label start:
 
     scene sonozroom with Dissolve(3.5)
-    play sound "audio/glass crack.mp3"
+    play sound "audio/sfx/glass crack.mp3"
     show frag_overlay
 
-    play music "audio/asagiri.mp3"
+    play music "audio/higu/asagiri.mp3"
 
     call screen tips
 

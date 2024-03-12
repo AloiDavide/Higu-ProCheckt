@@ -64,7 +64,7 @@
             }
           },
           {
-            "id": "ad35b0a24749c0de",
+            "id": "76b7ba4ce2b74cc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,7 +100,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Scaletta Gomakashi.md",
+                "file": "Gioco Check VS Hanabi.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Scaletta Gomakashi.md",
+                "file": "Gioco Check VS Hanabi.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -208,7 +208,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Scaletta Gomakashi.md"
+                "file": "Gioco Check VS Hanabi.md"
               }
             }
           }
@@ -228,13 +228,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b984d4f2edc94de0",
+  "active": "76b7ba4ce2b74cc4",
   "lastOpenFiles": [
-    "Gioco Bern VS Lambda.md",
     "Allestire la scacchiera (inferiore).md",
     "Allestire la scacchiera (superiore).md",
     "Scaletta Gomakashi.md",
     "Gomakashi.md",
+    "Gioco Bern VS Lambda.md",
     "Gioco Check VS Hanabi.md",
     "Higurashi - Gli indizi perduti..md",
     "tre difese.md",

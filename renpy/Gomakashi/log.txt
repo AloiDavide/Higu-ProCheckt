@@ -1,41 +1,40 @@
-Sun Mar  3 00:50:31 2024
+Thu Mar  7 23:58:28 2024
 Windows-10-10.0.19045
 Ren'Py 8.0.2.22081402
  
 
-Bootstrap to the start of init.init took 0.06s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.04s
-Loading script took 0.51s
-Loading save slot metadata. took 0.08s
-Loading persistent took 0.00s
+Bootstrap to the start of init.init took 0.37s
+Early init took 0.01s
+Loader init took 0.47s
+Loading error handling took 0.24s
+Loading script took 1.58s
+Loading save slot metadata. took 0.67s
+Loading persistent took 0.01s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.13s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
+Running init code took 0.58s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.09s
+Dump and make backups. took 0.35s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.03s
+Initial gc. took 0.05s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.01s
 Cleaning stores took 0.00s
-Init translation took 0.06s
+Init translation took 0.11s
 Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.04s
-Running _start took 0.00s
+Load screen analysis took 0.15s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.28s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.21s
+Running _start took 0.01s
 Performance test:
-Interface start took 0.21s
+Interface start took 0.71s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -48,20 +47,20 @@ Display Info: None
 Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 50.25s
+Bootstrap to the start of init.init took 1187.98s
 Early init took 0.00s
-Loader init took 0.16s
-Loading error handling took 0.04s
-Loading script took 0.36s
-Loading save slot metadata. took 0.09s
-Loading persistent took 0.00s
+Loader init took 0.48s
+Loading error handling took 0.10s
+Loading script took 0.60s
+Loading save slot metadata. took 0.17s
+Loading persistent took 0.01s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.06s
+Running init code took 0.10s
 Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.13s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.05s
@@ -70,13 +69,238 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.03s
-Prepare screens took 0.10s
+Prepare screens took 0.12s
 Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1216.84s
+Early init took 0.00s
+Loader init took 0.35s
+Loading error handling took 0.07s
+Loading script took 0.46s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1738, 977) drawable=(1738, 977)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1268.61s
+Early init took 0.00s
+Loader init took 0.29s
+Loading error handling took 0.06s
+Loading script took 0.43s
+Loading save slot metadata. took 0.29s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.22s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1736, 976) drawable=(1736, 976)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1313.30s
+Early init took 0.00s
+Loader init took 0.32s
+Loading error handling took 0.06s
+Loading script took 0.48s
+Loading save slot metadata. took 0.20s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.13s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1328.39s
+Early init took 0.00s
+Loader init took 0.30s
+Loading error handling took 0.08s
+Loading script took 0.41s
+Loading save slot metadata. took 0.16s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.16s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.06s
+Prepare screens took 0.15s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1732, 975) drawable=(1732, 975)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1360.23s
+Early init took 0.00s
+Loader init took 0.31s
+Loading error handling took 0.04s
+Loading script took 0.25s
+Loading save slot metadata. took 0.15s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.11s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.14s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
@@ -90,20 +314,951 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1738, 978) drawable=(1738, 978)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 248.07s
+Bootstrap to the start of init.init took 1402.67s
 Early init took 0.00s
-Loader init took 0.33s
-Loading error handling took 0.04s
-Loading script took 0.78s
-Loading save slot metadata. took 0.08s
+Loader init took 0.36s
+Loading error handling took 0.06s
+Loading script took 0.49s
+Loading save slot metadata. took 0.18s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.11s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1730, 973) drawable=(1730, 973)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1436.04s
+Early init took 0.00s
+Loader init took 0.30s
+Loading error handling took 0.06s
+Loading script took 0.49s
+Loading save slot metadata. took 0.23s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.21s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.24s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1729, 972) drawable=(1729, 972)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1466.15s
+Early init took 0.00s
+Loader init took 0.25s
+Loading error handling took 0.05s
+Loading script took 0.24s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1727, 971) drawable=(1727, 971)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1476.02s
+Early init took 0.00s
+Loader init took 0.19s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.11s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1513.47s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.02s
+Loading script took 0.20s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1568.19s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata. took 0.09s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1597.81s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1626.21s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1634.78s
+Early init took 0.00s
+Loader init took 0.31s
+Loading error handling took 0.06s
+Loading script took 0.48s
+Loading save slot metadata. took 0.51s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.12s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1658.72s
+Early init took 0.00s
+Loader init took 0.23s
+Loading error handling took 0.04s
+Loading script took 0.47s
+Loading save slot metadata. took 0.11s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2591.97s
+Early init took 0.00s
+Loader init took 0.69s
+Loading error handling took 0.07s
+Loading script took 1.12s
+Loading save slot metadata. took 0.86s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.23s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 1.58s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.56s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 1.06s
+Build styles took 0.05s
+Load screen analysis took 0.00s
+Analyze screens took 0.23s
+Save screen analysis took 0.16s
+Prepare screens took 1.27s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.13s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.23s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2622.48s
+Early init took 0.00s
+Loader init took 0.50s
+Loading error handling took 0.08s
+Loading script took 0.62s
+Loading save slot metadata. took 0.48s
+Loading persistent took 0.02s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.35s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.21s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.11s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.24s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2629.62s
+Early init took 0.00s
+Loader init took 0.30s
+Loading error handling took 0.06s
+Loading script took 0.48s
+Loading save slot metadata. took 0.30s
+Loading persistent took 0.02s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.23s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.03s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.59s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.15s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.21s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.05s
+Prepare screens took 0.18s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 2702.12s
+Early init took 0.00s
+Loader init took 0.69s
+Loading error handling took 0.16s
+Loading script took 0.91s
+Loading save slot metadata. took 1.97s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.27s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.29s
+Cleaning cache took 0.00s
+Making clean stores took 0.01s
+Initial gc. took 0.29s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.27s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.08s
+Prepare screens took 0.37s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.26s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.21s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3113.54s
+Early init took 0.00s
+Loader init took 0.25s
+Loading error handling took 0.04s
+Loading script took 0.68s
+Loading save slot metadata. took 0.28s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3576.66s
+Early init took 0.00s
+Loader init took 0.20s
+Loading error handling took 0.04s
+Loading script took 1.13s
+Loading save slot metadata. took 0.26s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.13s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.30s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.20s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.02s
+Load screen analysis took 0.00s
+Analyze screens took 0.04s
+Save screen analysis took 0.08s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.05s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.14s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3678.67s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.04s
+Loading script took 0.67s
+Loading save slot metadata. took 0.16s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.11s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.05s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 3737.60s
+Early init took 0.00s
+Loader init took 0.27s
+Loading error handling took 0.08s
+Loading script took 0.38s
+Loading save slot metadata. took 0.25s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.28s
+Loading analysis data took 0.09s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.13s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4053.17s
+Early init took 0.00s
+Loader init took 0.19s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4092.31s
+Early init took 0.00s
+Loader init took 0.19s
+Loading error handling took 0.03s
+Loading script took 0.30s
+Loading save slot metadata. took 0.21s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.32s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 180, in script
+    show stop_time with dissolve
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 1658, in execute
+    renpy.exports.with_statement(trans, paired=paired)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1653, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\display\core.py", line 2798, in do_with
+    return self.interact(trans_pause=True,
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\display\core.py", line 4097, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/teleport.wav'.
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 180, in script
+    show stop_time with dissolve
+OSError: Couldn't find file 'audio/teleport.wav'.
+Resetting cache.
+Bootstrap to the start of init.init took 4233.17s
+Early init took 0.00s
+Loader init took 0.20s
+Loading error handling took 0.08s
+Loading script took 0.56s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -121,6 +1276,470 @@ Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1248, in __call__
+    who = renpy.python.py_eval(who)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Hanabi' is not defined
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+NameError: name 'Hanabi' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 4278.35s
+Early init took 0.00s
+Loader init took 0.19s
+Loading error handling took 0.06s
+Loading script took 0.35s
+Loading save slot metadata. took 0.19s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.17s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1248, in __call__
+    who = renpy.python.py_eval(who)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Hanabi' is not defined
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+NameError: name 'Hanabi' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 4288.07s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata. took 0.15s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.12s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.10s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.05s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1248, in __call__
+    who = renpy.python.py_eval(who)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Hanabi' is not defined
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+NameError: name 'Hanabi' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 4324.64s
+Early init took 0.00s
+Loader init took 0.16s
+Loading error handling took 0.03s
+Loading script took 0.18s
+Loading save slot metadata. took 0.10s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.05s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1248, in __call__
+    who = renpy.python.py_eval(who)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Hanabi' is not defined
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+NameError: name 'Hanabi' is not defined
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1248, in __call__
+    who = renpy.python.py_eval(who)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1083, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\python.py", line 1076, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "<none>", line 1, in <module>
+NameError: name 'Hanabi' is not defined
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 190, in script
+    hb "AAAS IIIIF"
+NameError: name 'Hanabi' is not defined
+Resetting cache.
+Bootstrap to the start of init.init took 4558.99s
+Early init took 0.00s
+Loader init took 0.28s
+Loading error handling took 0.06s
+Loading script took 0.46s
+Loading save slot metadata. took 0.11s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4601.11s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.05s
+Loading script took 0.37s
+Loading save slot metadata. took 0.18s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.14s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.11s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.06s
+Save screen analysis took 0.05s
+Prepare screens took 0.21s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4641.69s
+Early init took 0.00s
+Loader init took 0.28s
+Loading error handling took 0.03s
+Loading script took 0.98s
+Loading save slot metadata. took 0.37s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.23s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.15s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4656.36s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata. took 0.20s
+Loading persistent took 0.02s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.18s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.16s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 4692.22s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.36s
+Loading save slot metadata. took 0.23s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.18s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.17s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
 Save screen analysis took 0.02s
 Prepare screens took 0.08s
 Save pyanalysis. took 0.00s
@@ -137,198 +1756,18 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 257.79s
-Early init took 0.00s
-Loader init took 0.20s
-Loading error handling took 0.04s
-Loading script took 0.42s
-Loading save slot metadata. took 0.12s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.09s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.18s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.08s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.13s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.03s
-Save screen analysis took 0.05s
-Prepare screens took 0.15s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 264.35s
-Early init took 0.00s
-Loader init took 0.19s
-Loading error handling took 0.03s
-Loading script took 0.54s
-Loading save slot metadata. took 0.20s
-Loading persistent took 0.01s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.12s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 307.64s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.03s
-Loading script took 0.38s
-Loading save slot metadata. took 0.08s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 323.29s
+Bootstrap to the start of init.init took 4740.72s
 Early init took 0.00s
 Loader init took 0.18s
 Loading error handling took 0.03s
-Loading script took 0.39s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 336.04s
-Early init took 0.00s
-Loader init took 0.18s
-Loading error handling took 0.03s
-Loading script took 0.38s
+Loading script took 0.22s
 Loading save slot metadata. took 0.08s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
+Running init code took 0.08s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
@@ -342,107 +1781,17 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 414.80s
-Early init took 0.00s
-Loader init took 0.29s
-Loading error handling took 0.03s
-Loading script took 0.59s
-Loading save slot metadata. took 0.22s
-Loading persistent took 0.01s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.16s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.11s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.03s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.08s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 429.11s
-Early init took 0.00s
-Loader init took 0.19s
-Loading error handling took 0.03s
-Loading script took 0.38s
-Loading save slot metadata. took 0.09s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.08s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -452,71 +1801,85 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 440.31s
+Bootstrap to the start of init.init took 4795.19s
 Early init took 0.00s
-Loader init took 0.22s
-Loading error handling took 0.03s
-Loading script took 0.42s
-Loading save slot metadata. took 0.10s
+Loader init took 0.17s
+Loading error handling took 0.06s
+Loading script took 0.30s
+Loading save slot metadata. took 0.14s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.10s
 Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.06s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.05s
-Prepare screens took 0.20s
-Save pyanalysis. took 0.04s
-Save bytecode. took 0.04s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 452.98s
-Early init took 0.00s
-Loader init took 0.24s
-Loading error handling took 0.03s
-Loading script took 0.50s
-Loading save slot metadata. took 0.20s
-Loading persistent took 0.01s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.17s
-Loading analysis data took 0.05s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.16s
+Dump and make backups. took 0.18s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.06s
+Initial gc. took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.12s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.05s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.01s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Bootstrap to the start of init.init took 4832.84s
+Early init took 0.00s
+Loader init took 0.21s
+Loading error handling took 0.03s
+Loading script took 0.42s
+Loading save slot metadata. took 0.32s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.27s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.24s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
@@ -525,14 +1888,14 @@ Cleaning stores took 0.00s
 Init translation took 0.06s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Analyze screens took 0.03s
+Save screen analysis took 0.03s
+Prepare screens took 0.19s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.07s
+Interface start took 0.09s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -542,105 +1905,15 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 461.11s
+Bootstrap to the start of init.init took 5048.98s
 Early init took 0.00s
-Loader init took 0.24s
-Loading error handling took 0.06s
-Loading script took 0.60s
-Loading save slot metadata. took 0.10s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 622.25s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.03s
-Loading script took 0.38s
+Loader init took 0.18s
+Loading error handling took 0.02s
+Loading script took 0.25s
 Loading save slot metadata. took 0.09s
-Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.250000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) HD Graphics 5500'
-Version: b'4.4.0 - Build 20.19.15.5126'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
-Resetting cache.
-Bootstrap to the start of init.init took 711.44s
-Early init took 0.00s
-Loader init took 0.17s
-Loading error handling took 0.03s
-Loading script took 0.36s
-Loading save slot metadata. took 0.08s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
 Running init code took 0.08s
@@ -648,7 +1921,181 @@ Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.07s
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5071.24s
+Early init took 0.00s
+Loader init took 0.37s
+Loading error handling took 0.05s
+Loading script took 0.26s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5090.71s
+Early init took 0.00s
+Loader init took 0.34s
+Loading error handling took 0.10s
+Loading script took 0.33s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 194, in script
+    hb" Sentitelo. \"Ci sono io quindi andrà tutto bene\" HANANANANANA! Guarda quanta sicurezza dal nostro {b}EX{\b} comandante del BKG."
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\display\core.py", line 4097, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1166, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1144, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 1086, in periodic_pass
+    c.periodic()
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 517, in periodic
+    topf = load(filename)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\audio\audio.py", line 70, in load
+    rv = renpy.loader.load(fn)
+  File "C:\Users\david\Downloads\Programs\renpy-8.0.2-sdk\renpy\loader.py", line 820, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/sfx/laugh'.
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 194, in script
+    hb" Sentitelo. \"Ci sono io quindi andrà tutto bene\" HANANANANANA! Guarda quanta sicurezza dal nostro {b}EX{\b} comandante del BKG."
+OSError: Couldn't find file 'audio/sfx/laugh'.
+Resetting cache.
+Bootstrap to the start of init.init took 5139.12s
+Early init took 0.00s
+Loader init took 0.23s
+Loading error handling took 0.03s
+Loading script took 0.43s
+Loading save slot metadata. took 0.24s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.10s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.05s
@@ -662,9 +2109,9 @@ Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
 Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.07s
@@ -677,5 +2124,230 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5156.91s
+Early init took 0.00s
+Loader init took 0.23s
+Loading error handling took 0.06s
+Loading script took 0.49s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5199.03s
+Early init took 0.00s
+Loader init took 0.22s
+Loading error handling took 0.03s
+Loading script took 0.49s
+Loading save slot metadata. took 0.13s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5208.84s
+Early init took 0.00s
+Loader init took 0.18s
+Loading error handling took 0.03s
+Loading script took 0.27s
+Loading save slot metadata. took 0.12s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.10s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5218.94s
+Early init took 0.00s
+Loader init took 0.20s
+Loading error handling took 0.04s
+Loading script took 0.31s
+Loading save slot metadata. took 0.09s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.07s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 5236.36s
+Early init took 0.00s
+Loader init took 0.17s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata. took 0.11s
+Loading persistent took 0.00s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\Downloads\\Programs\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1724, 970) drawable=(1724, 970)
 Maximum texture size: 4096x4096

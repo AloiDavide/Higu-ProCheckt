@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 396: Line is indented, but the preceding one-line python statement does not expect a block. Please check this line's indentation.
-    add postit:
-    ^
+File "game/assets.rpy", line 14: expected 'simple_expression' not found.
+    linear
+          ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Sun Mar  3 00:19:27 2024
+Thu Mar  7 23:46:32 2024

@@ -555,11 +555,11 @@ define longerFade = Fade(6,0,4)
 
 #CHARACTERS
 define n = Character(None, what_style= "wideN")
-define ck = Character("Check", who_color = "#480000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
+define ck = Character("Check", who_color = "#780000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
 define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["straight"]))
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
-define hb = Character("Hanabi", dynamic=True, who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "nope", "sneer", "smirk", "laugh"]))
+define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "nope", "sneer", "smirk", "laugh"]))
 define ld = Character("lambdadelta", dynamic=True, who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
 define yw = Character("yellow_witch", dynamic=True, who_color = "#ffe674", what_style= "wide", who_style = "border")
 define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
@@ -590,11 +590,12 @@ image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
 image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
 image basement = im.Scale("bg/basement.png", 1920, 1080)
 image dam = im.Scale("bg/dam.png", 1920, 1080)
+image satokoeat = im.Scale("bg/satokoeat.webp", 1920, 1080)
 image satokopat = im.Scale("bg/satokopat.webp", 1920, 1080)
+image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
 image torakku = im.Scale("bg/torakku.png", 1920, 1080)
 image koya = im.Scale("bg/koya.png", 1920, 1080)
-
-
+image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
 
 
 #OVERLAYS
