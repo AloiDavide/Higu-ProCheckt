@@ -17,7 +17,8 @@ init:
 
 
 
-
+    define flash = Fade(0.1, 0.0, 0.5, color="#fff")
+    define purple_flash = Fade(0.1, 0.0, 0.5, color="#7E3FFF")
 
     #CHECK
 

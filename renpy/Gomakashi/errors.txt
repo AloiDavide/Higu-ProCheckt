@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/assets.rpy", line 14: expected 'simple_expression' not found.
-    linear
-          ^
+File "game/scenes/allestire_scacchiera_omote.rpy", line 5: expected statement.
+    renpy.add_layer('bg', below='master')
+                                         ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Thu Mar  7 23:46:32 2024
+Thu Mar 21 16:55:08 2024

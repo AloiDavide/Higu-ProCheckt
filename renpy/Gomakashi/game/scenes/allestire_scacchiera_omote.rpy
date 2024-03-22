@@ -1,48 +1,53 @@
+init:
+    $ renpy.add_layer('overlayer', above='master')
+    define masterFade = { "master" : Fade(2,0,2) }
 
 label chess_layer0:
     play music "audio/higu/short dawn at the end of time.mp3" fadein(8)
-    scene black with longFade
 
-    scene clinic_room
-    show larry
-    show sepia
-    with Dissolve(4)
-    pause(4)
+    hide layer screens
 
-    scene satokoeat
-    show sepia
-    with Dissolve(4)
-    pause(4)
+    scene black
+    with longFade
 
-    scene satokopat
-    show sepia
-    with Dissolve(4)
+    show sepia onlayer overlayer
+    #show layer overlayer
+    show clinic_room
+    show larry behind sepia
+
+    with Dissolve(3)
     pause(4)
+    ''
+
+    scene satokoeat with masterFade
+    pause(6)
+
+    scene satokopat with masterFade
+    pause(6)
 
     scene torakku
     show larry evil at right
     show check plain fp angry nope at left
     show check at flip
-    show sepia
-
-    with Dissolve(4)
-
-    pause(4)
+    with masterFade
+    pause(6)
 
     scene koya
     show larry tilt cry at left
     show larry at flip
     show check plain yep at right
-    show sepia
-    with Dissolve(4)
+    with masterFade
+    pause(6)
 
+
+    scene red with masterFade
     pause(4)
-    show red behind sepia with Dissolve(4)
-    play sound "audio/sfx/chishibuki.ogg"
-    pause(4)
+    #play sound "audio/sfx/chishibuki.ogg"
     ""
 
-    scene purplenoise with Pixellate(5,5)
+    scene purplenoise
+    hide sepia onlayer overlayer
+    with Pixellate(5,5)
 
     n "{cps=*0.3}Dove...{w} sono?{/cps}"
 
@@ -59,9 +64,11 @@ label chess_layer0:
     n "{cps=*0.3}Io ho fallito. Quindi, almeno tu... {p}Promettimi che sarai...{/cps}"
 
 
+
     stop music fadeout(2)
     scene forest_path
     show larry
+    #with flash
     with Pixellate(2.5,5)
 
     la "Allora, mi sta ascoltando o no? {w}Che succede? Non l'ho mai vista sovrappensiero."
@@ -70,7 +77,7 @@ label chess_layer0:
 
     show check plain fp at left
     show check at flip:
-        xalign -0.5
+        offscreenleft
         ease 1 left
     show larry:
         ease 1 right
@@ -86,10 +93,13 @@ label chess_layer0:
     show check worried
     ck "Il mio fiuto però mi dice che quì c'è sotto qualcos'altro.... {w}Per lo meno non è da ignorare."
 
+    define to_center = MoveTransition(delay=1, enter=offscreenright, enter_time_warp=_warper.ease)
     show larry:
-        ease 1 xalign 1.5
+        ease 1 offscreenright
     show check at flip:
         ease 1 center
+
+    pause 1
 
     n "Il mio nome in codice è Check, e sono un comandante del BKG."
 
@@ -102,7 +112,7 @@ label chess_layer0:
 
 
     show check at flip:
-        ease 2 xalign -0.5
+        ease 2 offscreenleft
     show larry:
         ease 2 center
 
@@ -174,18 +184,22 @@ label chess_layer0:
     stop music
     play sound "audio/sfx/glass crack.mp3"
     show frag_overlay
-    pause 2
+    pause 1.5
+
+
 
     scene dam
     show frag_overlay
+    show stop_time
+    with purple_flash
+    play music "audio/umi/golden sneer.mp3"
     play sound "audio/sfx/teleport.wav"
-    show stop_time with Dissolve(2)
     show check sor fp worried at left
     show check at flip
     show hnb sneer fury at right
     with squares
 
-    play music "audio/umi/golden sneer.mp3"
+
 
 
     hb "MACCCERTO COME NOOOOO!"

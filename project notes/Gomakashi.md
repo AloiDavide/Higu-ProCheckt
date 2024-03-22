@@ -22,9 +22,8 @@ Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
 
 # [[Scaletta Gomakashi]]
 
-# Todo generale
-- [x] Capire come mettere il postit fuori dalle palle
-- [x] Togliere le ridondanze dalla repository
+# [[Todo generale]]
+
 
 ---
 

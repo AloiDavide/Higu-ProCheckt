@@ -8,7 +8,7 @@ tags:
 - ### [[tre difese]]
 
 # Indici utili
-- ### [[Canzoni da usare]]
+- ### [[Catologo musica]]
 - ### [[Personaggi]]
 
 ---
@@ -40,7 +40,7 @@ Check e Hanabi
 ### [[Kotaeshirushi]] - Answer marking arc
 Parallelo di Minagoroshi
 Icon: Larry
-
+Sfondo dei tip: il taccuino aperto.
 Larry deve fare l'ange della situazione e giocare Minagoroshi da solo.
 
 ### [[last arc]] - 

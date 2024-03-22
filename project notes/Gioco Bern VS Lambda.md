@@ -19,7 +19,7 @@ Ad esempio, alla fine di Meakashi Check perde, ma essendo contrattato con Bernka
 - Il [[piano di Takano]] incappa in Hanyuu
 - Hanyuu fa loopare Rika, il che genera [[Bernkastel]]
 - [[Bernkastel|Bern]] si ritrova a giocare contro [[Lambdadelta|Lambda]]
-- 
+- =
 
 
 # Wincons
