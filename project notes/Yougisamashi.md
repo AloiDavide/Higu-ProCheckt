@@ -16,3 +16,5 @@ L'arco degli indizi perduti parallelo a Tatarigoroshi.
 
 Icona: Check base
 Theme color: Yellow
+Sfondo menu:
+Sfondo

@@ -1,0 +1,1 @@
+Quando arriva allo schermo dei tip l'ultima volta non puo scegliere e viene forzatamente portato a Lambda che lo espelle.

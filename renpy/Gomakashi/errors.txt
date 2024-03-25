@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/allestire_scacchiera_omote.rpy", line 5: expected statement.
-    renpy.add_layer('bg', below='master')
-                                         ^
+File "game/screens.rpy", line 250: Line is indented, but the preceding hover statement does not expect a block. Please check this line's indentation.
+    action Jump("chess_layer0")
+    ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Thu Mar 21 16:55:08 2024
+Mon Mar 25 12:33:21 2024

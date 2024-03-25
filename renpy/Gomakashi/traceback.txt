@@ -1,37 +1,68 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00keymap.rpy", line 473, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 473, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 497, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-PicklingError: Can't pickle <class 'store.director.AddStatement'>: it's not the same object as store.director.AddStatement
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 20, in script
+    ''
+  File "game/screens.rpy", line 240, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 240, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 245, in execute
+    imagebutton:
+  File "game/screens.rpy", line 245, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 248, in <module>
+    idle notes_icon
+NameError: name 'notes_icon' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00keymap.rpy", line 473, in script
-    python hide:
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\python.py", line 1052, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 473, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 497, in _execute_python_hide
-    renpy.save("_reload-1", "reload save game")
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\loadsave.py", line 403, in save
-    reraise(t, e, tb)
-  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\loadsave.py", line 389, in save
-    dump((roots, renpy.game.log), logf)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\compat\pickle.py", line 103, in dump
-    pickle.dump(o, f, pickle.HIGHEST_PROTOCOL if highest else PROTOCOL)
-PicklingError: Can't pickle <class 'store.director.AddStatement'>: it's not the same object as store.director.AddStatement
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 20, in script
+    ''
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 1373, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\character.py", line 1266, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\character.py", line 927, in do_display
+    display_say(who,
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\character.py", line 666, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ui.py", line 299, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 3377, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 3804, in interact_core
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 582, in visit_all
+    d.visit_all(callback, seen)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\screen.py", line 451, in visit_all
+    callback(self)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 3804, in <lambda>
+    root_widget.visit_all(lambda i : i.per_interact())
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\screen.py", line 462, in per_interact
+    self.update()
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\screen.py", line 653, in update
+    self.screen.function(**self.scope)
+  File "game/screens.rpy", line 240, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 240, in execute
+    screen quick_menu():
+  File "game/screens.rpy", line 245, in execute
+    imagebutton:
+  File "game/screens.rpy", line 245, in keywords
+    imagebutton:
+  File "game/screens.rpy", line 248, in <module>
+    idle notes_icon
+NameError: name 'notes_icon' is not defined
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.2.22081402
 Higurashi: Gli indizi perduti - Meakashi 1.0
-Thu Mar 21 17:13:40 2024
+Mon Mar 25 12:33:33 2024

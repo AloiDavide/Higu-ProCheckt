@@ -610,8 +610,7 @@ image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
 image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
 image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
-image blue_aura = im.Scale("overlay/blue aura.png", 780, 1180)
-image yellow_aura = im.Scale("overlay/yellow aura.png", 780, 1180)
+
 
 #FRAGMENTS
 image meakashi_frag = im.Scale("frags/meakashi fragment.png", 1920, 1080)

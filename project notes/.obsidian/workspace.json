@@ -33,7 +33,31 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Higurashi - Gli indizi perduti..md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0964d6d2cf19f980",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Gomakashi.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a4d47f8cf680debd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Yougisamashi.md",
                 "mode": "source",
                 "source": false
               }
@@ -46,6 +70,78 @@
               "type": "markdown",
               "state": {
                 "file": "Todo generale.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c379dfc72a62bf5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Menu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb494dfad8f8259b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Allestire la scacchiera (superiore).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00a5283a482f3e56",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e350be42feba0cd6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Bernkastel.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8192c5e39c8851ed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Che cazzo fa Hanyuu.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bd702f317b43266a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kabetaoshi.md",
                 "mode": "source",
                 "source": false
               }
@@ -76,7 +172,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -144,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
+                "file": "Todo generale.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
+                "file": "Todo generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Higurashi - Gli indizi perduti..md"
+                "file": "Todo generale.md"
               }
             }
           }
@@ -204,35 +300,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d3837784708d6b90",
+  "active": "ba467c85e35303d6",
   "lastOpenFiles": [
-    "Crunter notes.md",
-    "Higurashi - Gli indizi perduti..md",
-    "Gomakashi.md",
+    "Allestire la scacchiera (superiore).md",
+    "Taccuino.md",
     "Todo generale.md",
+    "Menu.md",
+    "Gomakashi.md",
+    "Yougisamashi.md",
+    "Untitled.md",
     "Catologo musica.md",
+    "Bernkastel.md",
+    "taccuini.md",
+    "Che cazzo fa Hanyuu.md",
+    "Kabetaoshi.md",
+    "Pasted image 20240322223017.png",
+    "Higurashi - Gli indizi perduti..md",
+    "Crunter notes.md",
+    "Pasted image 20240322221853.png",
     "Gioco Bern VS Lambda.md",
     "Scaletta Gomakashi.md",
     "tre difese.md",
     "Gioco Check VS Hanabi.md",
     "Allestire la scacchiera (inferiore).md",
-    "Allestire la scacchiera (superiore).md",
     "Personaggi.md",
     "Majojirashi.md",
-    "Yougisamashi.md",
-    "Bernkastel.md",
     "Wincon di Check.md",
     "Ooishi.md",
     "Bern.md",
     "prossimo tip.md",
     "Sonozaki.md",
     "Untitled.canvas",
-    "Check.md",
-    "Hanabi.md",
-    "wincon locali di Check.md",
-    "Larry.md",
-    "Lambdadelta.md",
-    "Terry.md",
     "desktop.ini",
     "~syncthing~Higurashi - Gli indizi perduti..md.tmp",
     "Untitled"

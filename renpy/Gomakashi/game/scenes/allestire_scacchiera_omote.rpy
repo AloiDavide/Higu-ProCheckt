@@ -3,6 +3,7 @@ init:
     define masterFade = { "master" : Fade(2,0,2) }
 
 label chess_layer0:
+    $notes=False
     play music "audio/higu/short dawn at the end of time.mp3" fadein(8)
 
     hide layer screens
@@ -71,6 +72,7 @@ label chess_layer0:
     #with flash
     with Pixellate(2.5,5)
 
+    $notes=True
     la "Allora, mi sta ascoltando o no? {w}Che succede? Non l'ho mai vista sovrappensiero."
 
     play music "audio/higu/time of rest.mp3" fadein 5
@@ -120,7 +122,7 @@ label chess_layer0:
 
     n "Questo è Larry, mio assistente e compagno in questa missione. Se dovessi evidenziare una sua qualità, beh, sicuramente vanta la penna più veloce del BKG."
 
-    n "Quanto al resto, è ancora giovane e maldestro, ma in lui vedo del vero potenziale."
+    n "Quanto al resto, è ancora giovane e maldestro, ma so che ha del vero potenziale. Posso vederlo in lui"
 
     show larry:
         ease 1 right

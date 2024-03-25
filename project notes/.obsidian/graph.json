@@ -8,6 +8,13 @@
   "collapse-color-groups": false,
   "colorGroups": [
     {
+      "query": "tag:#new  ",
+      "color": {
+        "a": 1,
+        "rgb": 65297
+      }
+    },
+    {
       "query": "tag:#character  ",
       "color": {
         "a": 1,
@@ -54,5 +61,5 @@
   "linkStrength": 1,
   "linkDistance": 233,
   "scale": 0.45456954639895286,
-  "close": true
+  "close": false
 }

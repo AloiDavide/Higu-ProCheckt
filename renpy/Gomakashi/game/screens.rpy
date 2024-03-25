@@ -238,9 +238,16 @@ style choice_button_text is default:
 ## menus.
 
 screen quick_menu():
-
     ## Ensure this appears on top of other screens.
     zorder 100
+
+    if notes:
+        imagebutton:
+            xalign 0.01
+            yalign 0.01
+            idle im.Scale("overlay/notes_icon.png", 50, 50)
+            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            action Jump("chess_layer0")
 
     if quick_menu:
 
@@ -266,6 +273,7 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
+default notes = True
 
 style quick_button is default
 style quick_button_text is button_text
@@ -287,49 +295,49 @@ style quick_button_text:
 ## to other menus, and to start the game.
 
 screen navigation():
+    if not main_menu:
+        vbox:
+            style_prefix "navigation"
 
-    vbox:
-        style_prefix "navigation"
+            xpos gui.navigation_xpos
+            yalign 0.5
 
-        xpos gui.navigation_xpos
-        yalign 0.5
+            spacing gui.navigation_spacing
 
-        spacing gui.navigation_spacing
+            if main_menu:
 
-        if main_menu:
+                textbutton _("Start") action Start()
 
-            textbutton _("Start") action Start()
+            else:
 
-        else:
+                textbutton _("History") action ShowMenu("history")
 
-            textbutton _("History") action ShowMenu("history")
+                textbutton _("Save") action ShowMenu("save")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Load") action ShowMenu("load")
 
-        textbutton _("Load") action ShowMenu("load")
+            textbutton _("Preferences") action ShowMenu("preferences")
 
-        textbutton _("Preferences") action ShowMenu("preferences")
+            if _in_replay:
 
-        if _in_replay:
+                textbutton _("End Replay") action EndReplay(confirm=True)
 
-            textbutton _("End Replay") action EndReplay(confirm=True)
+            elif not main_menu:
 
-        elif not main_menu:
+                textbutton _("Main Menu") action MainMenu()
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("About") action ShowMenu("about")
 
-        textbutton _("About") action ShowMenu("about")
+            if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
-        if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
+                ## Help isn't necessary or relevant to mobile devices.
+                textbutton _("Help") action ShowMenu("help")
 
-            ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Help") action ShowMenu("help")
+            if renpy.variant("pc"):
 
-        if renpy.variant("pc"):
-
-            ## The quit button is banned on iOS and unnecessary on Android and
-            ## Web.
-            textbutton _("Quit") action Quit(confirm=not main_menu)
+                ## The quit button is banned on iOS and unnecessary on Android and
+                ## Web.
+                textbutton _("Quit") action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -357,6 +365,8 @@ screen main_menu():
 
     add gui.main_menu_background
 
+
+
     vbox xalign 0.74 yalign 0.06:
         add "gui/HiguLogo.png"
 
@@ -380,6 +390,14 @@ screen main_menu():
             font "static/yuminl.ttf"
 
 
+    $start_button = "overlay/start_button.png"
+    $start_button_hover = "overlay/start_button_hover.png"
+    vbox xalign 0.74 yalign 0.5:
+        imagebutton:
+            idle start_button
+            hover start_button_hover
+
+            action Start()
 
 
 
@@ -387,7 +405,27 @@ screen main_menu():
     $postit_a = im.Scale("overlay/postit_a.png",100,100)
     $postit_b = im.Scale("overlay/postit_b.png",400,400)
     imagebutton:
-        xalign 0.95
+        xalign 0.05
+        yalign 0.55
+
+        idle postit_a
+        hover postit_b
+
+        tooltip "a"
+        action NullAction()
+
+    imagebutton:
+        xalign 0.05
+        yalign 0.75
+
+        idle postit_a
+        hover postit_b
+
+        tooltip "a"
+        action NullAction()
+
+    imagebutton:
+        xalign 0.05
         yalign 0.95
 
         idle postit_a
@@ -396,13 +434,14 @@ screen main_menu():
         tooltip "a"
         action NullAction()
 
+
     $ tooltip = GetTooltip()
     if tooltip:
         text "Reincarnato in un altro mondo come agente speciale, ma visto che continuo a morire ho stretto un patto con una strega per salvare la mia organizzazione dalla dittatura.":
             outlines [(0, "#101010")]
             size 30
             xsize 350
-            xpos 0.765
+            xpos 0.05
             ypos 0.68
             color "#0000cf"
             font "static/Caveat-Bold.TTF"
@@ -411,7 +450,7 @@ screen main_menu():
             outlines [(0, "#101010")]
             size 30
             xsize 350
-            xpos 0.765
+            xpos 0.05
             ypos 0.9
             color "#0000cf"
             font "static/Caveat-Bold.TTF"
@@ -449,7 +488,7 @@ style main_menu_frame:
     xsize 420
     yfill True
 
-    background "gui/overlay/main_menu.png"
+    #background "gui/overlay/main_menu.png"
 
 style main_menu_vbox:
     xalign 1.0
