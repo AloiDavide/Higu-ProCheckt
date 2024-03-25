@@ -34,6 +34,18 @@ screen tips():
                 hover bern_kekkai_B
                 action Jump("chess_layer0")
 
+            imagebutton:
+                tooltip "Allestire la scacchiera"
+                idle fragplane_A
+                hover bern_kekkai_B
+                action Jump("banter_skip")
+
+            imagebutton:
+                tooltip "Allestire la scacchiera"
+                idle fragplane_A
+                hover bern_kekkai_B
+                action Jump("chess_layer0")
+
 
 
 

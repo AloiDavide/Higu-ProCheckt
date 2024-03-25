@@ -1,41 +1,23 @@
-Mon Mar 25 12:41:11 2024
+Mon Mar 25 23:58:38 2024
 Windows-10-10.0.19045
 Ren'Py 8.0.2.22081402
  
 
-Bootstrap to the start of init.init took 0.17s
-Early init took 0.01s
-Loader init took 0.51s
-Loading error handling took 0.22s
-Loading script took 1.67s
-Loading save slot metadata. took 0.48s
+Bootstrap to the start of init.init took 0.07s
+Early init took 0.00s
+Loader init took 0.31s
+Loading error handling took 0.10s
+Loading script took 0.56s
+Loading save slot metadata. took 0.25s
 Loading persistent took 0.00s
-Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.42s
-Loading analysis data took 0.07s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.21s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
+
+File "game/scenes/allestire_scacchiera_omote.rpy", line 296: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a " at the end of the first line.)
+        hn "Hanananana! Hai un idea di prova davvero debole. Posso pensare almeno a 10 scenari che invalidano il tuo ragionamento.
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
-Cleaning stores took 0.00s
-Init translation took 0.10s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.05s
-Save screen analysis took 0.05s
-Prepare screens took 0.28s
-Save pyanalysis. took 0.05s
-Save bytecode. took 0.08s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.32s
+Interface start took 0.29s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -45,38 +27,38 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1733, 975) drawable=(1733, 975)
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 82.49s
+Bootstrap to the start of init.init took 32.65s
 Early init took 0.00s
-Loader init took 0.38s
-Loading error handling took 0.05s
-Loading script took 0.84s
-Loading save slot metadata. took 0.22s
+Loader init took 0.20s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata. took 0.10s
 Loading persistent took 0.00s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.09s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
+Running init code took 0.23s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.13s
+Dump and make backups. took 0.10s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc. took 0.06s
+Initial gc. took 0.04s
 DPI scale factor: 1.250000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
 Save screen analysis took 0.04s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.02s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
@@ -90,23 +72,254 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1732, 975) drawable=(1732, 975)
+Screen sizes: virtual=(1920, 1080) physical=(1739, 978) drawable=(1739, 978)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 97.27s
+Bootstrap to the start of init.init took 936.75s
 Early init took 0.00s
-Loader init took 0.33s
-Loading error handling took 0.06s
-Loading script took 0.96s
-Loading save slot metadata. took 0.25s
+Loader init took 0.29s
+Loading error handling took 0.07s
+Loading script took 0.54s
+Loading save slot metadata. took 0.23s
+Loading persistent took 0.01s
+
+File "game/scenes/allestire_scacchiera_omote.rpy", line 181: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    ck "Una volta che avremo smascherato il marcio di questo villaggio e ristabilito i contatti con il quartier generale, potremo richiedere un intervento diretto.
+    
+        ck "Fino ad allora basterà mantenere un basso profilo."
+              ^
+    
+    
+    
+        la "Ma certo, mi scusi stavo per dubitare di lei."
+    
+        la "Non riusciranno mai ad accorgersi di noi, non con lei al capo della missione. {w}Non abbiamo di che preoccuparsi."
+    
+        ck "Ben detto Larry, assolutamente nulla di che preoccuparci."
+    
+        stop music
+        play sound "audio/sfx/glass crack.mp3"
+        show frag_overlay
+        pause 1.5
+    
+    label banter_skip:
+    
+        scene dam
+        show frag_overlay
+        show stop_time
+        with purple_flash
+        play music "audio/umi/golden sneer.mp3"
+        play sound "audio/sfx/teleport.wav"
+        show check sor fp worried at left
+        show check at flip
+        show hnb sneer fury at right
+        with squares
+    
+    
+    
+    
+        hb "NULLA DI CHE PREOCCUPARVI?? HANANANANANA!!!!"
+    
+        play sound "audio/sfx/laugh.mp3"
+        hb "Sentitelo {w}\"Ci sono io quindi andrà tutto bene\" HANANANANANA! Guarda quanta sicurezza dal nostro {b}EX{/b} comandante del BKG."
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.22s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 985.79s
+Early init took 0.00s
+Loader init took 0.64s
+Loading error handling took 0.10s
+Loading script took 0.81s
+Loading save slot metadata. took 0.28s
 Loading persistent took 0.01s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.19s
-Loading analysis data took 0.05s
+Running init code took 0.26s
+Loading analysis data took 0.06s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.21s
+Dump and make backups. took 0.33s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.09s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.13s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.05s
+Save screen analysis took 0.07s
+Prepare screens took 0.30s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.08s
+Running _start took 0.01s
+Performance test:
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1032.02s
+Early init took 0.00s
+Loader init took 0.28s
+Loading error handling took 0.06s
+Loading script took 0.53s
+Loading save slot metadata. took 0.25s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.20s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.23s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.10s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.04s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.09s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(2400, 1321) drawable=(2400, 1321)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 247, in script
+    ck """Non nego che avrei preferito la prospettiva di Mion. DIAMINE, sarà perchè continuo a chiamare tutte e due capelli verdi?
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character 'q' (0x71) at index 72
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 247, in script
+    ck """Non nego che avrei preferito la prospettiva di Mion. DIAMINE, sarà perchè continuo a chiamare tutte e due capelli verdi?
+ValueError: unsupported format character 'q' (0x71) at index 72
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 247, in script
+    ck """Non nego che avrei preferito la prospettiva di Mion. DIAMINE, sarà perchè continuo a chiamare tutte e due capelli verdi?
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character 'q' (0x71) at index 72
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 247, in script
+    ck """Non nego che avrei preferito la prospettiva di Mion. DIAMINE, sarà perchè continuo a chiamare tutte e due capelli verdi?
+ValueError: unsupported format character 'q' (0x71) at index 72
+Resetting cache.
+Bootstrap to the start of init.init took 1356.98s
+Early init took 0.00s
+Loader init took 0.36s
+Loading error handling took 0.07s
+Loading script took 0.60s
+Loading save slot metadata. took 0.27s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.23s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.20s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.08s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.10s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2400, 1321) drawable=(2400, 1321)
+Maximum texture size: 4096x4096
+Resetting cache.
+Bootstrap to the start of init.init took 1413.07s
+Early init took 0.00s
+Loader init took 0.35s
+Loading error handling took 0.07s
+Loading script took 0.66s
+Loading save slot metadata. took 0.28s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.23s
+Loading analysis data took 0.06s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.24s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.08s
@@ -119,13 +332,13 @@ Init translation took 0.11s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.04s
-Save screen analysis took 0.05s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.03s
-Running _start took 0.00s
+Save screen analysis took 0.06s
+Prepare screens took 0.20s
+Save pyanalysis. took 0.07s
+Save bytecode. took 0.06s
+Running _start took 0.01s
 Performance test:
-Interface start took 0.08s
+Interface start took 0.12s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -135,27 +348,96 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1731, 974) drawable=(1731, 974)
-Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(2400, 1321) drawable=(2400, 1321)
 Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
-Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 301, in script
+    hn "Hanananana! Hai un idea di prova davvero debole. Posso pensare almeno a 10 scenari che invalidano il tuo ragionamento."
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 881, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 774, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who)
+Exception: Sayer 'hn' is not defined.
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 301, in script
+    hn "Hanananana! Hai un idea di prova davvero debole. Posso pensare almeno a 10 scenari che invalidano il tuo ragionamento."
+Exception: Sayer 'hn' is not defined.
 Resetting cache.
-Bootstrap to the start of init.init took 263.68s
+Bootstrap to the start of init.init took 1508.49s
 Early init took 0.00s
-Loader init took 0.17s
+Loader init took 0.23s
 Loading error handling took 0.03s
-Loading script took 0.48s
-Loading save slot metadata. took 0.09s
-Loading persistent took 0.00s
+Loading script took 0.38s
+Loading save slot metadata. took 0.14s
+Loading persistent took 0.01s
 Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
-Running init code took 0.07s
+Running init code took 0.17s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups. took 0.18s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.07s
+DPI scale factor: 1.250000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) HD Graphics 5500'
+Version: b'4.4.0 - Build 20.19.15.5126'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(2400, 1321) drawable=(2400, 1321)
+Maximum texture size: 4096x4096
+
+Full traceback:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 251, in script
+    ck "Ora sono molto più sicuro di me stesso. Ma ancora non ho chiaro al 100% quello che è accaduto, ne come funzioni la cospirazione davvero."
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 921, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 1362, in say
+    what = what % tag_quoting_dict
+ValueError: unsupported format character 'q' (0x71) at index 72
+
+While running game code:
+  File "game/scenes/allestire_scacchiera_omote.rpy", line 251, in script
+    ck "Ora sono molto più sicuro di me stesso. Ma ancora non ho chiaro al 100% quello che è accaduto, ne come funzioni la cospirazione davvero."
+ValueError: unsupported format character 'q' (0x71) at index 72
+Resetting cache.
+Bootstrap to the start of init.init took 1546.73s
+Early init took 0.00s
+Loader init took 0.24s
+Loading error handling took 0.04s
+Loading script took 0.48s
+Loading save slot metadata. took 0.16s
+Loading persistent took 0.01s
+Faled to initialize steam: FileNotFoundError("Could not find module 'C:\\Users\\david\\OneDrive\\Desktop\\higu proCheckt\\renpy-8.0.2-sdk\\lib\\py3-windows-x86_64\\steam_api64.dll' (or one of its dependencies). Try using the full path with constructor syntax.")
+Running init code took 0.09s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\david\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups. took 0.09s
+Dump and make backups. took 0.11s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
 Initial gc. took 0.05s
@@ -167,14 +449,14 @@ Cleaning stores took 0.00s
 Init translation took 0.05s
 Build styles took 0.00s
 Load screen analysis took 0.00s
-Analyze screens took 0.02s
+Analyze screens took 0.01s
 Save screen analysis took 0.03s
 Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.06s
+Interface start took 0.07s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -184,19 +466,12 @@ Vendor: "b'Intel'"
 Renderer: b'Intel(R) HD Graphics 5500'
 Version: b'4.4.0 - Build 20.19.15.5126'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1051) drawable=(1920, 1051)
+Screen sizes: virtual=(1920, 1080) physical=(2400, 1321) drawable=(2400, 1321)
 Maximum texture size: 4096x4096
 Cleaning stores took 0.00s
 Init translation took 0.00s
 Build styles took 0.01s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.06s
+Load screen analysis took 0.07s
 Analyze screens took 0.00s
 Prepare screens took 0.00s
 Running _start took 0.00s
