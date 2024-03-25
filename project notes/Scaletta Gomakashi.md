@@ -12,9 +12,10 @@ tags:
 - Finale
 
 
+[[Crunter notes]]
 
-- [[Allestire la scacchiera (superiore)]]
-- [[Allestire la scacchiera (inferiore)]]
+- [[Magia Socratica]]
+- [[Allestire la scacchiera - omote (name pending)]]
 
 
 Inizio 1983

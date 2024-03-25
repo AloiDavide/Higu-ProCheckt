@@ -6,83 +6,17 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
+        "dimension": 62.11217183770883,
         "children": [
           {
-            "id": "6f1f313eebe59991",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {}
-            }
-          },
-          {
-            "id": "42c4837430384523",
+            "id": "5f1f67df762d32ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catologo musica.md",
+                "file": "Crunter read this.md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "194b2ab2747ad1da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0964d6d2cf19f980",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Gomakashi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a4d47f8cf680debd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Yougisamashi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ba467c85e35303d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Todo generale.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c379dfc72a62bf5d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Menu.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -93,86 +27,92 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allestire la scacchiera (superiore).md",
+                "file": "Magia Socratica.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           },
           {
-            "id": "00a5283a482f3e56",
+            "id": "6f42975fd837928a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Allestire la scacchiera - omote (name pending).md",
                 "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e350be42feba0cd6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Bernkastel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8192c5e39c8851ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Che cazzo fa Hanyuu.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd702f317b43266a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kabetaoshi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d3837784708d6b90",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "73e0658dbaed46d8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Crunter notes.md",
-                "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
+      },
+      {
+        "id": "44f7fd5418038e79",
+        "type": "split",
+        "dimension": 37.88782816229117,
+        "children": [
+          {
+            "id": "3f0f77f4c89f18c6",
+            "type": "tabs",
+            "dimension": 45.64814814814815,
+            "children": [
+              {
+                "id": "8d3bc1b5adb9b49f",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": false,
+                      "showArrow": true,
+                      "textFadeMultiplier": -1.8,
+                      "nodeSizeMultiplier": 0.9421875,
+                      "lineSizeMultiplier": 1.478125,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.40252081649375404,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "id": "1e92951ecec5aa1c",
+            "type": "tabs",
+            "dimension": 54.35185185185185,
+            "children": [
+              {
+                "id": "6f1f313eebe59991",
+                "type": "leaf",
+                "state": {
+                  "type": "graph",
+                  "state": {}
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -201,7 +141,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -223,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -240,8 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo generale.md",
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -257,7 +195,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -279,16 +216,16 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Todo generale.md"
-              }
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -300,38 +237,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ba467c85e35303d6",
+  "active": "6f1f313eebe59991",
   "lastOpenFiles": [
-    "Allestire la scacchiera (superiore).md",
-    "Taccuino.md",
+    "Allestire la scacchiera - omote (name pending).md",
+    "Magia Socratica.md",
+    "Hound e Crunter.md",
     "Todo generale.md",
+    "Higurashi - Gli indizi perduti..md",
+    "Crunter read this.md",
+    "Lambdadelta.md",
+    "Scaletta Gomakashi.md",
     "Menu.md",
     "Gomakashi.md",
-    "Yougisamashi.md",
-    "Untitled.md",
-    "Catologo musica.md",
+    "asset mancanti.md",
     "Bernkastel.md",
+    "Personaggi.md",
+    "Hanyuu.md",
+    "desktop.ini",
     "taccuini.md",
     "Che cazzo fa Hanyuu.md",
-    "Kabetaoshi.md",
-    "Pasted image 20240322223017.png",
-    "Higurashi - Gli indizi perduti..md",
     "Crunter notes.md",
-    "Pasted image 20240322221853.png",
     "Gioco Bern VS Lambda.md",
-    "Scaletta Gomakashi.md",
+    "piano di Takano.md",
     "tre difese.md",
     "Gioco Check VS Hanabi.md",
-    "Allestire la scacchiera (inferiore).md",
-    "Personaggi.md",
-    "Majojirashi.md",
-    "Wincon di Check.md",
-    "Ooishi.md",
-    "Bern.md",
-    "prossimo tip.md",
-    "Sonozaki.md",
+    "Yougisamashi.md",
+    "Catologo musica.md",
+    "Taccuino.md",
+    "Kabetaoshi.md",
+    "Pasted image 20240322223017.png",
+    "Pasted image 20240322221853.png",
     "Untitled.canvas",
-    "desktop.ini",
     "~syncthing~Higurashi - Gli indizi perduti..md.tmp",
     "Untitled"
   ]

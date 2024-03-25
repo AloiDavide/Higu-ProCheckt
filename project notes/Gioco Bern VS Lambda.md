@@ -5,7 +5,7 @@ aliases:
   - wincon di Lambda
   - wincon di Bern
 tags:
-  - story-concept
+  - narrative
 ---
 Come Battler contro Beatrice, Lambda e Hanabi in realtà sono sulla difensiva, devono difendere la loro fortezza dagli attacchi incessanti dei loro avversari fino a che questi non esauriscono le risorse, ma non hanno una condizione di vittoria proattiva.
 

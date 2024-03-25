@@ -1,6 +1,6 @@
 ---
 tags:
-  - story-concept
+  - narrative
 ---
 
 Sottoinsieme del [[Gioco Bern VS Lambda|gioco delle streghe]].

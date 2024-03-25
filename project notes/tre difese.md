@@ -4,7 +4,7 @@ aliases:
   - seconda difesa
   - terza difesa
 tags:
-  - story-concept
+  - narrative
 ---
 
 

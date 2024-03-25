@@ -10,7 +10,7 @@ L'arco degli indizi perduti parallelo a Meakashi.
 
 ## Meta
 
-Icona: Hanabi
+Icona: Check stego
 Theme color: Green
 Sfondo menu: Festival
 Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
@@ -51,28 +51,7 @@ Check ha identificato la prima barriera, ma essa ha svolto il suo dovere di dist
 Inizialmente sembra non avere ottenuto nessuna informazione utile sulla morte di Rika e sul perchè avviene il disastro. Tuttavia, a un analisi più attenta noterà che il disastro questa volta non c'è stato e che Rika muore in un contesto diverso.
 
 
-
-
-## Appunti da discord
-- Riassunto delle info importanti
-- Ooops sono entrato in Shion invece che in Mion
-- Hanabi semina zizzania
-- Hanabi promette di "scagionare" Satoko
-- Banter (modificato)
-- Hanabi usa il giallo di giallo di Lambdadelta, gli spiega che lo può usare perchè è un estensione sua
-- Check pensava che Hanabi fosse morto in un incidente
-- Combattimento su di un tetto
-- Spieghiamo come Hanabi sia contemporaneamente Creato e una persona che Check conosce
-- Hanabi depista Check (modificato)
-- Una convo più intima tra Bernkastel e Lambdadelta
-- Dove parlano del gioco
-- L' obiettivo di Check è abbattere una delle 3 difese di Lambdadelta
-- Lambda e Bern parlano delle 3 regole fondamentali
-
-
-## Idee random
-Abbiamo già mostrato la downfall di Larry in Tatari, ripeterla sarebbe superfluo.
-
-Esiste un Hanabi interno?
-Hanabi interno alla fine si rivela come Lambdadelta, ma Check deduce che non può esserlo perchè lo riconosce e se lo ricorda.
-
+## Eventi interni al frammento
+Abbiamo già mostrato la downfall di Larry in Tatari, ripeterla sarebbe superfluo, ma va ripresa sulla fine.
+Hanabi interno è in afghanistan.
+Check credeva che fosse morto.

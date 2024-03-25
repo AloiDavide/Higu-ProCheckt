@@ -2,6 +2,8 @@
 aliases:
   - terza difesa
   - la certezza
+tags:
+  - narrative
 ---
 
 

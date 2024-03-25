@@ -1,3 +1,12 @@
+---
+tags:
+  - new
+  - character
+---
+==Da completare==
+
+Abbiamo elevato Check a personaggio meta con l'obiettivo di rendere Higurashi una storia migliore, in particolare la sua risoluzione.
+Miotsukushi è il true ending frutto del nostro piano. 
 Hybrid burrow
 Protettori della narrazione. Noi rischiamo la "vita" per essa.
 

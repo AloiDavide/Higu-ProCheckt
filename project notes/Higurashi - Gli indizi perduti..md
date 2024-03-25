@@ -1,13 +1,14 @@
 ---
 tags:
-  - home
+  - index
 ---
+[[Crunter read this]]
 # Note centrali narrativa
 - ### [[Gioco Bern VS Lambda]]
 - ### [[Gioco Check VS Hanabi]]
 - ### [[tre difese]]
 
-# Indici utili
+# Indici
 - ### [[Catologo musica]]
 - ### [[Personaggi]]
 
@@ -17,26 +18,28 @@ tags:
 
 ### [[Yougisamashi]] - Suspicion rousing arc
 Parallelo di  Tatarigoroshi
+Icona: Check base
 ### [[Majojirashi]] - Witch teasing arc
 Parallelo di Himatsubushi
 Icona: Bernkastel
 
 ### [[Gomakashi]] - Misdirection/Falsification arc
 Parallelo di Meakashi
-Icona: Hanabi
+Icona: Check strego
 
 Check casca nel tranello dei Sonozaki come Shion, ma lui ha l'abilità di provare ancora con la consapevolezza della prima barriera.
 
 ### [[Kabetaoshi]] - Barrier falling arc - abbattimento barriera
 Parallelo di Tsumihoroboshi
-Icon: Witch check
+Icona: Hanabi
 
+The Hanabi arc.
 Check comprende la seconda difesa e batte Hanabi.
 ### [[Kotaesagashi]] - Answer seeking arc 
 Backside del parallelo di minagoroshi
 Icon: O lambda per esclusione o forse non ne serve una
 
-Check e Hanabi
+Check e Hanabi vanno a fare la loro indagine a parte.
 ### [[Kotaeshirushi]] - Answer marking arc
 Parallelo di Minagoroshi
 Icon: Larry
@@ -51,8 +54,27 @@ Icon: Booh
 
 
 ---
+# Crediti
+
+## Hound Dogs
+- Implementazione in Ren'py
+- Regia e sound design
+- Scrittura e narrativa
+- Raccolta e creazione assets
+## Crunter
+- Veterano delle teorie
+- Scrittura e narrativa
+- Supervisione della regia
+
+## Alice (Lali)
+- Creazione sprite originali.
+
+## Check
+- Ispirazione e modello
+- Teorie
 
 
+---
 ## Other arc name ideas
 hikiwatashi, delivering chapter
 Ongaeshi - gratitudine
