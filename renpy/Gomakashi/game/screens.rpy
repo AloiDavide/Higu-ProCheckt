@@ -247,7 +247,7 @@ screen quick_menu():
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
-            action Jump("chess_layer0")
+            action Jump('chessboard0')
 
     if quick_menu:
 

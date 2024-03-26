@@ -2,8 +2,8 @@
 	"nodes":[
 		{"id":"aea2ae90700d00ef","type":"file","file":"Gomakashi.md","x":640,"y":-1060,"width":640,"height":580},
 		{"id":"ca080c65ac73af2d","type":"file","file":"Scaletta Gomakashi.md","x":1360,"y":-260,"width":400,"height":400},
-		{"id":"8473ab75fa3b485c","type":"file","file":"Magia Socratica.md","x":1760,"y":440,"width":400,"height":400},
-		{"id":"c31ce9150962c667","x":760,"y":440,"width":400,"height":400,"type":"file","file":"Allestire la scacchiera - omote (name pending).md"},
+		{"id":"8473ab75fa3b485c","type":"file","file":"Magia Socratica - layer 2.md","x":1760,"y":440,"width":400,"height":400},
+		{"id":"c31ce9150962c667","x":760,"y":440,"width":400,"height":400,"type":"file","file":"Magia socratica.md"},
 		{"id":"6329a4045107b467","type":"file","file":"Higurashi - Gli indizi perduti..md","x":-400,"y":-480,"width":400,"height":400},
 		{"id":"574ace6bd001ba73","type":"file","file":"Gioco Check VS Hanabi.md","x":-600,"y":240,"width":400,"height":400},
 		{"id":"9623d19e9915b9a7","type":"file","file":"Gioco Bern VS Lambda.md","x":0,"y":40,"width":400,"height":400}

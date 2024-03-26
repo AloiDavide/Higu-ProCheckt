@@ -9,4 +9,4 @@ Hanyuu come entità è molto simile a un Ronove o un Sakutarou nel senso che non
 
 Tuttavia la storia di Higurashi non sta in piedi se lei non esiste. Rika deve essere in un loop temporale e la gente deve sentire i passi.
 
-Conosce [[Bernkastel]]?
+Conosce [[Bernkastel]]? La conosce come parte di Rika ma non è super esperta di streghe.

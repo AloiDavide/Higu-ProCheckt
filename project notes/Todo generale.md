@@ -6,8 +6,10 @@
 - [x] Studio layers e MoveTransition()
 - [x] Get Larry a working layered sprite
 - [x] Clean larry around the edges
-- [x] Storyboard write and create first scene
+- [x] Storyboard write and create [[Magia Socratica - layer 0]]
 - [ ] Implementa scene di Crunter
+	- [ ] [[Magia Socratica - layer 1]]
+	- [ ] [[Magia Socratica - layer 2]]
 - [x] Ordina note stream of consciousness
 - [ ] Rework del main [[menu]] per usare lo spazio ottenuto
 	- [x] Togli menu stock

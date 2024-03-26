@@ -14,8 +14,8 @@ tags:
 
 [[Crunter notes]]
 
-- [[Magia Socratica]]
-- [[Allestire la scacchiera - omote (name pending)]]
+- [[Magia Socratica - layer 2]]
+- [[Magia socratica]]
 
 
 Inizio 1983

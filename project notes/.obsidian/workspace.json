@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Crunter read this.md",
+                "file": "Scaletta Gomakashi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,7 +27,46 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Magia Socratica.md",
+                "file": "Todo generale.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6f1f313eebe59991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Magia socratica.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6a63fdaeb3edef50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Magia Socratica - layer 0.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8425379a00a12f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Magia Socratica - layer 1.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -40,7 +79,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Allestire la scacchiera - omote (name pending).md",
+                "file": "Magia Socratica - layer 2.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -53,7 +92,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lambdadelta.md",
+                "file": "Catologo musica.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -61,72 +100,49 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       },
       {
-        "id": "44f7fd5418038e79",
-        "type": "split",
+        "id": "3f0f77f4c89f18c6",
+        "type": "tabs",
         "dimension": 37.88782816229117,
         "children": [
           {
-            "id": "3f0f77f4c89f18c6",
-            "type": "tabs",
-            "dimension": 45.64814814814816,
-            "children": [
-              {
-                "id": "8d3bc1b5adb9b49f",
-                "type": "leaf",
-                "state": {
-                  "type": "localgraph",
-                  "state": {
-                    "file": "Allestire la scacchiera - omote (name pending).md",
-                    "options": {
-                      "collapse-filter": true,
-                      "search": "",
-                      "localJumps": 1,
-                      "localBacklinks": true,
-                      "localForelinks": true,
-                      "localInterlinks": false,
-                      "showTags": false,
-                      "showAttachments": false,
-                      "hideUnresolved": false,
-                      "collapse-color-groups": true,
-                      "colorGroups": [],
-                      "collapse-display": false,
-                      "showArrow": true,
-                      "textFadeMultiplier": -1.8,
-                      "nodeSizeMultiplier": 0.9421875,
-                      "lineSizeMultiplier": 1.478125,
-                      "collapse-forces": true,
-                      "centerStrength": 0.518713248970312,
-                      "repelStrength": 10,
-                      "linkStrength": 1,
-                      "linkDistance": 250,
-                      "scale": 0.40252081649375404,
-                      "close": true
-                    }
-                  }
+            "id": "8d3bc1b5adb9b49f",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Magia Socratica - layer 2.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": true,
+                  "textFadeMultiplier": -1.8,
+                  "nodeSizeMultiplier": 0.9421875,
+                  "lineSizeMultiplier": 1.478125,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.8854988630067221,
+                  "close": true
                 }
               }
-            ]
-          },
-          {
-            "id": "1e92951ecec5aa1c",
-            "type": "tabs",
-            "dimension": 54.35185185185184,
-            "children": [
-              {
-                "id": "6f1f313eebe59991",
-                "type": "leaf",
-                "state": {
-                  "type": "graph",
-                  "state": {}
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -193,7 +209,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Allestire la scacchiera - omote (name pending).md",
+                "file": "Magia Socratica - layer 2.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -210,7 +226,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Allestire la scacchiera - omote (name pending).md",
+                "file": "Magia Socratica - layer 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -233,7 +249,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Allestire la scacchiera - omote (name pending).md"
+                "file": "Magia Socratica - layer 2.md"
               }
             }
           }
@@ -257,21 +273,24 @@
   },
   "active": "6f42975fd837928a",
   "lastOpenFiles": [
-    "Magia Socratica.md",
-    "Allestire la scacchiera - omote (name pending).md",
-    "Lambdadelta.md",
-    "Hound e Crunter.md",
+    "desktop.ini",
+    "Magia Socratica - layer 1.md",
+    "Magia Socratica - layer 2.md",
+    "Catologo musica.md",
+    "Bernkastel.md",
     "Todo generale.md",
-    "Higurashi - Gli indizi perduti..md",
-    "Crunter read this.md",
+    "Magia Socratica - layer 0.md",
+    "Magia socratica.md",
+    "Hanyuu.md",
+    "Lambdadelta.md",
     "Scaletta Gomakashi.md",
+    "Crunter read this.md",
+    "Hound e Crunter.md",
+    "Higurashi - Gli indizi perduti..md",
     "Menu.md",
     "Gomakashi.md",
     "asset mancanti.md",
-    "Bernkastel.md",
     "Personaggi.md",
-    "Hanyuu.md",
-    "desktop.ini",
     "taccuini.md",
     "Che cazzo fa Hanyuu.md",
     "Crunter notes.md",
@@ -280,9 +299,6 @@
     "tre difese.md",
     "Gioco Check VS Hanabi.md",
     "Yougisamashi.md",
-    "Catologo musica.md",
-    "Taccuino.md",
-    "Kabetaoshi.md",
     "Pasted image 20240322223017.png",
     "Pasted image 20240322221853.png",
     "Untitled.canvas",

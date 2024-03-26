@@ -2,46 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/allestire_scacchiera_omote.rpy", line 181: end of line expected.
-(Perhaps you left out a " at the end of the first line.)
-    ck "Una volta che avremo smascherato il marcio di questo villaggio e ristabilito i contatti con il quartier generale, potremo richiedere un intervento diretto.
-    
-        ck "Fino ad allora basterà mantenere un basso profilo."
-              ^
-    
-    
-    
-        la "Ma certo, mi scusi stavo per dubitare di lei."
-    
-        la "Non riusciranno mai ad accorgersi di noi, non con lei al capo della missione. {w}Non abbiamo di che preoccuparsi."
-    
-        ck "Ben detto Larry, assolutamente nulla di che preoccuparci."
-    
-        stop music
-        play sound "audio/sfx/glass crack.mp3"
-        show frag_overlay
-        pause 1.5
-    
-    label banter_skip:
-    
-        scene dam
-        show frag_overlay
-        show stop_time
-        with purple_flash
-        play music "audio/umi/golden sneer.mp3"
-        play sound "audio/sfx/teleport.wav"
-        show check sor fp worried at left
-        show check at flip
-        show hnb sneer fury at right
-        with squares
-    
-    
-    
-    
-        hb "NULLA DI CHE PREOCCUPARVI?? HANANANANANA!!!!"
-    
-        play sound "audio/sfx/laugh.mp3"
-        hb "Sentitelo {w}\"Ci sono io quindi andrà tutto bene\" HANANANANANA! Guarda quanta sicurezza dal nostro {b}EX{/b} comandante del BKG."
+File "game/scenes/magia_socratica.rpy", line 544: expected 'simple_expression' not found.
+    scene sky_sunset with 
+                          ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Tue Mar 26 00:14:16 2024
+Tue Mar 26 23:50:37 2024
