@@ -2,6 +2,11 @@
 tags:
   - arc/scene
 ---
+- [x] Scrittura
+- [x] Implementazione
+- [x] Review
+- [ ] Fix
+
 
 Consegna: Inizio 1983
 
@@ -10,7 +15,23 @@ Un tip con [[Bernkastel|Bern]] e [[Lambdadelta|Lambda]] che menzionano le [[tre 
 Lambda calls out Bern perchè continua a bere. Sono senza fondo perchè è te magico.
 
 
+menziona te all'inizio con narrazione
+inverti socrate
 
+Mentre sta discutendo sul metodo socratico in grassetto
+numeri in grassetto
+Quella che ancora confonde persino te
+
+Check fa invece che farà
+Non posso negarlo invece che devo ammetterlo
+Non ha ancora compreso le sue condizioni di vittoria
+si rende conto della sua condizione di vittoria.
+Se solo notasse la sua condizione di vittoria
+taunt generica di lambda, come ci si sente senza il 100%?
+a capo dopo prendersela
+
+"Siamo avversari dopotutto?" a capo e in grassetto
+more landscape shots before cutting to the sky
 
 ---
 

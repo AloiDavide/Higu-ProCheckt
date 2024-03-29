@@ -1,7 +1,6 @@
 ---
 tags:
   - character
-  - new
 ---
 Il console arc con la sua backstory non è canon.
 

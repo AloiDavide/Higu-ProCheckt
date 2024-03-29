@@ -3,7 +3,6 @@ aliases:
   - Lambda
 tags:
   - character
-  - new
 ---
 
 La strega della certezza, con il potere di rendere 100% tutto ciò che non è 0%.

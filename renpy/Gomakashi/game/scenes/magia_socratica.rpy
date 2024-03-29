@@ -1,5 +1,6 @@
 init:
     $ renpy.add_layer('overlayer', above='master')
+    $ renpy.add_layer('underlayer', below='master')
     define masterFade = { "master" : Fade(2,0,2) }
 
 label chessboard0:
@@ -18,7 +19,7 @@ label chessboard0:
 
     with Dissolve(3)
     pause(4)
-    ''
+
 
     scene satokoeat with masterFade
     pause(6)
@@ -40,11 +41,18 @@ label chessboard0:
     with masterFade
     pause(6)
 
+    ''
 
     scene red with masterFade
-    pause(4)
-    #play sound "audio/sfx/chishibuki.ogg"
-    ""
+    pause 2
+    play sound "audio/sfx/furu.ogg"
+    pause 0.5
+    play sound "audio/sfx/tataku.ogg"
+
+
+    pause 2
+    play sound "audio/sfx/chishibuki.ogg"
+    pause 3
 
     scene purplenoise
     hide sepia onlayer overlayer
@@ -65,20 +73,22 @@ label chessboard0:
     n "{cps=*0.3}Io ho fallito. Quindi, almeno tu... {p}Promettimi che sarai...{/cps}"
 
 
-    #check meno sorriso
+
     stop music fadeout(2)
     scene forest_path
     show larry
     #with flash
     with Pixellate(2.5,5)
-
     $notes=True
+
+
+    play music "audio/higu/time of rest.mp3" fadein 10
     la "Allora, mi sta ascoltando o no? {w}Che succede? Non l'ho mai vista sovrappensiero."
 
-    play music "audio/higu/time of rest.mp3" fadein 5
+
 
     show check plain fp at left
-    show check at flip:
+    show check worried at flip:
         offscreenleft
         ease 1 left
     show larry:
@@ -86,13 +96,16 @@ label chessboard0:
 
     pause 1
 
-    ck "Scusa ragazzo, ragionavo sulla missione e non ti ho sentito. Cosa stavi dicendo?"
+    ck "...."
 
-    la "Parlavo delle leggende che ci ha raccontato l'infermiera. {p}Vorrei sapere la sua impressione, pensa che valga la pena indagare a fondo?"
+    ck "Scusa ragazzo non è niente, ragionavo sulla missione e non ti ho sentito. Cosa stavi dicendo?"
 
+    la "Parlavo delle leggende che ci ha raccontato l'infermiera. {p}Vorrei sapere la sua opinione, pensa che vale la pena indagare a fondo?"
+
+    show check yep
     ck "Se è solo una trovata pubblicitaria, è veramente pessima. {w}Potrebbe attirare al massimo qualche fanatico dell'occulto."
 
-    show check worried
+
     ck "Il mio fiuto però mi dice che quì c'è sotto qualcos'altro.... {w}Per lo meno non è da ignorare."
 
     define to_center = MoveTransition(delay=1, enter=offscreenright, enter_time_warp=_warper.ease)
@@ -122,7 +135,7 @@ label chessboard0:
 
     n "Questo è Larry, mio assistente e compagno in questa missione. Se dovessi evidenziare una sua qualità, beh, sicuramente vanta la penna più veloce del BKG."
 
-    n "Quanto al resto, è ancora giovane e maldestro, ma so che ha del vero potenziale. Posso vederlo in lui"
+    n "Quanto al resto, è ancora giovane e maldestro, ma so che ha del vero potenziale."
 
     show larry:
         ease 1 right
@@ -145,38 +158,49 @@ label chessboard0:
     la "Il sito è abbandonato da quasi 5 anni. Eppure I macchinari sono ancora posizione, come se dovessero riprendere i lavori a momenti."
 
     show larry -tilt -focus
-    la "Se non ricordo male il progetto per la diga è andato in stallo a tempo indeterminato."
+    ck "Ufficialmente il progetto per la diga è andato in stallo a tempo indeterminato. {w}Se non hanno ancora fatto smantellare tutto è solo per provare a salvare la faccia."
 
-    la "Un posto come questo non merita di finire in fondo a un lago. {w}Non mi sorprende che i cittadini abbiano fatto di tutto per salvare le loro case."
+    la "Menomale. Un posto come questo non meritava di finire in fondo a un lago."
+
+    la "Dopo che ho visto quel panorama, non mi sorprende che i cittadini abbiano fatto di tutto per salvare le loro case."
 
     show check nope
     ck "Tuttavia, il silenzio in questo cantiere si basa sul sangue versato di un civile."
 
-    ck "...O almeno così sembrerebbe a giudicare dalle fonti ufficiali."
+    ck "....O almeno così sembrerebbe a giudicare dalle fonti ufficiali."
 
     la "Vuole dire che non è così?"
 
     ck "Pare che la decisione di fermare i lavori fosse già stata presa prima dell'omicidio del capocantiere."
 
-    ck "Dopo avere ignorato le proteste per mesi, il ministro delle costruzioni ha semplicemente fatto dietro front senza fornire una spiegazione e cercando di attirare meno attenzione possibile."
+    ck "Dopo avere ignorato le proteste per mesi, il ministro delle costruzioni ha semplicemente fatto dietro front, senza fornire una spiegazione, e cercando di attirare meno attenzione possibile."
 
     ck "Non è difficile immaginare che tipo di \"argomentazione\" gli sia stata mossa contro."
 
     la "Ma allora come si spiega il caso del capocantiere?"
 
-    ck "Potrebbe trattarsi di semplice vendetta, o dell'inizio di un piano più grande.{w} Fatto sta che non è giustificabile neanche come un ultimo atto di disperazione."
+    ck "Potrebbe trattarsi di semplice vendetta, o dell'inizio di un disegno più complesso.{w} Fatto sta che non è giustificabile neanche come ultimo atto di disperazione."
 
     la "Chiaro, ma certo, la serie di omicidi non prova niente, pure la polizia li sta trattando come casi separati."
 
-    ck "Ragazzo, pensi davvero che per {b}pura coincidenza{/b} ci possano essere un omicidio e una sparizione lo stesso giorno per quattro anni di fila?"
+    show check angry
+    ck "Larry, pensi davvero che per {b}pura coincidenza{/b} ci possano essere un omicidio e una sparizione lo stesso giorno per quattro anni di fila?"
+
+    ck "Tutte le vittime erano riconducibili a dei nemici del villaggio o potenziali ficcacaso."
 
     ck "Qualcuno con {b}MOLTA{/b} influenza sta tirando le fila, non c'è altra spiegazione."
 
-    la "Non siamo in pericolo anche noi allora?"
+    show check -angry
+
+
+    la "Capito...."
+
+    show larry worried
+    la "Un momento. {w}Non siamo in pericolo anche noi allora?"
 
     ck "Frena l'ansia ragazzo. {w}Credimi, sono stato in situazioni ben peggiori."
 
-    " check trasmittente "
+    show check calling smile
 
     ck "Una volta che avremo smascherato il marcio di questo villaggio e ristabilito i contatti con il quartier generale, potremo richiedere un intervento diretto."
 
@@ -197,129 +221,228 @@ label chessboard0:
 
 label chessboard1:
 
-    scene dam
-    show frag_overlay
+    scene dam onlayer underlayer
+    scene frag_overlay
     show stop_time
     with purple_flash
-    play music "audio/umi/golden sneer.mp3"
+    play music "audio/umi/the candles dance.mp3" #oppure scorpion entrails
     play sound "audio/sfx/teleport.wav"
     show check sor fp worried at left
     show check at flip
-    show hnb sneer fury at right
+    show hnb sneer at right
     with squares
 
 
 
 
-    hb "NULLA DI CHE PREOCCUPARVI?? HANANANANANA!!!!"
+    hb "NULLA DI CHE PREOCCUPARVI EH?"
 
+    hb "Guarda quanta sicurezza dal nostro {b}EX{/b} comandante del BKG."
     play sound "audio/sfx/laugh.mp3"
-    hb "Sentitelo {w}\"Ci sono io quindi andrà tutto bene\" HANANANANANA! Guarda quanta sicurezza dal nostro {b}EX{/b} comandante del BKG."
-
-    hb "Sei proprio sicuro che puoi ancora vantarti quando a breve anche il tuo caro assistente ti pugnalerà alle spalle?"
-    play sound "audio/sfx/laugh.mp3"
-    extend "HANANANANANA."
-
-    n "Venefico come al solito... {w}Eppure ci ha dato un grande aiuto durante il processo. Non oso immaginare come sarebbe finita se Lambdadelta non si fosse convinta."
-
-    hb "Hanabi... cominciavo a pensare che non saresti più uscito da quella buca."
-
-    hb "Non farti strane, volevo solo l'occasione di distruggerti lealmente uno contro uno."
-
-    hb "Allora Check? Tutto pronto per la sconfitta più devastante di sempre?"
+    hb "HANANANANANA. {w}Sei proprio sicuro che vuoi ancora vantarti quando a breve anche il tuo caro assistente ti pugnalerà alle spalle?"
 
     show check nope
+    ck "Hanabi... cominciavo a pensare che non saresti più uscito da quella buca."
+
+    show hnb nope
+    hb "Uggh. "
+    show hnb sneer
+    extend "Allora Check, sei pronto a subire la sconfitta più devastante che ti abbia mai inflitto?"
+
+
+    show check sus
 
     ck "Non ancora sciagurato! Sto raccogliendo i miei pensieri, raffinando le mie teorie, affilando le mie tattiche..."
 
-    hb "Innalzando la torre di stronzate dalla quale cadrai! Guarda, io ti conosco, non c'è possibilità al mondo che tu non fallisca miseramente!"
+    show hnb yep
+    hb "Costruendo castelli di carte?"
 
-    show check angry
-    ck "Se sei così certo di vincere, allora perchè non STAI ZITTO DUE MINUTI e mi lasci riflettere!?"
+    hb "Senti, io ti conosco, e non te lo dico per cattiveria. {w}Non c'è possibilità al mondo che tu non fallisca!"
 
-    'He blows Hanabi out of the frame with some screen shake.'
-    'he gets bigger Trigger style?'
+    ck "Se sei così certo di vincere, allora perchè non {nw}"
+
+    show check angry shout:
+        linear 0.2 zoom 1.8 ypos 1.7
+
+    show hnb nope ohno:
+        linear 0.2 zoom 0.6
+
+    camera at sshake
+
+
+    extend "STAI ZITTO DUE MINUTI e mi lasci riflettere!?"
+
+
+    hide hnb with squares
 
     #Check to center stage
-    show check -angry:
-        ease 1 center
+    show check nope -angry:
+        ypos 1.7
+        ease 1 center zoom 1
 
-    ck "Non nego che avrei preferito la prospettiva di Mion. DIAMINE, sarà perchè continuo a chiamare tutte e due capelli verdi?"
+    pause 1
 
-    ck "Ma non è un problema, anche Shion si sta rivelando una manna dal cielo. Finalmente sono riuscito ad avere una finestra più lucida su quello che sta succedendo, e soprattutto sulla famiglia Sonozaki."
 
-    ck "Ora sono molto più sicuro di me stesso. Ma ancora non ho chiaro al 100 PERCENTO quello che è accaduto, ne come funzioni la cospirazione davvero."
 
-    ck "Forse è ancora presto per fare teorie... {w}No non ho più tanto tempo."
+    menu:
+        'vento':
+            play music "audio/sfx/wind.mp3"
+        'musica':
+            play music "audio/umi/suspicion.mp3"
+        'entrambi':
+            play music "audio/umi/suspicion.mp3"
+            play sound "audio/sfx/wind.mp3"
+
+
+
+    show check think
+
+    n "E quindi... questa volta sono finito a seguire capelli verdi..."
+
+    show mion_doll onlayer underlayer
+    show layer underlayer:
+        zoom 1.5
+        yalign 0.0 xalign 1.0
+    with dissolve
+
+
+    n "No, non questa capelli verdi."
+
+
+    scene shion_bento onlayer underlayer with dissolve
+
+    "Ecco si, lei!"
+
+
+
+    n "Sinceramente avrei preferito la prospettiva di Mion... Possibile che abbia fatto confusione all'entrata?"
+
+    n "DIAMINE che errore da dilettante, sarà perchè continuo a chiamare tutte e due con lo stesso nomignolo?"
+
+    show check -think
+    n "Ma non tutto il male vien per nuocere, anche Shion si sta rivelando una manna dal cielo. {w}Finalmente ho una finestra lucida su quello che sta succedendo, e soprattutto sulla famiglia Sonozaki."
+
+    scene hinamizawa onlayer underlayer with dissolve
+    n "Nonostante le provocazioni di Hanabi mi sento molto più sicuro di me stesso{w}, ma ancora non ho chiaro al 100\% nè il reale svolgimento degli eventi, nè come funzioni la cospirazione davvero."
+
+    n "Forse è ancora presto per fare teorie... {p}No. {w}Non posso più essere passivo come prima."
 
     show check:
         ease 1 left
     show hnb:
+        offscreenright
         ease 1 right
 
-    hb "Con calma Signor pensatore. Vuoi una tazza di tè?"
+    play music "audio/umi/fishy aroma.mp3"
 
-    ck "Nonostante l' orribile trattamento di Shion, Satoshi è comunque scomparso. C'è un ovvio modo per quadrare il cerchio."
+    hb "Con calma grande detective. Vuoi anche una tazza di tè? {w}In fondo quelli con un limite di tempo siete tu e la tua strega, non noi."
 
-    ck "Non mi piace girarci intorno visto che è così evidente, si tratta della famiglia Sonozaki."
+    show hnb cigar
+    hb "Ma fammi almeno il favore di non annoiarmi a morte."
+
+    ck "Ti dirò cosa penso di quello che abbiamo visto fin ora. {w}Nonostante l'orribile tortura che ha subito Shion, Satoshi è comunque scomparso."
+
+    ck "Il modo per quadrare il cerchio è ovvio, è inutile girarci attorno. Si tratta della famiglia Sonozaki."
 
     hb "Un complotto? Ma davvero Check? {w}Penso che tu abbia visto troppi film, il mondo non è così conveniente..."
 
+    show hnb -cigar
     show check angry
-
 
     ck "Conveniente un corno! Tutto torna."
 
-    'Qua cambio lo sfondo in sottofondo e ci metto dei background topici: sonozaki estate - shrine - police'
-    #sonoz house
+    #Sound design bam bam bam
+
+    scene sonozroom onlayer underlayer with dissolve
+
 
     ck "Mantengono il controllo sulla popolazione di Hinamizawa ed Okinomiya per soddisfare il loro desiderio di propagare le antiche usanze religiose di Hinamizawa!"
-    #shrine
-    ck "Creano un clima di oppressione, dove chiunque metta in dubbio la loro autorità ed Oyashiro-sama è il nemico, mantnendo un controllo schiacciante sulla popolazione."
-    #police
+
+    scene shrine onlayer underlayer with dissolve
+    ck "Sfruttano le credenze locali per creare un clima di oppressione, dove chiunque metta in dubbio la loro autorità e quella di Oyashiro-sama è il nemico."
+
+    ck "Adesso sappiamo anche quanto siano spietati persino con i membri della stessa famiglia, e quanto ci tengono alla segretezza!"
+
+    scene police onlayer underlayer with dissolve
+    ck "E non è tutto. Hanno infiltrato la polizia, e perfino la politica! Sono riusciti a opporsi al governo con minacce e rapimenti per contrastare il progetto della diga!"
+
+    'pointing check if available in time'
+    ck "Questa non è speculazione, ho vissuto in prima persona delle indagini per quel caso."
+
+    ck "Per un'organizzazione criminale come la loro, un complotto sarebbe tutt'altro che impossiblile."
+
+    show hnb cigar
+    hb "Senza prove concrete non puoi dimostrare niente, tutte le tue teorie sono come fumo al vento."
+
+    hb "Parli del rapimento come un dato di fatto, ma puoi essere certo che I Sonozaki fossero veramente convolti?"
+
+    play music "audio/umi/core.mp3"
+
+    show check -angry smile
+    ck "Puoi tentare di ingannarmi quanto vuoi, ma non funzionerà..."
+
+    ck "Ci sono dei dettagli di quell'indagine che ti sfuggono Hanabi."
+
+    'keep cycling backgrounds'
+
+    ck "Quando i rapitori sono stati costretti alla fuga, sai di chi hanno fatto il nome? {w}Nientemeno che i Sonozaki!"
+
+    ck "In più, secondo le parole di un informatore fidato, Oryou stessa ha implicato che il ragazzo rapito fosse stato liberato per suo ordine!"
+
+    ck "E so cosa mi dirai adesso. {p}\"Tutto questo è successo prima di qualsiasi omicidio, non abbiamo prove che collegano i Sonozaki ai delitti annuali del Watanagashi.\""
+
+    ck "Ed è quì che arriva la prova più schiacciante di tutte..."
+
+    'finger point, bang, and then triple bang'
+
+    ck "Mion stessa ha confessato!"
 
 
-    ck "Hanno infiltrato la polizia, e perfino la politica! Sono riusciti a opporsi al governo con minacce e rapimenti per contrastare il progetto della diga!"
+    extend " Quando confrontata da Keichi ha completamente vuotato il sacco!"
 
-    ck "Questa non è speculazione, ho vissuto in prima persona le indagini di un poliziotto di nome Akasaka che si occupava del caso."
+    ck "Di che altra prova hai bisogno?!"
 
-    ck "Per un'organizzazione come la loro, un complotto sarebbe tutt'altro che impossiblile."
+    stop music fadeout 6
 
+    'let the music fade out'
 
-    hb "Eppure, senza alcuna prova le tue teorie non sono altro che fumo. E la logica non torna non trovi? Non abbiamo alcuna prova che I Sonozaki fossero convolti in alcun rapimento, ad esempio"
-
-    ck "...Puoi tentare di ingannarmi quanto vuoi, ma non funzionerà... per caso devo ricordarti la solida base di prove che abbiamo?"
-
+    hb "......"
 
 
-    ck "Ora conosciamo quanto siano spietati persino con la loro stessa famiglia, ed il loro incredibile desiderio di segretezza!"
 
-    ck "I rapitori hanno nominato una famiglia quando sono stati costretti a scappare!"
+    menu:
+        'system zero':
+            play music "audio/umi/system zero.mp3" fadein 7
+        'nighteyes':
+            play music "audio/umi/nighteyes.mp3"
+        'miragecoordinator':
+            play music "audio/umi/miragecoordinator.mp3"
 
-    ck "Oryou stessa ha implicato che il ragazzo rapito fosse stato liberato per suo ordine!"
+    show hnb -cigar
+    hb "Hanananana! Hai un idea di prova davvero debole. Quell'argomentazione è piena di buchi."
 
-    ck "Ed infine, la prova più schiacciante di tutte..."
+    hb "Usa un attimo il cervello e immagina... E se qualcuno avesse tentato di incastrare I Sonozaki? {w}E se l'informatore avesse malinterpretato le parole di Oryou?"
 
-    'finger point, fitting sound effect'
+    hb "E se mion stesse mentendo sotto minaccia? {w}Magari c'era un cecchino appostato fuori tutto il tempo pronto a sparare."
 
-    ck "Mion stessa ha confessato! Quando confrontata da Keichi ha completamente vuotato il sacco!"
+    ck "E hai il coraggio di chiamare la mia una teoria del complotto? {w}Penso che tu abbia visto troppi film Hanabi. Il mondo non è così conveniente."
 
-    hb "Hanananana! Hai un idea di prova davvero debole. Posso pensare almeno a 10 scenari che invalidano il tuo ragionamento."
+    hb "Mhhhhhhh. Aspetta, ho io una bella spiegazione per te..."
 
-    ck "Sentiamo."
-
-    hb "E se qualcuno avesse tentato di incastrare I Sonozaki? Se l'informatose avesse malinterpretato le parole di Oryou? {w} E se mion stesse mentendo per tornaconto personale o semplicemente sotto minaccia? Con tanto di cecchino appostato fuori. , e costretta a mentire con la sua spiegazione?"
-
-    ck "Un complotto? Penso che tu abbia visto troppi film Hanabi. Non mi aspettavo di vederti arrampicarti sugli specchi così presto."
-
-    hb "Che ne pensi di questa..."
 
     'Cattivissimo, music change, oni mion.'
-    ck "E se semplicemente Mion fosse posseduta COME LEI STESSA HA CONFESSATO?! HANANANANA. Che succede, adesso non prendiamo più per buona la sua parola?"
+
+
+    hb "E se Mion fosse posseduta..."
+    show hnb fury sneer fist
+    play sound "audio/sfx/zbiin.ogg"
+    extend "COME LEI STESSA HA CONFESSATO DI ESSERE??????!!!!!!!"
+
+    hb "HANANANANA. Che succede, adesso non prendiamo più per buona la sua parola?"
 
     'qui gioco di regia, voglio una scena agitata puntuata da scene chiave con tonfi e/o spatter che ti fanno capire come scandisce le parole'
 
-    ck "Ammettilo, non ha senso. {w} Perchè \"Mion Sonozaki\" {w} Si comporta {w} in questo modo."
+    hb "Ammettilo, non ha senso. {w} Perchè \"Mion Sonozaki\" {w} Si comporta {w} in questo modo."
 
 
     #confident

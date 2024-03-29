@@ -1,6 +1,5 @@
 ---
-tags:
-  - new
+tags: []
 ---
 
 Importante il contrasto con il colore tema per la leggibilità

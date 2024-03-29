@@ -2,17 +2,18 @@
 tags:
   - arc/scene
 ---
-hanabi se ne va come un ninja
-vento mentre check pensa
-sigaro mentre aspetta
-check pensa bern mi ha detto che non è posseduta
-parti da spiegazione check
-impilando la torre di puttanate
-innalzando la torre di cringe
-cervello galattico anziche pensatore
-Mantieni la calma, grande detective cringe
-taglia akasaka
+- [x] Scrittura
+- [ ] Implementazione
+	- [ ] sound design
+	- [ ] ost
+	- [ ] facce
+	- [ ] testo
+	- [ ] telecamera
+- [ ] Review
+- [ ] Fix
 
+
+Hanabi gets gigantic
 no mion tornaconto personale, si deve capire che dice una cazzata, cecchino
 pensa il blu
 
@@ -147,3 +148,8 @@ hb "Pronto a scoprirlo? Pronto a capitombolare a terra?"
 hb "Il watanagashi è quasi arrivato!"
 
 - Zoom out
+
+## Saved for latern 
+"Venefico come al solito... {w}Eppure ci ha dato un grande aiuto durante il processo. Non oso immaginare come sarebbe finita se Lambdadelta non si fosse convinta."  
+
+hb "Non farti strane, volevo solo l'occasione di distruggerti lealmente uno contro uno."

@@ -2,7 +2,12 @@
 tags:
   - arc/scene
 ---
-check sorridi
+- [x] Scrittura
+- [x] Implementazione
+- [x] Review
+- [ ] Fix
+
+check worried
 flashback di check e larry emozionale
 
 

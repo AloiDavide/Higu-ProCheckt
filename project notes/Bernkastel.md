@@ -3,7 +3,6 @@ aliases:
   - Bern
 tags:
   - character
-  - new
 ---
 La strega dei miracoli che ha vissuto il 10% di mille anni.
 

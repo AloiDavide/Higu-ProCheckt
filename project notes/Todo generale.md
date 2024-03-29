@@ -6,10 +6,20 @@
 - [x] Studio layers e MoveTransition()
 - [x] Get Larry a working layered sprite
 - [x] Clean larry around the edges
-- [x] Storyboard write and create [[Magia Socratica - layer 0]]
-- [ ] Implementa scene di Crunter
+- [x] Storyboard write and create 
+
+- [ ] Cambia icona in Check
+
+- [ ] Implementa scene
+	- [x] [[Magia Socratica - layer 0]]
 	- [ ] [[Magia Socratica - layer 1]]
-	- [ ] [[Magia Socratica - layer 2]]
+	- [x] [[Magia Socratica - layer 2]]
+
+- [ ] Finalizza scene (fase di revisione)
+	- [ ] layer 0
+	- [ ] layer 1
+	- [ ] layer 2
+
 - [x] Ordina note stream of consciousness
 - [ ] Rework del main [[menu]] per usare lo spazio ottenuto
 	- [x] Togli menu stock
@@ -20,8 +30,9 @@
 	- [x] Icona di attivazione sempre presente
 	- [ ] Raggiungibile dal menu principale
 	- [ ] Schermata appunti
-- [ ] Ottieni [[asset mancanti]]
-	- [ ] più bocche per larry
+- [ ] Ottieni e implementa [[asset mancanti]]
+	- [ ] più bocche per larry e hanabi
 	- [ ] Pointing Check
-- [ ] meta overlay personalizzati
 - [ ] Catalogo canzoni
+- [ ] Compressione audio
+- [ ] Sound effects in menus

@@ -6,21 +6,8 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 62.11217183770883,
+        "dimension": 73.76160990712074,
         "children": [
-          {
-            "id": "5f1f67df762d32ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Scaletta Gomakashi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
           {
             "id": "cb494dfad8f8259b",
             "type": "leaf",
@@ -92,7 +79,72 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Catologo musica.md",
+                "file": "Taccuino.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0e36310ce3c3239",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Higurashi - Gli indizi perduti..md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "27393b58ae99824b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kabetaoshi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bdce97efe66f0367",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gomakashi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4bdc5a1d6f2e467f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Gomakashi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "47cf31e935f0d205",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hound e Crunter.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,12 +152,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "3f0f77f4c89f18c6",
         "type": "tabs",
-        "dimension": 37.88782816229117,
+        "dimension": 26.238390092879254,
         "children": [
           {
             "id": "8d3bc1b5adb9b49f",
@@ -171,7 +223,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#new",
+                "query": "tag:new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -273,22 +325,25 @@
   },
   "active": "6f42975fd837928a",
   "lastOpenFiles": [
-    "desktop.ini",
     "Magia Socratica - layer 1.md",
-    "Magia Socratica - layer 2.md",
-    "Catologo musica.md",
-    "Bernkastel.md",
-    "Todo generale.md",
     "Magia Socratica - layer 0.md",
-    "Magia socratica.md",
-    "Hanyuu.md",
-    "Lambdadelta.md",
-    "Scaletta Gomakashi.md",
-    "Crunter read this.md",
-    "Hound e Crunter.md",
+    "Todo generale.md",
+    "Kabetaoshi.md",
     "Higurashi - Gli indizi perduti..md",
-    "Menu.md",
+    "Hound e Crunter.md",
+    "Scaletta Gomakashi.md",
+    "Taccuino.md",
     "Gomakashi.md",
+    "Catologo musica.md",
+    "Magia Socratica - layer 2.md",
+    "Magia socratica.md",
+    "Terry.md",
+    "Menu.md",
+    "Lambdadelta.md",
+    "Hanyuu.md",
+    "Bernkastel.md",
+    "desktop.ini",
+    "Crunter read this.md",
     "asset mancanti.md",
     "Personaggi.md",
     "taccuini.md",
@@ -297,8 +352,6 @@
     "Gioco Bern VS Lambda.md",
     "piano di Takano.md",
     "tre difese.md",
-    "Gioco Check VS Hanabi.md",
-    "Yougisamashi.md",
     "Pasted image 20240322223017.png",
     "Pasted image 20240322221853.png",
     "Untitled.canvas",

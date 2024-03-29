@@ -357,6 +357,10 @@ style navigation_button_text:
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
 default persistent.light_novel = False
+
+
+
+
 screen main_menu():
 
 
@@ -367,7 +371,7 @@ screen main_menu():
 
 
 
-    vbox xalign 0.74 yalign 0.06:
+    vbox xalign 0.72 yalign 0.06:
         add "gui/HiguLogo.png"
 
         text "{color=#E29F00}HounDogs{/color} and {color=#00D915}Crunter{/color} present. Welcome to Hinamizawa...":
@@ -389,17 +393,26 @@ screen main_menu():
             xalign 0.5
             font "static/yuminl.ttf"
 
+        null height 275
 
-    $start_button = "overlay/start_button.png"
-    $start_button_hover = "overlay/start_button_hover.png"
-    vbox xalign 0.74 yalign 0.5:
-        imagebutton:
-            idle start_button
-            hover start_button_hover
-
+        textbutton 'Tocca il frammento':
+            style "menu_buttons"
+            text_style "menu_text"
             action Start()
 
+        null height 30
 
+        textbutton 'Impostazioni':
+            style "menu_buttons"
+            text_style "menu_text"
+            action ShowMenu("preferences")
+
+        null height 30
+
+        textbutton 'Taccuino':
+            style "menu_buttons"
+            text_style "menu_text"
+            action Start()
 
 
     $postit_a = im.Scale("overlay/postit_a.png",100,100)

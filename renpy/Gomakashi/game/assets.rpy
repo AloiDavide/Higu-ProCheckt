@@ -1,3 +1,23 @@
+init: #styles
+
+
+    style menu_text:
+        outlines [(1, "#000")]
+        hover_outlines [(2, "#000")]
+        hover_bold True
+        align (0.5, 0.5)
+        size 40
+        color "009015"
+        hover_color "#00D915"
+
+    style menu_buttons:
+        background "overlay/menu_button.png"
+        hover_background im.Flip("overlay/menu_button_hover.png", horizontal=True, vertical=True)
+        align (0.5,0.5)
+
+        xsize 528 ysize 72
+
+
 init python:
     def head_tilt_func(img):
         return Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
@@ -20,13 +40,15 @@ init:
     define flash = Fade(0.1, 0.0, 0.5, color="#fff")
     define purple_flash = Fade(0.1, 0.0, 0.5, color="#7E3FFF")
 
+#-------------------
     #CHECK
-
-
+#-------------------
     layeredimage check:
         group pose:
             attribute plain:
                 "sprites/ck/def.png"
+            attribute calling:
+                "sprites/ck/calling.png"
             attribute sor default:
                 "sprites/ck/sorcerer.png"
             attribute objection:
@@ -65,8 +87,10 @@ init:
             attribute fp if_any "objection":
                 "leftdist"
 
-            attribute fp if_any "plain":
+            attribute fp if_any ["plain"]:
                 "sprites/ck/f_bkg.png"
+            attribute fp if_any ["calling"]:
+                "sprites/ck/f_bkg2.png"
 
 
         group mouth:
@@ -301,7 +325,7 @@ init:
             attribute nope:
                 "sprites/hb/mouths/nope0.png"
             attribute sneer:
-                "sprites/hb/mouths/sneer0.png"
+                "sprites/hb/mouths/beasneer0.png"
             attribute laugh:
                 "sprites/hb/mouths/laugh1.png"
             attribute smirk:
@@ -334,9 +358,9 @@ init:
         repeat
 
     image hb_sneer_talk:
-        "sprites/hb/mouths/sneer1.png"
+        "sprites/hb/mouths/beasneer0.png"
         .2
-        "sprites/hb/mouths/sneer2.png"
+        "sprites/hb/mouths/beasneer1.png"
         .2
         repeat
 
@@ -573,6 +597,13 @@ image rika defa = "sprites/rika defa.png"
 image rika majime = "sprites/rika majime.png"
 image rika niya = "sprites/rika niya.png"
 
+#CGs
+image satokoeat = im.Scale("cg/satokoeat.webp", 1920, 1080)
+image satokopat = im.Scale("cg/satokopat.webp", 1920, 1080)
+image shion_bento = im.Scale("cg/shion bento.webp", 1920, 1080)
+image mion_doll = im.Scale("cg/mion doll.webp", 1920, 1080)
+
+
 #BACKGROUNDS
 image black = im.Scale("bg/black.jpg", 1920, 1080)
 image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
@@ -592,14 +623,15 @@ image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
 image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
 image basement = im.Scale("bg/basement.png", 1920, 1080)
 image dam = im.Scale("bg/dam.png", 1920, 1080)
-image satokoeat = im.Scale("bg/satokoeat.webp", 1920, 1080)
-image satokopat = im.Scale("bg/satokopat.webp", 1920, 1080)
 image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
 image torakku = im.Scale("bg/torakku.png", 1920, 1080)
 image koya = im.Scale("bg/koya.png", 1920, 1080)
 image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
 image sky = im.Scale("bg/sky.png", 1920, 1080)
 image sky_sunset = im.Scale("bg/sky sunset.png", 1920, 1080)
+image shrine = im.Scale("bg/shrine.png", 1920, 1080)
+
+
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)

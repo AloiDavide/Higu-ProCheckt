@@ -1,6 +1,5 @@
 ---
 tags:
-  - new
   - character
 ---
 ==Da completare==
@@ -23,6 +22,8 @@ Kurapika
 Infiocchetta la vittoria.
 La scenografia è importante.
 Human computer
+
+
 # Witch Hound
 Poliziotto buono.
 Pragmatico
@@ -30,6 +31,6 @@ L
 Killua
 Quello più in favore di Check che vuole dare aiuti quando puo.
 In verità non crede in loro quanto Crunter.
-I momenti personabili sono importanti
+La caratterizzazione è importante
 Mad scientist
 Li aiuto perchè ne hanno bisogno

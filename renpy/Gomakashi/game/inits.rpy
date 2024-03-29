@@ -111,3 +111,4 @@ init -1 python:
             "whyMe":Question('Quindi è per questo che mi hai scelto.',["whoMe","rules"]),
             "end":Question('Tiriamo le somme.',["whyMe", "rules", "poems", "tea"])#
     }
+

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/magia_socratica.rpy", line 544: expected 'simple_expression' not found.
-    scene sky_sunset with 
-                          ^
+File "game/assets.rpy", line 15: style property text_xoffset is not known.
+    text_xoffset 60
+                ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Tue Mar 26 23:50:37 2024
+Fri Mar 29 18:39:57 2024
