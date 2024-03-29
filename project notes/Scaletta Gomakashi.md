@@ -3,6 +3,11 @@ tags:
   - index
 ---
 
+Domande nel presente:
+Perchè shion sente le cose? Come te lo spieghi?
+Shion non è credente e ha vissuto per tanto tempo lontano, dici che è indottrinata pure lei al punto da avere allucinazioni? 
+Keiichi, Rena, Satoshi, e ora anche Shion. Tutti loro sentono le presenze... un po troppi per essere una coincidenza.
+
 ## Progressione storia base:
 - Festival 83
 - conferenza
