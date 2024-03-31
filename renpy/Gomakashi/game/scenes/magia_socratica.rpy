@@ -222,31 +222,32 @@ label chessboard0:
 label chessboard1:
 
     scene dam onlayer underlayer
-    scene frag_overlay
-    show stop_time
+    scene witch_flowers
     with purple_flash
     play music "audio/umi/the candles dance.mp3" #oppure scorpion entrails
     play sound "audio/sfx/teleport.wav"
     show check sor fp worried at left
     show check at flip
-    show hnb sneer at right
+    show hnb yep at right
     with squares
 
 
 
 
     hb "NULLA DI CHE PREOCCUPARVI EH?"
-
+    show hnb nope
     hb "Guarda quanta sicurezza dal nostro {b}EX{/b} comandante del BKG."
     play sound "audio/sfx/laugh.mp3"
+    show hnb nopper
     hb "HANANANANANA. {w}Sei proprio sicuro che vuoi ancora vantarti quando a breve anche il tuo caro assistente ti pugnalerà alle spalle?"
+
 
     show check nope
     ck "Hanabi... cominciavo a pensare che non saresti più uscito da quella buca."
 
     show hnb nope
     hb "Uggh. "
-    show hnb sneer
+    show hnb -fury sneer
     extend "Allora Check, sei pronto a subire la sconfitta più devastante che ti abbia mai inflitto?"
 
 
@@ -255,6 +256,7 @@ label chessboard1:
     ck "Non ancora sciagurato! Sto raccogliendo i miei pensieri, raffinando le mie teorie, affilando le mie tattiche..."
 
     show hnb yep
+    show hnb grin
     hb "Costruendo castelli di carte?"
 
     hb "Senti, io ti conosco, e non te lo dico per cattiveria. {w}Non c'è possibilità al mondo che tu non fallisca!"
@@ -352,11 +354,7 @@ label chessboard1:
     ck "Conveniente un corno! Tutto torna."
 
     #Sound design bam bam bam
-
-    scene sonozroom onlayer underlayer with dissolve
-
-
-    ck "Mantengono il controllo sulla popolazione di Hinamizawa ed Okinomiya per soddisfare il loro desiderio di propagare le antiche usanze religiose di Hinamizawa!"
+    ck "Mantengono il controllo sulla popolazione del villaggio e dintorni per propagare le antiche usanze religiose di Hinamizawa!"
 
     scene shrine onlayer underlayer with dissolve
     ck "Sfruttano le credenze locali per creare un clima di oppressione, dove chiunque metta in dubbio la loro autorità e quella di Oyashiro-sama è il nemico."
@@ -366,40 +364,76 @@ label chessboard1:
     scene police onlayer underlayer with dissolve
     ck "E non è tutto. Hanno infiltrato la polizia, e perfino la politica! Sono riusciti a opporsi al governo con minacce e rapimenti per contrastare il progetto della diga!"
 
-    'pointing check if available in time'
+    show check think
     ck "Questa non è speculazione, ho vissuto in prima persona delle indagini per quel caso."
 
+    show check -think
     ck "Per un'organizzazione criminale come la loro, un complotto sarebbe tutt'altro che impossiblile."
 
+
+    scene sonozroom onlayer underlayer with dissolve
     show hnb cigar
     hb "Senza prove concrete non puoi dimostrare niente, tutte le tue teorie sono come fumo al vento."
 
     hb "Parli del rapimento come un dato di fatto, ma puoi essere certo che I Sonozaki fossero veramente convolti?"
 
-    play music "audio/umi/core.mp3"
+    stop music fadeout 3
+
+    ck "........."
+
+    play music "audio/umi/core.mp3" fadein 5
 
     show check -angry smile
+
+    ck "Hahaheheha. Bel tentativo, Hanabi."
+
+    show hnb nope -cigar
     ck "Puoi tentare di ingannarmi quanto vuoi, ma non funzionerà..."
 
-    ck "Ci sono dei dettagli di quell'indagine che ti sfuggono Hanabi."
+    ck "Ci sono dei dettagli di quell'indagine che ti sfuggono."
 
-    'keep cycling backgrounds'
+    show check yep
+    ck "Quando i rapitori sono stati costretti alla fuga, sai di chi hanno fatto il nome? "
+    play sound "audio/sfx/damage2.mp3"
+    camera at sshake
+    extend "Nientemeno che i Sonozaki!"
 
-    ck "Quando i rapitori sono stati costretti alla fuga, sai di chi hanno fatto il nome? {w}Nientemeno che i Sonozaki!"
+    show oryou onlayer underlayer with dissolve:
+        zoom 0.6
+        truecenter
 
     ck "In più, secondo le parole di un informatore fidato, Oryou stessa ha implicato che il ragazzo rapito fosse stato liberato per suo ordine!"
 
     ck "E so cosa mi dirai adesso. {p}\"Tutto questo è successo prima di qualsiasi omicidio, non abbiamo prove che collegano i Sonozaki ai delitti annuali del Watanagashi.\""
 
+
     ck "Ed è quì che arriva la prova più schiacciante di tutte..."
 
-    'finger point, bang, and then triple bang'
 
-    ck "Mion stessa ha confessato!"
+    scene sonoztearoom onlayer underlayer
+    show evil_mion onlayer underlayer:
+        zoom 0.6
+        truecenter
+    with dissolve
+
+    pause 0.5
 
 
-    extend " Quando confrontata da Keichi ha completamente vuotato il sacco!"
+    play sound "audio/sfx/strike.mp3"
+    show check smile objection at pointing
 
+    camera at sshake
+    ck "Mion stessa ha confessato! {p}Si è seduta di fronte a Rena e Keichi e ha parlato con parole chiare!"
+
+    camera at sshake
+    play sound "audio/sfx/damage.mp3"
+    pause 0.5
+    play sound "audio/sfx/damage2.mp3"
+    pause 0.5
+    play sound "audio/sfx/strike.mp3"
+    extend " Ha completamente vuotato il sacco!"
+
+    show check sor at reset
     ck "Di che altra prova hai bisogno?!"
 
     stop music fadeout 6
@@ -418,7 +452,8 @@ label chessboard1:
         'miragecoordinator':
             play music "audio/umi/miragecoordinator.mp3"
 
-    show hnb -cigar
+    show hnb yep -cigar
+    show check nope
     hb "Hanananana! Hai un idea di prova davvero debole. Quell'argomentazione è piena di buchi."
 
     hb "Usa un attimo il cervello e immagina... E se qualcuno avesse tentato di incastrare I Sonozaki? {w}E se l'informatore avesse malinterpretato le parole di Oryou?"
@@ -430,27 +465,126 @@ label chessboard1:
     hb "Mhhhhhhh. Aspetta, ho io una bella spiegazione per te..."
 
 
-    'Cattivissimo, music change, oni mion.'
-
-
     hb "E se Mion fosse posseduta..."
-    show hnb fury sneer fist
+    show hnb fury grin fist
+    show check angry
     play sound "audio/sfx/zbiin.ogg"
     extend "COME LEI STESSA HA CONFESSATO DI ESSERE??????!!!!!!!"
 
     hb "HANANANANA. Che succede, adesso non prendiamo più per buona la sua parola?"
 
-    'qui gioco di regia, voglio una scena agitata puntuata da scene chiave con tonfi e/o spatter che ti fanno capire come scandisce le parole'
 
-    hb "Ammettilo, non ha senso. {w} Perchè \"Mion Sonozaki\" {w} Si comporta {w} in questo modo."
+    show hnb -fist grin fury
+    hb "Ammettilo, non lo puoi spiegare!"
+
+    scene sisters onlayer underlayer
 
 
+    play sound "audio/sfx/furu.ogg"
+    show hnb:
+        linear 0.1 zoom 1.3 ypos 1.3
+
+    show check:
+        linear 0.1 zoom 0.8
+
+    pause 0.3
+    play sound "audio/sfx/slam.mp3"
+    camera at sshake
+    hb "Perchè Mion..."
+
+    scene mion_jumpscare onlayer underlayer
+
+    play sound "audio/sfx/furu.ogg"
+    show hnb:
+        linear 0.1 zoom 1.6 ypos 1.5
+
+    show check:
+        linear 0.1 zoom 0.6
+
+    pause 0.3
+    play sound "audio/sfx/slam.mp3"
+    camera at sshake
+    extend " Si comporta..."
+
+
+    scene mion_jumpscare_phone onlayer underlayer
+
+
+    play sound "audio/sfx/wake up.ogg"
+    show hnb:
+        linear 0.1 zoom 1.9 ypos 1.7
+
+    show check:
+        linear 0.1 zoom 0.4
+
+
+
+    camera at Shake((0, 0, 0, 0), 5.0, dist=25)
+    extend " Da pazzoide indemoniata?!?!{nw}"
+
+
+    show check:
+        linear 1 xalign 0.3
+        linear 0.5 left
+        linear 1 xalign 0.3
+        linear 0.3 offscreenleft
+
+    extend ''
+
+    hide hnb
+    show basement2 onlayer underlayer
+    with PushMove(0.5, 'pushright')
+
+    show check sor fp angry worried at offscreenright
+    show check at flip
+    show check:
+        zoom 1
+        linear 0.3 center
+
+    ck "Haaarrg!"
+
+    n "No! Non può essere questa la risposta! {w}Se viene fuori che è tutto davvero opera dei demoni non avremo modo per controbattere. {w}Ci DEVE essere un altra spiegazione!"
+
+    show check -angry nope
+    stop music fadeout 5
+
+    n "Aspetta... Capelli verdi, possessione..."
+
+    show check think
+    play music "audio/umi/haruka.mp3" fadein 4
+    n "Se la memoria non mi inganna... Ricordo di avere già discusso quella scena."
+
+    n "Si, fu quella volta che ho ricevuto degli indizi da Bern, le chiesi delle parole di Mion!"
+
+    n "Devo solo ricordare quello che mi ha risposto!"
+
+    menu:
+        "Capelli verdi era posseduta.":
+            'a'
+        "Capelli verdi non era posseduta, ha mentito.":
+            'b'
+        "Capelli verdi non era posseduta, ma non mentiva.":
+            'c'
+
+    show check -think yep
+    n "Ma certo. Ricordo perfettamente!"
+
+
+    show fragplane with Dissolve(2)
+    play sound "audio/sfx/truth.mp3"
+    bk "\"La ragazza battezzata Mion Sonozaki non era vittima di alcuna possessione demoniaca{w}, tuttavia era convinta di quel che diceva.\""
+
+    n "Ancora non so che cazzo vuol dire, ma vuol dire che l'attacco di Hanabi è soltanto un modo per distrarmi e impedirmi di venire al fondo della questione."
+
+    'check torna da hanabi che si sorprende che è fresco e confident. Se ne frega perchè tanto lo vedremo.'
     #confident
-    ck "Ed è quì che ti sbagli. Ti devo ricordare in che frammento siamo entrati? Bern mi ha assicurato che il corso degli eventi sarà pressochè uguale a Watanagashi, qualsiasi cosa sia successa con capelli verdi, seguire sua sorella ci porterà senza dubbio alla verità."
+    ck "Secondo te Mion è posseduta heh? Beh, staremo a vedere."
 
-    ck "Dopotutto quella ragazza ha sia i mezzi che il sangue freddo per venire a capo della questione. E di sicuro non le manca la motivazione, dopo che per colpa loro è sparito il suo ragazzo!"
+    ck "Ti devo ricordare in che frammento siamo entrati? Qualsiasi cosa sia successa quella volta con capelli verdi si ripeterà anche quì, ma stavolta avremo dei posti in prima fila dalla prospettiva di sua sorella."
 
-    'e da qua mi ricollego alla fase satoshi di Crunter'
+    ck "A differenza di chiunque altro, quella ragazza ha sia la lucidità che i mezzi per venire a capo dei misteri dei Sonozaki. {w}E di sicuro non le manca la motivazione, dopo che per colpa loro è scomparso Satoshi!"
+
+    hb "Ancora ad insinuare che sia stato fatto sparire da qualcuno."
 
     hb "È la stessa storia con Satoshi, solo congetture e nulla di concreto. Questi ipocriti continuano a dire che era un bravo ragazzo, amava così tanto la sorella che non la avrebbe mai abbandonata."
 

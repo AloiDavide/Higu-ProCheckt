@@ -144,7 +144,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hound e Crunter.md",
+                "file": "Bernkastel.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -152,7 +152,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 10
       },
       {
         "id": "3f0f77f4c89f18c6",
@@ -165,7 +165,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Magia Socratica - layer 2.md",
+                "file": "Bernkastel.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -261,7 +261,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Magia Socratica - layer 2.md",
+                "file": "Bernkastel.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +278,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Magia Socratica - layer 2.md",
+                "file": "Bernkastel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +301,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Magia Socratica - layer 2.md"
+                "file": "Bernkastel.md"
               }
             }
           }
@@ -323,19 +323,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6f42975fd837928a",
+  "active": "47cf31e935f0d205",
   "lastOpenFiles": [
+    "Hound e Crunter.md",
     "Magia Socratica - layer 1.md",
+    "Magia Socratica - layer 2.md",
     "Magia Socratica - layer 0.md",
     "Todo generale.md",
     "Kabetaoshi.md",
     "Higurashi - Gli indizi perduti..md",
-    "Hound e Crunter.md",
     "Scaletta Gomakashi.md",
     "Taccuino.md",
     "Gomakashi.md",
     "Catologo musica.md",
-    "Magia Socratica - layer 2.md",
     "Magia socratica.md",
     "Terry.md",
     "Menu.md",

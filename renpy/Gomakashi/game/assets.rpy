@@ -30,6 +30,13 @@ init:
     transform unflip:
         xzoom 1
 
+    transform pointing:
+        xoffset -136
+        yoffset 60
+
+    transform reset:
+        xoffset 0
+        yoffset 0
 
     image check_objection = Transform("sprites/ck/wright.png", xoffset=-658)
     image hanabi_objection = Transform("sprites/hb/von karma.png", xoffset=-693)
@@ -53,6 +60,8 @@ init:
                 "sprites/ck/sorcerer.png"
             attribute objection:
                 "check_objection"
+            attribute objection:
+                "sprites/ck/objection_armless.png"
 
         group eyes:
             attribute neutral default:
@@ -322,31 +331,42 @@ init:
         group mouth:
             attribute yep default:
                 "sprites/hb/mouths/yep0.png"
+            attribute yepper:
+                "sprites/hb/mouths/yep0.png"
             attribute nope:
                 "sprites/hb/mouths/nope0.png"
+            attribute nopper:
+                "sprites/hb/mouths/nope0.png"
             attribute sneer:
-                "sprites/hb/mouths/beasneer0.png"
-            attribute laugh:
-                "sprites/hb/mouths/laugh1.png"
-            attribute smirk:
-                "sprites/hb/mouths/smirk0.png"
+                "sprites/hb/mouths/sneer0.png"
+            attribute grin:
+                "sprites/hb/mouths/grin0.png"
 
             attribute yep_talk:
                 "hb_yep_talk"
+            attribute yepper_talk:
+                "hb_yepper_talk"
             attribute nope_talk:
                 "hb_nope_talk"
+            attribute nopper_talk:
+                "hb_nopper_talk"
             attribute sneer_talk:
                 "hb_sneer_talk"
-            attribute laugh_talk:
-                "hb_laugh_talk"
-            attribute smirk_talk:
-                "hb_yep_talk"
+            attribute grin_talk:
+                "hb_sneer_talk"
 
 
     image hb_yep_talk:
         "sprites/hb/mouths/yep1.png"
         .2
         "sprites/hb/mouths/yep2.png"
+        .2
+        repeat
+
+    image hb_yepper_talk:
+        "sprites/hb/mouths/yep2.png"
+        .2
+        "sprites/hb/mouths/yep3.png"
         .2
         repeat
 
@@ -357,19 +377,21 @@ init:
         .2
         repeat
 
-    image hb_sneer_talk:
-        "sprites/hb/mouths/beasneer0.png"
+    image hb_nopper_talk:
+        "sprites/hb/mouths/nope2.png"
         .2
-        "sprites/hb/mouths/beasneer1.png"
+        "sprites/hb/mouths/shout1.png"
         .2
         repeat
 
-    image hb_laugh_talk:
-        "sprites/hb/mouths/laugh1.png"
+    image hb_sneer_talk:
+        "sprites/hb/mouths/sneer1.png"
         .2
-        "sprites/hb/mouths/laugh2.png"
+        "sprites/hb/mouths/sneer2.png"
         .2
         repeat
+
+
 
 
 
@@ -584,7 +606,7 @@ define ck = Character("Check", who_color = "#780000", what_style= "wide", who_st
 define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["straight"]))
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
-define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "nope", "sneer", "smirk", "laugh"]))
+define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin"]))
 define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
 define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
@@ -592,6 +614,7 @@ define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wi
 
 image chibimion = "sprites/chibimion.png"
 image oryou = "sprites/oryou.png"
+image evil_mion = "sprites/evil_mion.png"
 image ooishi = "sprites/ooishi.png"
 image rika defa = "sprites/rika defa.png"
 image rika majime = "sprites/rika majime.png"
@@ -602,6 +625,10 @@ image satokoeat = im.Scale("cg/satokoeat.webp", 1920, 1080)
 image satokopat = im.Scale("cg/satokopat.webp", 1920, 1080)
 image shion_bento = im.Scale("cg/shion bento.webp", 1920, 1080)
 image mion_doll = im.Scale("cg/mion doll.webp", 1920, 1080)
+image mion_jumpscare_phone = im.Scale("cg/mion_jumpscare_phone.webp", 1920, 1080)
+image mion_jumpscare = im.Scale("cg/mion_jumpscare.webp", 1920, 1080)
+image sisters = im.Scale("cg/sisters.webp", 1920, 1080)
+image evil_eyes = im.Scale("cg/evil_eyes.webp", 1920, 1080)
 
 
 #BACKGROUNDS
@@ -620,8 +647,10 @@ image hinamizawa = im.Scale("bg/hinamizawa.webp", 1920, 1080)
 image hinamizawa_sunset = im.Scale("bg/hinamizawa sunset.webp", 1920, 1080)
 image field = im.Scale("bg/field.png", 1920, 1080)
 image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
+image sonoztearoom = im.Scale("bg/sonoztearoom.png", 1920, 1080)
 image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
 image basement = im.Scale("bg/basement.png", 1920, 1080)
+image basement2 = im.Scale("bg/basement2.png", 1920, 1080)
 image dam = im.Scale("bg/dam.png", 1920, 1080)
 image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
 image torakku = im.Scale("bg/torakku.png", 1920, 1080)
@@ -639,6 +668,7 @@ image welcome = im.Scale("overlay/welcome.png", 1920, 1080)
 image frag_overlay = im.Scale("overlay/frag_overlay70.png", 1920, 1080)
 image frag_lines = im.Scale("overlay/frag_overlay0.png", 1920, 1080)
 image stop_time = im.Scale("overlay/stop time.png", 1920, 1080)
+image witch_flowers = im.Scale("overlay/witch_flowers.png", 1920, 1080)
 image table = im.Scale("overlay/table.png", 1920, 1080)
 image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
 image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
