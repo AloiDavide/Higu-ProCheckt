@@ -123,6 +123,15 @@ ck "ha essenzialmente reso la situazione insopportabile, litigando quanto più p
 
 - Check pensa
 
+
+> hb "Ancora ad insinuare che sia stato fatto sparire da qualcuno."  
+>   
+> hb "È la stessa storia con Satoshi, solo congetture e nulla di concreto. Questi ipocriti continuano a dire che era un bravo ragazzo, amava così tanto la sorella che non la avrebbe mai abbandonata."  
+>   
+> hb "Ti dirò io, anche senza i Sonozaki di mezzo è più che probabile che se la sia semplicemente svignata per non essere catturato dalla polizia."  
+>   
+> hb "Oppure, beh è posseduto anche lui! Non che tu possa saperlo finchè non andiamo a controllare la prospettiva sua."
+
 ... Per quanto sia doloroso criticarla... era naturale che questo comportamento avrebbe causato un disastro. Naturalmente era estremamente giovane, ma, probablimente senza rendersene conto... ha sacrificato il futuro di suo fratello.
 
 hb "Hai così poca fiducia in lei? Check, sei diventato spietato."
@@ -148,6 +157,9 @@ hb "Pronto a scoprirlo? Pronto a capitombolare a terra?"
 hb "Il watanagashi è quasi arrivato!"
 
 - Zoom out
+
+
+![[Pasted image 20240402194043.png]]
 
 ## Saved for latern 
 "Venefico come al solito... {w}Eppure ci ha dato un grande aiuto durante il processo. Non oso immaginare come sarebbe finita se Lambdadelta non si fosse convinta."  

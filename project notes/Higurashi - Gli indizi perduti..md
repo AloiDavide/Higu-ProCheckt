@@ -2,11 +2,12 @@
 tags:
   - index
 ---
-[[Crunter read this]]
+
 # Note centrali narrativa
 - ### [[Gioco Bern VS Lambda]]
 - ### [[Gioco Check VS Hanabi]]
 - ### [[tre difese]]
+- ### [[Domande e opinioni di Check]]
 
 # Indici
 - ### [[Catologo musica]]

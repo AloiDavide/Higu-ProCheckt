@@ -10,13 +10,10 @@
 
 
 screen tips():
-    $courtroom_B = im.Scale("thumbnails/courtroom B.jpg", 360, 225)
     $bern_kekkai_B = im.Scale("thumbnails/bern kekkai B.png", 360, 225)
     $fragplane_A = im.Scale("thumbnails/fragplane A.png", 360, 225)
-    $vortex_A = im.Scale("thumbnails/vortex A.png", 360, 225)
-    $vortex_B = im.Scale("thumbnails/vortex B.png", 360, 225)
-    $small_shrine_A = im.Scale("thumbnails/small shrine A.png", 360, 225)
-    $small_shrine_over_B = im.Scale("thumbnails/small shrine over B.png", 360, 225)
+    $damA = im.Scale("thumbnails/damA.png", 360, 225)
+    $dam_overB = im.Scale("thumbnails/dam_overB.png", 360, 225)
 
 
     #312, 195
@@ -29,19 +26,19 @@ screen tips():
         hbox xalign 0.5 yalign 0.5 spacing 30:
 
             imagebutton:
-                tooltip "Allestire la scacchiera"
-                idle fragplane_A
-                hover bern_kekkai_B
+                tooltip "Metodo Socratico"
+                idle damA
+                hover dam_overB
                 action Jump("chessboard0")
 
             imagebutton:
-                tooltip "Allestire la scacchiera"
+                tooltip "Jump to layer 1"
                 idle fragplane_A
                 hover bern_kekkai_B
                 action Jump("chessboard1")
 
             imagebutton:
-                tooltip "Allestire la scacchiera"
+                tooltip "Jump to layer 2"
                 idle fragplane_A
                 hover bern_kekkai_B
                 action Jump("chessboard2")

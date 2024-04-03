@@ -7,6 +7,7 @@ tags:
 - [x] Review
 - [ ] Fix
 
+- [ ] Crystal ball
 
 Consegna: Inizio 1983
 
