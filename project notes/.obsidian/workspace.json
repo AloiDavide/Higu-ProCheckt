@@ -9,7 +9,7 @@
         "dimension": 73.76160990712074,
         "children": [
           {
-            "id": "cb494dfad8f8259b",
+            "id": "27393b58ae99824b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -22,12 +22,25 @@
             }
           },
           {
+            "id": "cb494dfad8f8259b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Gomakashi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6f1f313eebe59991",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Magia socratica.md",
+                "file": "Gioco Check VS Hanabi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,38 +87,25 @@
             }
           },
           {
+            "id": "0f15ffcf84aa6df2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Domande e opinioni di Check.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "9b98ec528a4d2827",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Taccuino.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c0e36310ce3c3239",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "27393b58ae99824b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Kabetaoshi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -151,8 +151,7 @@
               }
             }
           }
-        ],
-        "currentTab": 10
+        ]
       },
       {
         "id": "3f0f77f4c89f18c6",
@@ -165,7 +164,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Bernkastel.md",
+                "file": "Todo generale.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -188,7 +187,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8854988630067221,
+                  "scale": 0.8854988630067224,
                   "close": true
                 }
               }
@@ -261,7 +260,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Bernkastel.md",
+                "file": "Todo generale.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -278,7 +277,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Bernkastel.md",
+                "file": "Todo generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -301,7 +300,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Bernkastel.md"
+                "file": "Todo generale.md"
               }
             }
           }
@@ -323,25 +322,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47cf31e935f0d205",
+  "active": "27393b58ae99824b",
   "lastOpenFiles": [
-    "Hound e Crunter.md",
-    "Magia Socratica - layer 1.md",
+    "Taccuino.md",
     "Magia Socratica - layer 2.md",
-    "Magia Socratica - layer 0.md",
+    "Domande e opinioni di Check.md",
     "Todo generale.md",
     "Kabetaoshi.md",
-    "Higurashi - Gli indizi perduti..md",
+    "Magia Socratica - layer 0.md",
+    "Pasted image 20240402231040.png",
+    "Magia Socratica - layer 1.md",
     "Scaletta Gomakashi.md",
-    "Taccuino.md",
+    "Gioco Check VS Hanabi.md",
+    "Pasted image 20240402205927.png",
+    "Pasted image 20240402205909.png",
+    "Pasted image 20240402205754.png",
+    "Magia socratica.md",
+    "Pasted image 20240402194557.png",
+    "Higurashi - Gli indizi perduti..md",
+    "Pasted image 20240402194232.png",
+    "Pasted image 20240402194043.png",
+    "Bernkastel.md",
+    "Hound e Crunter.md",
     "Gomakashi.md",
     "Catologo musica.md",
-    "Magia socratica.md",
     "Terry.md",
     "Menu.md",
     "Lambdadelta.md",
     "Hanyuu.md",
-    "Bernkastel.md",
     "desktop.ini",
     "Crunter read this.md",
     "asset mancanti.md",
@@ -349,9 +357,6 @@
     "taccuini.md",
     "Che cazzo fa Hanyuu.md",
     "Crunter notes.md",
-    "Gioco Bern VS Lambda.md",
-    "piano di Takano.md",
-    "tre difese.md",
     "Pasted image 20240322223017.png",
     "Pasted image 20240322221853.png",
     "Untitled.canvas",

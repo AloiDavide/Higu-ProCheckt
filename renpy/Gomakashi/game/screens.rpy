@@ -273,7 +273,7 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
-default notes = True
+default notes = False
 
 style quick_button is default
 style quick_button_text is button_text
@@ -417,25 +417,15 @@ screen main_menu():
 
     $postit_a = im.Scale("overlay/postit_a.png",100,100)
     $postit_b = im.Scale("overlay/postit_b.png",400,400)
-    imagebutton:
-        xalign 0.05
-        yalign 0.55
+    #imagebutton:
+    #    xalign 0.05
+    #    yalign 0.55
 
-        idle postit_a
-        hover postit_b
+    #    idle postit_a
+    #    hover postit_b
 
-        tooltip "a"
-        action NullAction()
-
-    imagebutton:
-        xalign 0.05
-        yalign 0.75
-
-        idle postit_a
-        hover postit_b
-
-        tooltip "a"
-        action NullAction()
+    #   tooltip "a"
+    #    action NullAction()
 
     imagebutton:
         xalign 0.05

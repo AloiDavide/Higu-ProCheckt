@@ -341,6 +341,10 @@ init:
                 "sprites/hb/mouths/sneer0.png"
             attribute grin:
                 "sprites/hb/mouths/grin0.png"
+            attribute evilgrin:
+                "sprites/hb/mouths/grin0.png"
+            attribute devil:
+                "sprites/hb/mouths/grin0.png"
 
             attribute yep_talk:
                 "hb_yep_talk"
@@ -353,7 +357,11 @@ init:
             attribute sneer_talk:
                 "hb_sneer_talk"
             attribute grin_talk:
+                "hb_yepper_talk"
+            attribute evilgrin_talk:
                 "hb_sneer_talk"
+            attribute devil_talk:
+                "hb_devil_talk"
 
 
     image hb_yep_talk:
@@ -388,6 +396,13 @@ init:
         "sprites/hb/mouths/sneer1.png"
         .2
         "sprites/hb/mouths/sneer2.png"
+        .2
+        repeat
+
+    image hb_devil_talk:
+        "sprites/hb/mouths/yep2.png"
+        .2
+        "sprites/hb/mouths/grin2.png"
         .2
         repeat
 
@@ -606,7 +621,7 @@ define ck = Character("Check", who_color = "#780000", what_style= "wide", who_st
 define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["straight"]))
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
-define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin"]))
+define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
 define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
 define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
@@ -688,5 +703,8 @@ image oni_frag = im.Scale("frags/oni fragment.png", 1920, 1080)
 image oni_prop = im.Scale("frags/oni fragment alpha.png", 1920, 1080)
 image check_prop = im.Scale("frags/check fragment alpha.png", 1920, 1080)
 
+
 image lamb black = im.Scale("sprites/lambda siluett.png", 640, 1080)
 image lamb blackB= im.Scale("sprites/lambda siluett B.png", 640, 1080)
+
+image crystalball = "frags/crystalball.png"

@@ -1,28 +1,33 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scenes/magia_socratica.rpy", line 528, in script
-    scene basement2 onlayer underlayer with PushMove(0.5 'pushright')
-SyntaxError: invalid syntax (game/scenes/magia_socratica.rpy, line 528)
+  File "game/assets.rpy", line 710, in script
+    image crystalball = "frags/crystalball.png", 1920, 1080
+  File "game/assets.rpy", line 710, in script
+    image crystalball = "frags/crystalball.png", 1920, 1080
+Exception: Not a displayable: ('frags/crystalball.png', 1920, 1080)
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scenes/magia_socratica.rpy", line 528, in script
-    scene basement2 onlayer underlayer with PushMove(0.5 'pushright')
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 1654, in execute
-    paired = renpy.python.py_eval(self.paired)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\python.py", line 1081, in py_eval
-    code = py_compile(code, 'eval')
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\python.py", line 1018, in py_compile
-    raise e
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\python.py", line 970, in py_compile
-    raise orig_e
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\python.py", line 963, in py_compile
-    tree = compile(source, filename, py_mode, ast.PyCF_ONLY_AST | flags, 1)
-SyntaxError: invalid syntax (game/scenes/magia_socratica.rpy, line 528)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\bootstrap.py", line 274, in bootstrap
+    renpy.main.main()
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\main.py", line 558, in main
+    renpy.game.context().run(node)
+  File "game/assets.rpy", line 710, in script
+    image crystalball = "frags/crystalball.png", 1920, 1080
+  File "/home/tom/ab/renpy-build/tmp/install.linux-x86_64/lib/python3.9/site-packages/future/utils/__init__.py", line 441, in raise_
+  File "game/assets.rpy", line 710, in script
+    image crystalball = "frags/crystalball.png", 1920, 1080
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 1234, in execute
+    renpy.exports.image(self.imgname, img)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 327, in image
+    d = renpy.easy.displayable(d)
+  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\easy.py", line 140, in displayable
+    raise Exception("Not a displayable: %r" % (d,))
+Exception: Not a displayable: ('frags/crystalball.png', 1920, 1080)
 
 Windows-10-10.0.19045 AMD64
 Ren'Py 8.0.2.22081402
 Higurashi: Gli indizi perduti - Meakashi 1.0
-Mon Apr  1 01:04:38 2024
+Wed Apr  3 01:54:28 2024

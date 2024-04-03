@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/magia_socratica.rpy", line 562: Line is followed by a block, despite not being a menu choice. Did you forget a colon at the end of the line?
-    "Capelli verdi non era posseduta, ma non mentiva."
-                                                      ^
+File "game/scenes/magia_socratica.rpy", line 785: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation.
+    xalign 0.3
+    ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Mon Apr  1 01:32:34 2024
+Wed Apr  3 01:53:48 2024
