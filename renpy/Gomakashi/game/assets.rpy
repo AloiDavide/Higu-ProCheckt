@@ -46,6 +46,7 @@ init:
 
     define flash = Fade(0.1, 0.0, 0.5, color="#fff")
     define purple_flash = Fade(0.1, 0.0, 0.5, color="#7E3FFF")
+    define purple_quick = Fade(0.1, 0.0, 0.1, color="#7E3FFF")
 
 #-------------------
     #CHECK
@@ -244,25 +245,59 @@ init:
 
         group mouth:
             if_all "tilt" at head_tilt
-            attribute straight default:
-                "sprites/la/mouths/straight0.png"
+            attribute nope default:
+                "sprites/la/mouths/nope0.png"
+            attribute smile:
+                "sprites/la/mouths/smile0.png"
+            attribute yep:
+                "sprites/la/mouths/yep0.png"
+            attribute worried:
+                "sprites/la/mouths/worried0.png"
 
-            attribute straight_talk:
-                "straight_talk"
+
+            attribute nope_talk:
+                "nope_talk"
+            attribute smile_talk:
+                "smile_talk"
+            attribute worried_talk:
+                "worried_talk"
+            attribute yep_talk:
+                "yep_talk"
 
         group mouth:
             if_not "tilt"
-            attribute straight default:
-                "sprites/la/mouths/straight0.png"
+            attribute nope:
+                "sprites/la/mouths/nope0.png"
+            attribute smile:
+                "sprites/la/mouths/smile0.png"
+            attribute yep:
+                "sprites/la/mouths/yep0.png"
+            attribute worried:
+                "sprites/la/mouths/worried0.png"
 
-            attribute straight_talk:
-                "straight_talk"
+
+            attribute nope_talk:
+                "lar_nope_talk"
+            attribute smile_talk:
+                "lar_smile_talk"
+            attribute worried_talk:
+                "lar_nope_talk"
+            attribute yep_talk:
+                "lar_smile_talk"
 
 
-    image straight_talk:
-        "sprites/la/mouths/talk1.png"
+
+    image lar_nope_talk:
+        "sprites/la/mouths/nope1.png"
         .2
-        "sprites/la/mouths/talk2.png"
+        "sprites/la/mouths/nope2.1.png"
+        .2
+        repeat
+
+    image lar_smile_talk:
+        "sprites/la/mouths/smile1.png"
+        .2
+        "sprites/la/mouths/smile2.png"
         .2
         repeat
 
@@ -618,7 +653,7 @@ define longerFade = Fade(6,0,4)
 #CHARACTERS
 define n = Character(None, what_style= "wideN")
 define ck = Character("Check", who_color = "#780000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
-define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["straight"]))
+define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
@@ -674,6 +709,10 @@ image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
 image sky = im.Scale("bg/sky.png", 1920, 1080)
 image sky_sunset = im.Scale("bg/sky sunset.png", 1920, 1080)
 image shrine = im.Scale("bg/shrine.png", 1920, 1080)
+image small_shrine = im.Scale("bg/small_shrine.png", 1920, 1080)
+image shrine_sunset = im.Scale("bg/shrine_sunset.png", 1920, 1080)
+image road_sunset = im.Scale("bg/road_sunset.png", 1920, 1080)
+image road_sunset2 = im.Scale("bg/road_sunset2.png", 1920, 1080)
 
 
 

@@ -6,33 +6,30 @@ tags:
 - [x] Implementazione
 - [x] Review
 - [ ] Fix
-
-- [ ] Crystal ball
+- [x] Crystal ball
 
 Consegna: Inizio 1983
 
-Un tip con [[Bernkastel|Bern]] e [[Lambdadelta|Lambda]] che menzionano le [[tre difese]]. 
+Bevendo anziche mentre beve
+lambda ride perchè ha fatto la rima
+Sigh circondato da puntini
 
-Lambda calls out Bern perchè continua a bere. Sono senza fondo perchè è te magico.
+chira mentre parla in piccolo
+Non oserei mai insinuarlo (con sprite chira)
 
+Hai mai pensato di scrivere fantascienza?
+Via di grazia, dentro fammi questo favore
 
-menziona te all'inizio con narrazione
-inverti socrate
+quando dice stai vincendo guarda chira
+pan sugli sfondi al tramonto con orenji 
 
-Mentre sta discutendo sul metodo socratico in grassetto
-numeri in grassetto
-Quella che ancora confonde persino te
+espressione da lasciami spiegare perchè ho vinto sciocca
 
-Check fa invece che farà
-Non posso negarlo invece che devo ammetterlo
-Non ha ancora compreso le sue condizioni di vittoria
-si rende conto della sua condizione di vittoria.
-Se solo notasse la sua condizione di vittoria
-taunt generica di lambda, come ci si sente senza il 100%?
-a capo dopo prendersela
+la cattiveria esce quando incalza bern
+il pout alla fine è giusto
 
-"Siamo avversari dopotutto?" a capo e in grassetto
-more landscape shots before cutting to the sky
+larry e check sono gia nello sfondo
+è finalmente il giorno del watanagashi
 
 ---
 

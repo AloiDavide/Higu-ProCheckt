@@ -1,0 +1,16 @@
+
+body .special_note {
+  
+
+  --accent-h:0;
+  --accent-s:100%;
+  --accent-l:50%;
+  color: yellow;
+}
+
+body {
+  --accent-h:100;
+  --accent-s:100%;
+  --accent-l:50%;
+  color: orange;
+}

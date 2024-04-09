@@ -3,23 +3,34 @@ tags:
   - arc/scene
 ---
 - [x] Scrittura
-- [ ] Implementazione
-	- [ ] sound design
-	- [ ] ost
-	- [ ] facce
-	- [ ] testo
-	- [ ] telecamera
-- [ ] Review
+- [x] Implementazione
+	- [x] sound design
+	- [x] ost
+	- [x] facce
+	- [x] testo
+	- [x] telecamera
+- [x] Review
 - [ ] Fix
 
+Hanabi parte col grin
+Hai dimenticato lo sneed di evato
+Hanabi sparisce da strega
+usa musica detective al posto di fishy aroma
+cambio sound effect
+cambio a objection più pensato per nascondere 
 
-Hanabi gets gigantic
-no mion tornaconto personale, si deve capire che dice una cazzata, cecchino
-pensa il blu
+hb ma guarda che speculazioni
+ck ma queste non sono speculazioni
+una scusa per cambiare vestito, or just call attention to it
+devi richiamare la quote dei film
 
-non dire watanagashi
+muovi night eyes later e riempi il vuoto
+theme of owner per storia strappalacrime
+oppure tieni silence e trascinala un poco
 
-gli imbocca satoshi con massimo una frase
+grin per un frame quando lo chiama spietato
+metti dawn e la fai finire al punto giusto
+
 
 ---
 

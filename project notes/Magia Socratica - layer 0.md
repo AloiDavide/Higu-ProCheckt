@@ -7,8 +7,8 @@ tags:
 - [x] Review
 - [ ] Fix
 
-check worried
-flashback di check e larry emozionale
+altro aneddoto dove recountano rena che brucia la scuola
+Quella volta che un terrorista ha minacciato di 
 
 
 ---

@@ -15,7 +15,7 @@ label chessboard0:
     show sepia onlayer overlayer
     #show layer overlayer
     show clinic_room
-    show larry behind sepia
+    show larry smile behind sepia
 
     with Dissolve(3)
     pause(4)
@@ -35,7 +35,7 @@ label chessboard0:
     pause(6)
 
     scene koya
-    show larry tilt cry at left
+    show larry tilt worried cry at left
     show larry at flip
     show check plain yep at right
     with masterFade
@@ -74,7 +74,7 @@ label chessboard0:
 
     stop music fadeout(2)
     scene forest_path
-    show larry
+    show larry nope
     #with flash
     with Pixellate(2.5,5)
     #$notes=True
@@ -120,13 +120,13 @@ label chessboard0:
 
     n "Ho letto una rivista per turisti prima di partire, a quanto pare questo villaggio è \"un paradiso rurale immerso nella tradizione\"."
 
-    show check yep
-    n "Chiaramente si sono dimenticati di scrivere che la tradizione prevede fare a pezzi gli stranieri e darli in pasto ai demoni."
+    show check angry
+    n "CHIARAMENTE si sono dimenticati di scrivere che la tradizione prevede fare A PEZZI gli stranieri e darli in pasto ai DEMONI."
 
 
-    show check at flip:
+    show check -angry at flip:
         ease 2 offscreenleft
-    show larry:
+    show larry yep:
         ease 2 center
 
     pause 2
@@ -147,7 +147,7 @@ label chessboard0:
     scene dam
     show check plain fp at left
     show check at flip
-    show larry at right
+    show larry smile at right
     with Dissolve(1)
 
     la "Wow. {w}Non c'è anima viva, è veramente un cantiere abbandonato."
@@ -155,16 +155,18 @@ label chessboard0:
     show larry focus notes tilt
     la "Il sito è abbandonato da quasi 5 anni. Eppure I macchinari sono ancora posizione, come se dovessero riprendere i lavori a momenti."
 
-    show larry -tilt -focus
-    ck "Ufficialmente il progetto per la diga è andato in stallo a tempo indeterminato. {w}Se non hanno ancora fatto smantellare tutto è solo per provare a salvare la faccia."
+    show larry -tilt -focus yep
+    ck "Ufficialmente il progetto per la diga è andato in stallo a tempo indeterminato. {w}Se non hanno ancora fatto smantellare tutto è solo per salvare la faccia."
 
-    la "Menomale. Un posto come questo non meritava di finire in fondo a un lago."
+    la "L'ha visto anche lei quel panorama dalla collina. Un posto come questo non meritava di finire in fondo a un lago."
 
-    la "Dopo che ho visto quel panorama, non mi sorprende che i cittadini abbiano fatto di tutto per salvare le loro case."
+    la "È comprensibile che che i cittadini fossero disposti a tutto per salvare le loro case."
 
     show check nope
+    show larry nope
     ck "Tuttavia, il silenzio in questo cantiere si basa sul sangue versato di un civile."
 
+    show check yep
     ck "....O almeno così sembrerebbe a giudicare dalle fonti ufficiali."
 
     la "Vuole dire che non è così?"
@@ -175,6 +177,7 @@ label chessboard0:
 
     ck "Non è difficile immaginare che tipo di \"argomentazione\" gli sia stata mossa contro."
 
+    show check nope
     la "Ma allora come si spiega il caso del capocantiere?"
 
     ck "Potrebbe trattarsi di semplice vendetta, o dell'inizio di un disegno più complesso.{w} Fatto sta che non è giustificabile neanche come ultimo atto di disperazione."
@@ -182,45 +185,59 @@ label chessboard0:
     la "C'è una possibilità che questo omicidio e quelli successivi siano scollegati? {w}Voglio dire, pure la polizia li sta trattando come casi separati."
 
     show check angry
-    ck "Larry, pensi davvero che per {b}pura coincidenza{/b} ci possano essere un omicidio e una sparizione lo stesso giorno per quattro anni di fila?"
+    show larry worried
+    ck "Larry, pensi davvero che per PURA COINCIDENZA ci possano essere un omicidio e una sparizione lo STESSO giorno per quattro anni di fila?"
 
     ck "Tutte le vittime erano riconducibili a dei nemici del villaggio o potenziali ficcacaso."
 
-    ck "Qualcuno con {b}MOLTA{/b} influenza sta tirando le fila, non c'è altra spiegazione."
+    ck "È chiaro che qualcuno con MOLTA influenza sta tirando le fila."
 
     show check -angry
 
 
     la "Capito...."
 
-    show larry worried
+    show larry scared
     stop music fadeout 10
     la "Un momento. {w}Non siamo in pericolo anche noi allora?"
     show check yep
-    play music "audio/higu/shadow.mp3" fadein 5
+    play music "audio/higu/sunrise.mp3" fadein 5 #or shadow or daily passing by
     ck "Frena l'ansia ragazzo. {w}Siamo stati in situazioni ben peggiori."
+    show larry -scared
 
-    ck "Ricordi quando ci siamo dovuti infiltrare in un gruppo di criminali che pianificavano una rapina?"
+    ck "Ricordi quando ci siamo dovuti infiltrare in un gruppo di criminali che pianificavano una rapina? Quelli con i nomi in codice."
 
+    show larry nope
     la "Quando sospettavano che ci fosse una talpa stavo per andare nel panico, ma lei ha tenuto il sangue freddo."
 
     ck "O quella volta che sulle tracce di uno scienziato pazzo siamo stati catturati dal suo ragno mutante?"
 
-    la "Ho ancora incubi di quel giorno, non so come ne sarei uscito senza il suo aiuto."
+    show check sus
+    ck "A ripensarci probabilmente era solo un automa molto realistico."
 
-    ck "Tu pensa a prendere gli appunti, in cambio io mi assicurerò di rendere la missione un successo."
+    show check -sus
+    show larry yep
+    la "Ho ancora gli incubi di quel giorno, non so come ne sarei uscito senza il suo aiuto."
 
-    show check calling smile
+    la "Però la missione più memorabile è stata quando una ragazza ha preso in ostaggio la sua classe minacciando di far saltare la scuola in aria."
 
+    ck "Solo un pazzo penserebbe di rienpire i tubi dell'acqua di benzina. {w}Ma anche quella volta abbiamo portato a termine l'incarico senza intoppi."
+
+    show check smile
+
+    ck "Perciò Larry, tu pensa soltanto a prendere gli appunti, in cambio io mi assicurerò di rendere la missione un successo."
+
+    show check calling yep
     ck "Una volta che avremo smascherato il marcio di questo villaggio e ristabilito i contatti con il quartier generale, potremo richiedere un intervento diretto."
 
     ck "Fino ad allora basterà mantenere un basso profilo."
 
+    show larry smile
     la "Ma certo, mi scusi stavo per dubitare di lei."
 
-    la "Non riusciranno mai ad accorgersi di noi, non con lei al capo della missione. {w}Non c'è nulla di cui preoccuparci."
+    la "Non riusciranno mai ad accorgersi di noi, non con lei sull'attenti. {w}Non c'è nulla di cui preoccuparsi."
     stop music fadeout 5
-    ck "Ben detto Larry, assolutamente nulla di che preoccuparci."
+    ck "Ben detto Larry, assolutamente nulla di che preoccuparsi."
 
     stop music
     play sound "audio/sfx/glass crack.mp3"
@@ -236,7 +253,7 @@ label chessboard1:
     play sound "audio/sfx/teleport.wav"
     show check sor fp worried at left
     show check at flip
-    show hnb yepper fury at right
+    show hnb grin fury at right
     with squares
 
 
@@ -253,7 +270,7 @@ label chessboard1:
 
 
     show check yep
-    ck "Hanabi... cominciavo a pensare che non saresti più uscito da quella buca. Heheha."
+    ck "Hanabi... cominciavo a pensare che non ti saresti più ripreso da quella caduta. Heheha."
 
     show hnb nope
     hb "Ugggh."
@@ -277,7 +294,7 @@ label chessboard1:
     show check angry shout:
         linear 0.2 zoom 1.8 ypos 1.7
 
-    show hnb -finger nope ohno:
+    show hnb -finger grin:
         linear 0.2 zoom 0.6
 
     camera at sshake
@@ -285,26 +302,24 @@ label chessboard1:
 
     extend "STAI ZITTO DUE MINUTI e mi lasci riflettere!?"
 
+    stop music fadeout 5
+    play sound "audio/sfx/laugh.mp3"
+    pause 1
+
     play sound "audio/sfx/teleport.wav"
     hide hnb with squares
 
     #Check to center stage
     show check nope -angry:
         ypos 1.7
-        ease 1 center zoom 1
+        ease 2 center zoom 1
 
-    pause 1
+    pause 3
 
 
 
-    menu:
-        'vento':
-            play music "audio/sfx/wind.mp3"
-        'musica':
-            play music "audio/umi/suspicion.mp3"
-        'entrambi':
-            play music "audio/umi/suspicion.mp3"
-            play sound "audio/sfx/wind.mp3"
+    play music "audio/sfx/wind.mp3" fadein 5 #or suspicion
+
 
 
 
@@ -319,7 +334,7 @@ label chessboard1:
     with dissolve
 
 
-    n "No, non questa capelli verdi."
+    n "...No, non questa capelli verdi."
 
 
     scene shion_bento onlayer underlayer with dissolve
@@ -344,16 +359,19 @@ label chessboard1:
     scene hinamizawa onlayer underlayer with dissolve
     n "Nonostante le provocazioni di Hanabi mi sento molto più sicuro di me stesso{w}, ma ancora non ho chiaro al 100\% nè il reale svolgimento degli eventi, nè come funzioni la cospirazione davvero."
 
+
     n "Forse è ancora presto per fare teorie... {p}No. {w}Non posso più essere passivo come prima."
+    stop music fadeout 3
+
 
     show check:
-        ease 1 left
+        ease 1.5 left
     show hnb:
         offscreenright
-        ease 1 right
+        ease 1.5 right
 
-    play music "audio/umi/fishy aroma.mp3"
-
+    pause 2.5
+    play music "audio/umi/suspicion.mp3" fadein 4
     hb "Con calma grande detective. Vuoi anche una tazza di tè? {w}In fondo quelli con un limite di tempo siete tu e la tua strega, non noi."
 
     show hnb cigar
@@ -363,37 +381,45 @@ label chessboard1:
 
     ck "Il modo per quadrare il cerchio è ovvio, è inutile girarci attorno. Si tratta della famiglia Sonozaki."
 
-    hb "Un complotto? Ma davvero Check? {w}Penso che tu abbia visto troppi film, il mondo non è così conveniente..."
+    hb "Un complotto? Ma davvero Check? "
 
-    stop music fadeout 3
+    play sound "audio/sfx/short doon.mp3"
+    extend "Penso che tu abbia visto troppi film, il mondo non è così conveniente..."
+
     show hnb -cigar nope
     show check angry
 
-    ck "Conveniente un corno! Tutto torna."
-    play music "audio/umi/core.mp3" fadein 5
-
-    menu:
-        "pointing finger":
-            show check objection at pointing
-        "save it for later":
-           $pass
+    ck "Conveniente un CORNO! Tutto torna."
 
 
-    play sound "audio/sfx/damage.mp3"
+    show check objection at pointing with purple_quick
+
+    play sound "audio/sfx/short doon.mp3"
+
+    #play sound "audio/sfx/damage.mp3"
     ck "Mantengono il controllo sulla popolazione del villaggio e dintorni per propagare le antiche usanze religiose di Hinamizawa!"
 
     scene shrine onlayer underlayer with dissolve
-    play sound "audio/sfx/damage2.mp3"
+    #play sound "audio/sfx/damage2.mp3"
     ck "Sfruttano le credenze locali per creare un clima di oppressione, dove chiunque metta in dubbio la loro autorità e quella di Oyashiro-sama è il nemico."
 
-    play sound "audio/sfx/damage.mp3"
+    #play sound "audio/sfx/damage.mp3"
     ck "Adesso sappiamo anche quanto siano spietati persino con i membri della stessa famiglia, e quanto ci tengono alla segretezza!"
 
     scene police onlayer underlayer with dissolve
-    play sound "audio/sfx/damage2.mp3"
+    #play sound "audio/sfx/damage2.mp3"
     ck "E non è tutto. Hanno infiltrato la polizia, e perfino la politica! Sono riusciti a opporsi al governo con minacce e rapimenti per contrastare il progetto della diga!"
 
-    show check think -objection at reset
+    show hnb yep
+    hb "Ti sei proprio affezionato alla divisa da avvocato eh? Abbastanza cringe se chiedi a me."
+
+    show check -objection at reset
+
+    show hnb fury grin
+    hb "Quasi quanto la tua speculazione."
+
+    show hnb -fury sneer
+    show check think
     ck "Questa non è speculazione, ho vissuto in prima persona delle indagini per quel caso."
 
     show check -think
@@ -401,15 +427,18 @@ label chessboard1:
 
 
     scene sonozroom onlayer underlayer with dissolve
-    show hnb cigar
+    show hnb cigar yep
 
-    hb "Senza prove concrete tutte le tue teorie sono come fumo al vento."
+    hb "Puoi basare le tue accuse sulle circostanze quanto vuoi. {w}Senza prove concrete tutte le tue teorie restano fumo al vento."
 
     hb "Parli del rapimento come un dato di fatto, ma puoi essere certo che I Sonozaki fossero veramente coinvolti?"
 
+    stop music fadeout 3
     ck "........."
 
     show check -angry smile
+
+    play music "audio/umi/core.mp3" fadein 5
 
     ck "Hahaheheha. Bel tentativo, Hanabi."
 
@@ -420,9 +449,9 @@ label chessboard1:
 
     show check yep
     ck "Quando i rapitori sono stati costretti alla fuga, sai di chi hanno fatto il nome? "
-    play sound "audio/sfx/damage2.mp3"
+    play sound "audio/sfx/strike.mp3"
     camera at sshake
-    show check angry objection at pointing
+    show check angry objection at pointing with purple_quick
     extend "Nientemeno che i Sonozaki!"
 
     show check -angry -objection at reset
@@ -444,8 +473,8 @@ label chessboard1:
     ck "Lei che sappiamo essere presente a tutti gli incontri dei vertici del villaggio, ma incapace di influenzarli."
 
     play sound "audio/sfx/strike.mp3"
-    show check angry objection at pointing
-
+    show check angry objection at pointing with purple_quick
+    camera at sshake
     ck "Rika Furude è una prova vivente che qualcuno ha orchestrato gli omicidi!"
 
     show check -angry -objection at reset
@@ -469,7 +498,7 @@ label chessboard1:
 
 
     play sound "audio/sfx/strike.mp3"
-    show check smile objection at pointing
+    show check smile objection at pointing with purple_quick
 
     camera at sshake
     ck "Mion stessa ha confessato! {p}Si è seduta di fronte a Rena e Keichi e ha parlato con parole chiare!"
@@ -490,31 +519,29 @@ label chessboard1:
     hb "........."
 
 
-    menu:
-        'system zero':
-            play music "audio/umi/system zero.mp3" fadein 7
-        'nighteyes':
-            play music "audio/umi/nighteyes.mp3"
-        'miragecoordinator':
-            play music "audio/umi/miragecoordinator.mp3"
-
     show hnb grin -cigar
     show check nope
-    hb "Hanananana! Hai un idea di prova davvero debole. Quell'argomentazione è piena di buchi."
 
+    hb "Hanananana! Hai un idea di prova davvero debole. Quell'argomentazione è piena di buchi."
+    play music "audio/umi/suspicion.mp3" fadein 3
     show hnb yep
     hb "Usa un attimo il cervello e immagina... E se qualcuno avesse tentato di incastrare i Sonozaki? {w}E se l'informatore avesse malinterpretato le parole di Oryou?"
 
     hb "E se mion stesse mentendo sotto minaccia? {w}Magari c'era un cecchino appostato fuori tutto il tempo pronto a sparare."
 
     show check yep
-    ck "E hai il coraggio di chiamare la mia una teoria del complotto? {w}Penso che tu abbia visto troppi film Hanabi. Il mondo non è così conveniente."
+    ck "E hai il coraggio di chiamare la mia una teoria del complotto? "
+    play sound "audio/sfx/short doon.mp3"
+    extend"Penso che tu abbia visto troppi film Hanabi. Il mondo non è così conveniente."
+
 
     hb "Mhhhhhhh. Aspetta, ho io una bella spiegazione per te..."
 
+    play music "audio/umi/nighteyes.mp3" fadein 3
 
+    show hnb grin
     hb "E se Mion fosse posseduta..."
-    show hnb fury grin fist
+    show hnb fury fist
     show check angry nope
     play sound "audio/sfx/zbiin.ogg"
     extend "COME LEI STESSA HA CONFESSATO DI ESSERE???!!!"
@@ -524,7 +551,7 @@ label chessboard1:
     hb "Non dirmi che hai dimenticato tutti i suoi comportamenti incoerenti. {w}I cambi di personalità improvvisi! {w}I suoi episodi maniaci e impulsivi!"
 
 
-    show hnb -fist
+    show hnb -fist sneer
     hb "Ammettilo, non lo puoi spiegare!"
 
     scene sisters onlayer underlayer
@@ -579,7 +606,8 @@ label chessboard1:
         linear 0.7 xalign 0.2
         linear 0.3 offscreenleft
 
-    extend ''
+
+    extend ""
 
     hide hnb
     show basement2 onlayer underlayer
@@ -595,7 +623,7 @@ label chessboard1:
 
     n "No! Non può essere questa la risposta! {w}Se viene fuori che è tutto davvero opera dei demoni non avremo modo per controbattere. {w}Ci DEVE essere un altra spiegazione!"
 
-    n "Quella è la soluzione che tutti cercano palesemente di far passare per vera a tutti i costi. {w}Mi rifiuto di darla per scontata!"
+    n "Quella è la soluzione che tutti cercano a palesemente di far passare per vera. {w}Mi rifiuto di darla per scontata!"
 
     show check -angry nope
     stop music fadeout 5
@@ -606,9 +634,9 @@ label chessboard1:
     play music "audio/umi/haruka.mp3" fadein 4
     n "Se la memoria non mi inganna... Ricordo di avere già discusso quella scena."
 
-    n "Quella volta che ho ricevuto degli indizi da Bern, le chiesi delle parole di Mion!"
+    n "Quella volta che ho ricevuto degli indizi da Bern le chiesi delle parole di Mion."
 
-    n "Devo solo ricordare quello che mi ha risposto!"
+    n "Devo solo ricordare l'indizio che mi ha dato!"
 
 label remember:
     menu:
@@ -622,7 +650,7 @@ label remember:
             jump remember
         "Capelli verdi non era posseduta, ma non mentiva.":
             show check -think yep
-            n "Ma certo. Ricordo perfettamente!"
+            n "Ma certo. Ora ricordo perfettamente!"
 
 
     show fragplane with Dissolve(1.5)
@@ -660,7 +688,7 @@ label remember:
     pause 1
 
     play music "audio/sfx/cicadas.ogg"
-    ck "Torna quì non abbiamo ancora finito."
+    ck "TORNA QUA non abbiamo ancora finito."
 
     n "Hanabi mi lancia uno sguardo sorpreso, probabilmente non si aspettava che mi riprendessi così in fretta."
 
@@ -669,34 +697,29 @@ label remember:
 
     hb "Avanti, prova a spiegare il comportamento di Mion se ne sei in grado."
 
-    menu:
-        "dawn":
-            play music "audio/higu/dawn.mp3"
-        "(the song called) silence":
-            play music "audio/higu/silence.mp3"
-        "days of children":
-            play music "audio/higu/days of children remake.mp3"
+
+    play music "audio/higu/days of children remake.mp3"
     show check nope
-    ck "Sono d'accordo con te sul fatto che non sia per niente normale. Ci sono momenti in cui le sue opinioni sembrano andare contro la tradizione, e ci sono momenti in cui sembra più pazza che calcolatrice."
+    ck "Sono d'accordo con te sul fatto che non sia per niente normale. {w}Ci sono momenti in cui le sue opinioni sembrano andare contro la tradizione, e ci sono momenti in cui sembra più pazza che calcolatrice."
 
     ck "Accetterei una spiegazione sovrannaturale se fosse l'unica possibile, ma non lo è."
 
-    ck "La risposta più probabile è un severo indottrinamento!"
+    ck "La risposta più probabile è un severo indottrinamento."
 
     ck "Mion è stata cresciuta per essere l'erede della famiglia, probabilmente le è stato inculcato che in loro scorre sangue demoniaco da prima che imparasse a camminare."
 
-    ck "Tuttavia, non è qualcosa che avrebbero potuto fare alla luce del sole. Devono pur sempre mantenere un'apparenza di normalità. {p}Quindi capelli verdi ha sempre dovuto vivere una doppia vita."
+    ck "Tuttavia, non è qualcosa che avrebbero potuto fare alla luce del sole. {w}Devono pur sempre mantenere un'apparenza di normalità. {p}Quindi capelli verdi ha sempre dovuto vivere una doppia vita."
 
-    ck "La sua pazzia è scatenata dalla dissonanza cognitiva tra la se stessa capofamiglia, baluardo delle regole del villaggio, e la se stessa normale adolescente, amica di Satoko e Satoshi."
+    ck "La sua pazzia è scatenata dalla dissonanza cognitiva tra la se stessa capofamiglia, baluardo delle regole del villaggio, {w}e la se stessa normale adolescente, amica di Satoko e Satoshi."
 
     ck "In questa condizione estrema, deve essersi convinta di avere un demone dentro di se, con cui giustifica le azioni orribili che si aspettano da lei."
 
     stop music fadeout 8
-    hb "Ma che bella fanfiction strappalacrime."
     show hnb yep
-    play music "audio/sfx/cicadas.ogg"
+    hb "Ma che bella fanfiction strappalacrime, sono quasi commosso. "
 
     hb "E va bene, se questa è la tua teoria staremo a vedere chi ha ragione."
+    play music "audio/sfx/cicadas.ogg" fadein 5
 
     show check yep
     ck "C'è un motivo per cui ho scelto questo frammento."
@@ -710,13 +733,8 @@ label remember:
 
     ck "Non so se lo abbiamo aiutato a nascondersi o se se ne siano sbarazzati, ma è impossibile che non ne sappiano nulla."
 
-    menu:
-        "dawn":
-            play music "audio/higu/dawn.mp3"
-        "(the song called) silence":
-            play music "audio/higu/silence.mp3"
-        "days of children":
-            play music "audio/higu/days of children remake.mp3"
+    play music "audio/higu/dawn.mp3"
+
 
     show check nope
     ck "Mentre per il motivo del delitto... c'è una spiegazione più semplice. Per quanto non mi piaccia per niente."
@@ -729,13 +747,14 @@ label remember:
 
     ck "Agendo in modo egoista, probablimente capelli biondi ha sacrificato il futuro di suo fratello senza rendersene conto..."
 
-    show hnb yep
+    show hnb grin
     hb "Mammamia Check, non ti ricordavo così spietato. {w}Daresti la colpa a una povera bambina orfana e maltrattata?"
 
     show check angry
+    show hnb nope
     ck "Spietato?! {w}I sentimenti non sono null' altro che un impiccio durante un'indagine. {w}Non mi piace e non mi deve piacere, ma è un errore farsi distrarre dalle proprie emozioni."
 
-    hb "Ti stai facendo distrarre dalla tua paranoia. Stai dubitando un innocente perchè non sei in grado di trovare altre spiegazioni."
+    hb "L'unica cosa che ti distrae è la tua paranoia. Stai dubitando un innocente perchè non sei in grado di trovare altre spiegazioni."
 
     ck "Questo lo dici tu!"
 
@@ -749,10 +768,13 @@ label remember:
 
     hb "Tanto lavoro per una bambina di una famiglia senza nessuna importanza? Ma fammi il piacere."
 
+    stop music fadeout 3
+    play music "audio/sfx/cicadas.ogg" fadein 5
     show check -angry
-    ck "Bene, allora che ne dici di seguire Rena quando avremo finito quì?"
 
-    hb "Volentieri. Hananana. {w}Ma non prima che ti avrò mostrato quanto torto hai su Mion. {w}Vedrai, al prossimo round ti avrò in lacrime."
+    ck "Vabene, allora quando avremo finito quì seguiremo rena e vedremo chi ha ragione!"
+    show hnb yepper
+    hb "Accetto volentirei la sfida. Hananana. {w}Ma non prima che ti avrò mostrato quanto torto hai su Mion. {w}Vedrai, al prossimo round ti avrò in lacrime."
 
     show check angry
     ck "Ti aspetterò affilando le mie asce, Hanabi."
@@ -767,9 +789,6 @@ label remember:
     pause 1
 
 
-    'erase this text'
-    'and this'
-
 label chessboard2:
     scene hinamizawa
     show check plain at center
@@ -782,6 +801,11 @@ label chessboard2:
     #show check_prop at truecenter:
         #zoom 0.2
 
+    #camera:
+        #zoom 7
+        #xalign 0.488 yalign 0.50
+
+
     show crystalball:
         xalign 0.28 yalign 0.66
         zoom 0.3
@@ -790,16 +814,14 @@ label chessboard2:
         zoom 7
         xalign 0.28 yalign 0.64
 
-    #camera:
-        #zoom 7
-        #xalign 0.488 yalign 0.50
+
 
 
     with ImageDissolve(im.Scale("mask_center.png", 1920, 1080), time=1)
 
 
     bk "Un metodo dialettico d'indagine filosofica basato sul dialogo..."
-    n "Asserisce Bernkastel con un tono colto, mentre beve un altro sorso di tè."
+    n "Asserisce Bernkastel con tono colto, bevendo un altro sorso di tè."
 
     camera:
         easeout_quad 1.5 zoom 1
@@ -814,7 +836,7 @@ label chessboard2:
     with squares
 
 
-    bk "Un dibattito volto a stabilire chi tra loro due può sostenere le sue asserzioni su cosa spiega gli eventi di Hinamizawa... Non proprio adatto a Check, devo dire."
+    bk "Un dibattito volto a stabilire la validità dell'interpretazione di Check riguardo gli eventi di Hinamizawa... Non proprio adatto a lui, devo dire."
 
     ld "Come un pesce fuor d'acqua, il suo fallimento sarà inevitabile! {w}Hey che ne dici, prepariamo del sushi stasera?"
 
@@ -827,22 +849,23 @@ label chessboard2:
     ld "Socrachi? Che c'entra adesso? Non cercare di cambiare argomento."
 
     show lamb cat -frown
-    ld "Fatto sta che Check è spacciato. Cotto e mangiato! {w}E ho fatto anche la rima."
+    ld "Fatto sta che Check è spacciato. Cotto e mangiato! {w}Ahahahaha."
 
     ld "E vuoi sapere perchè? Vuoi saperlo? Vuoi saperlo?"
 
     show bern chira
-    bk "Sigh"
+    bk "...Sigh..."
 
     show bern yoko
     bk "...Si Lambda, voglio sapere perchè."
 
-    show lamb fury smirk
+    show lamb unhappy smirk
 
     ld "Perchè le mie tre barriere sono inattaccabili!"
 
     ld "Tu che ne hai già individuate due dovresti capire meglio di chiunque altro quanto siano fuori dalla sua portata."
 
+    show lamb surprise yep
     ld "Abbiamo la barriera numero {b}1{/b}:"
     play sound "audio/sfx/truth.mp3"
     ld "{color=#ffe674}{b}L'inganno dei Sonozaki!{/b}{/color}"
@@ -856,25 +879,30 @@ label chessboard2:
     bk "Che nomi inutilmente complicati."
 
 
-    show lamb evil
+    show lamb unhappy yep
     ld "E per finire, anche se per un miracolo riuscisse a passare oltre, ad aspettarlo sarà la barriera più possente di tutte."
     ld "Quella che ancora confonde persino te!"
     ld "Barriera numero {b}3{/b}:"
 
     play sound "audio/sfx/truth.mp3"
+    show lamb surprise smirk
     ld "{color=#ffe674}{b}La certezza di Lambdadelta!{/b}{/color}, Ahahahahahahahaha!"
 
-    show lamb fury smirk
+
     ld "Allora Bern, riesci a sentire la tua sconfitta? La tua pedina ti è stata strappata di mano, e il tuo re è quasi esausto."
-    ld "Ormai è incredibilmente distante da te, l' unica similitudine rimane alla radice. Siete praticamente due persone diverse."
-
-    n "Bernkastel solleva la tazzina verso le sue labbra per bere un ulteriore sorso."
-    bk "Non posso negarlo, ora come ora Check fa ancora fatica a districarsi tra le regole di questo mondo."
-
-    bk "{size=16}Dopotutto non ha ancora notato la condizione di vittoria davanti ai suoi occhi...{/size}"
+    ld "Ormai è incredibilmente distante da te. Siete praticamente due entità diverse, unite solo alla radice."
 
     show lamb yep defa
-    ld "Mhh? Che cosa hai detto? Ripeti non ho sentito."
+    n "Bernkastel solleva la tazzina verso le sue labbra per bere un ulteriore sorso."
+    bk "Non posso negarlo, ora come ora Check fa ancora fatica a districarsi tra le regole di questo mondo. \n"
+
+    show bern chira
+    extend "{size=24}Dopotutto non ha ancora notato la condizione di vittoria davanti ai suoi occhi...{/size}"
+
+    show lamb frown pout
+    show bern yoko
+    ld "Se lo sai allora potresti anche disperarti un po di più, renderebbe il tutto più divertente."
+
 
     bk "Chissà, magari sono estremamente fiduciosa della vittoria di Check. Incredibilmente scaltro come è, non potrebbe mai fallire."
 
@@ -891,40 +919,49 @@ label chessboard2:
     show lamb smugclose yep
     ld "Non intelligente quanto me, è chiaro."
 
-    bk "E chi mai oserebbe insinuarlo..."
+    show bern chira
+    bk "Non oserei mai insinuarlo..."
 
-    show lamb frown pout
-    ld "Ma non ci provare, non ti lascerò cambiare argomento questa volta."
+    show bern yoko
+    show lamb evil smirk
+    play sound "audio/sfx/zbiin.ogg"
 
+    ld "Non ci provare, non ti lascerò cambiare argomento questa volta."
+
+    show lamb mad
     ld "Quindi Rika sarebbe talmente intelligente da essere al corrente, alla tenera età di 5 anni, di tutto quello che accadrà in futuro? {w}Persino gli elementi imprevedibili come l'omicidio della zia?"
 
     ld "Potrei quasi sospettare che ci sia una ragione, un qualche trucco meschino, grazie al quale lei riesce ad appropriarsi di informazioni che non le appartengono!"
 
-    bk "Che pensiero curioso da avere. Hai mai pensato di scrivere un giallo?"
+    bk "Che pensiero curioso da avere. Hai mai pensato di fare la scrittrice?"
 
     show lamb nag tantrum
     ld "Vuota il sacco! stai barando! Come mai Rika sa tutte quelle cose!? Mi devi rispondere hai capito!?"
 
-    show lamb unhappy
+    show lamb worried
     bk "Lambda, nel tuo stesso gioco non sai come mai una pedina si comporti in un certo modo? Un bel fallimento da parte tua, per quanto mi riguarda."
 
-    bk "Evita di dare a me la colpa delle tue mancanze, di grazia."
+    bk "Fammi questo favore, evita di dare a me la colpa delle tue mancanze."
 
-    show lamb pout
 
     n "Bernkastel beve l'ennesimo sorso dalla sua tazza di tè dalla capienza apparentemente illimitata."
 
     bk "Non c' è bisogno di prendersela. {p}Sarò onesta con te, non ci sono io di mezzo."
 
+    show lamb fury smirk
     ld "Ed io dovrei crederti? Se sei tanto sicura perchè non lo ripeti in blu Bern?"
 
     bk "Non so Lambda. Forse mi piace tenerti nel dubbio."
 
+
     bk "Detto chiaro e tondo, perché mai, anche se io sapessi la risposta, dovrei riferirla a te? {p}{b}{i}Siamo avversari dopo tutto.{/i}{/b}"
 
-    bk "E, d'altronde... tu stai già vincendo in maniera così schiacciante... {w}In questo contesto dove nonostante io tenti di ribellarmi ho già praticamente perso, che bisogno avresti di questa informazione che potrei avere o no."
+    show lamb unhappy yep
+    show bern chira
+    bk "E, d'altronde... tu stai già vincendo in maniera così schiacciante..."
 
-    show lamb yep unhappy
+    show bern yoko
+    bk "In questo contesto dove nonostante io tenti di ribellarmi ho già praticamente perso, che bisogno avresti di questa informazione che potrei avere o no."
 
     ld "Humpf! Ben detto!"
 
@@ -935,6 +972,7 @@ label chessboard2:
     ld "Vedremo per quanto ancora avrai la volontà di continuare."
 
     stop music fadeout(1)
+    play sound "audio/sfx/teleport.wav"
     hide bern
     hide lamb
     with squares
@@ -951,32 +989,58 @@ label chessboard2:
 
     play sound "audio/sfx/teleport.wav"
     scene hinamizawa_sunset
-    show stop_time
-    show check angry nope fp at center
+
+
+    show check plain fp at left
     show check at flip
+
+    show larry yep at right
+
+    show stop_time
+
+    show check angry nope fp at flip as sorcheck:
+        center
+
 
     camera:
         zoom 1
 
+
     with ImageDissolve(im.Scale("mask_center.png", 1920, 1080), time=1, reverse =True)
-    pause 2
+    pause 1
+
+    n "Buona fortuna voi due... ne avrete bisogno."
+
+    n "Io ho la mia battaglia a cui pensare e al momento non posso aiutarvi, ma tenete duro."
 
     play sound "audio/sfx/teleport.wav"
 
-    show check plain -angry yep at left
-    show larry at right
+    hide sorcheck
     hide stop_time
     with purple_flash
 
     pause 1
 
 
-    ck "Il sole sta calando Larry, torniamo al nascondiglio e riposiamo. {w}Ti voglio sveglio domani."
+    ck "Il sole sta calando Larry, torniamo al nascondiglio e riposiamo."
+
+
 
     #please do a fade instead
-    scene sky_sunset with PushMove(2,'pushdown')
+    scene small_shrine with Dissolve(1.5)
+    ck "Ti voglio sveglio domani."
+    scene shrine_sunset with Dissolve(1.5)
 
-    ck "Dopotutto domani, {w}è il fantomatico giorno del Watanagashi."
+    la "Sissignore signor comandante."
+    scene road_sunset with Dissolve(1.5)
+
+    ck "Non possiamo permetterci di abbassare la guardia."
+    scene road_sunset2 with Dissolve(1.5)
+
+    ck "Dopotutto domani..."
+    scene sky_sunset with Dissolve(1.5)#PushMove(2,'pushdown')
+
+    ck "È il famigerato giorno del Watanagashi."
 
     show black with Dissolve(10)
 
