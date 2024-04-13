@@ -78,8 +78,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eb0382f964fbcffa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "bugfix.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "9717257f6e211f40",
@@ -164,7 +178,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo generale.md",
+                "file": "bugfix.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -181,7 +195,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo generale.md",
+                "file": "bugfix.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +218,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo generale.md"
+                "file": "bugfix.md"
               }
             }
           }
@@ -226,11 +240,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a7b8dec8a5e60335",
+  "active": "eb0382f964fbcffa",
   "lastOpenFiles": [
-    "Magia Socratica - layer 2.md",
-    "Todo generale.md",
     "Magia Socratica - layer 1.md",
+    "Magia Socratica - layer 2.md",
+    "bugfix.md",
+    "Todo generale.md",
     "desktop.ini",
     "Kabetaoshi.md",
     "Scaletta Gomakashi.md",

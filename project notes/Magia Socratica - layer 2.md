@@ -5,7 +5,7 @@ tags:
 - [x] Scrittura
 - [x] Implementazione
 - [x] Review
-- [ ] Fix
+- [x] Fix
 - [x] Crystal ball
 
 Consegna: Inizio 1983

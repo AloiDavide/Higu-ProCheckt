@@ -1,4 +1,5 @@
 
+[[bugfix]]
 
 - [x] Capire come mettere il postit fuori dalle palle
 - [x] Dividere la repository in branch gomakashi (main) e branch con tutti gli archi

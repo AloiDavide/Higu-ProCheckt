@@ -409,10 +409,10 @@ screen main_menu():
 
         null height 30
 
-        textbutton 'Taccuino':
+        textbutton 'Esci': #eventually taccuino
             style "menu_buttons"
             text_style "menu_text"
-            action Start()
+            action Quit()
 
 
     $postit_a = im.Scale("overlay/postit_a.png",100,100)

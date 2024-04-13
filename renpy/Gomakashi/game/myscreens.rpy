@@ -31,17 +31,17 @@ screen tips():
                 hover dam_overB
                 action Jump("chessboard0")
 
-            imagebutton:
-                tooltip "Jump to layer 1"
-                idle fragplane_A
-                hover bern_kekkai_B
-                action Jump("chessboard1")
-
-            imagebutton:
-                tooltip "Jump to layer 2"
-                idle fragplane_A
-                hover bern_kekkai_B
-                action Jump("chessboard2")
+#            imagebutton:
+#                tooltip "Jump to layer 1"
+#                idle fragplane_A
+#                hover bern_kekkai_B
+#                action Jump("chessboard1")
+#
+#            imagebutton:
+#                tooltip "Jump to layer 2"
+#                idle fragplane_A
+#                hover bern_kekkai_B
+#                action Jump("chessboard2")
 
 
 
