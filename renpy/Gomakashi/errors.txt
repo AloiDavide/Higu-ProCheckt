@@ -2,45 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/magia_socratica.rpy", line 145: end of line expected.
-(Perhaps you left out a ' at the end of the first line.)
-    ck "Mmhh? Il bosco sembra finire quì. {w}"Mi sa che ci siamo. Dev'essere questo il posto.""
-                                              ^
-    
-    
-    
-        scene dam
-        show check plain fp at left
-        show check at flip
-        show larry smile at right
-        with Dissolve(1)
-    
-        la "Wow. {w}Non c'è anima viva, è veramente un cantiere abbandonato."
-    
-        show larry focus notes tilt
-        la "Il sito è abbandonato da quasi 5 anni. Eppure I macchinari sono ancora posizione, come se dovessero riprendere i lavori a momenti."
-    
-        show larry -tilt -focus yep
-        ck "Ufficialmente il progetto per la diga è andato in stallo a tempo indeterminato. {w}Se non hanno ancora fatto smantellare tutto è solo per salvare la faccia."
-    
-        la "L'ha visto anche lei quel panorama dalla collina. Un posto come questo non meritava di finire in fondo a un lago."
-    
-        la "È comprensibile che che i cittadini fossero disposti a tutto per salvare le loro case."
-    
-        show check nope
-        show larry nope
-        ck "Tuttavia, il silenzio in questo cantiere si basa sul sangue versato di un civile."
-    
-        show check yep
-        ck "....O almeno così sembrerebbe a giudicare dalle fonti ufficiali."
-    
-        la "Vuole dire che non è così?"
-    
-        ck "Pare che la decisione di fermare i lavori fosse già stata presa prima dell'omicidio del capocantiere."
-    
-        ck "Dopo avere ignorato le proteste per mesi, il ministro delle costruzioni ha semplicemente fatto dietro front, senza fornire una spiegazione, e cercando di attirare meno attenzione possibile."
-    
-        ck "Non è difficile immaginare che tipo di \"argomentazione\" gli sia stata mossa contro."
+File "game/screens.rpy", line 243: 'define' is not a keyword argument or valid child for the screen statement.
+    define fuuck = MoveTransition(2.0, enter=offscreenright, enter_time_warp=_warper.easein)
+          ^
 
 Ren'Py Version: Ren'Py 8.0.2.22081402
-Tue Apr  9 23:30:51 2024
+Sun Apr 21 00:25:54 2024

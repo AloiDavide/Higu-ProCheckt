@@ -77,7 +77,7 @@ label chessboard0:
     show larry nope
     #with flash
     with Pixellate(2.5,5)
-    #$notes=True
+    $notes=True
 
 
 
@@ -702,7 +702,7 @@ label remember:
     hb "Avanti, prova a spiegare il comportamento di Mion se ne sei in grado."
 
 
-    play music "audio/higu/days of children remake.mp3"
+    play music "audio/higu/theme of owner.mp3"
     show check nope
     ck "Sono d'accordo con te sul fatto che non sia per niente normale. {w}Ci sono momenti in cui le sue opinioni sembrano andare contro la tradizione, e ci sono momenti in cui sembra più pazza che calcolatrice."
 
@@ -783,7 +783,7 @@ label remember:
     play music "audio/sfx/cicadas.ogg" fadein 5
     show check -angry
 
-    ck "Vabene, allora quando avremo finito quì seguiremo rena e vedremo chi ha ragione!"
+    ck "Vabene, allora quando avremo finito quì seguiremo anche Rena e vedremo chi ha ragione!"
     show hnb yepper
     hb "Accetto volentirei la sfida. Hananana. {w}Ma non prima di averti  mostrato quanto torto hai su Mion. {w}Vedrai, al prossimo round ti avrò in lacrime."
 

@@ -13,8 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personaggi.md",
+                "file": "Taccuino.md",
                 "mode": "source",
+                "backlinks": true,
                 "source": false
               }
             }
@@ -85,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Personaggi.md",
+            "file": "Taccuino.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Personaggi.md",
+            "file": "Taccuino.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -114,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Personaggi.md"
+            "file": "Taccuino.md"
           }
         }
       }
@@ -133,6 +134,12 @@
   },
   "active": "e6469a3739721685",
   "lastOpenFiles": [
+    "Taccuino Topics.md",
+    "Taccuino Entries.md",
+    "Taccuino Development.md",
+    "notes topics.md",
+    "Taccuino.md",
+    "Personaggi.md",
     "Higurashi - Gli indizi perduti..md",
     "Apparecchiare la scachhiera.md",
     "Untitled",

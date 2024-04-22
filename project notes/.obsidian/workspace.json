@@ -8,20 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6a63fdaeb3edef50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Magia Socratica - layer 0.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a7b8dec8a5e60335",
+            "id": "e99d45658452b74c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,12 +21,51 @@
             }
           },
           {
-            "id": "55fbb1729b0d9fac",
+            "id": "2cde8dd538c82a7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kabetaoshi.md",
+                "file": "Taccuino.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "580187a08b00f7b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3084725dec8aa969",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Entries.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "60a7fde898da8ced",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Topics.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,59 +86,7 @@
             }
           }
         ],
-        "currentTab": 1
-      },
-      {
-        "id": "987617ff8b1915ea",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "0a3db5692760bf8a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Magia Socratica - layer 1.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eb0382f964fbcffa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "bugfix.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "9717257f6e211f40",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "28384cad986a9d49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Magia Socratica - layer 2.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +152,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "bugfix.md",
+                "file": "Taccuino Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -195,7 +169,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "bugfix.md",
+                "file": "Taccuino Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -218,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "bugfix.md"
+                "file": "Taccuino Development.md"
               }
             }
           }
@@ -240,27 +214,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "eb0382f964fbcffa",
+  "active": "580187a08b00f7b3",
   "lastOpenFiles": [
-    "Magia Socratica - layer 1.md",
-    "Magia Socratica - layer 2.md",
-    "bugfix.md",
+    "Taccuino.md",
+    "Scaletta Gomakashi.md",
+    "Taccuino Topics.md",
     "Todo generale.md",
+    "Taccuino Development.md",
+    "Taccuino Entries.md",
+    "~syncthing~Taccuino.md.tmp",
+    "~syncthing~notes topics.md.tmp",
+    "notes topic.md",
+    "Magia Socratica - layer 0.md",
+    "Magia socratica.md",
+    "Magia Socratica - layer 1.md",
+    "bugfix.md",
+    "Magia Socratica - layer 2.md",
     "desktop.ini",
     "Kabetaoshi.md",
-    "Scaletta Gomakashi.md",
     "Higurashi - Gli indizi perduti..md",
-    "Magia Socratica - layer 0.md",
     "css test/Lambda land.md",
     "css test",
-    "Taccuino.md",
     "Domande e opinioni di Check.md",
     "Gioco Check VS Hanabi.md",
     "Pasted image 20240402231040.png",
     "Pasted image 20240402205927.png",
     "Pasted image 20240402205909.png",
     "Pasted image 20240402205754.png",
-    "Magia socratica.md",
     "Pasted image 20240402194557.png",
     "Pasted image 20240402194232.png",
     "Pasted image 20240402194043.png",
@@ -273,10 +253,6 @@
     "Lambdadelta.md",
     "Hanyuu.md",
     "Crunter read this.md",
-    "asset mancanti.md",
-    "Personaggi.md",
-    "taccuini.md",
-    "Che cazzo fa Hanyuu.md",
     "Pasted image 20240322223017.png",
     "Pasted image 20240322221853.png",
     "Untitled.canvas",

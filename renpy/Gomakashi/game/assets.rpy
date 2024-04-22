@@ -732,6 +732,7 @@ image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
 image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
 image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
+image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
 
 #FRAGMENTS

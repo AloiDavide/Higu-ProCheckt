@@ -240,14 +240,14 @@ style choice_button_text is default:
 screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
-
+    $fuuck = Fade(0.2,0,0.2)
     if notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
-            action Jump('chessboard0')
+            action ToggleScreen("taccuino", transition=fuuck)
 
     if quick_menu:
 
@@ -273,7 +273,7 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
-default notes = False
+default notes = True
 
 style quick_button is default
 style quick_button_text is button_text
@@ -369,7 +369,7 @@ screen main_menu():
 
     add gui.main_menu_background
 
-
+    $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
     vbox xalign 0.72 yalign 0.06:
         add "gui/HiguLogo.png"
@@ -399,6 +399,13 @@ screen main_menu():
             style "menu_buttons"
             text_style "menu_text"
             action Start()
+
+        null height 30
+
+        textbutton 'Taccuino':
+            style "menu_buttons"
+            text_style "menu_text"
+            action ToggleScreen("taccuino", transition=easeinbottom)
 
         null height 30
 
