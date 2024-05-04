@@ -1,5 +1,10 @@
 init: #styles
 
+    style note_titles:
+        outlines [(1, "#000")]
+        color "#000"
+        hover_color "#00D915"
+        size 35
 
     style menu_text:
         outlines [(1, "#000")]

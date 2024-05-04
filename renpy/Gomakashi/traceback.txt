@@ -1,36 +1,42 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 17, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-TypeError: MoveTransition() missing 1 required positional argument: 'delay'
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 531, in script
+    python hide:
+  File "renpy/common/00keymap.rpy", line 531, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 17, in script
-    call screen tips
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 2232, in execute
-    self.call("execute")
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ast.py", line 2220, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\statements.py", line 281, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 609, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\exports.py", line 3174, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\ui.py", line 299, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 3377, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs) # type: ignore
-  File "C:\Users\david\OneDrive\Desktop\higu proCheckt\renpy-8.0.2-sdk\renpy\display\core.py", line 3746, in interact_core
-    trans = self.ongoing_transition[None](
-TypeError: MoveTransition() missing 1 required positional argument: 'delay'
+  File "renpy/common/00start.rpy", line 216, in script call
+    call _load_reload_game from _call__load_reload_game_1
+  File "renpy/common/00keymap.rpy", line 531, in script
+    python hide:
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00keymap.rpy", line 531, in <module>
+    python hide:
+  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
+    renpy.load(renpy.session["_reload_slot"])
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\loadsave.py", line 829, in load
+    log.unfreeze(roots, label="_after_load")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 1130, in unfreeze
+    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 925, in rollback
+    self.load_failed()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 843, in load_failed
+    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
+Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
 
-Windows-10-10.0.19045 AMD64
-Ren'Py 8.0.2.22081402
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Sun Apr 21 00:21:49 2024
+Sun May  5 00:54:10 2024

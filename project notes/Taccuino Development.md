@@ -1,7 +1,6 @@
 ### Presentation
-- When called it shows a custom screen in overlay with one or two pages of a notebook.
-	- [ ] Make it less dark!
-- You can navigate to a topic by hitting the bookmarks that pop up on hover. Every page falls inside one of the [[Taccuino Topics]].
+- When called it shows a custom screen in overlay with a notebook (closed by default)
+- You can navigate to a topic by clicking the bookmarks that pop out on hover. Every page falls inside one of the [[Taccuino Topics]].
 - Selecting a topic takes you to its index page, where you see just the titles of all the questions in a neat grid.
 - You click on any of them to expand them.
 - Arrows on both sides at the bottom flip the pages.
@@ -12,13 +11,16 @@
 - All pages have this layout: 
 	- Title (big)
 	- Details
-	- Horizontal separation
-	- Answer (initially blank, can change multiple times).
+	- Horizontal separator
+		- some kind of line
+	- Answer
+		- Initially blank
+		- Can change multiple times
 
-### Python part
+### Implementation
 - A json contains all the pages.
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
-- Every time the taccuino is called, the script reads the json file and makes a ==Taccuino== object.
+- Every time the taccuino is called, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
 
 #### Json structure
 ```Taccuino

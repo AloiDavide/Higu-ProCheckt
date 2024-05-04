@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 243: 'define' is not a keyword argument or valid child for the screen statement.
-    define fuuck = MoveTransition(2.0, enter=offscreenright, enter_time_warp=_warper.easein)
-          ^
+File "game/Taccuino.rpy", line 23: 'default_focus' is not a keyword argument or valid child of the screen statement.
+    default_focus 99
+                 ^
 
-Ren'Py Version: Ren'Py 8.0.2.22081402
-Sun Apr 21 00:25:54 2024
+Ren'Py Version: Ren'Py 8.2.1.24030407
+Sun May  5 00:46:36 2024

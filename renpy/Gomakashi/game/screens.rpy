@@ -240,14 +240,14 @@ style choice_button_text is default:
 screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
-    $fuuck = Fade(0.2,0,0.2)
+
     if notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
-            action ToggleScreen("taccuino", transition=fuuck)
+            action ToggleScreen("taccuino", transition=easeinbottom)
 
     if quick_menu:
 
@@ -368,8 +368,6 @@ screen main_menu():
     tag menu
 
     add gui.main_menu_background
-
-    $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
     vbox xalign 0.72 yalign 0.06:
         add "gui/HiguLogo.png"

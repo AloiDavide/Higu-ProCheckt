@@ -20,13 +20,26 @@ python:
 
 
 screen taccuino():
-    $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
+
+    python:
+        taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
+
+        #max 8 per page
+        titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit"]
 
     add taccuino_overlay
     #play multiple pages flipping sound
 
-    textbutton 'Taccuino':
-        style "menu_buttons"
-        text_style "menu_text"
-        action ToggleScreen("taccuino", transition=easeoutbottom)
+
+    vbox:
+
+        yalign 0
+        xalign 0.3
+        spacing 50
+        null height 50
+        for t in titles:
+            textbutton t:
+                default_focus 10
+                text_style "note_titles"
+                action ToggleScreen("taccuino", transition=easeoutbottom)
