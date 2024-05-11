@@ -11,3 +11,8 @@ Combattimento con Check.
 Quando arriva allo schermo dei tip l'ultima volta non puo scegliere e viene forzatamente portato alla scena di espulsione.
 
 Lambda aveva preparato una qualche trappola che li fa sparire entrambi ma fa la finta tonta con Bern.
+
+## Tsumi interno
+Inizio con Check che parla a Larry di Hanabi nostalgicamente.
+
+In tsumi utilizzano conoscenza meta e l'aiuto di Hanabi per cercare di ingannare i loro nemici.

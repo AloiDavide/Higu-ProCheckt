@@ -1,42 +1,68 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
-    python hide:
-  File "renpy/common/00keymap.rpy", line 531, in <module>
-    python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "renpy/common/00action_other.rpy", line 586, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/Taccuino.rpy", line 3, in test
+    renpy.say(n, "Who called?")
+Exception: Cannot start an interaction in the middle of an interaction, without creating a new context.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/00start.rpy", line 216, in script call
-    call _load_reload_game from _call__load_reload_game_1
-  File "renpy/common/00keymap.rpy", line 531, in script
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
     python hide:
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
     renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
     exec(bytecode, globals, locals)
-  File "renpy/common/00keymap.rpy", line 531, in <module>
+  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
     python hide:
-  File "renpy/common/00keymap.rpy", line 542, in _execute_python_hide
-    renpy.load(renpy.session["_reload_slot"])
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\loadsave.py", line 829, in load
-    log.unfreeze(roots, label="_after_load")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 1130, in unfreeze
-    self.rollback(0, force=True, label=label, greedy=greedy, on_load=True)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 925, in rollback
-    self.load_failed()
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\rollback.py", line 843, in load_failed
-    raise Exception("Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?")
-Exception: Couldn't find a place to stop rolling back. Perhaps the script changed in an incompatible way?
+  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
+    ui.interact()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
+    rv = root_widget.event(ev, x, y, 0)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
+    rv = self.child.event(ev, x, y, st)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
+    rv = i.event(ev, x - xo, y - yo, cst)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
+    return handle_click(self.clicked)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
+    rv = run(action)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
+    return action(*args, **kwargs)
+  File "renpy/common/00action_other.rpy", line 586, in __call__
+    rv = self.callable(*self.args, **self.kwargs)
+  File "game/Taccuino.rpy", line 3, in test
+    renpy.say(n, "Who called?")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
+    display_say(who,
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2134, in interact
+    raise Exception("Cannot start an interaction in the middle of an interaction, without creating a new context.")
+Exception: Cannot start an interaction in the middle of an interaction, without creating a new context.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Sun May  5 00:54:10 2024
+Fri May 10 18:29:47 2024

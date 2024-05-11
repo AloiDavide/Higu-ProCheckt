@@ -1,8 +1,52 @@
 
-Tutti contenuti in uno dei [[Taccuino Topics]]
+## Formato file taccuino
+- Il nome del file è il topic. Ad esempio `Sonozaki.txt`
+- Ogni file contiene un insieme di pagine del taccuino.
+- Ogni pagina è composta da tre sezioni.
+	- Il titolo
+	- La domanda
+	- La risposta
+- Le sezioni di una pagina sono separate da un dash "-"
+- Pagine diverse sono separate da tre dash "---"
+
+Esempio:
+```Sonozaki.txt
+Titolo
+-
+Domanda
+-
+Risposta
+---
+I sonozaki sono cattivi?
+-
+Sembrano proprio dei brutti ceffi, che siano loro i colpevoli?
+-
+No! In realtà non erano cattivi!
+---
+Shion did nothing wrong.
+-
+Shion è una persona lucida e affidabile?
+-
+Ma garda un po' era pazza anche lei.
+```
+![[Sonozaki.txt]]
+## Topics
+I sospetti sui Sonozaki.
+```
+```
+
+I sintomi della maledizione.
+
+La serie di omicidi
+
+La cospirazione del BKG.
+
+
+
+
 
 ## Misteri Wata
-- Keichi inizialmente ha incontrato Mion o Shion?
+- Keiichi inizialmente ha incontrato Mion o Shion?
 - Perchè tutti i cittadini di Hinamizawa si coalizzano per gonfiare i i motociclisti?
 - Perchè Oishi sospetta I Sonozaki così tanto?
 - Cosa vuol dire che Satoshi si è trasferto?

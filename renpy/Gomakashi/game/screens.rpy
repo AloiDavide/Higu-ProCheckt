@@ -247,7 +247,8 @@ screen quick_menu():
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
-            action ToggleScreen("taccuino", transition=easeinbottom)
+            #action ToggleScreen("taccuino", transition=easeinbottom)
+            action Function(test)
 
     if quick_menu:
 
@@ -363,7 +364,6 @@ default persistent.light_novel = False
 
 screen main_menu():
 
-
     ## This ensures that any other menu screen is replaced.
     tag menu
 
@@ -391,19 +391,12 @@ screen main_menu():
             xalign 0.5
             font "static/yuminl.ttf"
 
-        null height 275
+        null height 365
 
         textbutton 'Tocca il frammento':
             style "menu_buttons"
             text_style "menu_text"
             action Start()
-
-        null height 30
-
-        textbutton 'Taccuino':
-            style "menu_buttons"
-            text_style "menu_text"
-            action ToggleScreen("taccuino", transition=easeinbottom)
 
         null height 30
 
@@ -463,8 +456,15 @@ screen main_menu():
             color "#0000cf"
             font "static/Caveat-Bold.TTF"
 
+    if notes:
+        imagebutton:
+            xalign 0.01
+            yalign 0.01
+            idle im.Scale("overlay/notes_icon.png", 50, 50)
+            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            #action ToggleScreen("taccuino", transition=easeinbottom)
+            action Function(test)
 
-        #this is just a webhook
 
     ## This empty frame darkens the main menu.
     frame:

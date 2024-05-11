@@ -1,0 +1,11 @@
+    vbox:
+
+        yalign 0
+        xalign 0.3
+        spacing 50
+        null height 50
+        for t in titles:
+            textbutton t:
+                default_focus 10
+                text_style "note_titles"
+                action ToggleScreen("taccuino", transition=easeoutbottom)

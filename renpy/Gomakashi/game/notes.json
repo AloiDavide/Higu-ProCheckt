@@ -6,14 +6,21 @@
 				{
 				"title":"-title1-",
 				"question":"-question1-",
-				"answer":"-answer1-",
-				"seen":true
+				"answer":[
+					"",
+					"-answer1-"],
+				"seen":true,
+				"display_answer": 0
 				},
 				{
 				"title":"-title2-",
 				"question":"-question2-",
-				"answer":"-answer2-",
-				"seen":false
+				"answer":[
+					"",
+					"-answer2-",
+					"Trueanswer2"],
+				"seen":false,
+				"display_answer": 1
 				}
 			]
 		},

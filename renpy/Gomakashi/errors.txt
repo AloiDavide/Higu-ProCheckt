@@ -2,9 +2,8 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 23: 'default_focus' is not a keyword argument or valid child of the screen statement.
-    default_focus 99
-                 ^
+File "game/Taccuino.rpy", line 3: invalid syntax
+    import
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun May  5 00:46:36 2024
+Fri May 10 18:58:51 2024

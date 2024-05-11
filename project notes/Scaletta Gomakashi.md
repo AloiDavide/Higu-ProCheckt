@@ -22,15 +22,22 @@ Keiichi, Rena, Satoshi, e ora anche Shion. Tutti loro sentono le presenze... un 
 - [[Magia Socratica - layer 2]]
 - [[Magia socratica]]
 
+#### Siringa
 
-Inizio 1983
-- Inizialmente sfondo sala riunioni
-- Taunt dove Hanabi dice Mion ammazza Shion guarda che è cattiva
-- Check sospetta capelli gialli.
-
+[[Resa della strega]]
 [[Post siringa]]
+Takano isterica
+- Larry parla con Takano che si comporta in modo isterico.
+- Forshadowing di dopo
 
-
+### Finale
+[[Metarivali ending]]
+[[Check larry ending]]
+Breve introspezione di Bern
+- Vuole vincere tanto
+- Non è felice di questa situazione
+- Fa capire che Bern e Rika sono collegate, duh
+- Rika ha un qualche vantaggio grosso
 
 
 Finale

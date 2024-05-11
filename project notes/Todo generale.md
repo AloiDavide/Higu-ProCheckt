@@ -14,10 +14,7 @@
 
 - ## [[Taccuino]]
 	- [x] Icona di attivazione sempre presente
-	- [ ] Raggiungibile dal menu principale
-	- [ ] Schermata appunti
-	- [ ] Page flip
-	- [ ] Metodo di input semplice
+	- [x] Raggiungibile dal menu principale
 
 - ## [[Music Catalog]]
 	- [ ] 
