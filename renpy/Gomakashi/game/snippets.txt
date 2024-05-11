@@ -9,3 +9,13 @@
                 default_focus 10
                 text_style "note_titles"
                 action ToggleScreen("taccuino", transition=easeoutbottom)
+
+
+
+    #max 8 per page
+    titles = get_pages()
+    pages = split_pages(titles, 8)
+    leftover = len(pages[-1])
+
+    print(pages)
+    print(leftover)

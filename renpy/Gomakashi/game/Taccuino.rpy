@@ -1,13 +1,14 @@
 init python:
     import json
-    import
 
 
-    def test():
-        renpy.return_statement()
+    def show_notebook():
+        renpy.show_screen("taccuino")
+        Taccuino.getTQ().show_index_page()
+
     #for now it returns a list with the titles, eventually with the jsons
-    def get_notes():
-        titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit"]
+    def get_pages():
+        titles = [["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit"], ["tit", "tit", "tit", "tit", "tit", "tit"]]
         return titles
 
     #splits the list into a list of lists, each with the elements of one page
@@ -18,64 +19,50 @@ init python:
         return pages
 
     class Taccuino:
-        current_page = 0
-        current_topic = 0 #MAKE THIS AN ENUM
+        instance = None
 
         def __init__(self, pages):
+            self.current_page = 0
+            self.current_topic = 0 #MAKE THIS AN ENUM
             self.pages = pages
 
-        #signleton
+        #Signleton
         @staticmethod
         def getTQ():
-            pass
+            if Taccuino.instance is None:
+                Taccuino.instance = Taccuino(pages=get_pages())
+
+            return Taccuino.instance
 
         #calls the index screen
-        def show_index_page(page = current_page, topic=current_topic):
+        def show_index_page(self, page = None, topic=None):
+            if page is None: page = self.current_page
+            if topic is None: topic = self.current_topic
+
             fw = False if page == 0 else False
             bw = False if page == len(self.pages)-1 else False
 
-            renpy.show_screen("tq_index_page", tq=self, this_page=self.pages[page_n], forward=fw, backward=bw)
+            renpy.show_screen("tq_index_page", this_page=self.pages[page], forward=fw, backward=bw)
 
-        def turn_index_page(forward: bool):
-            current_page = current_page+1 if forward else current_page-1
+        def turn_index_page(self, forward: bool):
+            self.current_page = self.current_page+1 if forward else self.current_page-1
+            self.show_index_page()
 
 
-
-        def show_topic(topic):
+        def show_topic(self, topic):
             pass
 
 
 
-    import json
-
-
-
-    #max 8 per page
-    titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit"]
-    pages = split_pages(titles, 8)
-    leftover = len(pages[-1])
-
-    print(pages)
-    print(leftover)
+#-----------------------------------------------------------------
 
 screen taccuino():
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
-    $tq = Taccuino.getTQ()
-
     add taccuino_overlay
 
-    tq.show_index_page()
-
 # tq : Taccuino object
-screen tq_index_page(tq, this_page, turns_left, turns_right):
-
+screen tq_index_page(this_page, forward, backward):
 
     grid 2 4:
-        text "a"
-        text "a"
-        text "b"
-        text "b"
-        text "c"
-        text "c"
-        text "d"
-        text "d"
+        for t in this_page:
+            text t

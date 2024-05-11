@@ -2,8 +2,13 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 3: invalid syntax
-    import
+File "game/Taccuino.rpy", line 73: 'tq' is not a keyword argument or valid child of the screen statement.
+    tq.show_index_page()
+      ^
+
+File "game/Taccuino.rpy", line 80: 'fot' is not a keyword argument or valid child of the grid statement.
+    fot t in this_page:
+       ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri May 10 18:58:51 2024
+Sat May 11 12:20:48 2024

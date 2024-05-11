@@ -248,7 +248,7 @@ screen quick_menu():
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
             #action ToggleScreen("taccuino", transition=easeinbottom)
-            action Function(test)
+            action Function(show_notebook)
 
     if quick_menu:
 
