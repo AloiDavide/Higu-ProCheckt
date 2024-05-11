@@ -1,8 +1,3 @@
-init:
-    $ renpy.add_layer('overlayer', above='master')
-    $ renpy.add_layer('underlayer', below='master')
-    define masterFade = { "master" : Fade(2,0,2) }
-
 label chessboard0:
     $notes=False
     play music "audio/higu/short dawn at the end of time.mp3" fadein(8)

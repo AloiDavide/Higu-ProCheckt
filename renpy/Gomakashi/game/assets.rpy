@@ -1,3 +1,9 @@
+init: #LAYERS
+    $ renpy.add_layer('overlayer', above='master')
+    $ renpy.add_layer('underlayer', below='master')
+    #$ renpy.add_layer('notes_layer', above='overlayer')
+    define masterFade = { "master" : Fade(2,0,2) }
+
 init: #styles
 
     style note_titles:
@@ -26,9 +32,10 @@ init: #styles
 init python:
     def head_tilt_func(img):
         return Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
-init:
+
+init: # TRANSFORMS
     $ sshake = Shake((0, 0, 0, 0), 1.0, dist=15)
-init:
+
     transform flip:
         xzoom -1
 
@@ -47,11 +54,126 @@ init:
     image hanabi_objection = Transform("sprites/hb/von karma.png", xoffset=-693)
     image leftdist = Transform("sprites/ck/f_distinctive.png", xoffset=70, yoffset=-30)
 
-
-
     define flash = Fade(0.1, 0.0, 0.5, color="#fff")
     define purple_flash = Fade(0.1, 0.0, 0.5, color="#7E3FFF")
     define purple_quick = Fade(0.1, 0.0, 0.1, color="#7E3FFF")
+
+
+    define longDiss = Dissolve(4)
+    define longerDiss = Dissolve(8)
+    define longFade = Fade(4,0,2)
+    define longerFade = Fade(6,0,4)
+
+
+
+
+
+
+#------------------------------
+#|            IMAGES          |
+#------------------------------
+
+
+image chibimion = "sprites/chibimion.png"
+image oryou = "sprites/oryou.png"
+image evil_mion = "sprites/evil_mion.png"
+image ooishi = "sprites/ooishi.png"
+image rika defa = "sprites/rika defa.png"
+image rika majime = "sprites/rika majime.png"
+image rika niya = "sprites/rika niya.png"
+
+#CGs
+image satokoeat = im.Scale("cg/satokoeat.webp", 1920, 1080)
+image satokopat = im.Scale("cg/satokopat.webp", 1920, 1080)
+image shion_bento = im.Scale("cg/shion bento.webp", 1920, 1080)
+image mion_doll = im.Scale("cg/mion doll.webp", 1920, 1080)
+image mion_jumpscare_phone = im.Scale("cg/mion_jumpscare_phone.webp", 1920, 1080)
+image mion_jumpscare = im.Scale("cg/mion_jumpscare.webp", 1920, 1080)
+image sisters = im.Scale("cg/sisters.webp", 1920, 1080)
+image evil_eyes = im.Scale("cg/evil_eyes.webp", 1920, 1080)
+
+
+#BACKGROUNDS
+image black = im.Scale("bg/black.jpg", 1920, 1080)
+image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
+image purplenoise = im.Scale("bg/purplenoise.png", 1920, 1080)
+image red = im.Scale("bg/red.png", 1920, 1080)
+image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
+image bern_fancy = im.Scale("bg/bern fancy.png", 1920, 1080)
+image bern_kekkai = im.Scale("bg/bern kekkai.png", 1920, 1080)
+image bern_kekkai_closeup = im.Scale("bg/bern kekkai closeup.png", 1920, 1080)
+image vortex = im.Scale("bg/vortex.png", 1920, 1080)
+image sky_frag = im.Scale("bg/sky of frag.png", 1924, 1080)
+image hinamizawa_closeup = im.Scale("bg/hinamizawa closeup.png", 1920, 1080)
+image hinamizawa = im.Scale("bg/hinamizawa.webp", 1920, 1080)
+image hinamizawa_sunset = im.Scale("bg/hinamizawa sunset.webp", 1920, 1080)
+image field = im.Scale("bg/field.png", 1920, 1080)
+image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
+image sonoztearoom = im.Scale("bg/sonoztearoom.png", 1920, 1080)
+image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
+image basement = im.Scale("bg/basement.png", 1920, 1080)
+image basement2 = im.Scale("bg/basement2.png", 1920, 1080)
+image dam = im.Scale("bg/dam.png", 1920, 1080)
+image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
+image torakku = im.Scale("bg/torakku.png", 1920, 1080)
+image koya = im.Scale("bg/koya.png", 1920, 1080)
+image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
+image sky = im.Scale("bg/sky.png", 1920, 1080)
+image sky_sunset = im.Scale("bg/sky sunset.png", 1920, 1080)
+image shrine = im.Scale("bg/shrine.png", 1920, 1080)
+image small_shrine = im.Scale("bg/small_shrine.png", 1920, 1080)
+image shrine_sunset = im.Scale("bg/shrine_sunset.png", 1920, 1080)
+image road_sunset = im.Scale("bg/road_sunset.png", 1920, 1080)
+image road_sunset2 = im.Scale("bg/road_sunset2.png", 1920, 1080)
+
+
+
+#OVERLAYS
+image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
+image welcome = im.Scale("overlay/welcome.png", 1920, 1080)
+image frag_overlay = im.Scale("overlay/frag_overlay70.png", 1920, 1080)
+image frag_lines = im.Scale("overlay/frag_overlay0.png", 1920, 1080)
+image stop_time = im.Scale("overlay/stop time.png", 1920, 1080)
+image witch_flowers = im.Scale("overlay/witch_flowers.png", 1920, 1080)
+image table = im.Scale("overlay/table.png", 1920, 1080)
+image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
+image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
+image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
+image debris = im.Scale("overlay/debris.png", 1920, 1080)
+image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
+
+
+#FRAGMENTS
+image meakashi_frag = im.Scale("frags/meakashi fragment.png", 1920, 1080)
+image meakashi_prop = im.Scale("frags/meakashi fragment alpha.png", 1920, 1080)
+image hima_frag = im.Scale("frags/hima fragment.png", 1920, 1080)
+image hima_prop = im.Scale("frags/hima fragment alpha.png", 1920, 1080)
+image tatari_prop = im.Scale("frags/tatari fragment alpha.png", 1920, 1080)
+image wata_frag = im.Scale("frags/wata fragment.png", 1920, 1080)
+image wata_prop = im.Scale("frags/wata fragment alpha.png", 1920, 1080)
+image oni_frag = im.Scale("frags/oni fragment.png", 1920, 1080)
+image oni_prop = im.Scale("frags/oni fragment alpha.png", 1920, 1080)
+image check_prop = im.Scale("frags/check fragment alpha.png", 1920, 1080)
+
+
+image lamb black = im.Scale("sprites/lambda siluett.png", 640, 1080)
+image lamb blackB= im.Scale("sprites/lambda siluett B.png", 640, 1080)
+
+image crystalball = "frags/crystalball.png"
+
+
+# CHARACTERS
+define n = Character(None, what_style= "wideN")
+define ck = Character("Check", who_color = "#780000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
+define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
+define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
+define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b", "noflap"]))
+define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
+define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
+define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
+define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
+
+init:
 
 #-------------------
     #CHECK
@@ -653,107 +775,6 @@ style white_border is text:
     outlines [(2, "#fff", 1, 1)]
 
 
-define longDiss = Dissolve(4)
-define longerDiss = Dissolve(8)
-define longFade = Fade(4,0,2)
-define longerFade = Fade(6,0,4)
-
-
-#CHARACTERS
-define n = Character(None, what_style= "wideN")
-define ck = Character("Check", who_color = "#780000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
-define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
-define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
-define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b", "noflap"]))
-define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
-define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
-define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
-define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
-
-
-image chibimion = "sprites/chibimion.png"
-image oryou = "sprites/oryou.png"
-image evil_mion = "sprites/evil_mion.png"
-image ooishi = "sprites/ooishi.png"
-image rika defa = "sprites/rika defa.png"
-image rika majime = "sprites/rika majime.png"
-image rika niya = "sprites/rika niya.png"
-
-#CGs
-image satokoeat = im.Scale("cg/satokoeat.webp", 1920, 1080)
-image satokopat = im.Scale("cg/satokopat.webp", 1920, 1080)
-image shion_bento = im.Scale("cg/shion bento.webp", 1920, 1080)
-image mion_doll = im.Scale("cg/mion doll.webp", 1920, 1080)
-image mion_jumpscare_phone = im.Scale("cg/mion_jumpscare_phone.webp", 1920, 1080)
-image mion_jumpscare = im.Scale("cg/mion_jumpscare.webp", 1920, 1080)
-image sisters = im.Scale("cg/sisters.webp", 1920, 1080)
-image evil_eyes = im.Scale("cg/evil_eyes.webp", 1920, 1080)
-
-
-#BACKGROUNDS
-image black = im.Scale("bg/black.jpg", 1920, 1080)
-image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
-image purplenoise = im.Scale("bg/purplenoise.png", 1920, 1080)
-image red = im.Scale("bg/red.png", 1920, 1080)
-image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
-image bern_fancy = im.Scale("bg/bern fancy.png", 1920, 1080)
-image bern_kekkai = im.Scale("bg/bern kekkai.png", 1920, 1080)
-image bern_kekkai_closeup = im.Scale("bg/bern kekkai closeup.png", 1920, 1080)
-image vortex = im.Scale("bg/vortex.png", 1920, 1080)
-image sky_frag = im.Scale("bg/sky of frag.png", 1924, 1080)
-image hinamizawa_closeup = im.Scale("bg/hinamizawa closeup.png", 1920, 1080)
-image hinamizawa = im.Scale("bg/hinamizawa.webp", 1920, 1080)
-image hinamizawa_sunset = im.Scale("bg/hinamizawa sunset.webp", 1920, 1080)
-image field = im.Scale("bg/field.png", 1920, 1080)
-image sonozroom = im.Scale("bg/sonozroom.png", 1920, 1080)
-image sonoztearoom = im.Scale("bg/sonoztearoom.png", 1920, 1080)
-image sonozakitchen = im.Scale("bg/sonozakitchen.png", 1920, 1080)
-image basement = im.Scale("bg/basement.png", 1920, 1080)
-image basement2 = im.Scale("bg/basement2.png", 1920, 1080)
-image dam = im.Scale("bg/dam.png", 1920, 1080)
-image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
-image torakku = im.Scale("bg/torakku.png", 1920, 1080)
-image koya = im.Scale("bg/koya.png", 1920, 1080)
-image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
-image sky = im.Scale("bg/sky.png", 1920, 1080)
-image sky_sunset = im.Scale("bg/sky sunset.png", 1920, 1080)
-image shrine = im.Scale("bg/shrine.png", 1920, 1080)
-image small_shrine = im.Scale("bg/small_shrine.png", 1920, 1080)
-image shrine_sunset = im.Scale("bg/shrine_sunset.png", 1920, 1080)
-image road_sunset = im.Scale("bg/road_sunset.png", 1920, 1080)
-image road_sunset2 = im.Scale("bg/road_sunset2.png", 1920, 1080)
 
 
 
-#OVERLAYS
-image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
-image welcome = im.Scale("overlay/welcome.png", 1920, 1080)
-image frag_overlay = im.Scale("overlay/frag_overlay70.png", 1920, 1080)
-image frag_lines = im.Scale("overlay/frag_overlay0.png", 1920, 1080)
-image stop_time = im.Scale("overlay/stop time.png", 1920, 1080)
-image witch_flowers = im.Scale("overlay/witch_flowers.png", 1920, 1080)
-image table = im.Scale("overlay/table.png", 1920, 1080)
-image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
-image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
-image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
-image debris = im.Scale("overlay/debris.png", 1920, 1080)
-image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
-
-
-#FRAGMENTS
-image meakashi_frag = im.Scale("frags/meakashi fragment.png", 1920, 1080)
-image meakashi_prop = im.Scale("frags/meakashi fragment alpha.png", 1920, 1080)
-image hima_frag = im.Scale("frags/hima fragment.png", 1920, 1080)
-image hima_prop = im.Scale("frags/hima fragment alpha.png", 1920, 1080)
-image tatari_prop = im.Scale("frags/tatari fragment alpha.png", 1920, 1080)
-image wata_frag = im.Scale("frags/wata fragment.png", 1920, 1080)
-image wata_prop = im.Scale("frags/wata fragment alpha.png", 1920, 1080)
-image oni_frag = im.Scale("frags/oni fragment.png", 1920, 1080)
-image oni_prop = im.Scale("frags/oni fragment alpha.png", 1920, 1080)
-image check_prop = im.Scale("frags/check fragment alpha.png", 1920, 1080)
-
-
-image lamb black = im.Scale("sprites/lambda siluett.png", 640, 1080)
-image lamb blackB= im.Scale("sprites/lambda siluett B.png", 640, 1080)
-
-image crystalball = "frags/crystalball.png"

@@ -6,23 +6,43 @@
 
 ### UI
 - [x] main menu still uses corner button
-- [ ] Fix the mouse focus problem
+- [ ] Fix the mouse focus problem ⏫ 
+- [ ] Review generale estetica alla fine 🔽 
+- [ ] Decide on transitions
+	- Maybe blinds for page turn and pixellate for topic change and entering specific page
 
-### Pagination
+### Topic indices
+- [ ] Add bookmarks imagebuttons to the side
+- [ ] Handle the division
+
+### Index Pagination
 Maybe it does make sense after all to keep objects for the book
 
-- [ ] Design object
-- [ ] implement methods
+- [x] Design object
+- [x] implement methods
 
-- [ ] Read and show many titles from list
-- [ ] Implement page change until list is over
-	- [ ] add buttons images
-	- [ ] display based on number of items.
-### Reading the data
+- [x] Read and show many titles from list
+- [x] Implement page change until list is over
+	- [x] add page buttons images
+	- [x] display them dynamically
+	- [x] clicking the page button calls the right method.
+	- [x] It shows the new screen and hides the old one
+### Making and reading the data
 - [x] Make  a mock json
 - [ ] Read and show titles from json
+- [ ] Make the titles imagebuttons
 - [ ] Reorder all our notes
 - [ ] Generate real json from notes
+
+### Detail pages
+- [ ] Make the buttons call a method to show the specific page
+	- [ ] Implement the method
+	- [ ] right arguments on the button call
+	- [ ] make the page screen template
+		- [ ] It hastwo copies of the sections on each page, and they read data from a certain position of the FLATTENED pages list
+		- [ ] If list end, right page is empty
+	- [ ] 
+
 
 
 ### Unlocking the feature
