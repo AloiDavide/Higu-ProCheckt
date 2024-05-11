@@ -19,3 +19,6 @@
 
     print(pages)
     print(leftover)
+
+
+Taccuino.getTQ().show_index_page()

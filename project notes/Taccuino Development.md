@@ -29,7 +29,7 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] It shows the new screen and hides the old one
 ### Making and reading the data
 - [x] Make  a mock json
-- [ ] Read and show titles from json
+- [x] Read and show titles from json
 - [ ] Make the titles imagebuttons
 - [ ] Reorder all our notes
 - [ ] Generate real json from notes

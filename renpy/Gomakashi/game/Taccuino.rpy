@@ -1,7 +1,6 @@
 init python:
     import json
 
-
     def show_notebook():
         renpy.show_screen("taccuino")
         Taccuino.getTQ().show_index_page()
@@ -9,15 +8,16 @@ init python:
     #for now it returns a list with the titles, eventually with the jsons
     def get_pages():
         tq_data = {}
-        with open("static/Caveat-Bold.ttf") as file:
+        with renpy.open_file("notes.json") as file:
             tq_data = json.load(file)
 
-        titles = tq_data["-topic1-"].keys()
-        #titles = [["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit"],
-        #["tit9", "tit8", "tit7", "tit6", "tit5"]]
+        titles = list(tq_data["-Topic1-"].keys())
+
+        #titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit",
+        #"tit9", "tit8", "tit7", "tit6", "tit5"]
 
         while len(titles) % 14 != 0:
-            titles[-1].append("")
+            titles.append("")
         return titles
 
     #splits the list into a list of lists, each with the elements of one page
@@ -49,10 +49,12 @@ init python:
             if topic is None: topic = self.current_topic
 
             bw = False if page == 0 else True
-            fw = False if page == len(self.pages)-1 else True
+            fw = False if (page+1)*14 == len(self.pages) else True
 
 
-            renpy.show_screen("tq_index_page", this_page=self.pages[page], forward=fw, backward=bw)
+            this_page = self.pages[page*14:(page+1)*14]
+
+            renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw)
 
 
         def turn_index_page(self, forward: bool):
@@ -71,6 +73,8 @@ screen taccuino():
     zorder 98
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
     add taccuino_overlay
+
+
 
 # tq : Taccuino object
 screen tq_index_page(this_page, forward, backward):
@@ -91,7 +95,7 @@ screen tq_index_page(this_page, forward, backward):
 
             xspacing 700
             yspacing 70
-
+            $print(this_page)
             for t in this_page:
                 text t:
                     size 35

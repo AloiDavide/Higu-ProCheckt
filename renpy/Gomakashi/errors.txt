@@ -2,8 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 54: invalid syntax
-            this_page =
+File "game/Taccuino.rpy", line 71: expected a keyword argument or child statement.
+    "directory: {dir}"
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat May 11 15:51:41 2024
+Sat May 11 16:14:46 2024

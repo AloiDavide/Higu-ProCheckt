@@ -1,29 +1,35 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
+  File "game/script.rpy", line 28, in script
+    call screen tips
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
   File "renpy/common/00action_other.rpy", line 586, in __call__
     rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 7, in show_notebook
+  File "game/Taccuino.rpy", line 6, in show_notebook
     Taccuino.getTQ().show_index_page()
   File "game/Taccuino.rpy", line 42, in getTQ
     Taccuino.instance = Taccuino(pages=get_pages())
-  File "game/Taccuino.rpy", line 12, in get_pages
-    with open("static/Caveat-Bold.ttf") as file:
-FileNotFoundError: [Errno 2] No such file or directory: 'static/Caveat-Bold.ttf'
+  File "game/Taccuino.rpy", line 20, in get_pages
+    titles.append("")
+AttributeError: 'dict_keys' object has no attribute 'append'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in script
-    python hide:
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/_layout/screen_main_menu.rpym", line 28, in <module>
-    python hide:
-  File "renpy/common/_layout/screen_main_menu.rpym", line 35, in _execute_python_hide
-    ui.interact()
+  File "game/script.rpy", line 28, in script
+    call screen tips
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
+    self.call("execute")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
+    return renpy.statements.call(method, parsed, *args, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
+    return method(parsed, *args, **kwargs)
+  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
+    store._return = renpy.call_screen(name, *args, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
+    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
@@ -50,15 +56,15 @@ Full traceback:
     return action(*args, **kwargs)
   File "renpy/common/00action_other.rpy", line 586, in __call__
     rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 7, in show_notebook
+  File "game/Taccuino.rpy", line 6, in show_notebook
     Taccuino.getTQ().show_index_page()
   File "game/Taccuino.rpy", line 42, in getTQ
     Taccuino.instance = Taccuino(pages=get_pages())
-  File "game/Taccuino.rpy", line 12, in get_pages
-    with open("static/Caveat-Bold.ttf") as file:
-FileNotFoundError: [Errno 2] No such file or directory: 'static/Caveat-Bold.ttf'
+  File "game/Taccuino.rpy", line 20, in get_pages
+    titles.append("")
+AttributeError: 'dict_keys' object has no attribute 'append'
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Sat May 11 16:05:34 2024
+Sat May 11 16:50:13 2024
