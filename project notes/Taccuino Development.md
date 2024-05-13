@@ -30,18 +30,18 @@ Maybe it does make sense after all to keep objects for the book
 ### Making and reading the data
 - [x] Make  a mock json
 - [x] Read and show titles from json
-- [ ] Make the titles imagebuttons
 - [ ] Reorder all our notes
 - [ ] Generate real json from notes
 
 ### Detail pages
-- [ ] Make the buttons call a method to show the specific page
-	- [ ] Implement the method
-	- [ ] right arguments on the button call
+- [x] Make the titles textbuttons
+- [x] Make the buttons call a method to show the specific page
+	- [x] Implement the method
+	- [x] make button call it with the right arguments
 	- [ ] make the page screen template
 		- [ ] It hastwo copies of the sections on each page, and they read data from a certain position of the FLATTENED pages list
-		- [ ] If list end, right page is empty
-	- [ ] 
+		- [x] If list end, right page is empty
+
 
 
 

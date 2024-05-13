@@ -22,7 +22,12 @@
 
 - ## Miscellaneous
 	- [ ] Compressione audio
-	- [ ] Darkso sound effects in menu
+	- [ ] sound effects in menu
 	- [x] Crystal ball
 	- [ ] Bordi finestre
 	- [x] complotto sound effect
+
+- ## Tech upgrade
+DOPO FINE MEAKASHI
+- [ ] Install the animation plugin.
+- [ ] Learn to use it.

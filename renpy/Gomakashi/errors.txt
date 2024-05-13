@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 71: expected a keyword argument or child statement.
-    "directory: {dir}"
+File "game/Taccuino.rpy", line 16: expected an indented block
+    class Taccuino:
     ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat May 11 16:14:46 2024
+Mon May 13 17:47:36 2024

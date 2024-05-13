@@ -21,4 +21,5 @@
     print(leftover)
 
 
-Taccuino.getTQ().show_index_page()
+Taccuino.tq().show_index_page()
+Taccuino.tq().show_question_page('title4')

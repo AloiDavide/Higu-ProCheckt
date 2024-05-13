@@ -4,7 +4,7 @@ init: #LAYERS
     #$ renpy.add_layer('notes_layer', above='overlayer')
     define masterFade = { "master" : Fade(2,0,2) }
 
-init: #styles
+init: #STYLES
 
     style note_titles:
         outlines [(1, "#000")]

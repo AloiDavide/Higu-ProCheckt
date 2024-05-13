@@ -3,67 +3,112 @@ init python:
 
     def show_notebook():
         renpy.show_screen("taccuino")
-        Taccuino.getTQ().show_index_page()
+        Taccuino.tq().show_index_page()
 
-    #for now it returns a list with the titles, eventually with the jsons
-    def get_pages():
-        tq_data = {}
-        with renpy.open_file("notes.json") as file:
-            tq_data = json.load(file)
+    #finds and returns the item in "list" that is "distance" steps removed from base, or none if the list runs out
 
-        titles = list(tq_data["-Topic1-"].keys())
 
-        #titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit",
-        #"tit9", "tit8", "tit7", "tit6", "tit5"]
+    def pad_titles(titles, per_page):
+        res = titles
+        while len(res) % per_page != 0:
+                res = res + [""]
+        return res
 
-        while len(titles) % 14 != 0:
-            titles.append("")
-        return titles
+    def pair_titles(titles):
+        return [(titles[i], titles[i + 1] if i + 1 < len(titles) else "") for i in range(0, len(titles), 2)]
 
-    #splits the list into a list of lists, each with the elements of one page
-    #returns the new list and the shape of the last element
-    def split_pages(input, Nrows):
-        n = Nrows*2
-        pages = [input[i:i+n] for i in range(0, len(input), n)]
-        return pages
 
     class Taccuino:
         instance = None
 
-        def __init__(self, pages):
-            self.current_page = 0
+        def __init__(self):
+            self.per_page = 14
+            self.index_page = 0
             self.current_topic = 0 #MAKE THIS AN ENUM
-            self.pages = pages
+
+            self.tq_data = {}
+            self.titles = []
+
+            with renpy.open_file("notes.json") as file:
+                self.tq_data = json.load(file)["-Topic1-"]
+                #TODO handle topics
+
+            #titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit",
+            #"tit9", "tit8", "tit7", "tit6", "tit5"]
+
+            self.titles = list(self.tq_data.keys())
+
+
 
         #Signleton
         @staticmethod
-        def getTQ():
+        def tq():
             if Taccuino.instance is None:
-                Taccuino.instance = Taccuino(pages=get_pages())
+                Taccuino.instance = Taccuino()
 
             return Taccuino.instance
 
         #calls the index screen
         def show_index_page(self, page = None, topic=None):
-            if page is None: page = self.current_page
+            if page is None: page = self.index_page
             if topic is None: topic = self.current_topic
 
+
+            padded_titles = pad_titles(self.titles, self.per_page)
+
             bw = False if page == 0 else True
-            fw = False if (page+1)*14 == len(self.pages) else True
+            fw = False if (page+1)*self.per_page == len(padded_titles) else True
 
 
-            this_page = self.pages[page*14:(page+1)*14]
+            this_page = padded_titles[page*self.per_page:(page+1) * self.per_page]
 
+
+            renpy.hide_screen("tq_question_page")
             renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw)
 
 
         def turn_index_page(self, forward: bool):
-            self.current_page = self.current_page+1 if forward else self.current_page-1
+            self.index_page = self.index_page+1 if forward else self.index_page-1
             self.show_index_page()
 
+        def show_question_page(self, title):
+            print("Showing specific page for:\n" + title)
 
-        def show_topic(self, topic):
-            pass
+            paired_titles = pair_titles(self.titles)
+
+            page = ()
+            for pair in paired_titles:
+                if title in pair: page = pair
+
+
+
+            first = paired_titles[0]
+            last = self.titles[-1]
+
+
+            bw = False if page == paired_titles[0] else True
+            fw = False if page == paired_titles[-1] else True
+
+
+            left = self.tq_data[page[0]]
+            right = self.tq_data[page[1]]
+
+            renpy.hide_screen("tq_index_page")
+            renpy.show_screen("tq_question_page", left=left, right=right, forward=fw, backward=bw)
+
+            
+        def turn_question_page(self, forward: bool, page):
+            paired_titles = pair_titles(self.titles)
+
+            current = paired_titles.index(page)
+            next = current + 1 if forward else current - 1
+
+            self.show_question_page(paired_titles[next][0])
+
+
+
+
+
 
 
 
@@ -78,6 +123,8 @@ screen taccuino():
 
 # tq : Taccuino object
 screen tq_index_page(this_page, forward, backward):
+    # this_page := list of titles in the current page
+
     zorder 99
 
     $bw = im.Scale("overlay/bw.png", 70, 40)
@@ -95,11 +142,11 @@ screen tq_index_page(this_page, forward, backward):
 
             xspacing 700
             yspacing 70
-            $print(this_page)
             for t in this_page:
-                text t:
-                    size 35
-                    outlines [(2, "#000")]
+                textbutton t:
+                    text_style "note_titles"
+                    action Function(Taccuino.tq().show_question_page, t)
+
 
 
     if forward:
@@ -110,7 +157,7 @@ screen tq_index_page(this_page, forward, backward):
             hover fw_h
 
 
-            action [Function(Taccuino.getTQ().turn_index_page, True), With(Pixellate(0.5,1))]
+            action [Function(Taccuino.tq().turn_index_page, True), With(Pixellate(0.5,1))]
 
     if backward:
         imagebutton:
@@ -118,4 +165,57 @@ screen tq_index_page(this_page, forward, backward):
             yalign 0.9
             idle bw
             hover bw_h
-            action [Function(Taccuino.getTQ().turn_index_page, False), With(blinds)]
+            action [Function(Taccuino.tq().turn_index_page, False), With(blinds)]
+
+
+screen tq_question_page(left, right, forward, backward):
+    # left := dict - data of the left page
+    # right := dict - data of the right page, or None if not present
+    # forward := bool - is there a next page?
+    # backward := bool - is there a previous page?
+
+    zorder 99
+
+    python:
+        bw = im.Scale("overlay/bw.png", 70, 40)
+        fw = im.Scale("overlay/fw.png", 70, 40)
+        bw_h = im.Scale("overlay/bw_h.png", 70, 40)
+        fw_h = im.Scale("overlay/fw_h.png", 70, 40)
+
+
+
+    vbox:
+        xalign 0.33
+
+        null height 130
+
+        text left["title"]
+
+
+    vbox:
+        xalign 0.66
+
+        null height 130
+
+        text right["title"]
+
+
+    $ current_page = (left["title"], right["title"])
+
+    if forward:
+        imagebutton:
+            xalign 0.85
+            yalign 0.9
+            idle fw
+            hover fw_h
+
+
+            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.5,1))]
+
+    if backward:
+        imagebutton:
+            xalign 0.15
+            yalign 0.9
+            idle bw
+            hover bw_h
+            action [Function(Taccuino.tq().turn_question_page, False, current_page), With(blinds)]
