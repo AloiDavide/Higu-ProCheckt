@@ -241,14 +241,18 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
+
     if notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
-            #action ToggleScreen("taccuino", transition=easeinbottom)
-            action [Function(show_notebook), With(easeinbottom)]
+
+            if showing_notes:
+                action [Function(hide_notebook), With(easeoutbottom)]
+            else:
+                action [Function(show_notebook), With(easeinbottom)]
 
     if quick_menu:
 

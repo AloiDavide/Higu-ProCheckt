@@ -1,4 +1,27 @@
 
+From discord
+from scattered files
+
+
+## Topics
+
+[[Tutte le domande]]
+
+[[I sospetti sui Sonozaki]]
+
+[[I sintomi della maledizione]]
+
+[[La serie di omicidi]]
+
+[[Others]]
+
+[[La cospirazione del BKG]]
+
+
+
+
+
+
 ## Formato file taccuino
 - Il nome del file è il topic. Ad esempio `Sonozaki.txt`
 - Ogni file contiene un insieme di pagine del taccuino.
@@ -8,6 +31,9 @@
 	- La risposta
 - Le sezioni di una pagina sono separate da un dash "-"
 - Pagine diverse sono separate da tre dash "---"
+
+
+
 
 Esempio:
 ```Sonozaki.txt
@@ -30,16 +56,6 @@ Shion è una persona lucida e affidabile?
 Ma garda un po' era pazza anche lei.
 ```
 ![[Sonozaki.txt]]
-## Topics
-I sospetti sui Sonozaki.
-```
-```
-
-I sintomi della maledizione.
-
-La serie di omicidi
-
-La cospirazione del BKG.
 
 
 

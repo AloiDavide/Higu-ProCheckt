@@ -1,9 +1,24 @@
 init python:
     import json
 
+    showing_notes = False
+
     def show_notebook():
         renpy.show_screen("taccuino")
         Taccuino.tq().show_index_page()
+
+        global showing_notes
+        showing_notes = True
+
+
+    def hide_notebook():
+        renpy.hide_screen("taccuino")
+        renpy.hide_screen("tq_index_page")
+        renpy.hide_screen("tq_question_page")
+
+
+        global showing_notes
+        showing_notes = False
 
     #finds and returns the item in "list" that is "distance" steps removed from base, or none if the list runs out
 
@@ -113,19 +128,31 @@ init python:
 
 
 #-----------------------------------------------------------------
+screen black():
+    $black = im.Scale("bg/black.jpg", 1920, 1080)
+    zorder 100
+    frame:
+        null
+    #add black
 
 screen taccuino():
-    zorder 98
+    zorder 101
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
-    add taccuino_overlay
+    frame:
+        add taccuino_overlay
+
+    $print(renpy.current_screen())
+
 
 
 
 # tq : Taccuino object
 screen tq_index_page(this_page, forward, backward):
+    zorder 102
+    modal True
     # this_page := list of titles in the current page
 
-    zorder 99
+
 
     $bw = im.Scale("overlay/bw.png", 70, 40)
     $fw = im.Scale("overlay/fw.png", 70, 40)
@@ -144,6 +171,7 @@ screen tq_index_page(this_page, forward, backward):
             yspacing 70
             for t in this_page:
                 textbutton t:
+                    default_focus 10
                     text_style "note_titles"
                     action Function(Taccuino.tq().show_question_page, t)
 
@@ -167,6 +195,13 @@ screen tq_index_page(this_page, forward, backward):
             hover bw_h
             action [Function(Taccuino.tq().turn_index_page, False), With(blinds)]
 
+    imagebutton:
+            xalign 0.01
+            yalign 0.5
+            idle im.Scale("overlay/notes_icon.png", 50, 50)
+            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            action [Function(hide_notebook), With(easeoutbottom)]
+
 
 screen tq_question_page(left, right, forward, backward):
     # left := dict - data of the left page
@@ -174,7 +209,8 @@ screen tq_question_page(left, right, forward, backward):
     # forward := bool - is there a next page?
     # backward := bool - is there a previous page?
 
-    zorder 99
+    zorder 102
+    modal True
 
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
@@ -219,3 +255,10 @@ screen tq_question_page(left, right, forward, backward):
             idle bw
             hover bw_h
             action [Function(Taccuino.tq().turn_question_page, False, current_page), With(blinds)]
+
+    imagebutton:
+            xalign 0.01
+            yalign 0.5
+            idle im.Scale("overlay/notes_icon.png", 50, 50)
+            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            action [Function(hide_notebook), With(easeoutbottom)]

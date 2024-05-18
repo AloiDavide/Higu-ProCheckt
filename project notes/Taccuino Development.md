@@ -8,8 +8,18 @@
 - [x] main menu still uses corner button
 - [ ] Fix the mouse focus problem ⏫ 
 - [ ] Review generale estetica alla fine 🔽 
-- [ ] Decide on transitions
+	- [ ] toggle button stays big and changes color while notes are open
+- [ ] Decide on page transitions
 	- Maybe blinds for page turn and pixellate for topic change and entering specific page
+- [x] Make the toggle button also close it.
+
+
+## Sound effects
+- [ ] Make a directory in audio for menu sounds
+- [ ] find and add sounds to 
+	- [ ] notebook
+	- [ ] main menu
+	- [ ] chapter select menu
 
 ### Topic indices
 - [ ] Add bookmarks imagebuttons to the side
@@ -30,8 +40,10 @@ Maybe it does make sense after all to keep objects for the book
 ### Making and reading the data
 - [x] Make  a mock json
 - [x] Read and show titles from json
-- [ ] Reorder all our notes
-- [ ] Generate real json from notes
+- [ ] get the real thing made
+	- [ ] gather all out text notes
+	- [ ] divide them in cats
+	- [ ] Generate real json from notes
 
 ### Detail pages
 - [x] Make the titles textbuttons
@@ -39,14 +51,17 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] Implement the method
 	- [x] make button call it with the right arguments
 	- [ ] make the page screen template
-		- [ ] It hastwo copies of the sections on each page, and they read data from a certain position of the FLATTENED pages list
-		- [x] If list end, right page is empty
+		- [ ] get assets
+		- [ ] manage frames to limit height variation
+		- [ ] manage fonts
+		- [ ] test with longer text
+	- [x] If list end, right page is empty
 
 
 
 
 ### Unlocking the feature
-- [ ] write taccuino miniscene or include it with siringa (check non sa più che pensare e ha bisogno di raccogliere le info dopo che hanabi se ne va)
+- [ ] write miniscene or include it with siringa (check non sa più che pensare e ha bisogno di raccogliere le info dopo che hanabi se ne va)
 	- [ ] Hai sbloccato: Appunti di check (in outline orenji)
 
 
