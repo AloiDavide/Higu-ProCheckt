@@ -235,7 +235,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Le tre famiglie.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +252,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Le tre famiglie.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +275,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taccuino Development.md"
+                "file": "Le tre famiglie.md"
               }
             }
           }
@@ -298,19 +298,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f90be29c52580ac",
+  "active": "8dd4eb6556e9fb07",
   "lastOpenFiles": [
+    "Taccuino Development.md",
+    "Meakashi reread.md",
+    "Todo generale.md",
+    "Taccuino Entries.md",
     "Le tre famiglie.md",
     "I sintomi della maledizione.md",
     "Tutte le domande.md",
     "Others.md",
     "La serie di omicidi.md",
-    "Taccuino Development.md",
     "Post siringa.md",
-    "Taccuino Entries.md",
     "Taccuino.md",
-    "Todo generale.md",
-    "Meakashi reread.md",
     "Resa della strega.md",
     "Scaletta Gomakashi.md",
     "Takano isterica.md",

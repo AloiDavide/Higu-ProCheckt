@@ -29,6 +29,17 @@ for page in pages:
                 'display_answer': 0
         }
 
+result.update({"": {
+            "title": "",
+            "question": "",
+            "answers": [
+                ""
+            ],
+            "seen": True,
+            "display_answer": 0
+        }
+})
+
 result = {"-Topic1-": result}
 
 print(json.dumps(result, indent=4))

@@ -27,7 +27,11 @@ use director
 
 ## Sound design
 - [ ] Compressione audio
-- [ ] sound effects in menus
+- [ ] Make a directory in audio for menu sounds
+- [ ] find and add sounds to 
+	- [ ] taccuino
+	- [ ] main menu
+	- [ ] chapter select menu
 
 ## [[Music Catalog]]
 - [ ] 

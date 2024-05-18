@@ -2,7 +2,7 @@ green
 
 Add che intende rika
 ```
-Mion o Shion? (1)
+Mion o Shion?
 -
 Con chi è che ha parlato Keiichi inizialmente all'inizio del secondo frammento?
 -
@@ -16,7 +16,7 @@ In quel momento non si erano ancora scambiate, perciò era davvero Mion a porre 
 -
 Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion.
 ---
-Mion o Shion? (2)
+Shion o Mion?
 -
 Con chi parla Keiichi dalla sera del Watanagahi in poi? Se Shion è scomparsa giorni prima, chi delle due fa le telefonate?
 -
@@ -28,7 +28,7 @@ Perchè gli apici del villaggio, tra cui Mion e Rika, sanno immediatamente che i
 -
 È Shion a spargere la voce, credendo che già lo sapessero. È Sempre shion ad incalzare Keiichi a riguardo per metterlo allerta.
 ---
-Shion o Mion?
+Mion o... Mion?
 -
 Perchè allora la sorella imprigionata si identifica come Shion alla fine?
 -
@@ -102,5 +102,15 @@ Keiichi vede il cadavere di Mion insanguinato che lo tormenta prima di essere ri
 Keiichi è morto di arresto cardiaco, cio che ha visto erano illusioni dovute alla paranoia.
 -
 Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, cio che ha visto erano illusioni dovute alla paranoia.
+---
+Altra domanda
+-
+Padding
+-
+---
+Altra altra domanda
+-
+Padding
+-
 ---
 ```

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 169: 'xalign' is not a keyword argument or valid child of the for statement.
-    xalign 0.5
-          ^
+File "game/Taccuino.rpy", line 256: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    xalign 0.0
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat May 18 22:59:13 2024
+Sun May 19 01:01:53 2024

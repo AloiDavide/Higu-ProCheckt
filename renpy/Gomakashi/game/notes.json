@@ -12,17 +12,18 @@
         },
         "Domanda di Mion al Watanagashi": {
             "title": "Domanda di Mion al Watanagashi",
-            "question": "Subito dopo il festival Mion interroga Keiichi su dove sia Shion. Come faceva a sapere già che avevano rotto il taboo?",
+            "question": "Subito dopo il festival Mion interroga Keiichi su dove sia Shion. Come faceva a sapere gi\u00e0 che avevano rotto il taboo?",
             "answers": [
                 "",
+                "In quel momento non si erano ancora scambiate, perci\u00f2 era davvero Mion a porre quella domanda.",
                 "Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion."
             ],
             "seen": false,
-            "display_answer": 0
+            "display_answer": 1
         },
         "Shion o Mion?": {
             "title": "Shion o Mion?",
-            "question": "Con chi parla Keiichi dalla sera del Watanagashi in poi? Se Shion \u00e8 scomparsa giorni prima, chi delle due fa le telefonate?",
+            "question": "Con chi parla Keiichi dalla sera del Watanagahi in poi? Se Shion \u00e8 scomparsa giorni prima, chi delle due fa le telefonate?",
             "answers": [
                 "",
                 "Shion imprigiona Mion e interpreta entrambi i ruoli a partire da quel punto. Continua a telefonare a Keiichi per usarlo come esca."
@@ -30,19 +31,18 @@
             "seen": false,
             "display_answer": 0
         },
-        "Le notizie dell'intrusione.": {
-            "title": "Le notizie dell'intrusione.",
+        "La notizia dell'intrusione.": {
+            "title": "La notizia dell'intrusione.",
             "question": "Perch\u00e8 gli apici del villaggio, tra cui Mion e Rika, sanno immediatamente che i quattro si sono intrufolati nel magazzino sacro?",
             "answers": [
                 "",
-                "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 Sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta.",
-                "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 Sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta."
+                "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 Sempre shion ad incalzare Keiichi a riguardo per metterlo allerta."
             ],
             "seen": false,
-            "display_answer": 0
+            "display_answer": 1
         },
-        "Mion... o Mion?": {
-            "title": "Mion... o Mion?",
+        "Mion o... Mion?": {
+            "title": "Mion o... Mion?",
             "question": "Perch\u00e8 allora la sorella imprigionata si identifica come Shion alla fine?",
             "answers": [
                 "",
@@ -61,6 +61,16 @@
             "seen": false,
             "display_answer": 0
         },
+        "La posizione di Rika": {
+            "title": "La posizione di Rika",
+            "question": "Rika \u00e8 l'unico membro della famiglia Furude vivente. Quale \u00e8 il suo ruolo nel villaggio? \u00c8 merito suo se Satoko \u00e8 stata risparmiata?",
+            "answers": [
+                "",
+                "Non partecipa alle riunioni, e dalle sue conversazioni con Shion e Keiichi sembra poco interessata a mantenere la tradizione.\nNonostante tutti gli anziani la trattino con riverenza sembra essere alquanto impotente."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
         "La siringa nel pozzo.": {
             "title": "La siringa nel pozzo.",
             "question": "Come mai Rika, ritrovata nel pozzo, aveva in tasca una Siringa?",
@@ -70,7 +80,7 @@
                 "In realt\u00e0 la siringa era la cura per la sindrome di Hinamizawa. Rika ha percepito il pericolo e stava cercando di fare tornare in se Shion."
             ],
             "seen": false,
-            "display_answer": 0
+            "display_answer": 2
         },
         "L'agguato di Rika": {
             "title": "L'agguato di Rika",
@@ -87,10 +97,10 @@
             "question": "Perch\u00e8 mentre Mion tiene la scala per Keiichi inizia a dare di matto e dire che Satoko \u00e8 maledetta?",
             "answers": [
                 "",
-                "Shion, non Mion, si altera quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo avere contribuito alla dipartita di Satoshi."
+                "Shion, non Mion, viene triggerata quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo avere contribuito alla dipartita di Satoshi."
             ],
             "seen": false,
-            "display_answer": 0
+            "display_answer": 1
         },
         "Il discorso finale di Mion": {
             "title": "Il discorso finale di Mion",
@@ -120,7 +130,7 @@
                 "Mion viene spinta gi\u00f9 da Shion e muore. Inutile dire che successivamente \u00e8 Shion a impersonarla."
             ],
             "seen": false,
-            "display_answer": 0
+            "display_answer": 1
         },
         "La morte di Shion": {
             "title": "La morte di Shion",
@@ -132,15 +142,42 @@
             "seen": false,
             "display_answer": 0
         },
-        "Come muore Keiichi?": {
-            "title": "Come muore Keiichi?",
+        "La morte di Keiichi": {
+            "title": "La morte di Keiichi",
             "question": "Keiichi vede il cadavere di Mion insanguinato che lo tormenta prima di essere ritrovato morto, dopo che tutte e due le sorelle sono confermate morte. Come DIAMINE si spiega questa?",
             "answers": [
                 "",
-                "Keiichi \u00e8 morto di arresto cardiaco, ci\u00f2 che ha visto erano illusioni dovute alla paranoia.",
-                "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, ci\u00f2 che ha visto erano illusioni dovute alla paranoia."
+                "Keiichi \u00e8 morto di arresto cardiaco, cio che ha visto erano illusioni dovute alla paranoia.",
+                "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, cio che ha visto erano illusioni dovute alla paranoia."
             ],
             "seen": false,
+            "display_answer": 2
+        },
+        "Altra domanda": {
+            "title": "Altra domanda",
+            "question": "Padding",
+            "answers": [
+                ""
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Altra altra domanda": {
+            "title": "Altra altra domanda",
+            "question": "Padding",
+            "answers": [
+                ""
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "": {
+            "title": "",
+            "question": "",
+            "answers": [
+                ""
+            ],
+            "seen": true,
             "display_answer": 0
         }
     }

@@ -20,8 +20,9 @@ init python:
         global showing_notes
         showing_notes = False
 
-    #finds and returns the item in "list" that is "distance" steps removed from base, or none if the list runs out
-
+    # updates the seen flag in the json to true for both entries in the page tuple
+    def set_as_seen(page):
+        pass
 
     def pad_titles(titles, per_page):
         res = titles
@@ -95,8 +96,7 @@ init python:
             for pair in paired_titles:
                 if title in pair: page = pair
 
-
-
+            set_as_seen(page)
 
             bw = False if page == paired_titles[0] else True
             fw = False if page == paired_titles[-1] else True
@@ -166,7 +166,6 @@ screen tq_index_page(this_page, forward, backward):
             textbutton t:
                 xalign 0.0
                 yalign 0.5
-                default_focus 10
                 text_style "handwritten_index"
                 action Function(Taccuino.tq().show_question_page, t)
 
@@ -175,7 +174,7 @@ screen tq_index_page(this_page, forward, backward):
     if forward:
         imagebutton:
             xalign 0.85
-            yalign 0.9
+            yalign 0.95
             idle fw
             hover fw_h
 
@@ -185,7 +184,7 @@ screen tq_index_page(this_page, forward, backward):
     if backward:
         imagebutton:
             xalign 0.15
-            yalign 0.9
+            yalign 0.95
             idle bw
             hover bw_h
             action [Function(Taccuino.tq().turn_index_page, False), With(blinds)]
@@ -207,28 +206,126 @@ screen tq_question_page(left, right, forward, backward):
     zorder 102
     modal True
 
+    # Page flip buttons
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
         fw = im.Scale("overlay/fw.png", 70, 40)
         bw_h = im.Scale("overlay/bw_h.png", 70, 40)
         fw_h = im.Scale("overlay/fw_h.png", 70, 40)
 
+        separator_think = im.Scale("overlay/comic check think.png", 150, 150)
+        separator_eureka = im.Scale("overlay/comic check eureka.png", 150, 150)
 
+        ans_left = left['display_answer']
+        ans_right = right['display_answer']
 
+    # left page
     vbox:
-        xalign 0.33
+        xalign 0.2
+        null height 120
 
-        null height 130
+        # title
 
-        text left["title"]
+        text left["title"]:
+            xalign 0.5
+            textalign 0.0
+            xsize 600
+            outlines [(0, "#000")]
+            color "#000"
+            size 55
+            font "static/Caveat-Bold.ttf"
+
+        null height 40
+
+        # question
+        text left["question"]:
+                xalign 0.0
+                textalign 0.0
+                xsize 600
+                outlines [(0, "#000")]
+                color "#000"
+                size 35
+                font "static/Caveat-Regular.ttf"
 
 
+        null height 20
+
+        # separator if answer present
+        if ans_left > 0:
+            add separator_eureka:
+                xalign 0.0
+                xoffset -20
+        else:
+            add separator_think:
+                xalign 0.0
+                xoffset -20
+
+
+        null height 20
+        # correct answer
+        text left["answers"][ans_left]:
+                xalign 0.0
+                textalign 0.0
+                xsize 600
+                outlines [(0, "#000")]
+                color "#000"
+                size 35
+                font "static/Caveat-Regular.ttf"
+
+
+
+
+    # right page
     vbox:
-        xalign 0.66
+        xalign 0.8
+        null height 120
+        # title
+        text right["title"]:
+            xalign 0.5
+            textalign 0.5
+            xsize 600
+            outlines [(0, "#000")]
+            color "#000"
+            size 55
+            font "static/Caveat-Bold.ttf"
 
-        null height 130
+        null height 40
 
-        text right["title"]
+        # question
+        text right["question"]:
+                xalign 0.0
+                textalign 0.0
+                xsize 600
+                outlines [(0, "#000")]
+                color "#000"
+                size 35
+                font "static/Caveat-Regular.ttf"
+
+        null height 30
+
+        # separator if answer present
+        if ans_right > 0:
+            add separator_eureka:
+                xalign 0.0
+                xoffset -20
+        else:
+            add separator_think:
+                xalign 0.0
+                xoffset -20
+
+
+        null height 30
+        # correct answer
+        text right["answers"][ans_right]:
+                xalign 0.0
+                textalign 0.0
+                xsize 600
+                outlines [(0, "#000")]
+                color "#000"
+                size 35
+                font "static/Caveat-Regular.ttf"
+
+
 
 
     $ current_page = (left["title"], right["title"])
@@ -236,17 +333,17 @@ screen tq_question_page(left, right, forward, backward):
     if forward:
         imagebutton:
             xalign 0.85
-            yalign 0.9
+            yalign 0.95
             idle fw
             hover fw_h
 
 
-            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.5,1))]
+            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.5,2))]
 
     if backward:
         imagebutton:
             xalign 0.15
-            yalign 0.9
+            yalign 0.95
             idle bw
             hover bw_h
             action [Function(Taccuino.tq().turn_question_page, False, current_page), With(blinds)]

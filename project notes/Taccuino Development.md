@@ -4,7 +4,7 @@
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
 - Every time the taccuino is called, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
 
-### VFX
+## VFX
 - [x] main menu still uses corner button
 - [ ] Fix the mouse focus problem ⏫ 
 - [ ] Review generale estetica alla fine 🔽 
@@ -14,18 +14,13 @@
 - [x] Make the toggle button also close it.
 
 
-## Sound effects
-- [ ] Make a directory in audio for menu sounds
-- [ ] find and add sounds to 
-	- [ ] notebook
-	- [ ] main menu
-	- [ ] chapter select menu
 
-### Topic indices
+
+## Topics
 - [ ] Add bookmarks imagebuttons to the side
 - [ ] Handle the division
 
-### Index Pagination
+## Index Pages
 Maybe it does make sense after all to keep objects for the book
 
 - [x] Design object
@@ -41,8 +36,8 @@ Maybe it does make sense after all to keep objects for the book
 	- [ ] check the flag and add a visual flair
 	- [ ] implement the function that turns off the flag in the file
 	- [x] call it from the show page method
-### Detail pages
 - [ ] Fix the way pages look for the title in the dictionary to use the key
+## Question Pages
 - [x] Make the titles textbuttons
 - [x] Make the buttons call a method to show the specific page
 	- [x] Implement the method
@@ -55,7 +50,7 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] If list end, right page is empty
 
 
-### Making and reading the data
+## Making and reading the data
 - [x] Make  a mock json
 - [x] Read and show titles from json
 - [ ] Only trigger the check exclamation if a flag is ticked
@@ -63,10 +58,11 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] gather all out text notes
 	- [ ] divide them in cats
 	- [ ] Only include ones relevant to Meakashi, namely Sonozaki and Serial killings
-	- [ ] Generate real json from notes
+	- [x] Generate real json from notes
+	- [ ] Remember to add empty page to json for odd cases
 
 
-### Unlocking the feature
+## Unlocking the feature
 - [ ] write miniscene or include it with siringa (check non sa più che pensare e ha bisogno di raccogliere le info dopo che hanabi se ne va)
 	- [ ] Hai sbloccato: Appunti di check (in outline orenji)
 
