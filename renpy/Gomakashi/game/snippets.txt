@@ -23,3 +23,49 @@
 
 Taccuino.tq().show_index_page()
 Taccuino.tq().show_question_page('title4')
+
+
+
+-------------
+
+
+
+    vbox:
+        xalign 0.50
+
+        null height 130
+
+        frame:
+            area (260,130,1440,720)#860
+            grid 2 7:
+                #xspacing 180
+                #yspacing 70
+
+
+                for t in this_page:
+                    frame:
+
+                        xalign 0.5
+                        yalign 0.5
+                        textbutton t:
+
+                            default_focus 10
+                            text_style "note_titles"
+                            action Function(Taccuino.tq().show_question_page, t)
+
+
+
+
+    grid 2 7:
+                #xspacing 180
+                #yspacing 70
+        area (0,0,1440,720)
+        background "#006"
+        for t in this_page:
+            frame:
+                xalign 0.5
+                yalign 0.5
+                textbutton t:
+                    default_focus 10
+                    text_style "note_titles"
+                    action Function(Taccuino.tq().show_question_page, t)

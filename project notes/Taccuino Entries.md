@@ -7,7 +7,7 @@ from scattered files
 
 [[Tutte le domande]]
 
-[[I sospetti sui Sonozaki]]
+[[Le tre famiglie]]
 
 [[I sintomi della maledizione]]
 

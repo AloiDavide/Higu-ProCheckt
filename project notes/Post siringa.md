@@ -5,6 +5,9 @@
 Cut a Hanabi (crudele) e Check che sta perdendo male
 Check non dice niente di troppo sensato
 
+Mion mostra di non sapere niente sotto tortura.
+Check non si fida ciecamente
+
 Non è stata mion la tua teoria era stupida
 "Ma complimenti, Mion Sonozaki è la colpevole come pensavi!"
 It was Shion all along, allora la teoria degli indottrinati non ha senso.

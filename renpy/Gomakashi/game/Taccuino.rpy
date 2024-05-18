@@ -51,7 +51,7 @@ init python:
             #titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit",
             #"tit9", "tit8", "tit7", "tit6", "tit5"]
 
-            self.titles = list(self.tq_data.keys())
+            self.titles = [page_data['title'] for page_data in self.tq_data.values()]
 
 
 
@@ -96,9 +96,6 @@ init python:
                 if title in pair: page = pair
 
 
-
-            first = paired_titles[0]
-            last = self.titles[-1]
 
 
             bw = False if page == paired_titles[0] else True
@@ -160,20 +157,18 @@ screen tq_index_page(this_page, forward, backward):
     $fw_h = im.Scale("overlay/fw_h.png", 70, 40)
 
 
-    vbox:
-        xalign 0.5
 
-        null height 130
-
-        grid 2 7:
-
-            xspacing 700
-            yspacing 70
-            for t in this_page:
-                textbutton t:
-                    default_focus 10
-                    text_style "note_titles"
-                    action Function(Taccuino.tq().show_question_page, t)
+    grid 2 7:
+        xspacing 150
+        #yspacing 70
+        area (270,130,1440,860)
+        for t in this_page:
+            textbutton t:
+                xalign 0.0
+                yalign 0.5
+                default_focus 10
+                text_style "handwritten_index"
+                action Function(Taccuino.tq().show_question_page, t)
 
 
 

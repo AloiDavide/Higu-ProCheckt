@@ -4,7 +4,7 @@
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
 - Every time the taccuino is called, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
 
-### UI
+### VFX
 - [x] main menu still uses corner button
 - [ ] Fix the mouse focus problem ⏫ 
 - [ ] Review generale estetica alla fine 🔽 
@@ -37,15 +37,12 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] display them dynamically
 	- [x] clicking the page button calls the right method.
 	- [x] It shows the new screen and hides the old one
-### Making and reading the data
-- [x] Make  a mock json
-- [x] Read and show titles from json
-- [ ] get the real thing made
-	- [ ] gather all out text notes
-	- [ ] divide them in cats
-	- [ ] Generate real json from notes
-
+- [ ] Add an effect for unread questions, and remove it any time they are viewed by updating the dict.\
+	- [ ] check the flag and add a visual flair
+	- [ ] implement the function that turns off the flag in the file
+	- [x] call it from the show page method
 ### Detail pages
+- [ ] Fix the way pages look for the title in the dictionary to use the key
 - [x] Make the titles textbuttons
 - [x] Make the buttons call a method to show the specific page
 	- [x] Implement the method
@@ -53,11 +50,20 @@ Maybe it does make sense after all to keep objects for the book
 	- [ ] make the page screen template
 		- [ ] get assets
 		- [ ] manage frames to limit height variation
-		- [ ] manage fonts
+		- [x] manage fonts
 		- [ ] test with longer text
 	- [x] If list end, right page is empty
 
 
+### Making and reading the data
+- [x] Make  a mock json
+- [x] Read and show titles from json
+- [ ] Only trigger the check exclamation if a flag is ticked
+- [ ] get the real thing made
+	- [x] gather all out text notes
+	- [ ] divide them in cats
+	- [ ] Only include ones relevant to Meakashi, namely Sonozaki and Serial killings
+	- [ ] Generate real json from notes
 
 
 ### Unlocking the feature

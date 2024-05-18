@@ -14,7 +14,7 @@ Shionw si fa la fanfiction di Satoko che moriva al posto di Satoshi
 Shion non ucciderà Keiichi, giurin giurello.
 Ha avuto la vendetta, yippie!
 ## Domande
-- Ma kimiyoshi sa come funziona la malezione o no?
+- Ma kimiyoshi sa come funziona la maledizione o no?
 - Rika parla con Oyashiro??
 - Cosa pensi di Rika che parla di Oyashiro? Sa le cose e fa finta?
 - Ma Mion era colpevole fin ora?

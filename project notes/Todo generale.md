@@ -1,33 +1,39 @@
 
+# Gomakashi part 2
 
-- ## Planning
-	- [ ] 
-
-- ## Implementation
-	- [ ] use director
-
-- ## Review
-	- [ ] 
+- [ ] L2 [[Resa della strega]]
+- [ ] L1 [[Post siringa]]
+- [ ] L0 [[Takano isterica]]
+## Planning
+- [x] 
+## Draft
+- [ ] L2
+- [ ] L1
+- [ ] L0
+## Implementation
+- [ ] L2
+- [ ] L1
+- [ ] L0
+use director
+## Review
+- [ ] 
 
 
 ---
 
-- ## [[Taccuino]]
-	- [x] Icona di attivazione sempre presente
-	- [x] Raggiungibile dal menu principale
+## [[Taccuino]]
+- [ ] Complete Mechanics
+- [ ] Complete Content
 
-- ## [[Music Catalog]]
-	- [ ] 
+## Sound design
+- [ ] Compressione audio
+- [ ] sound effects in menus
 
+## [[Music Catalog]]
+- [ ] 
 
-- ## Miscellaneous
-	- [ ] Compressione audio
-	- [ ] sound effects in menu
-	- [x] Crystal ball
-	- [ ] Bordi finestre
-	- [x] complotto sound effect
-
-- ## Tech upgrade
+## Tech upgrade
 DOPO FINE MEAKASHI
 - [ ] Install the animation plugin.
-- [ ] Learn to use it.
+- [ ] Learn how to use it.
+

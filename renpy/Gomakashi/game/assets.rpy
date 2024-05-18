@@ -6,11 +6,32 @@ init: #LAYERS
 
 init: #STYLES
 
-    style note_titles:
-        outlines [(1, "#000")]
+    style handwritten_body:
+        outlines [(0, "#000")]
+        hover_outlines [(1, "#000")]
         color "#000"
         hover_color "#00D915"
-        size 35
+        size 45
+        textalign 0.5
+        font "static/Caveat-Regular.ttf"
+
+    style handwritten_title:
+        outlines [(0, "#000")]
+        hover_outlines [(1, "#000")]
+        color "#000"
+        hover_color "#00D915"
+        size 45
+        textalign 0.5
+        font "static/Caveat-Bold.ttf"
+
+    style handwritten_index:
+        outlines [(0, "#000")]
+        hover_outlines [(2, "#000")]
+        color "#000"
+        hover_color "#00D915"
+        size 45
+        textalign 0.5
+        font "static/Caveat-Regular.ttf"
 
     style menu_text:
         outlines [(1, "#000")]

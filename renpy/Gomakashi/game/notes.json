@@ -1,74 +1,147 @@
 {
     "-Topic1-": {
-		"title1":
-		{
-			"title": "title1",
-			"question":"-question1-",
-			"answers":[
-				"",
-				"Answer1"],
-			"seen":true,
-			"display_answer": 0
-			},
-		"title2": {
-			"title": "title2",
-			"question":"-question2-",
-			"answers":[
-				"",
-				"Answer2",
-				"Trueanswer2"],
-			"seen":false,
-			"display_answer": 1
-			},
-		"title3":
-		{
-			"title": "title3",
-			"question":"-question1-",
-			"answers":[
-				"",
-				"Answer1"],
-			"seen":true,
-			"display_answer": 0
-			},
-		"title4":
-		{
-			"title": "title4",
-			"question":"-question1-",
-			"answers":[
-				"",
-				"Answer1"],
-			"seen":true,
-			"display_answer": 0
-			},
-		"title5":
-		{
-			"title": "title5",
-			"question":"-question1-",
-			"answers":[
-				"",
-				"Answer1"],
-			"seen":true,
-			"display_answer": 0
-			},
-		"": {
-			"title": "",
-			"question":"",
-			"answers":[],
-			"seen":true,
-			"display_answer": 0
-			}
-		},
-	"-Topic2-" : {
-		"title3": {
-			"title": "title3",
-			"question": "-question3-",
-			"answers": [
-				"",
-				"Answer3",
-				"Trueanswer3"
-			],
-			"seen": false,
-			"display_answer": 2
-		}
-	}
+        "Mion o Shion?": {
+            "title": "Mion o Shion?",
+            "question": "Con chi \u00e8 che ha parlato Keiichi inizialmente all'inizio del secondo frammento?",
+            "answers": [
+                "",
+                "Keiichi ha parlato quasi solo con Mion, fino alla chiamata dove \u00e8 stato invitato ad Angel Mort, dove per la prima volta ha parlato con Shion"
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Domanda di Mion al Watanagashi": {
+            "title": "Domanda di Mion al Watanagashi",
+            "question": "Subito dopo il festival Mion interroga Keiichi su dove sia Shion. Come faceva a sapere già che avevano rotto il taboo?",
+            "answers": [
+                "",
+                "Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Shion o Mion?": {
+            "title": "Shion o Mion?",
+            "question": "Con chi parla Keiichi dalla sera del Watanagashi in poi? Se Shion \u00e8 scomparsa giorni prima, chi delle due fa le telefonate?",
+            "answers": [
+                "",
+                "Shion imprigiona Mion e interpreta entrambi i ruoli a partire da quel punto. Continua a telefonare a Keiichi per usarlo come esca."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Le notizie dell'intrusione.": {
+            "title": "Le notizie dell'intrusione.",
+            "question": "Perch\u00e8 gli apici del villaggio, tra cui Mion e Rika, sanno immediatamente che i quattro si sono intrufolati nel magazzino sacro?",
+            "answers": [
+                "",
+                "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 Sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta.",
+                "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 Sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Mion... o Mion?": {
+            "title": "Mion... o Mion?",
+            "question": "Perch\u00e8 allora la sorella imprigionata si identifica come Shion alla fine?",
+            "answers": [
+                "",
+                "Lo fa per placare l'altra.\nLe sorelle sono state scambiate da bambine. Quella che abbiamo sempre chiamato Shion sarebbe dovuta essere la capofamiglia, e odia la gemella per non avere salvato Satoshi pur avendone il potere."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Le vittime del secondo frammento.": {
+            "title": "Le vittime del secondo frammento.",
+            "question": "I capi delle tre famiglie e Satoko vengono ritrovati morti nel sotterraneo dei Sonozaki. Perch\u00e8 Mion farebbe una cosa del genere?",
+            "answers": [
+                "",
+                "\u00c8 Shion, chiaramente in uno stato mentale alterato, a torturare e uccidere ognuno di loro per paura di essere punita e per vendetta contro il sistema che ha ucciso Satoshi.\nPer quanto riguarda Satoko, Shion non perdona il fatto che lei sia stata graziata al contrario di suo fratello."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "La siringa nel pozzo.": {
+            "title": "La siringa nel pozzo.",
+            "question": "Come mai Rika, ritrovata nel pozzo, aveva in tasca una Siringa?",
+            "answers": [
+                "",
+                "Rika ha attaccato Shion\nLa siringa era un arma che Rika stava cercando di Usare su Shion.",
+                "In realt\u00e0 la siringa era la cura per la sindrome di Hinamizawa. Rika ha percepito il pericolo e stava cercando di fare tornare in se Shion."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "L'agguato di Rika": {
+            "title": "L'agguato di Rika",
+            "question": "Con che intenzioni Rika attacca Shion? Sapeva di quale gemella si trattasse? E soprattutto, cosa diamine c'era in quella siringa?",
+            "answers": [
+                "",
+                "Rika possiede i ricordi di centinaia di frammenti, ha capito cosa era successo poich\u00e8 lo ha gi\u00e0 visto accadere e ha cercato di iniettarle la cura per la sindrome.\nSi suicida per non essere torturata da Shion, consapevole di risvegliarsi in un altro frammento."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "L'ira di Mion": {
+            "title": "L'ira di Mion",
+            "question": "Perch\u00e8 mentre Mion tiene la scala per Keiichi inizia a dare di matto e dire che Satoko \u00e8 maledetta?",
+            "answers": [
+                "",
+                "Shion, non Mion, si altera quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo avere contribuito alla dipartita di Satoshi."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Il discorso finale di Mion": {
+            "title": "Il discorso finale di Mion",
+            "question": "Cosa significa la confessione di Mion nel soggiorno di casa Sonozaki?",
+            "answers": [
+                "",
+                "Shion, non Mion, sta mischiando le sue teorie con storie inventate per togliersi dai piedi Rena e Keiichi."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Il demone di Mion": {
+            "title": "Il demone di Mion",
+            "question": "Come mai Mion si comporta in quel modo nella sala della torture?",
+            "answers": [
+                "",
+                "Shion, non Mion, a questo punto \u00e8 convinta di essere posseduta da un demone, ed \u00e8 completamente impazzita."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Mion zombie": {
+            "title": "Mion zombie",
+            "question": "Come mai la polizia trova il cadavere di Mion in fondo al pozzo? Perch\u00e8 Mion \u00e8 successivamente presente di fronte a Keiichi?",
+            "answers": [
+                "",
+                "Mion viene spinta gi\u00f9 da Shion e muore. Inutile dire che successivamente \u00e8 Shion a impersonarla."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "La morte di Shion": {
+            "title": "La morte di Shion",
+            "question": "Come mai viene trovato il cadavere di Shion sotto al suo appartamento alla fine del frammento?",
+            "answers": [
+                "",
+                "Shion cade dalla grondaia cercando di riarrampicarsi fino al suo appartamento."
+            ],
+            "seen": false,
+            "display_answer": 0
+        },
+        "Come muore Keiichi?": {
+            "title": "Come muore Keiichi?",
+            "question": "Keiichi vede il cadavere di Mion insanguinato che lo tormenta prima di essere ritrovato morto, dopo che tutte e due le sorelle sono confermate morte. Come DIAMINE si spiega questa?",
+            "answers": [
+                "",
+                "Keiichi \u00e8 morto di arresto cardiaco, ci\u00f2 che ha visto erano illusioni dovute alla paranoia.",
+                "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, ci\u00f2 che ha visto erano illusioni dovute alla paranoia."
+            ],
+            "seen": false,
+            "display_answer": 0
+        }
+    }
 }

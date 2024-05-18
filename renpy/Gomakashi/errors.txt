@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 153: 'default_focus' is not a keyword argument or valid child of the screen statement.
-    default_focus True
-                 ^
+File "game/Taccuino.rpy", line 169: 'xalign' is not a keyword argument or valid child of the for statement.
+    xalign 0.5
+          ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Mon May 13 23:21:39 2024
+Sat May 18 22:59:13 2024
