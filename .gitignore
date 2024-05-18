@@ -1,4 +1,5 @@
 *.pryc
+*.save
 renpy/bk/
 renpy/Yougisamashi/
 renpy/Majojirashi/
