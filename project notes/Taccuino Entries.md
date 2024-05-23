@@ -7,13 +7,13 @@ from scattered files
 
 [[Tutte le domande]]
 
-[[Le tre famiglie]]
+[[Le tre famiglie - Domande wata]]
 
-[[I sintomi della maledizione]]
+[[Others]]
 
 [[La serie di omicidi]]
 
-[[Others]]
+[[Misteri principali]]
 
 [[La cospirazione del BKG]]
 

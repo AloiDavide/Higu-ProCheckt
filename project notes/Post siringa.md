@@ -15,7 +15,10 @@ It was Shion all along, allora la teoria degli indottrinati non ha senso.
 Parlano di Rika. Hanabi non sa perchè lei sappia ma fa finta.
 Infine parlano di Satoko e Hanabi dice che gli puo provare che non è stata lei.
 
-
+Check cercava il signor X che gestiva la maledizione ma non lo ha trovato.
+Chi era X? era uno di quelli che ha ucciso?
+Parlano di irie
+Irie nel taccuino
 
 Hanabi chiarifica che se perdi torni a essere un merdone.
 

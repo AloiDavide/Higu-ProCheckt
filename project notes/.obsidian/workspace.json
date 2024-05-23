@@ -72,6 +72,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "881bea6492a628fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Post siringa.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
         "currentTab": 3
@@ -92,7 +105,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Le tre famiglie.md",
+                    "file": "Le tre famiglie - Domande wata.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -139,7 +152,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "I sintomi della maledizione.md",
+                    "file": "Others.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -158,7 +171,7 @@
                 "state": {
                   "type": "markdown",
                   "state": {
-                    "file": "Others.md",
+                    "file": "Misteri principali.md",
                     "mode": "source",
                     "backlinks": true,
                     "source": true
@@ -235,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Le tre famiglie.md",
+                "file": "Le tre famiglie - Domande wata.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -252,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Le tre famiglie.md",
+                "file": "Le tre famiglie - Domande wata.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -275,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Le tre famiglie.md"
+                "file": "Le tre famiglie - Domande wata.md"
               }
             }
           }
@@ -301,15 +314,15 @@
   "active": "8dd4eb6556e9fb07",
   "lastOpenFiles": [
     "Taccuino Development.md",
-    "Meakashi reread.md",
-    "Todo generale.md",
-    "Taccuino Entries.md",
-    "Le tre famiglie.md",
-    "I sintomi della maledizione.md",
-    "Tutte le domande.md",
     "Others.md",
+    "Misteri principali.md",
     "La serie di omicidi.md",
+    "Le tre famiglie - Domande wata.md",
+    "Tutte le domande.md",
+    "Todo generale.md",
+    "Meakashi reread.md",
     "Post siringa.md",
+    "Taccuino Entries.md",
     "Taccuino.md",
     "Resa della strega.md",
     "Scaletta Gomakashi.md",
