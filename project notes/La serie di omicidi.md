@@ -1,5 +1,4 @@
-Yellow
-Qui vanno tutti gli omicidi che sono delle costanti.
+Red
 
 ```
 La morte del primo anno.
@@ -85,9 +84,9 @@ I sonozaki non hanno nulla a che fare con la maledizione, chi diamine può esser
 -
 Takano non è morta, il cadavere è un sostituto preparato dai Mountain Dogs. Le impronte dentali sono state manipolate in modo che coincidano.
 ---
-
-
-
----
-La morte di Rika.
+Il detective Ooishi
+-
+Perchè Ooishi è così deciso a risolvere i misteri quando i suoi colleghi se ne sono lavati le mani da tempo, e lui sta per andare in pensione?
+-
+Il capocantiere, vittima del primo anno, era il suo mentore. Vuole portare i suoi assassini alla giustizia.
 ```

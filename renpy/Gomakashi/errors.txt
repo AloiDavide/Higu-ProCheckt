@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 256: Line is indented, but the preceding add statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    xalign 0.0
-    ^
+File "game/Taccuino.rpy", line 336: text statement expects 1 positional arguments, got 0.
+    text
+        ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun May 19 01:01:53 2024
+Fri May 24 22:27:14 2024

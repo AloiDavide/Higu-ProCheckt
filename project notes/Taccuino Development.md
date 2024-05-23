@@ -18,7 +18,7 @@
 
 ## Topics
 - [ ] Add bookmarks imagebuttons to the side
-- [ ] Handle the division
+- [ ] Handle the division in the class
 
 ## Index Pages
 Maybe it does make sense after all to keep objects for the book
@@ -43,23 +43,23 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] Implement the method
 	- [x] make button call it with the right arguments
 	- [ ] make the page screen template
-		- [ ] get assets
-		- [ ] manage frames to limit height variation
+		- [ ] make check separator trigger at random if a flag is ticked
+		- [x] manage frames to limit height variation
 		- [x] manage fonts
-		- [ ] test with longer text
+		- [x] test with longer text
 	- [x] If list end, right page is empty
 
 
 ## Making and reading the data
 - [x] Make  a mock json
 - [x] Read and show titles from json
-- [ ] Only trigger the check exclamation if a flag is ticked
-- [ ] get the real thing made
+- [x] get the real thing made
 	- [x] gather all out text notes
-	- [ ] divide them in cats
-	- [ ] Only include ones relevant to Meakashi, namely Sonozaki and Serial killings
+	- [x] divide them in cats
+	- [x] Only include ones relevant right now
 	- [x] Generate real json from notes
-	- [ ] Remember to add empty page to json for odd cases
+	- [x] Remember to add empty page to json for odd cases
+	- [ ] Spell check all text files
 
 
 ## Unlocking the feature

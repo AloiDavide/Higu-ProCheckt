@@ -1,12 +1,4 @@
 {
-  "graph:open-local": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "Y"
-    }
-  ],
   "editor:toggle-checklist-status": [
     {
       "modifiers": [
@@ -45,6 +37,14 @@
         "Alt"
       ],
       "key": "S"
+    }
+  ],
+  "editing-toolbar:editor-redo": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Y"
     }
   ]
 }

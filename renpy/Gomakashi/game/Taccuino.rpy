@@ -46,13 +46,10 @@ init python:
             self.titles = []
 
             with renpy.open_file("notes.json") as file:
-                self.tq_data = json.load(file)["-Topic1-"]
-                #TODO handle topics
+                self.tq_data = json.load(file)
 
-            #titles = ["tit1", "tit2", "tit3", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit", "tit",
-            #"tit9", "tit8", "tit7", "tit6", "tit5"]
 
-            self.titles = [page_data['title'] for page_data in self.tq_data.values()]
+            self.titles = [page_data['title'] for page_data in self.tq_data["0"].values()]
 
 
 
@@ -66,9 +63,16 @@ init python:
 
         #calls the index screen
         def show_index_page(self, page = None, topic=None):
-            if page is None: page = self.index_page
-            if topic is None: topic = self.current_topic
+            if page is None:
+                page = self.index_page
+            else:
+                self.index_page = page
+            if topic is None:
+                topic = self.current_topic
+            else:
+                self.current_topic = topic
 
+            self.titles = list(self.tq_data[str(topic)].keys())
 
             padded_titles = pad_titles(self.titles, self.per_page)
 
@@ -92,6 +96,7 @@ init python:
 
             paired_titles = pair_titles(self.titles)
 
+
             page = ()
             for pair in paired_titles:
                 if title in pair: page = pair
@@ -101,13 +106,12 @@ init python:
             bw = False if page == paired_titles[0] else True
             fw = False if page == paired_titles[-1] else True
 
-
-            left = self.tq_data[page[0]]
-            right = self.tq_data[page[1]]
+            topic = str(self.current_topic)
+            left = self.tq_data[topic][page[0]]
+            right = self.tq_data[topic][page[1]]
 
             renpy.hide_screen("tq_index_page")
             renpy.show_screen("tq_question_page", left=left, right=right, forward=fw, backward=bw)
-
             
         def turn_question_page(self, forward: bool, page):
             paired_titles = pair_titles(self.titles)
@@ -135,10 +139,10 @@ screen black():
 screen taccuino():
     zorder 101
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
+
+
     frame:
         add taccuino_overlay
-
-    $print(renpy.current_screen())
 
 
 
@@ -150,11 +154,23 @@ screen tq_index_page(this_page, forward, backward):
     # this_page := list of titles in the current page
 
 
+    python:
+        bw = im.Scale("overlay/bw.png", 70, 40)
+        fw = im.Scale("overlay/fw.png", 70, 40)
+        bw_h = im.Scale("overlay/bw_h.png", 70, 40)
+        fw_h = im.Scale("overlay/fw_h.png", 70, 40)
 
-    $bw = im.Scale("overlay/bw.png", 70, 40)
-    $fw = im.Scale("overlay/fw.png", 70, 40)
-    $bw_h = im.Scale("overlay/bw_h.png", 70, 40)
-    $fw_h = im.Scale("overlay/fw_h.png", 70, 40)
+        black_bm = "overlay/black bookmark.png"
+        black_bm_ext = "overlay/black bookmark ext.png"
+
+        red_bm = "overlay/red bookmark.png"
+        red_bm_ext = "overlay/red bookmark ext.png"
+
+        green_bm = "overlay/green bookmark.png"
+        green_bm_ext = "overlay/green bookmark ext.png"
+
+        blue_bm = "overlay/blue bookmark.png"
+        blue_bm_ext = "overlay/blue bookmark ext.png"
 
 
 
@@ -167,9 +183,41 @@ screen tq_index_page(this_page, forward, backward):
                 xalign 0.0
                 yalign 0.5
                 text_style "handwritten_index"
-                action Function(Taccuino.tq().show_question_page, t)
+                action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3))]
 
 
+    # Topic Bookmarks
+    vbox:
+        xsize 200
+        xalign 0.122
+        yalign 0.1
+        spacing 20
+
+        imagebutton:
+            idle black_bm
+            hover black_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,0), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle red_bm
+            hover red_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,1), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle green_bm
+            hover green_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,2), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle blue_bm
+            hover blue_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,3), With(Pixellate(0.6,3))]
+
+    # Page Turn
 
     if forward:
         imagebutton:
@@ -179,7 +227,7 @@ screen tq_index_page(this_page, forward, backward):
             hover fw_h
 
 
-            action [Function(Taccuino.tq().turn_index_page, True), With(Pixellate(0.5,1))]
+            action [Function(Taccuino.tq().turn_index_page, True), With(Pixellate(0.6,3))]
 
     if backward:
         imagebutton:
@@ -187,16 +235,21 @@ screen tq_index_page(this_page, forward, backward):
             yalign 0.95
             idle bw
             hover bw_h
-            action [Function(Taccuino.tq().turn_index_page, False), With(blinds)]
+            action [Function(Taccuino.tq().turn_index_page, False), With(Pixellate(0.6,3))]
 
+    # Exit Button
     imagebutton:
             xalign 0.01
-            yalign 0.5
+            yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
             action [Function(hide_notebook), With(easeoutbottom)]
 
 
+
+#----------------------------
+# SPECIFIC QUESTIONS SCREEN
+#----------------------------
 screen tq_question_page(left, right, forward, backward):
     # left := dict - data of the left page
     # right := dict - data of the right page, or None if not present
@@ -213,11 +266,30 @@ screen tq_question_page(left, right, forward, backward):
         bw_h = im.Scale("overlay/bw_h.png", 70, 40)
         fw_h = im.Scale("overlay/fw_h.png", 70, 40)
 
+        green_bm = "overlay/green bookmark.png"
+
         separator_think = im.Scale("overlay/comic check think.png", 150, 150)
         separator_eureka = im.Scale("overlay/comic check eureka.png", 150, 150)
 
         ans_left = left['display_answer']
         ans_right = right['display_answer']
+
+
+
+        black_bm = "overlay/black bookmark.png"
+        black_bm_ext = "overlay/black bookmark ext.png"
+
+        red_bm = "overlay/red bookmark.png"
+        red_bm_ext = "overlay/red bookmark ext.png"
+
+        green_bm = "overlay/green bookmark.png"
+        green_bm_ext = "overlay/green bookmark ext.png"
+
+        blue_bm = "overlay/blue bookmark.png"
+        blue_bm_ext = "overlay/blue bookmark ext.png"
+
+
+
 
     # left page
     vbox:
@@ -252,9 +324,25 @@ screen tq_question_page(left, right, forward, backward):
 
         # separator if answer present
         if ans_left > 0:
-            add separator_eureka:
+            hbox:
                 xalign 0.0
                 xoffset -20
+                spacing 100
+
+                add separator_eureka
+
+                python:
+                    import random
+                    esclamazioni = ["EUREKA!", "CI SONO!", "HO CAPITO!", "MACCERTO!"]
+                    esclamazione = random.choice(esclamazioni)
+
+                text esclamazione:
+                    textalign 0.5
+                    yalign 0.8
+                    outlines [(2, "#000")]
+                    color "#6A0707"
+                    size 50
+                    font "static/Caveat-Regular.ttf"
         else:
             add separator_think:
                 xalign 0.0
@@ -325,8 +413,40 @@ screen tq_question_page(left, right, forward, backward):
                 size 35
                 font "static/Caveat-Regular.ttf"
 
+    # Topic Bookmarks
+    vbox:
+        xsize 200
+        xalign 0.122
+        yalign 0.1
+        spacing 20
+
+        imagebutton:
+            idle black_bm
+            hover black_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,0), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle red_bm
+            hover red_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,1), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle green_bm
+            hover green_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,2), With(Pixellate(0.6,3))]
+
+        imagebutton:
+            idle blue_bm
+            hover blue_bm_ext
+            hover_xoffset 5
+            action [Function(Taccuino.tq().show_index_page,0,3), With(Pixellate(0.6,3))]
 
 
+
+    # PAGE TURN
 
     $ current_page = (left["title"], right["title"])
 
@@ -338,7 +458,7 @@ screen tq_question_page(left, right, forward, backward):
             hover fw_h
 
 
-            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.5,2))]
+            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.6,3))]
 
     if backward:
         imagebutton:
@@ -346,7 +466,7 @@ screen tq_question_page(left, right, forward, backward):
             yalign 0.95
             idle bw
             hover bw_h
-            action [Function(Taccuino.tq().turn_question_page, False, current_page), With(blinds)]
+            action [Function(Taccuino.tq().turn_question_page, False, current_page), With(Pixellate(0.6,3))] # blinds
 
     imagebutton:
             xalign 0.01
