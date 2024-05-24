@@ -6,7 +6,7 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 40.06393180607352,
+        "dimension": 49.81353223228556,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -92,7 +92,7 @@
       {
         "id": "0adf0a4df92b95dd",
         "type": "split",
-        "dimension": 30.580713905167823,
+        "dimension": 20.831113478955782,
         "children": [
           {
             "id": "eaf315b8897c4c46",
@@ -248,7 +248,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Le tre famiglie - Domande wata.md",
+                "file": "Taccuino Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +265,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Le tre famiglie - Domande wata.md",
+                "file": "Taccuino Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +288,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Le tre famiglie - Domande wata.md"
+                "file": "Taccuino Development.md"
               }
             }
           }
@@ -297,8 +297,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -311,13 +310,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8dd4eb6556e9fb07",
+  "active": "5f90be29c52580ac",
   "lastOpenFiles": [
-    "Taccuino Development.md",
-    "Others.md",
     "Misteri principali.md",
-    "La serie di omicidi.md",
+    "Taccuino Development.md",
     "Le tre famiglie - Domande wata.md",
+    "Others.md",
+    "La serie di omicidi.md",
     "Tutte le domande.md",
     "Todo generale.md",
     "Meakashi reread.md",

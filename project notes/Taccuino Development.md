@@ -6,10 +6,11 @@
 
 ## VFX
 - [x] main menu still uses corner button
-- [ ] Fix the mouse focus problem ⏫ 
+- [ ] Fix the mouse focus problem, ask on the discord ⏫ 
 - [ ] Review generale estetica alla fine 🔽 
-	- [ ] toggle button stays big and changes color while notes are open
-- [ ] Decide on page transitions
+- [ ] toggle button stays big and changes color while notes are open?
+	- [ ] Make the toggle button behave decently somehow
+- [x] Decide on page transitions
 	- Maybe blinds for page turn and pixellate for topic change and entering specific page
 - [x] Make the toggle button also close it.
 
@@ -17,8 +18,8 @@
 
 
 ## Topics
-- [ ] Add bookmarks imagebuttons to the side
-- [ ] Handle the division in the class
+- [x] Add bookmarks imagebuttons to the side
+- [x] Handle the division in the class
 
 ## Index Pages
 Maybe it does make sense after all to keep objects for the book
@@ -32,17 +33,19 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] display them dynamically
 	- [x] clicking the page button calls the right method.
 	- [x] It shows the new screen and hides the old one
-- [ ] Add an effect for unread questions, and remove it any time they are viewed by updating the dict.\
+- [ ] Add an effect for unread questions (CHECK FACE), and remove it any time they are viewed by updating the dict.
 	- [ ] check the flag and add a visual flair
 	- [ ] implement the function that turns off the flag in the file
 	- [x] call it from the show page method
 - [ ] Fix the way pages look for the title in the dictionary to use the key
+- [?] Add an option to show consecutive answers as appends?
+	- [x] No, if we want the next answer to reiterate on the previous by cutting it off, I'll just invent a syntax for it. Then it gets converted to strikethrough text with html when passing to the json.
 ## Question Pages
 - [x] Make the titles textbuttons
 - [x] Make the buttons call a method to show the specific page
 	- [x] Implement the method
 	- [x] make button call it with the right arguments
-	- [ ] make the page screen template
+	- [x] make the page screen template
 		- [ ] make check separator trigger at random if a flag is ticked
 		- [x] manage frames to limit height variation
 		- [x] manage fonts
@@ -60,11 +63,11 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] Generate real json from notes
 	- [x] Remember to add empty page to json for odd cases
 	- [ ] Spell check all text files
+- [ ] Once the flags start to change dynamically, make a way to generate the txt file from the json
 
 
 ## Unlocking the feature
-- [ ] write miniscene or include it with siringa (check non sa più che pensare e ha bisogno di raccogliere le info dopo che hanabi se ne va)
-	- [ ] Hai sbloccato: Appunti di check (in outline orenji)
+- [ ] Hai sbloccato: Appunti di check (in outline orenji)
 
 
 
