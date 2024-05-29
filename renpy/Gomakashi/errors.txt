@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/Taccuino.rpy", line 336: text statement expects 1 positional arguments, got 0.
-    text
-        ^
+File "game/myscreens.rpy", line 32: 'volume' is not a keyword argument or valid child of the imagebutton statement.
+    hover_sound "audio/sfx/darkso cursor.mp3" volume 20
+                                                    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Fri May 24 22:27:14 2024
+Wed May 29 15:28:49 2024

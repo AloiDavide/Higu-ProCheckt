@@ -1,11 +1,11 @@
 label chessboard0:
     $notes=False
-    play music "audio/higu/short dawn at the end of time.mp3" fadein(8)
+    play music "audio/higu/short dawn at the end of time.mp3" fadein(5)
 
     hide layer screens
 
     scene black
-    with longFade
+    with Fade(3,0,1)
 
     show sepia onlayer overlayer
     #show layer overlayer

@@ -1,11 +1,11 @@
-2024-05-24 16:22:32 UTC
+2024-05-29 13:42:41 UTC
 Windows-10-10.0.22631
 Ren'Py 8.2.1.24030407
 
-Early init took 0.14s
+Early init took 0.25s
 Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.03s
+Loading script took 0.39s
+Loading save slot metadata took 0.04s
 Loading persistent took 0.00s
 Running init code took 0.07s
 Loading analysis data took 0.01s
@@ -26,9 +26,351 @@ Init translation took 0.02s
 Build styles took 0.00s
 Load screen analysis took 0.00s
 Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Showing specific page for:
+Oyashiro sama esiste?
+Showing specific page for:
+Tabula rasa.
+Resetting cache.
+Early init took 170.69s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
 Save screen analysis took 0.01s
 Prepare screens took 0.05s
 Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 196.81s
+Loading error handling took 0.01s
+Loading script took 0.22s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Showing specific page for:
+Oyashiro sama esiste?
+Showing specific page for:
+Tabula rasa.
+Showing specific page for:
+Oyashiro sama esiste?
+Resetting cache.
+Early init took 239.47s
+Loading error handling took 0.02s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups took 0.05s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Showing specific page for:
+Omicidi seriali.
+Showing specific page for:
+Il demone di Mion.
+Showing specific page for:
+La morte di Shion.
+Showing specific page for:
+
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 352.32s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Resetting cache.
+Early init took 368.03s
+Loading error handling took 0.01s
+Loading script took 0.13s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.02s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.01s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.01s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Resetting cache.
+Early init took 401.57s
+Loading error handling took 0.01s
+Loading script took 0.11s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.05s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.00s
+Resetting cache.
+Early init took 479.58s
+Loading error handling took 0.01s
+Loading script took 0.22s
+Loading save slot metadata took 0.02s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.02s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
+Dump and make backups took 0.04s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.03s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Interface start took 0.05s
@@ -46,3174 +388,8 @@ Maximum texture size: 4096x4096
 controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
-Showing specific page for:
-Mion o Shion?
-Showing specific page for:
-Mion o... Mion?
-Showing specific page for:
-Mion o Shion?
-Showing specific page for:
-Mion o... Mion?
-Showing specific page for:
-I tonfi nel magazzino.
-Showing specific page for:
-La notizia dell'intrusione.
-Showing specific page for:
-I tonfi nel magazzino.
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Mion o... Mion?
 Resetting cache.
-Early init took 261.82s
-Loading error handling took 0.03s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2818, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 1352, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 486, in renpy.display.render.render_screen
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\movetransition.py", line 383, in render
-    old_r = renpy.display.render.render(self.old, width, height, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\transform.py", line 957, in render
-    return RenderTransform(self).render(width, height, st, at)
-  File "accelerator.pyx", line 978, in renpy.display.accelerator.RenderTransform.render
-  File "accelerator.pyx", line 413, in renpy.display.accelerator.RenderTransform.render_child
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 2084, in render
-    cr = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 747, in render
-    self.update()
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "game/Taccuino.rpy", line 146, in execute
-    screen tq_index_page(this_page, forward, backward):
-  File "game/Taccuino.rpy", line 146, in execute
-    screen tq_index_page(this_page, forward, backward):
-  File "game/Taccuino.rpy", line 152, in execute
-    python:
-  File "game/Taccuino.rpy", line 158, in <module>
-    green_bm = im.scale("overlay/green bookmark.png", 100,60)
-AttributeError: module 'renpy.display.im' has no attribute 'scale'
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "game/Taccuino.rpy", line 146, in execute
-    screen tq_index_page(this_page, forward, backward):
-  File "game/Taccuino.rpy", line 146, in execute
-    screen tq_index_page(this_page, forward, backward):
-  File "game/Taccuino.rpy", line 152, in execute
-    python:
-  File "game/Taccuino.rpy", line 158, in <module>
-    green_bm = im.scale("overlay/green bookmark.png", 100,60)
-AttributeError: module 'renpy.display.im' has no attribute 'scale'
-Resetting cache.
-Early init took 277.25s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Showing specific page for:
-Mion o Shion?
-Resetting cache.
-Early init took 307.84s
-Loading error handling took 0.01s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 338.99s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1060.41s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 179: keyword argument 'hover' appears more than once in a imagebutton statement.
-    hover xoffset 300
-         ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1227.83s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.03s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1244.77s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1278.42s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1365.07s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1389.56s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1516.57s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1554.77s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1570.20s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1579.59s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1593.49s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1608.92s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1621.30s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1630.69s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1793.18s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 177: Line is indented, but the preceding vbox statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    xalign 0.115
-    ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1882.20s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 177: Line is indented, but the preceding vbox statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    xalign 0.115
-    ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1891.43s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 1916.13s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 1940.78s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 1953.20s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 1971.65s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 1991.66s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 2011.64s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 2065.00s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 2074.38s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2209.81s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2296.49s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2314.91s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2330.36s
-Loading error handling took 0.01s
-Loading script took 0.15s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2348.83s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 2788.53s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4553.54s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 4581.03s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-I tonfi nel magazzino.
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 11687.68s
-Loading error handling took 0.03s
-Loading script took 0.27s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.14s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.01s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.03s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12073.32s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 60, in tq
-    Taccuino.instance = Taccuino()
-  File "game/Taccuino.rpy", line 52, in __init__
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-  File "game/Taccuino.rpy", line 52, in <lambda>
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-KeyError: 0
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 60, in tq
-    Taccuino.instance = Taccuino()
-  File "game/Taccuino.rpy", line 52, in __init__
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-  File "game/Taccuino.rpy", line 52, in <lambda>
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-KeyError: 0
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 12564.95s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Resetting cache.
-Early init took 12712.12s
-Loading error handling took 0.01s
-Loading script took 0.15s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 60, in tq
-    Taccuino.instance = Taccuino()
-  File "game/Taccuino.rpy", line 52, in __init__
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-  File "game/Taccuino.rpy", line 52, in <lambda>
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-KeyError: 0
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 60, in tq
-    Taccuino.instance = Taccuino()
-  File "game/Taccuino.rpy", line 52, in __init__
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-  File "game/Taccuino.rpy", line 52, in <lambda>
-    self.titles = [page_data['title'] for page_data in self.tq_data[0].values()]
-KeyError: 0
-Resetting cache.
-Early init took 12767.06s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = self.tq_data[topic].values()
-KeyError: 0
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = self.tq_data[topic].values()
-KeyError: 0
-Resetting cache.
-Early init took 12793.24s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_values' and 'RevertableList'
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_values' and 'RevertableList'
-Resetting cache.
-Early init took 13023.77s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_values' and 'RevertableList'
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_values' and 'RevertableList'
-Resetting cache.
-Early init took 13189.30s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_keys' and 'RevertableList'
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 8, in show_notebook
-    Taccuino.tq().show_index_page()
-  File "game/Taccuino.rpy", line 77, in show_index_page
-    padded_titles = pad_titles(self.titles, self.per_page)
-  File "game/Taccuino.rpy", line 30, in pad_titles
-    res = res + [""]
-TypeError: unsupported operand type(s) for +: 'dict_keys' and 'RevertableList'
-Resetting cache.
-Early init took 13210.77s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Showing specific page for:
-I sonozaki.
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 288, in event
-    rv = d.event(ev, x - xo, y - yo, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 110, in show_question_page
-    left = self.tq_data[self.current_topic][page[0]]
-KeyError: 0
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 110, in show_question_page
-    left = self.tq_data[self.current_topic][page[0]]
-KeyError: 0
-Resetting cache.
-Early init took 13279.24s
-Loading error handling took 0.02s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Showing specific page for:
-La morte del primo anno.
-Showing specific page for:
-La morte del secondo anno.
-Showing specific page for:
-La morte del terzo anno.
-Showing specific page for:
-La morte del quarto anno.
-Showing specific page for:
-La morte di Tomitake.
-Showing specific page for:
-Il detective Ooishi
-Showing specific page for:
-I sonozaki.
-
-Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
-    self.call("execute")
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
-    return renpy.statements.call(method, parsed, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\statements.py", line 349, in call
-    return method(parsed, *args, **kwargs)
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 3413, in call_screen
-    rv = renpy.ui.interact(mouse="screen", type="screen", roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\transition.py", line 53, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = list(self.tq_data[str(topic)].keys())
-KeyError: '3'
-
-While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
-  File "renpy/common/000statements.rpy", line 671, in execute_call_screen
-    store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = list(self.tq_data[str(topic)].keys())
-KeyError: '3'
-Resetting cache.
-Early init took 13321.73s
-Loading error handling took 0.02s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1057) drawable=(1879, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-La scomparsa del quarto anno
-Showing specific page for:
-La morte del terzo anno.
-Showing specific page for:
-La morte del secondo anno.
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1048) drawable=(1879, 1048)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
-Resetting cache.
-Early init took 13564.67s
-Loading error handling took 0.01s
-Loading script took 0.11s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.02s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-I passi misteriosi
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 13800.08s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-La scomparsa del secondo anno.
-Showing specific page for:
-I tonfi nel magazzino.
-Showing specific page for:
-Oyashiro sama esiste?
-Resetting cache.
-Early init took 14327.93s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Oyashiro sama esiste?
-Resetting cache.
-Early init took 14448.17s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 334: text statement expects 1 positional arguments, got 0.
-    text
-        ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.07s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 14651.73s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 334: text statement expects 1 positional arguments, got 0.
-    text
-        ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 14682.04s
-Loading error handling took 0.02s
-Loading script took 0.15s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-
-File "game/Taccuino.rpy", line 336: text statement expects 1 positional arguments, got 0.
-    text
-        ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 14716.84s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-I passi misteriosi
-Resetting cache.
-Early init took 14782.34s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Omicidi seriali.
-Resetting cache.
-Early init took 14820.54s
-Loading error handling took 0.02s
-Loading script took 0.12s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.02s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Screen sizes: virtual=(1920, 1080) physical=(1879, 1048) drawable=(1879, 1048)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 14984.57s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.25s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 15027.40s
+Early init took 490.61s
 Loading error handling took 0.02s
 Loading script took 0.11s
 Loading save slot metadata took 0.02s
@@ -3223,6 +399,7 @@ Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.02s
 Index archives took 0.00s
+Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
 Dump and make backups took 0.04s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
@@ -3232,264 +409,37 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.04s
+Init translation took 0.03s
 Build styles took 0.00s
-Load screen analysis took 0.03s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.01s
+Running _start took 0.00s
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1920, 1080)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'ATI Technologies Inc.'"
+Renderer: b'AMD Radeon RX 6600'
+Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
+Maximum texture size: 4096x4096
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.02s
 Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.05s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Prepare screens took 0.00s
 Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 15562.97s
-Loading error handling took 0.02s
-Loading script took 0.23s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.03s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Resetting cache.
-Early init took 15582.91s
-Loading error handling took 0.01s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.05s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Resetting cache.
-Early init took 15619.62s
-Loading error handling took 0.01s
-Loading script took 0.13s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.01s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.01s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.01s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
-Resetting cache.
-Early init took 15650.23s
-Loading error handling took 0.02s
-Loading script took 0.14s
-Loading save slot metadata took 0.02s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.02s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\Davide\\AppData\\Roaming/RenPy/backups\\Gomakashi':
-Dump and make backups took 0.04s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.05s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.03s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.01s
-Running _start took 0.00s
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1920, 1080)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'ATI Technologies Inc.'"
-Renderer: b'AMD Radeon RX 6600'
-Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
-Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
-Maximum texture size: 4096x4096
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-Omicidi seriali.
-Showing specific page for:
-I sonozaki.
-Showing specific page for:
-Oyashiro sama esiste?
-Showing specific page for:
-Tabula rasa.
-Showing specific page for:
-Oyashiro sama esiste?
 Showing specific page for:
 I sonozaki.
 Showing specific page for:

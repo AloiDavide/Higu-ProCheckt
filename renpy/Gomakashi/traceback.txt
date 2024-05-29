@@ -1,21 +1,17 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 28, in script
-    call screen tips
+  File "game/script.rpy", line 29, in script
+    call screen tips with Dissolve(0.1)
   File "renpy/common/000statements.rpy", line 671, in execute_call_screen
     store._return = renpy.call_screen(name, *args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = list(self.tq_data[str(topic)].keys())
-KeyError: '3'
+OSError: Couldn't find file 'audio/sfx/darkso sele'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 28, in script
-    call screen tips
+  File "game/script.rpy", line 29, in script
+    call screen tips with Dissolve(0.1)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1968, in execute
     self.call("execute")
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 1950, in call
@@ -30,37 +26,24 @@ Full traceback:
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3201, in interact_core
-    rv = root_widget.event(ev, x, y, 0)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\transition.py", line 53, in event
-    return self.new_widget.event(ev, x, y, st) # E1101
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 793, in event
-    rv = self.child.event(ev, x, y, st)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1202, in event
-    rv = i.event(ev, x - xo, y - yo, cst)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1174, in event
-    return handle_click(self.clicked)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 1095, in handle_click
-    rv = run(action)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 388, in run
-    new_rv = run(i, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\behavior.py", line 395, in run
-    return action(*args, **kwargs)
-  File "renpy/common/00action_other.rpy", line 586, in __call__
-    rv = self.callable(*self.args, **self.kwargs)
-  File "game/Taccuino.rpy", line 75, in show_index_page
-    self.titles = list(self.tq_data[str(topic)].keys())
-KeyError: '3'
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/sfx/darkso sele'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Fri May 24 22:04:30 2024
+Wed May 29 15:26:21 2024

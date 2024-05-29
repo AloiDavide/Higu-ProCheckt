@@ -110,6 +110,7 @@ init python:
             left = self.tq_data[topic][page[0]]
             right = self.tq_data[topic][page[1]]
 
+
             renpy.hide_screen("tq_index_page")
             renpy.show_screen("tq_question_page", left=left, right=right, forward=fw, backward=bw)
             
@@ -120,10 +121,6 @@ init python:
             next = current + 1 if forward else current - 1
 
             self.show_question_page(paired_titles[next][0])
-
-
-
-
 
 
 
@@ -151,28 +148,8 @@ screen taccuino():
 screen tq_index_page(this_page, forward, backward):
     zorder 102
     modal True
+
     # this_page := list of titles in the current page
-
-
-    python:
-        bw = im.Scale("overlay/bw.png", 70, 40)
-        fw = im.Scale("overlay/fw.png", 70, 40)
-        bw_h = im.Scale("overlay/bw_h.png", 70, 40)
-        fw_h = im.Scale("overlay/fw_h.png", 70, 40)
-
-        black_bm = "overlay/black bookmark.png"
-        black_bm_ext = "overlay/black bookmark ext.png"
-
-        red_bm = "overlay/red bookmark.png"
-        red_bm_ext = "overlay/red bookmark ext.png"
-
-        green_bm = "overlay/green bookmark.png"
-        green_bm_ext = "overlay/green bookmark ext.png"
-
-        blue_bm = "overlay/blue bookmark.png"
-        blue_bm_ext = "overlay/blue bookmark ext.png"
-
-
 
     grid 2 7:
         xspacing 150
@@ -183,67 +160,10 @@ screen tq_index_page(this_page, forward, backward):
                 xalign 0.0
                 yalign 0.5
                 text_style "handwritten_index"
-                action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3))]
+                action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
+    use taccuino_ui(forward=forward, backward=backward)
 
-    # Topic Bookmarks
-    vbox:
-        xsize 200
-        xalign 0.122
-        yalign 0.1
-        spacing 20
-
-        imagebutton:
-            idle black_bm
-            hover black_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,0), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle red_bm
-            hover red_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,1), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle green_bm
-            hover green_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,2), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle blue_bm
-            hover blue_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,3), With(Pixellate(0.6,3))]
-
-    # Page Turn
-
-    if forward:
-        imagebutton:
-            xalign 0.85
-            yalign 0.95
-            idle fw
-            hover fw_h
-
-
-            action [Function(Taccuino.tq().turn_index_page, True), With(Pixellate(0.6,3))]
-
-    if backward:
-        imagebutton:
-            xalign 0.15
-            yalign 0.95
-            idle bw
-            hover bw_h
-            action [Function(Taccuino.tq().turn_index_page, False), With(Pixellate(0.6,3))]
-
-    # Exit Button
-    imagebutton:
-            xalign 0.01
-            yalign 0.01
-            idle im.Scale("overlay/notes_icon.png", 50, 50)
-            hover im.Scale("overlay/notes_icon.png", 100, 100)
-            action [Function(hide_notebook), With(easeoutbottom)]
 
 
 
@@ -255,41 +175,18 @@ screen tq_question_page(left, right, forward, backward):
     # right := dict - data of the right page, or None if not present
     # forward := bool - is there a next page?
     # backward := bool - is there a previous page?
-
     zorder 102
     modal True
 
-    # Page flip buttons
+
     python:
-        bw = im.Scale("overlay/bw.png", 70, 40)
-        fw = im.Scale("overlay/fw.png", 70, 40)
-        bw_h = im.Scale("overlay/bw_h.png", 70, 40)
-        fw_h = im.Scale("overlay/fw_h.png", 70, 40)
-
-        green_bm = "overlay/green bookmark.png"
-
         separator_think = im.Scale("overlay/comic check think.png", 150, 150)
         separator_eureka = im.Scale("overlay/comic check eureka.png", 150, 150)
 
         ans_left = left['display_answer']
         ans_right = right['display_answer']
 
-
-
-        black_bm = "overlay/black bookmark.png"
-        black_bm_ext = "overlay/black bookmark ext.png"
-
-        red_bm = "overlay/red bookmark.png"
-        red_bm_ext = "overlay/red bookmark ext.png"
-
-        green_bm = "overlay/green bookmark.png"
-        green_bm_ext = "overlay/green bookmark ext.png"
-
-        blue_bm = "overlay/blue bookmark.png"
-        blue_bm_ext = "overlay/blue bookmark ext.png"
-
-
-
+        current_page = (left["title"], right["title"])
 
     # left page
     vbox:
@@ -413,6 +310,25 @@ screen tq_question_page(left, right, forward, backward):
                 size 35
                 font "static/Caveat-Regular.ttf"
 
+
+    use taccuino_ui(current_page=current_page, forward=forward, backward=backward)
+
+
+
+#------------------------------------
+
+screen taccuino_ui(forward, backward, current_page=None):
+    zorder 103
+    python:
+        bw = im.Scale("overlay/bw.png", 70, 40)
+        fw = im.Scale("overlay/fw.png", 70, 40)
+        bw_h = im.Scale("overlay/bw_h.png", 70, 40)
+        fw_h = im.Scale("overlay/fw_h.png", 70, 40)
+
+        colors = ["black", "red", "green", "blue"]
+        bookmarks = ["overlay/"+color+" bookmark.png" for color in colors]
+        bookmarks_hover = ["overlay/"+color+" bookmark ext.png" for color in colors]
+
     # Topic Bookmarks
     vbox:
         xsize 200
@@ -420,35 +336,15 @@ screen tq_question_page(left, right, forward, backward):
         yalign 0.1
         spacing 20
 
-        imagebutton:
-            idle black_bm
-            hover black_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,0), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle red_bm
-            hover red_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,1), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle green_bm
-            hover green_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,2), With(Pixellate(0.6,3))]
-
-        imagebutton:
-            idle blue_bm
-            hover blue_bm_ext
-            hover_xoffset 5
-            action [Function(Taccuino.tq().show_index_page,0,3), With(Pixellate(0.6,3))]
+        for i in range(4):
+            imagebutton:
+                idle bookmarks[i]
+                hover bookmarks_hover[i]
+                hover_xoffset 5
+                action [Function(Taccuino.tq().show_index_page,0,i), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
 
-
-    # PAGE TURN
-
-    $ current_page = (left["title"], right["title"])
+    # Page Turn
 
     if forward:
         imagebutton:
@@ -457,8 +353,10 @@ screen tq_question_page(left, right, forward, backward):
             idle fw
             hover fw_h
 
-
-            action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.6,3))]
+            if current_page is not None:
+                action [Function(Taccuino.tq().turn_question_page, True, current_page), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/pageflip.mp3")]
+            else:
+                action [Function(Taccuino.tq().turn_index_page, True), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/pageflip.mp3")]
 
     if backward:
         imagebutton:
@@ -466,11 +364,19 @@ screen tq_question_page(left, right, forward, backward):
             yalign 0.95
             idle bw
             hover bw_h
-            action [Function(Taccuino.tq().turn_question_page, False, current_page), With(Pixellate(0.6,3))] # blinds
 
+            if current_page is not None:
+                action [Function(Taccuino.tq().turn_question_page, False, current_page), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/pageflip.mp3")]
+            else:
+                action [Function(Taccuino.tq().turn_index_page, False), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/pageflip.mp3")]
+
+    # Exit Button
     imagebutton:
             xalign 0.01
-            yalign 0.5
+            yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
+            hover_sound "audio/sfx/pageflip.mp3"
+            activate_sound "audio/sfx/multiple pageflips.mp3"
             action [Function(hide_notebook), With(easeoutbottom)]
+

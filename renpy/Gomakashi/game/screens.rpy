@@ -248,6 +248,8 @@ screen quick_menu():
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
+            hover_sound "audio/sfx/pageflip.mp3"
+            activate_sound "audio/sfx/multiple pageflips.mp3"
 
             if showing_notes:
                 action [Function(hide_notebook), With(easeoutbottom)]
@@ -398,6 +400,7 @@ screen main_menu():
         null height 365
 
         textbutton 'Tocca il frammento':
+            hover_sound "audio/sfx/darkso cursor.mp3"
             style "menu_buttons"
             text_style "menu_text"
             action Start()
@@ -405,13 +408,15 @@ screen main_menu():
         null height 30
 
         textbutton 'Impostazioni':
+            hover_sound "audio/sfx/darkso cursor.mp3"
             style "menu_buttons"
             text_style "menu_text"
             action ShowMenu("preferences")
 
         null height 30
 
-        textbutton 'Esci': #eventually taccuino
+        textbutton 'Esci':
+            hover_sound "audio/sfx/darkso cursor.mp3"
             style "menu_buttons"
             text_style "menu_text"
             action Quit()
@@ -435,6 +440,7 @@ screen main_menu():
 
         idle postit_a
         hover postit_b
+        hover_sound "audio/sfx/pageflip.mp3"
 
         tooltip "a"
         action NullAction()
@@ -466,6 +472,8 @@ screen main_menu():
             yalign 0.01
             idle im.Scale("overlay/notes_icon.png", 50, 50)
             hover im.Scale("overlay/notes_icon.png", 100, 100)
+            hover_sound "audio/sfx/pageflip.mp3"
+            activate_sound "audio/sfx/multiple pageflips.mp3"
             #action ToggleScreen("taccuino", transition=easeinbottom)
             action [Function(show_notebook), With(easeinbottom)]
 

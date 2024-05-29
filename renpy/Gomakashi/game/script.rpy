@@ -20,12 +20,13 @@ label start:
     #play sound "audio/sfx/heavy door close.mp3"
     #scene basement with Fade(1,0,1.5)
     #pause 1.5
+
     play sound "audio/sfx/glass crack.mp3"
     show frag_overlay
 
     play music "audio/higu/asagiri.mp3"
 
-    call screen tips
+    call screen tips with Dissolve(0.1)
 
     return
 

@@ -29,6 +29,8 @@ screen tips():
                 tooltip "Metodo Socratico"
                 idle damA
                 hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
                 action Jump("chessboard0")
 
 #            imagebutton:
