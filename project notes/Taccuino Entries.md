@@ -9,7 +9,7 @@ from scattered files
 
 [[Le tre famiglie - Domande wata]]
 
-[[Others]]
+[[Misteri esterni]]
 
 [[La serie di omicidi]]
 

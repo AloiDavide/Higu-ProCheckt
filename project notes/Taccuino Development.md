@@ -4,9 +4,18 @@
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
 - Every time the taccuino is called, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
 
+
+## Refactor
+- [ ] Take out zorders if possible
+- [ ] Fix the way pages look for the title in the dictionary to use the key
+- [ ] make the forward and backward flags not jump around so much
+- [ ] fix left and right question pages duplication
+
+
 ## VFX
 - [x] main menu still uses corner button
 - [ ] Fix the mouse focus problem, ask on the discord ⏫ 
+- [ ] fix the exclamation reloading when the page is clicked
 - [ ] Review generale estetica alla fine 🔽 
 - [ ] toggle button stays big and changes color while notes are open?
 	- [ ] Make the toggle button behave decently somehow
@@ -37,7 +46,6 @@ Maybe it does make sense after all to keep objects for the book
 	- [ ] check the flag and add a visual flair
 	- [ ] implement the function that turns off the flag in the file
 	- [x] call it from the show page method
-- [ ] Fix the way pages look for the title in the dictionary to use the key
 - [?] Add an option to show consecutive answers as appends?
 	- [x] No, if we want the next answer to reiterate on the previous by cutting it off, I'll just invent a syntax for it. Then it gets converted to strikethrough text with html when passing to the json.
 ## Question Pages
@@ -47,6 +55,7 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] make button call it with the right arguments
 	- [x] make the page screen template
 		- [ ] make check separator trigger at random if a flag is ticked
+			- [ ] complete it with horizontal shit
 		- [x] manage frames to limit height variation
 		- [x] manage fonts
 		- [x] test with longer text

@@ -6,7 +6,6 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 49.81353223228556,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -22,25 +21,12 @@
             }
           },
           {
-            "id": "1f5c4cfd10899416",
+            "id": "a0dab395549acb85",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meakashi reread.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d482b4765725a40b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Taccuino Entries.md",
+                "file": "Music Catalog.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -61,18 +47,57 @@
             }
           },
           {
-            "id": "f6c78a7e6ca2b7e7",
+            "id": "1f5c4cfd10899416",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutte le domande.md",
+                "file": "Meakashi reread.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           },
+          {
+            "id": "956122e47e3961d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Scaletta Gomakashi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "8dfad12cc5c9c10d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2e6e43155a9a2d77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Takano isterica.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "6c2a189f7ad126ea",
+        "type": "tabs",
+        "children": [
           {
             "id": "881bea6492a628fe",
             "type": "leaf",
@@ -86,102 +111,26 @@
               }
             }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
-        "id": "0adf0a4df92b95dd",
-        "type": "split",
-        "dimension": 20.831113478955782,
+        "id": "8e07e57989d50e99",
+        "type": "tabs",
         "children": [
           {
-            "id": "eaf315b8897c4c46",
-            "type": "tabs",
-            "dimension": 50.742115027829314,
-            "children": [
-              {
-                "id": "8dd4eb6556e9fb07",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Le tre famiglie - Domande wata.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
+            "id": "2210c2f200438881",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resa della strega.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
               }
-            ]
-          },
-          {
-            "id": "422cf08cdc908746",
-            "type": "tabs",
-            "dimension": 49.257884972170686,
-            "children": [
-              {
-                "id": "dd161062a8edc0c4",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "La serie di omicidi.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              }
-            ]
+            }
           }
-        ],
-        "direction": "horizontal"
-      },
-      {
-        "id": "bccfa6bd2216b74d",
-        "type": "split",
-        "dimension": 29.355354288758654,
-        "children": [
-          {
-            "id": "312ddc19e1adb1af",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "9669275e7e4f65cd",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Others.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              }
-            ]
-          },
-          {
-            "id": "6463dd62fdafdd41",
-            "type": "tabs",
-            "children": [
-              {
-                "id": "90ce577040b59d7e",
-                "type": "leaf",
-                "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "Misteri principali.md",
-                    "mode": "source",
-                    "backlinks": true,
-                    "source": true
-                  }
-                }
-              }
-            ]
-          }
-        ],
-        "direction": "horizontal"
+        ]
       }
     ],
     "direction": "vertical"
@@ -248,7 +197,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Music Catalog.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -265,7 +214,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Music Catalog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -288,7 +237,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taccuino Development.md"
+                "file": "Music Catalog.md"
               }
             }
           }
@@ -297,7 +246,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -310,23 +260,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5f90be29c52580ac",
+  "active": "a0dab395549acb85",
   "lastOpenFiles": [
-    "Misteri principali.md",
     "Taccuino Development.md",
-    "Le tre famiglie - Domande wata.md",
-    "Others.md",
-    "La serie di omicidi.md",
-    "Tutte le domande.md",
+    "Music Catalog.md",
     "Todo generale.md",
     "Meakashi reread.md",
+    "Takano isterica.md",
+    "Scaletta Gomakashi.md",
+    "Resa della strega.md",
     "Post siringa.md",
     "Taccuino Entries.md",
+    "Misteri esterni.md",
+    "Misteri principali.md",
+    "Le tre famiglie - Domande wata.md",
+    "La serie di omicidi.md",
+    "Tutte le domande.md",
     "Taccuino.md",
-    "Resa della strega.md",
-    "Scaletta Gomakashi.md",
-    "Takano isterica.md",
-    "Music Catalog.md",
     "message.md",
     "Kabetaoshi.md",
     "Metarivali ending.md",

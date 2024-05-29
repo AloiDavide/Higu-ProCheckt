@@ -23,15 +23,15 @@ use director
 
 ## [[Taccuino]]
 - [ ] Complete Mechanics
+	- 90%
 - [ ] Complete Content
-
+	- 90%
 ## Sound design
 - [ ] Compressione audio
-- [ ] Make a directory in audio for menu sounds
-- [ ] find and add sounds to 
-	- [ ] taccuino
-	- [ ] main menu
-	- [ ] chapter select menu
+- [x] find and add sounds to
+	- [x] taccuino
+	- [x] main menu
+	- [x] chapter select menu
 
 ## [[Music Catalog]]
 - [ ] 
