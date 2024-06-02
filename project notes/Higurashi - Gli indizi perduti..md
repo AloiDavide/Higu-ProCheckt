@@ -10,7 +10,7 @@ tags:
 - ### [[Domande e opinioni di Check]]
 
 # Indici
-- ### [[Catologo musica]]
+- ### [[Music Catalog]]
 - ### [[Personaggi]]
 
 ---

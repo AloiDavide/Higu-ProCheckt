@@ -31,19 +31,32 @@ screen tips():
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("chessboard0")
+                action Jump("scene1_0")
 
-#            imagebutton:
-#                tooltip "Jump to layer 1"
-#                idle fragplane_A
-#                hover bern_kekkai_B
-#                action Jump("chessboard1")
-#
-#            imagebutton:
-#                tooltip "Jump to layer 2"
-#                idle fragplane_A
-#                hover bern_kekkai_B
-#                action Jump("chessboard2")
+            imagebutton:
+                tooltip "scene2_2"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Jump("scene2_2")
+
+            imagebutton:
+                tooltip "scene2_1"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Jump("scene2_1")
+
+            imagebutton:
+                tooltip "scene2_0"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Jump("scene2_0")
+
 
 
 

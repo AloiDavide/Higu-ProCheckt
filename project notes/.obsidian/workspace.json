@@ -6,6 +6,7 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
+        "dimension": 23.8272921108742,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -47,6 +48,19 @@
             }
           },
           {
+            "id": "df3cb0c041623550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Higurashi - Gli indizi perduti..md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "1f5c4cfd10899416",
             "type": "leaf",
             "state": {
@@ -71,13 +85,27 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "37d49686c35d5387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check larry ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "8dfad12cc5c9c10d",
         "type": "tabs",
+        "dimension": 31.609808102345415,
         "children": [
           {
             "id": "2e6e43155a9a2d77",
@@ -97,6 +125,7 @@
       {
         "id": "6c2a189f7ad126ea",
         "type": "tabs",
+        "dimension": 17.91044776119403,
         "children": [
           {
             "id": "881bea6492a628fe",
@@ -116,6 +145,7 @@
       {
         "id": "8e07e57989d50e99",
         "type": "tabs",
+        "dimension": 26.652452025586353,
         "children": [
           {
             "id": "2210c2f200438881",
@@ -197,7 +227,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Music Catalog.md",
+                "file": "Takano isterica.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -214,7 +244,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Music Catalog.md",
+                "file": "Takano isterica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -237,7 +267,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Music Catalog.md"
+                "file": "Takano isterica.md"
               }
             }
           }
@@ -260,14 +290,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0dab395549acb85",
+  "active": "2e6e43155a9a2d77",
   "lastOpenFiles": [
+    "Scaletta Gomakashi.md",
+    "Takano isterica.md",
+    "Meakashi reread.md",
+    "Higurashi - Gli indizi perduti..md",
     "Taccuino Development.md",
     "Music Catalog.md",
     "Todo generale.md",
-    "Meakashi reread.md",
-    "Takano isterica.md",
-    "Scaletta Gomakashi.md",
+    "Check larry ending.md",
+    "Catologo musica.md",
     "Resa della strega.md",
     "Post siringa.md",
     "Taccuino Entries.md",
@@ -280,7 +313,6 @@
     "message.md",
     "Kabetaoshi.md",
     "Metarivali ending.md",
-    "Check larry ending.md",
     "Sonozaki.txt",
     "Taccuino Topics.md",
     "~syncthing~Taccuino.md.tmp",
@@ -289,8 +321,6 @@
     "Magia Socratica - layer 0.md",
     "Magia socratica.md",
     "Magia Socratica - layer 1.md",
-    "bugfix.md",
-    "Magia Socratica - layer 2.md",
     "desktop.ini",
     "css test",
     "Pasted image 20240402231040.png",

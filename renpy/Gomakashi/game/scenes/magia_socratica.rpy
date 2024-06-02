@@ -1,4 +1,4 @@
-label chessboard0:
+label scene1_0:
     $notes=False
     play music "audio/higu/short dawn at the end of time.mp3" fadein(5)
 
@@ -241,7 +241,7 @@ label chessboard0:
     show frag_overlay
     pause 2.6
 
-label chessboard1:
+label scene1_1:
 
     scene dam onlayer underlayer
     scene witch_flowers
@@ -795,7 +795,7 @@ label remember:
     pause 1
 
 
-label chessboard2:
+label scene1_2:
     scene hinamizawa
     show check plain at center
 

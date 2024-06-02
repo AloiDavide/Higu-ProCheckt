@@ -7,6 +7,47 @@ init: #LAYERS
 
 
 init: #STYLES
+    style wide is text:
+            size 35
+            xpos 367
+            ypos 60
+
+            ymaximum 1000
+            textalign 0.0
+            xmaximum 1200
+            outlines [(2, "#000", 1,1)]
+
+    style notes_dialogue is text:
+            size 35
+            xpos 367
+            ypos 60
+
+            ymaximum 1000
+            textalign 0.0
+            xmaximum 1200
+            outlines [(2, "#000", 1,1)]
+            font "static/Caveat-Regular.ttf"
+
+    style wideN is text:
+            size 35
+            xpos 367
+            ypos 50
+
+            ymaximum 1000
+            textalign 0.0
+            xmaximum 1200
+            outlines [(2, "#000", 1,1)]
+
+    style border is text:
+        size 45
+        outlines [(2, "#000", 1, 1)]
+
+    style white_border is text:
+        size 45
+        outlines [(2, "#fff", 1, 1)]
+
+
+
 
     style handwritten_body:
         outlines [(0, "#000")]
@@ -148,6 +189,10 @@ image small_shrine = im.Scale("bg/small_shrine.png", 1920, 1080)
 image shrine_sunset = im.Scale("bg/shrine_sunset.png", 1920, 1080)
 image road_sunset = im.Scale("bg/road_sunset.png", 1920, 1080)
 image road_sunset2 = im.Scale("bg/road_sunset2.png", 1920, 1080)
+image night_road = im.Scale("bg/night_road.webp", 1920, 1080)
+image night_crossroad = im.Scale("bg/night_crossroad.webp", 1920, 1080)
+image night_small_shrine = im.Scale("bg/night_small_shrine.webp", 1920, 1080)
+image night_hinamizawa = im.Scale("bg/night_hinamizawa.webp", 1920, 1080)
 
 
 
@@ -189,12 +234,17 @@ image crystalball = "frags/crystalball.png"
 define n = Character(None, what_style= "wideN")
 define ck = Character("Check", who_color = "#780000", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
 define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_style = "border", image="larry", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
+define lan = Character("", kind=nvl, who_color = "#fad861", what_style= "notes_dialogue", who_style = "border")
 define witch = Character("???", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#0000cf", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b", "noflap"]))
 define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
 define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
 define rika = Character("Rika", who_color = "#0000cf", what_style= "wide", who_style = "border")
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
+define old1 = Character("Vecchio col bastone", who_color = "#999", what_style= "wide", who_style = "border")
+define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= "wide", who_style = "border")
+define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
+
 
 init:
 
@@ -763,39 +813,6 @@ init:
         repeat
 
 
-
-
-
-
-
-#STYLES
-style wide is text:
-        size 35
-        xpos 367
-        ypos 60
-
-        ymaximum 1000
-        textalign 0.0
-        xmaximum 1200
-        outlines [(2, "#000", 1,1)]
-
-style wideN is text:
-        size 35
-        xpos 367
-        ypos 50
-
-        ymaximum 1000
-        textalign 0.0
-        xmaximum 1200
-        outlines [(2, "#000", 1,1)]
-
-style border is text:
-    size 45
-    outlines [(2, "#000", 1, 1)]
-
-style white_border is text:
-    size 45
-    outlines [(2, "#fff", 1, 1)]
 
 
 
