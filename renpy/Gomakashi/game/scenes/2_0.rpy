@@ -5,7 +5,7 @@ label scene2_0:
     scene night_hinamizawa with longFade
 
 
-    n "Hinamizawa è di nuovo subbuglio per la seconda notte di fila."
+    n "Hinamizawa è in subbuglio per la seconda notte di fila."
 
     play sound "audio/sfx/cri cri.mp3"
 
@@ -16,7 +16,7 @@ label scene2_0:
 
 
 
-    play music "audio/sfx/rainy days.ogg"
+    play music "audio/higu/rainy days.mp3"
 
 
     anon "R k -  a  !"
@@ -32,13 +32,13 @@ label scene2_0:
 
     old2 "Il bosco di notte è pericoloso! Vieni fuori! {w}Rika-chama!"
 
-    n "Solo due anziani che cercano Rika?"
+    n "Sono solo due anziani che cercano Rika? {w}Non lo posso dare per scontato..."
 
-    n "Un momento, si sono fermati... uno dei due è caduto in ginocchio."
+    n "Si sono fermati... uno dei due è caduto in ginocchio. {w}Che stanno facendo?"
 
     old1 "O grande Oyashiro-sama. Ti prego calma la tua ira."
 
-    old2 "Idiota! Non lo devi neanche pensare. {w}Oyashiro-sama non maledirebbe mai un membro delle stimate tre famiglie."
+    old2 "Idiota! Non lo devi neanche pensare. {w}Oyashiro-sama non potrebbe mai maledire mai un membro delle stimate tre famiglie."
 
     old2 "Questo dev'essere un modo per mettere alla prova la nostra fede. Sia Kimiyoshi che Rika-chama sono al sicuro, ne sono convinto!"
 
@@ -47,6 +47,8 @@ label scene2_0:
     old1 "Ma no, ma che dici. Dov'eri ieri quando Mion ha parlato a nome dei Sonozaki?"
 
     old1 "Nel magazzino rituale era entrato anche il figlio dei Maebara. Se qualcun altro merita di essere rapito dai demoni è quello screanzato."
+
+    n "......."
 
     n "Non hanno tutti i torti."
 
@@ -73,14 +75,17 @@ label scene2_0:
 
     n "Qua dovrei essere al sicuro per ora."
 
-    n "Alla loro età non si addentreranno in un sentiero sterrato in salita,{w} per di più di notte, {w}ma potrebbero tornare con dei giovani appresso."
+    n "Non possono avermi seguito per un sentiero sterrato in salita di notte.{w} Non alla loro età."
 
-    n "E a quel punto probabilmente troverebbero il nostro nascondiglio... {w}Il nascondiglio dove ora sta riposando il capo."
+    n "Ma potrebbero tornare con dei rinforzi."
 
-    #qua compare larry
+    n "E a quel punto probabilmente troverebbero il nostro nascondiglio...... {w}Il nascondiglio dove ora sta riposando il capo."
+
     show larry evil nope with dissolve
 
-    n "......{w}Ho bisogno di raccogliere i miei pensieri. Devo fare mente locale."
+    stop music fadeout 4
+
+    n "........{p}Ho bisogno di raccogliere i miei pensieri. Devo fare mente locale."
 
     play music 'audio/higu/ancient times.mp3' fadein 4
     play sound 'audio/sfx/multiple pageflips.mp3'
@@ -90,10 +95,11 @@ label scene2_0:
     pause 1
 
     lan """
-    Per riassumere la mia situazione in poche parole. Non mi posso fidare di Check in questo momento.
+    Per riassumere in poche parole la mia situazione: Non mi posso fidare di Check in questo momento.
 
     Lo so, sembra assurdo. Tra tutte le persone del BKG lui era l'ultimo da cui mi sarei aspettato un'insubordinazione.
-    Eppure dopo che ho parlato sia con Terry che con un comandante in persona devo fare i conti con la realtà davanti ai miei occhi.
+
+    Eppure ho parlato sia con Terry che con un comandante in persona, e adesso devo fare i conti con la realtà davanti ai miei occhi.
 
     Tante cose si spiegano nel momento in cui accettiamo un coinvolgimento del capo. Ad esempio il fatto che mi ha mentito sulla trasmittente.
 
@@ -106,8 +112,10 @@ label scene2_0:
 
     lan """
     Non è tutto quì.
-    È palese che a distanza di minuti da quando quei quattro sono entrati nel magazzino rituale Mion ne fosse già al corrente.
-    {w}Difatto quei due anziani lo avevano sentito dalla bocca di Mion.
+    A distanza di minuti da quando quei quattro sono entrati nel magazzino rituale, Mion ne era già al corrente.
+    {w}Lo so perchè l'abbiamo sentita incalzare Keiichi.
+
+    Difatto anche i due anziani di prima lo avevano sentito dalla bocca di Mion. Non può essere una coincidenza.
 
     Secondo la nostra ricostruzione nessun altro si trovava nei paraggi in quel momento.{w}
     A meno che uno di loro non abbia vuotato il sacco di sua spontanea volontà, soltanto il capo avrebbe potuto diffondere l'informazione.
@@ -135,7 +143,8 @@ label scene2_0:
     lan """
     Oggi come ieri, il capo mi ha incaricato di fare da vedetta, e di avvisarlo qualora si avvicinassero troppo al nascondiglio. {w}
     Questo sembrerebbe indicare che non si è ancora accorto della mia presa di coscienza. {w}
-    Mi chiedo che effetto avrebbe farlo trovare dagli abitanti del villaggio.
+
+    Mi chiedo che effetto avrebbe se lo facessi sgamare dagli abitanti del villaggio. {w}Sarebbe abbastanza per fermarlo?
 
     A meno che...
 
@@ -143,17 +152,69 @@ label scene2_0:
     facile dirigere le ricerche lontano dalla sua posizione.
 
     Ma allora perchè assegnarmi questo ruolo? {w}Potrebbe essere un modo per distrarmi mentre porta a termine i suoi piani, o nel peggiore dei casi una trappola...
-
-    A dire il vero.... {w}È da ieri notte che mi sento osservato.
     """
 
+    nvl clear
+
+    play sound 'audio/sfx/pageflip.mp3'
+
+    lan """
+    A dire il vero.... {w}È da ieri notte che mi sento osservato...
+
+    La ragione mi dice che non è possibile.
+    Ho applicato tutte le precauzioni che conosco contro l'essere pedinato, e sono sicuro di non avere telecamere addosso.
+
+    Beh, quasi sicuro.... se il capo avesse un gadget.
+
+    Sono sorprendentemente calmo. I miei sensi oggi sono più acuti che mai. {w}
+    Se qualcuno si avvicinasse lo noterei.
+    """
+    play music "audio/sfx/vibration.mp3"
+    play sound "audio/higu/festivals_start.mp3"
+    pause 0.7
+    show larry -tilt
+
+
+    n "{b}BZZZZZ BZZZZZ BZZZZZ{/b}"
+
+    n "La trasmittente... è già l'orario? Spero sia Terry (dillo meglio)"
+
+    n "Controllo ancora una volta di non essere ascoltato, e rispondo."
+
+    stop music
+
+    la "Agente semplice F32, nome in codice Larry."
+
+    stop sound
+    play music "audio/higu/festivals_main.mp3"
 
 
 
 
-    n "This scene is about to end"
 
-    n "In 3...."
+    show larry worried scared
+
+
+
+    n "!!!!! fitting sound effect"
+
+    la "Chi va la!!!"
+
+    n "Un momento fa... Posso giurare di aver sentito il rumore di un passo dietro di me. -swipe camera to another angle?-"
+
+    n "Ma appena mi giro non c'è nessuno."
+
+    n "Non c'è verso, DEVE essere lui. Nessun altro si sarebbe avvicinato così tanto prima di percepirlo."
+
+    la "Capo? è lei? Non mi faccia spaventare, esca fuori."
+
+    la "Sto sorvegliando le strade come mi ha detto."
+
+    n "Nessuna risposta... Ha visto attraverso la mia facciata."
+
+    n "È subito dietro di me ma non mi attacca!"
+
+    n "This scene is about to end in 3...."
 
     n "2...."
 

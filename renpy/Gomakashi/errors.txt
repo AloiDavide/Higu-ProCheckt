@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/myscreens.rpy", line 32: 'volume' is not a keyword argument or valid child of the imagebutton statement.
-    hover_sound "audio/sfx/darkso cursor.mp3" volume 20
-                                                    ^
+File "game/scenes/2_0.rpy", line 190: play requires a channel
+    play
+        ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed May 29 15:28:49 2024
+Wed Jun  5 12:39:56 2024

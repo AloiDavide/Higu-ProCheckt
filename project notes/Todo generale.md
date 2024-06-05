@@ -26,6 +26,7 @@ use director
 	- 90%
 - [ ] Complete Content
 	- 90%
+- [ ] Add something about Irie
 ## Sound design
 - [ ] Compressione audio
 - [x] find and add sounds to
@@ -35,6 +36,11 @@ use director
 
 ## [[Music Catalog]]
 - [ ] 
+
+## Minor adds
+- [x] Tooltip style
+- [ ] Cursor
+- [ ] Footprints in tips menu
 
 ## Tech upgrade
 DOPO FINE MEAKASHI

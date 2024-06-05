@@ -46,18 +46,7 @@ n "Ho parlato sia con Terry che con un comandante in persona."
 
 
 
-Nessuno era nei paraggi quando quei quattro sono entrati nel magazzino rituale. A meno che uno di loro non abbia vuotato il sacco di sua spontanea volontà, solo il capo avrebbe potuto diffondere l'informazione.
 
-E adesso questa serie di omicidi e sparizioni su scala completamente diversa da quelle degli altri anni.
-
-Possibile che il vero obiettivo di Check sia venuto qui in qualità di spia e sicario e per conto dei Sonozaki?
-
-Mi ha mentito sulla trasmittente deve aver finto un guasto così che non interferisse con le sue altre comunicazioni.
-
-n "Questa è tutta colpa sua capo"
-
-Basta piangere, devo concentrarmi
-Se questa teoria è fondata, e Check è dalla parte del villaggio, allora mettermi di vedetta potrebbe essere un modo per distrarmi mentre porta a termine i suoi piani, o nel peggiore dei casi una trappola.
 
 La trasmittente vibra
 Spero risponda Terry
@@ -89,7 +78,9 @@ Lo chiama Lambdadelta e gli urla contro di abbandonare la missione e cercare Rik
 n
 Cosa? Perchè Rika? E perchè lo sta chiedendo a me? Come dovrei fare a sapere che fine ha fatto Rika Furude?
 Mi vuole dire che Check è veramente responsabile per le sparizioni?
-Allora deve essere stato lui a rapirle. Ma quando? Credevo di averlo sorvegliato a dovere...
+Allora deve essere stato lui a rapirle. 
+Quando è successo?
+Ma quando? Credevo di averlo sorvegliato a dovere...
 Allora anche Kimiyoshi Takano e Tomitake.
 
 la

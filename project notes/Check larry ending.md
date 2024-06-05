@@ -1,3 +1,6 @@
+La scena dovrebbe ricalcare la scena che abbiamo fatto in Meakashi.
+Poi dopo un fake out si rivela che erano in cahoots e gli aveva spiegato tutto. Quindi Check ha ideato la Messinscena.
+
 Larry si è ripreso dopo che Takano chiude le comunicazioni ma non ha detto tutto a Check e decide solo alla fine di aiutarlo. 
 
 Larry fa finta di sparare a Check ma spara alla trasmittente e spiega a Check che li stanno seguendo
