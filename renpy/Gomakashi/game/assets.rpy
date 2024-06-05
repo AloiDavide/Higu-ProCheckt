@@ -4,7 +4,9 @@ init: #LAYERS
     $ renpy.add_layer('notes_layer', above='overlayer')
     define masterFade = { "master" : Fade(2,0,2) }
 
-
+#init:
+    #define config.mouse = { }
+    #define config.mouse['default'] = [ ( "gui/lens_cursor.png", 0, 0) ]
 
 init: #STYLES
     style wide is text:

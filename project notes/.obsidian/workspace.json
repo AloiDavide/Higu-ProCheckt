@@ -6,7 +6,7 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 23.8272921108742,
+        "dimension": 36.702649656526006,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -87,6 +87,19 @@
             }
           },
           {
+            "id": "ff0531f4c2d5d4bc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check larry ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "37d49686c35d5387",
             "type": "leaf",
             "state": {
@@ -100,12 +113,12 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "8dfad12cc5c9c10d",
         "type": "tabs",
-        "dimension": 31.609808102345415,
+        "dimension": 63.297350343474,
         "children": [
           {
             "id": "2e6e43155a9a2d77",
@@ -114,46 +127,6 @@
               "type": "markdown",
               "state": {
                 "file": "Takano isterica.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "6c2a189f7ad126ea",
-        "type": "tabs",
-        "dimension": 17.91044776119403,
-        "children": [
-          {
-            "id": "881bea6492a628fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Post siringa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "8e07e57989d50e99",
-        "type": "tabs",
-        "dimension": 26.652452025586353,
-        "children": [
-          {
-            "id": "2210c2f200438881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resa della strega.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -227,7 +200,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Check larry ending.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -244,7 +217,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Check larry ending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -267,7 +240,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Takano isterica.md"
+                "file": "Check larry ending.md"
               }
             }
           }
@@ -290,19 +263,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e6e43155a9a2d77",
+  "active": "ff0531f4c2d5d4bc",
   "lastOpenFiles": [
     "Scaletta Gomakashi.md",
+    "Check larry ending.md",
     "Takano isterica.md",
+    "Todo generale.md",
+    "Post siringa.md",
+    "Resa della strega.md",
     "Meakashi reread.md",
     "Higurashi - Gli indizi perduti..md",
     "Taccuino Development.md",
     "Music Catalog.md",
-    "Todo generale.md",
-    "Check larry ending.md",
     "Catologo musica.md",
-    "Resa della strega.md",
-    "Post siringa.md",
     "Taccuino Entries.md",
     "Misteri esterni.md",
     "Misteri principali.md",

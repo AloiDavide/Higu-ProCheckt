@@ -1,41 +1,25 @@
+- Check sta perdendo male.
 
-- [x] Switch to sfondo cucina
+- Hanabi incalza "Ma complimenti, Mion Sonozaki è la colpevole come pensavi!"
 
+- Check non dice niente di troppo sensato
 
-Cut a Hanabi (crudele) e Check che sta perdendo male
-Check non dice niente di troppo sensato
+- Parlano di come la teoria della volta scorsa non ha più senso.
 
-Mion mostra di non sapere niente sotto tortura.
-Check non si fida ciecamente
+- Mion mostra di non sapere niente sotto tortura.
+- Check non si fida ciecamente
 
-Non è stata mion la tua teoria era stupida
-"Ma complimenti, Mion Sonozaki è la colpevole come pensavi!"
-It was Shion all along, allora la teoria degli indottrinati non ha senso.
+- Parlano di Rika. Hanabi non sa perchè lei sappia ma fa finta.
 
-Parlano di Rika. Hanabi non sa perchè lei sappia ma fa finta.
-Infine parlano di Satoko e Hanabi dice che gli puo provare che non è stata lei.
+- Parlano di Satoko e Hanabi dice che gli puo provare che non è stata lei.
 
-Check cercava il signor X che gestiva la maledizione ma non lo ha trovato.
-Chi era X? era uno di quelli che ha ucciso?
-Parlano di irie
-Irie nel taccuino
+- Che sarebbe successo senza Shion? Uno di quelli che ha ucciso era dietro la maledizione?
 
-Hanabi chiarifica che se perdi torni a essere un merdone.
+- Hanabi chiarifica che se perdi torni a essere un merdone (merdone = non uno strego).
 
+-  Inserire nuove teorie di Check as they come up
+
+- Alla fine Check rimane solo e gli manca Larry, quindi ha l'idea del taccuino. Quando finisce la scena si sblocca
 
 
 ---
-
-
-Vogliamo chiudere il dibattito a questo giro con Check da solo che non sa che pesci prendere e ha l'idea del taccuino? E alla fine della scena si sblocca.
-
-Check ha nostalgia di Larry
-
-Tip di Larry completamente nella merda
-
-
-
-## Storyboard
-Calma, razionale, e COMPLETAMENTE FUORI DI CERVELLO.
-
-Tutti e 4 vedono cose, coincidenze?
