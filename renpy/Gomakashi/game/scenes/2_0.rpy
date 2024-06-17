@@ -327,7 +327,7 @@ label scene2_0:
     show larry evil
     la "Non ho scelta."
 
-    "ciaffff"
+    "ciafffff"
 
     "fade to black"
 
