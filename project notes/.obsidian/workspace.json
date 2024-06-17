@@ -87,19 +87,6 @@
             }
           },
           {
-            "id": "ff0531f4c2d5d4bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check larry ending.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "37d49686c35d5387",
             "type": "leaf",
             "state": {
@@ -127,6 +114,45 @@
               "type": "markdown",
               "state": {
                 "file": "Takano isterica.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b3975ccaa287ea4f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Higurashi - Gli indizi perduti..md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f1ea8273dc905dbf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotaeshirushi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "df8933817e351309",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Kotaesagashi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -183,8 +209,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -263,18 +288,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff0531f4c2d5d4bc",
+  "active": "37d49686c35d5387",
   "lastOpenFiles": [
-    "Scaletta Gomakashi.md",
-    "Check larry ending.md",
     "Takano isterica.md",
+    "Check larry ending.md",
+    "Higurashi - Gli indizi perduti..md",
     "Todo generale.md",
+    "Music Catalog.md",
+    "Kotaeshirushi.md",
+    "Kotaesagashi.md",
+    "Scaletta Gomakashi.md",
     "Post siringa.md",
     "Resa della strega.md",
     "Meakashi reread.md",
-    "Higurashi - Gli indizi perduti..md",
     "Taccuino Development.md",
-    "Music Catalog.md",
     "Catologo musica.md",
     "Taccuino Entries.md",
     "Misteri esterni.md",
@@ -292,8 +319,6 @@
     "~syncthing~notes topics.md.tmp",
     "notes topic.md",
     "Magia Socratica - layer 0.md",
-    "Magia socratica.md",
-    "Magia Socratica - layer 1.md",
     "desktop.ini",
     "css test",
     "Pasted image 20240402231040.png",

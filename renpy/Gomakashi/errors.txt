@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/2_0.rpy", line 190: play requires a channel
-    play
-        ^
+File "game/scenes/2_0.rpy", line 286: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show larry worried scared
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Wed Jun  5 12:39:56 2024
+Sat Jun 15 16:13:39 2024
