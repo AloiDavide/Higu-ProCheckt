@@ -8,6 +8,7 @@ Abbiamo elevato Check a personaggio meta con l'obiettivo di rendere Higurashi un
 Miotsukushi è il true ending frutto del nostro piano. 
 Hybrid burrow
 Protettori della narrazione. Noi rischiamo la "vita" per essa.
+Lawful neutral
 
 
 
@@ -23,6 +24,8 @@ Infiocchetta la vittoria.
 La scenografia è importante.
 Human computer
 
+alternativamente, vuole intervenire per divertimento
+
 
 # Witch Hound
 Poliziotto buono.
@@ -34,3 +37,5 @@ In verità non crede in loro quanto Crunter.
 La caratterizzazione è importante
 Mad scientist
 Li aiuto perchè ne hanno bisogno
+
+Alternativamente, serio e non vuole intervenire

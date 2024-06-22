@@ -1,13 +1,19 @@
-- [ ] Add images to script
-- [ ] Get the images
-- [ ] Make the first draft on renpy
+- [x] Get the images
+- [x] Make the first draft on renpy
 
+
+
+- [ ] Time the music with renpy
+	- [ ] make differennt parts start at the right time
+	- [ ] set the auto speed in the code
+	- [ ] tell check to use the auto speed
 
 - [ ] "have some kind of phone view with an image of some incognito on half the screen"
-- [ ] put static on it
-- [ ] put an electric hum sound on lambdadelta's text
+	- [ ] find the visual static effect
+	- [ ] maybe split screen maybe not
+- [x] put an electric hum sound on lambdadelta's text
 - [ ] per la corsa metti linee cinetiche in prima persona e belle transizioni
-- [ ] Larry non ha scelta e si butta nel fiume
+- [x] Larry non ha scelta e si butta nel fiume
 
 ---
 # Storyboard della mia scena
@@ -49,125 +55,26 @@
 - Check muore.
 - Reveal che il cecchino era Hanabi interno.
 
+---
+
+
 Musica: Ancient times into Shikiusai
 Robotic sound effects come voce?
 
 Timing ost:
 fino a 0:40 intro cicale
-75 sec fino a 1:55 min percussioni ansiogene
-58 sec fino a 2:53 parte non glitchata
-fino a 3:18 parte glitchata
-fino a 4:39 cacofonia tutto insieme
-10 secondi di acqua che scorre
 
-Larry parla con Takano che si comporta in modo isterico.
-Forshadowing di dopo
+0:00 percussioni ansiogene
+1:21 - 71 parte tranquilla non glitchata
+2:18 - 138 breve glitch
+2:28 - 148 parte agitata
+buildup di cacofonia fino alla fine, prominente a circa 3:25 - 205
+4:00 - 240 fine cacofonia e acqua per 11 secondi
+
+
 
 Larry alla fine: What the fuck is going on?
 
 Check interno sa quello che sapeva Keiichi in Watanagashi. Ossia che sono morti Takano e Tomitake, che è sparito il sindaco, e che adesso sono sparite Satoko e Rika.
 
 ---
-
-
-
-Ancient times.
-
-Larry solo di notte appostato col binocolo, è la seconda notte di fila che nel villaggio cercano qualcuno. Check gli ha lasciato il turno di vedetta. Deve assicurarsi che nessun villager trovi il loro nascondiglio.
-
-
-Stavolta sono Rika e Satoko che chiamano.
-Passano dei vecchi chiamando Rika chama.
-Cut alla strada con bush sounds quando parlano i vecchi
-
-Larry andrebbe a svegliare Check ma sente una cosa che lo allarma.
-Fraintende una cosa che dicono e si convince che in realtà stanno cercando loro per aver visto l'interno del magazzino anche se remotamente.
-
-
-
-Gli pare che il vecchio abbia guardato nella sua direzione.
-
-Si rivela che non si fida di Check.
-la "È inutile. Non me lo riesco a spiegare. Perchè il capo dovrebbe tradire il BKG?"
-n "Ho parlato sia con Terry che con un comandante in persona."
-
-
-
-
-
-La trasmittente vibra
-Spero risponda Terry
-
-3.5 o 4 minuti per festivals
-
-Ci sono interferenze perchè è in montagna.
-
-la
-Anche oggi gli abitanti del Villaggio
-Son due notti di fila che
-
-tk
-Dove... Dove si trova? Bzz
-
-Che mi bzz importa di Check?
-
-Voglio bzz sapere dov'è bzzzzz.
-
-la
-Mi perdoni, non ho sentito. Potrebbe ripetere?
-
-tk
-DOVE È RIKA FURUDE.
-"wake up.ogg"
-
-Lo chiama Lambdadelta e gli urla contro di abbandonare la missione e cercare Rika.
-
-n
-Cosa? Perchè Rika? E perchè lo sta chiedendo a me? Come dovrei fare a sapere che fine ha fatto Rika Furude?
-Mi vuole dire che Check è veramente responsabile per le sparizioni?
-Allora deve essere stato lui a rapirle. 
-Quando è successo?
-Ma quando? Credevo di averlo sorvegliato a dovere...
-Allora anche Kimiyoshi Takano e Tomitake.
-
-la
-Al momento non ho prove schiaccianti per incriminare Check. 
-
-tk
-Acolta bene questa è la tua nuova missione. Voglio che la trovi al più presto. Devo sapere con assoluta **certezza** se è viva o morta o sarà la fine di tutto.
-
-n
-Il comandante Lambdadelta ha qualcosa di strano.
-Ieri aveva un tono molto più composto. Sembra quasi nel panico.
-
-la
-Ma, comandate la mia copertura.
-Credevo che il mio obiettivo fosse Check
-Ci sono altre cose.
-
-tk
-Basta! se hai il tempo di rispondere esegui i miei ordini.
-Trova Rika! Fallo come se la tua vita dipendesse da questo, o la mia maledizione si abbatterà su di te.
-
-Verrai espulso istantaneamente per ammutinamento, ma quello sarà solo l'inizio.
-
-
-
-TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA
-MALEDIZIONE MALEDIZIONE MALEDIZIONE MALEDIZIONE MALEDIZIONE MALEDIZIONE
-
-
-Si sentono dei sobs nella voce
-"questo dovrebbe essere un comandante?"
-
-
-Takano attacca.
-
-Vecchio
-Ho sentito una voce da quel lato.
-Rika chamaaa.
-
-n
-Sanno di noi. Sanno che è stato Check a prendere Rika.
-
-Larry sente dei passi dietro di lui

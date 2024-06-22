@@ -6,7 +6,7 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 36.702649656526006,
+        "dimension": 42.23194748358862,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -87,6 +87,19 @@
             }
           },
           {
+            "id": "7b3ac50cb18f8713",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Resa della strega.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "37d49686c35d5387",
             "type": "leaf",
             "state": {
@@ -105,7 +118,7 @@
       {
         "id": "8dfad12cc5c9c10d",
         "type": "tabs",
-        "dimension": 63.297350343474,
+        "dimension": 57.76805251641138,
         "children": [
           {
             "id": "2e6e43155a9a2d77",
@@ -134,12 +147,12 @@
             }
           },
           {
-            "id": "f1ea8273dc905dbf",
+            "id": "87c64b0e3a62f46b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotaeshirushi.md",
+                "file": "Post siringa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,19 +160,20 @@
             }
           },
           {
-            "id": "df8933817e351309",
+            "id": "ef465b87b4522b8e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Kotaesagashi.md",
+                "file": "Hound e Crunter.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -188,7 +202,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:new",
+                "query": "crun",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -205,7 +219,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -225,7 +240,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Check larry ending.md",
+                "file": "Hound e Crunter.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -242,7 +257,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Check larry ending.md",
+                "file": "Hound e Crunter.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -265,7 +280,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Check larry ending.md"
+                "file": "Hound e Crunter.md"
               }
             }
           }
@@ -288,23 +303,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "37d49686c35d5387",
+  "active": "ef465b87b4522b8e",
   "lastOpenFiles": [
+    "Misteri esterni.md",
     "Takano isterica.md",
+    "Resa della strega.md",
+    "Post siringa.md",
+    "Scaletta Gomakashi.md",
     "Check larry ending.md",
     "Higurashi - Gli indizi perduti..md",
     "Todo generale.md",
     "Music Catalog.md",
     "Kotaeshirushi.md",
     "Kotaesagashi.md",
-    "Scaletta Gomakashi.md",
-    "Post siringa.md",
-    "Resa della strega.md",
     "Meakashi reread.md",
     "Taccuino Development.md",
     "Catologo musica.md",
     "Taccuino Entries.md",
-    "Misteri esterni.md",
     "Misteri principali.md",
     "Le tre famiglie - Domande wata.md",
     "La serie di omicidi.md",

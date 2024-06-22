@@ -157,6 +157,7 @@ image mion_jumpscare_phone = im.Scale("cg/mion_jumpscare_phone.webp", 1920, 1080
 image mion_jumpscare = im.Scale("cg/mion_jumpscare.webp", 1920, 1080)
 image sisters = im.Scale("cg/sisters.webp", 1920, 1080)
 image evil_eyes = im.Scale("cg/evil_eyes.webp", 1920, 1080)
+image evil_eyes_glitch = im.Scale("cg/evil_eyes_glitch.png", 1920, 1080)
 
 
 #BACKGROUNDS
@@ -245,7 +246,7 @@ define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wi
 define old1 = Character("Vecchio col bastone", who_color = "#999", what_style= "wide", who_style = "border")
 define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= "wide", who_style = "border")
 define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
-define ltk = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf")
+define ltk = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
 
 
 init:
@@ -369,7 +370,7 @@ init:
 
 
 #------------------------------------------------
-            #   LARRY
+                #LARRY
 #------------------------------------------------
 
 
@@ -382,7 +383,7 @@ init:
         offset (-655, -250)
 
 
-    # LARRY
+    #LARRY
     layeredimage larry:
         group pose:
             attribute defa default:

@@ -24,6 +24,22 @@ init -1 python:
             renpy.show(name+" "+attr)
             renpy.restart_interaction()
 
+
+init -1 python:
+    def static_voice(event, interact=True, **kwargs):
+        if not interact:
+            return
+
+
+        if event == "show_done":
+            if not renpy.sound.is_playing():
+                renpy.sound.play("audio/sfx/radio static.mp3")
+            else:
+                return
+        elif event == "slow_done":
+            renpy.sound.stop()
+
+
 init -1 python:
 
         import math

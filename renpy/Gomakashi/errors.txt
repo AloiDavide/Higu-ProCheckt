@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/2_0.rpy", line 286: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    show larry worried scared
-    ^
+File "game/inits.rpy", line 37: invalid syntax
+            else return
+                  ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 15 16:13:39 2024
+Sat Jun 22 18:40:47 2024

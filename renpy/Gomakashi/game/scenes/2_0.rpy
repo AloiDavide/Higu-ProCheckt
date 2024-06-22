@@ -5,6 +5,8 @@ label scene2_0:
     scene night_hinamizawa with longFade
 
 
+
+
     n "Hinamizawa è in subbuglio per la seconda notte di fila."
 
     play sound "audio/sfx/cri cri.mp3"
@@ -129,7 +131,7 @@ label scene2_0:
     A distanza di minuti da quando quei quattro sono entrati nel magazzino rituale, Mion ne era già al corrente.
     {w}Lo so perchè l'abbiamo sentita incalzare Keiichi.
 
-    Difatto anche i due anziani di prima lo avevano sentito dalla bocca di Mion. Non può essere una coincidenza.
+    Difatto, anche i due anziani di prima lo avevano sentito dalla bocca di Mion. Non può essere una coincidenza.
 
     Secondo la nostra ricostruzione nessun altro si trovava nei paraggi in quel momento.{w}
     A meno che uno di loro non abbia vuotato il sacco di sua spontanea volontà, soltanto il capo avrebbe potuto diffondere l'informazione.
@@ -158,7 +160,7 @@ label scene2_0:
     Oggi come ieri, il capo mi ha incaricato di fare da vedetta, e di avvisarlo qualora si avvicinassero troppo al nascondiglio. {w}
     Questo sembrerebbe indicare che non si è ancora accorto della mia presa di coscienza. {w}
 
-    Mi chiedo che effetto avrebbe se lo facessi sgamare dagli abitanti del villaggio. {w}Sarebbe abbastanza per fermarlo?
+    Mi chiedo che effetto avrebbe se lo facessi beccare dagli abitanti del villaggio. {w}Sarebbe abbastanza per fermarlo?
 
     A meno che...
 
@@ -193,7 +195,7 @@ label scene2_0:
     La ragione mi dice che non è possibile.
     Ho applicato tutte le precauzioni che conosco contro l'essere pedinato, e sono abbastanza sicuro di non avere telecamere addosso.
 
-    So che tendo a panicare in queste situazioni, ma adesso sono sorprendentemente calmo. {w}
+    So che tendo ad andare nel panico in queste situazioni, ma adesso sono sorprendentemente calmo. {w}
     I miei sensi oggi sono più acuti che mai. Posso dire con sicurezza che se qualcuno si avvicinasse lo noterei. {w}
     Credo che lo noterei....
 
@@ -225,50 +227,56 @@ label scene2_0:
 
     ltk "Comandante 001, nome in condice Lambdadelta."
 
-    n "È lui... {w}Il misterioso comandante designato al posto di Check per sventare i suoi piani. {w}dicono che la sua rete di informazioni sia senza paralleli."
-
-    n "Questa è la seconda volta che mi contatta direttamente, il che non fa altro che riconfermare la serietà della situazione."
+    n "È lui... {w}Il misterioso comandante designato al posto di Check per sventare i suoi piani. {w}Questa è la seconda volta che mi contatta direttamente. Deve davvero essere un'emergenza senza precedenti."
 
     show larry nope
-    la "Al momento non ho ancora prove schiaccianti per incriminare Check, ma ormai sono sicuro che nasconde qualcosa."
+    la "Signorsì capitano. Al momento non ho ancora prove schiaccianti per incriminare Check, ma ormai sono sicuro che nasconde qualcosa."
 
-    ltk "*bzz* Rispondimi Larry."
+    ltk "*** Rispondimi Larry."
 
-    ltk "Dove... Dove si trova? *bzz*"
+    ltk "Dove... Dove si trova? ****"
 
-    n "La trasmissione è disturbata... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?{w} Se solo Gerry fosse qua al mio posto..."
+    n "Sento delle interferenze... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?{w} Se solo Gerry fosse qua al mio posto..."
 
-    la "Se sta chiedendo dov'è Check adesso, dovrebbe trovarsi ancora nel rifugio. {w}L'intero villaggio è sull'attenti per la scomparsa di altre due persone, è improbabile che si sia mosso."
+    la "Dov'è Check adesso? Beh, dovrebbe trovarsi ancora nel rifugio. {w}L'intero villaggio è sull'attenti per la scomparsa di altre due persone, è improbabile che si sia mosso."
 
-    la "Per non destare sospetti sto seguendo il suo ordine di pattugliare la montagna, perciò non posso esserne certo. {w}Dovrei andare a verificare?"
+    la "Ma non posso esserne certo. Per non destare sospetti sto seguendo il suo ordine di pattugliare la montagna. {w}Dovrei andare a verificare?"
 
     show larry scared
 
     ltk "Lascia perdere e rispondi alla mia domanda!"
 
-    ltk "Voglio bzz sapere dov'è *bzzzzz*."
+    ltk "Voglio ** sapere dov'è ****."
 
-    la "Mi-m-m-mi perdoni. Non ho sentito bene a causa di interferenze. L-le chiedo umilmente di ripetere."
+    la "Mi-m-m-mi perdoni. Non ho sentito bene... L-la trasmissione è disturbata."
+
 
     camera at sshake
 
     play sound "audio/sfx/wake up.ogg"
-
+    show larry close worried
     ltk "{cps=*0.5}DOVE È RIKA FURUDE?!{/cps}"
 
-
+    show larry scared
     n """Cosa? Rika? Come dovrei fare a sapere che fine ha fatto Rika Furude?
 
     Se lo chiede a me... vuol dire che Check è veramente responsabile per le sparizioni?
 
-    È stato lui a rapire tutti? Quando è successo?
+    È stato lui a rapire tutti. Ma quando è successo?
 
-    Perchè solo Rika è così importante??"""
+    E perchè solo Rika è così importante?"""
 
-    "get some fitting image"
-    show mion_jumpscare_phone
 
-    ltk "Acolta bene questa è la tua nuova missione. Voglio che la trovi al più presto. Devo sapere con assoluta {b}CERTEZZA{/b} se è viva o morta o sarà tutto finito."
+
+    la "Comandante, ecco, io non...... {w=1}{nw}"
+
+
+
+
+    play music "<from 134.4>audio/higu/festivals_main.mp3"
+    show evil_eyes_glitch with Dissolve(0.2)
+
+    ltk "Acolta bene questa è la tua nuova missione. {w}Voglio che la trovi al più presto. Devo sapere con assoluta {b}CERTEZZA{/b} se è viva o morta... o sarà tutto finito."
 
     la "Ma la mia copertura... {w}Cosa devo fare con Check?"
 
@@ -280,7 +288,7 @@ label scene2_0:
 
 
 
-    n "Che succede al comandante Lambdadelta? {w}Riesco a capire anche attraverso i filtri che sta parlando con voce spettata... sembra in preda al panico."
+    n "Che succede al comandante Lambdadelta? {w}Riesco a capire anche attraverso i filtri che sta parlando con voce spezzata... sembra in preda al panico."
 
     show larry worried scared
 
@@ -304,7 +312,7 @@ label scene2_0:
 
     n "L'unica cosa sensata in questo momento è correre."
 
-    la "Comandante Lambdadelta! {W}È Check! Mi ha scoperto. Deve aver sentito tutto! Che devo fare?"
+    la "Comandante Lambdadelta! {w}È Check! Mi ha scoperto. Deve aver sentito tutto! Che devo fare?"
 
     n "Appoggio l'orecchio alla trasmittente in attesa di istruzioni, ma quello che sento è tutt'altro."
 
