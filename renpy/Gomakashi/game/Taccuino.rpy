@@ -228,12 +228,7 @@ screen tq_question_page(left, right, forward, backward):
 
                 add separator_eureka
 
-                python:
-                    import random
-                    esclamazioni = ["EUREKA!", "CI SONO!", "HO CAPITO!", "MACCERTO!"]
-                    esclamazione = random.choice(esclamazioni)
-
-                text esclamazione:
+                text left["reaction"]:
                     textalign 0.5
                     yalign 0.8
                     outlines [(2, "#000")]
@@ -286,20 +281,32 @@ screen tq_question_page(left, right, forward, backward):
                 size 35
                 font "static/Caveat-Regular.ttf"
 
-        null height 30
+        null height 20
 
         # separator if answer present
         if ans_right > 0:
-            add separator_eureka:
+            hbox:
                 xalign 0.0
                 xoffset -20
+                spacing 100
+
+                add separator_eureka
+
+                text right["reaction"]:
+                    textalign 0.5
+                    yalign 0.8
+                    outlines [(2, "#000")]
+                    color "#6A0707"
+                    size 50
+                    font "static/Caveat-Regular.ttf"
         else:
-            add separator_think:
-                xalign 0.0
-                xoffset -20
+            if right["title"]!="":
+                add separator_think:
+                    xalign 0.0
+                    xoffset -20
 
 
-        null height 30
+        null height 20
         # correct answer
         text right["answers"][ans_right]:
                 xalign 0.0

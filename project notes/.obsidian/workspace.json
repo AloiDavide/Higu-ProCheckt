@@ -6,7 +6,7 @@
       {
         "id": "462e339b352fb433",
         "type": "tabs",
-        "dimension": 42.23194748358862,
+        "dimension": 27.307447485677912,
         "children": [
           {
             "id": "fa0f026427e9ba07",
@@ -15,45 +15,6 @@
               "type": "markdown",
               "state": {
                 "file": "Todo generale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a0dab395549acb85",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Music Catalog.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5f90be29c52580ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Taccuino Development.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "df3cb0c041623550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -74,59 +35,32 @@
             }
           },
           {
-            "id": "956122e47e3961d8",
+            "id": "f6c78a7e6ca2b7e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scaletta Gomakashi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7b3ac50cb18f8713",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Resa della strega.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "37d49686c35d5387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check larry ending.md",
+                "file": "Tutte le domande.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 6
+        ]
       },
       {
-        "id": "8dfad12cc5c9c10d",
+        "id": "eaf315b8897c4c46",
         "type": "tabs",
-        "dimension": 57.76805251641138,
+        "dimension": 43.34818586887333,
         "children": [
           {
-            "id": "2e6e43155a9a2d77",
+            "id": "d482b4765725a40b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Taccuino Entries.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -134,12 +68,12 @@
             }
           },
           {
-            "id": "b3975ccaa287ea4f",
+            "id": "40ea21cc3c0f4d1d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
+                "file": "Misteri esterni.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -147,25 +81,12 @@
             }
           },
           {
-            "id": "87c64b0e3a62f46b",
+            "id": "584de261d4722107",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Post siringa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ef465b87b4522b8e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hound e Crunter.md",
+                "file": "Taccuino Development.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -173,7 +94,27 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
+      },
+      {
+        "id": "312ddc19e1adb1af",
+        "type": "tabs",
+        "dimension": 29.344366645448762,
+        "children": [
+          {
+            "id": "dd24ea85a4ae7b0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "La cospirazione del BKG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -202,7 +143,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "crun",
+                "query": "tag:new",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,8 +160,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -240,7 +180,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Hound e Crunter.md",
+                "file": "Taccuino Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -257,7 +197,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Hound e Crunter.md",
+                "file": "Taccuino Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -280,7 +220,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hound e Crunter.md"
+                "file": "Taccuino Development.md"
               }
             }
           }
@@ -294,46 +234,47 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "ef465b87b4522b8e",
+  "active": "584de261d4722107",
   "lastOpenFiles": [
     "Misteri esterni.md",
+    "Taccuino Entries.md",
+    "Tutte le domande.md",
+    "Pasted image 20240627213448.png",
+    "Pasted image 20240627213406.png",
+    "Todo generale.md",
+    "La cospirazione del BKG.md",
+    "Bernkastel.md",
+    "Hound e Crunter.md",
     "Takano isterica.md",
     "Resa della strega.md",
     "Post siringa.md",
     "Scaletta Gomakashi.md",
     "Check larry ending.md",
     "Higurashi - Gli indizi perduti..md",
-    "Todo generale.md",
     "Music Catalog.md",
     "Kotaeshirushi.md",
     "Kotaesagashi.md",
     "Meakashi reread.md",
     "Taccuino Development.md",
     "Catologo musica.md",
-    "Taccuino Entries.md",
     "Misteri principali.md",
     "Le tre famiglie - Domande wata.md",
     "La serie di omicidi.md",
-    "Tutte le domande.md",
     "Taccuino.md",
     "message.md",
     "Kabetaoshi.md",
-    "Metarivali ending.md",
     "Sonozaki.txt",
-    "Taccuino Topics.md",
     "~syncthing~Taccuino.md.tmp",
     "~syncthing~notes topics.md.tmp",
-    "notes topic.md",
-    "Magia Socratica - layer 0.md",
     "desktop.ini",
     "css test",
     "Pasted image 20240402231040.png",
@@ -344,7 +285,6 @@
     "Pasted image 20240402194232.png",
     "Pasted image 20240402194043.png",
     "Pasted image 20240322223017.png",
-    "Pasted image 20240322221853.png",
     "Untitled.canvas",
     "~syncthing~Higurashi - Gli indizi perduti..md.tmp"
   ]

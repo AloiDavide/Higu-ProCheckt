@@ -5,10 +5,11 @@
             "question": "Le morti e scomparse che avvengono ogni anno hanno lo stesso perpetratore o sono scollegate?",
             "answers": [
                 "",
-                "A hinamizawa sembra vigere un sistema dove secondo il volere delle tre famiglie i nemici del villaggio vengono eliminati ogni anno senza bisogno di un ordine diretto. Rendendo i casi apparentemente scollegati."
+                "A Hinamizawa sembra vigere un sistema dove secondo il volere delle tre famiglie i nemici del villaggio vengono eliminati ogni anno senza bisogno di un ordine diretto. Rendendo i casi apparentemente scollegati."
             ],
-            "seen": true,
-            "display_answer": 1
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "EUREKA!"
         },
         "Vittime seriali.": {
             "title": "Vittime seriali.",
@@ -17,40 +18,44 @@
                 "",
                 "Takano \u00e8 il colpevole. Uccide Tomitake e finge la sua morte per diffondere ancora di pi\u00f9 la paura della maledizione."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "HO CAPITO!"
         },
-        "I sonozaki.": {
-            "title": "I sonozaki.",
+        "I Sonozaki.": {
+            "title": "I Sonozaki.",
             "question": "In che modo sono collegati agli omicidi e sparizioni?",
             "answers": [
                 "",
                 "Sono gli unici a disporre dei mezzi per organizzare tanti dei crimini che vediamo.\n\u00c8 plausibile che sia Oryou a tirare le fila, anche se Mion appare esserne allo scuro quando incalzata da Shion, ammesso che stesse dicendo il vero.",
-                "I sonozaki non sono mai stati dietro gli incidenti del Watanagashi. Oryou ha l'abitudine di comportarsi come se fosse in controllo di qualsiasi cosa accade intorno a lei anche se non lo \u00e8 veramente, e questo ha tratto in inganno tante persone, tra cui Ooishi, Akasaka e Shion."
+                "I Sonozaki non sono mai stati dietro gli incidenti del Watanagashi. Oryou ha l'abitudine di comportarsi come se fosse in controllo di qualsiasi cosa accade intorno a lei anche se non lo \u00e8 veramente, e questo ha tratto in inganno tante persone, tra cui Ooishi, Akasaka e Shion."
             ],
-            "seen": true,
-            "display_answer": 1
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "EUREKA!"
         },
         "Le conoscenze di Rika": {
             "title": "Le conoscenze di Rika",
-            "question": "Perch\u00e8 Rika conosce tutti gli omicidi in anticipo prima che avvengano? Perch\u00e8 cambia personalit\u00e0 e voce in alcuni momenti? Che sia davvero la reincarnazione di Oyashiro come narrano le leggende?",
+            "question": "Perch\u00e8 Rika conosce tutti gli omicidi in anticipo prima che avvengano? Perch\u00e8 cambia personalit\u00e0 e voce in alcuni momenti? Che sia davvero la reincarnazione di Oyashiro-sama come narrano le leggende?",
             "answers": [
                 "",
                 "Rika \u00e8 in un loop temporale per via di Hanyuu, quando muore la sua coscienza si trasferisce in un altro frammento in un punto della linea temporale precedente. Per questo motivo la sua vera personalit\u00e0 \u00e8 molto pi\u00f9 matura di quella che mostra normalmente."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "CI SONO!"
         },
-        "Oyashiro sama esiste?": {
-            "title": "Oyashiro sama esiste?",
+        "Oyashiro-sama esiste?": {
+            "title": "Oyashiro-sama esiste?",
             "question": "La serie di incidenti \u00e8 stata causata da cause naturali o sovrannaturali? Oyashiro-sama Esiste?",
             "answers": [
                 "",
-                "Tutti gli incidenti possono essere spiegazi senza la presenza di una forza sovrannaturale. Nulla suggerisce che Oyashiro sia reale.",
+                "Tutti gli incidenti possono essere spiegati senza la presenza di una forza sovrannaturale. Nulla suggerisce che Oyashiro-sama sia reale.",
                 "Oyashiro-sama esiste, ma non \u00e8 la causa della maledizione. Ha l'aspetto di una ragazzina che solo Rika pu\u00f2 vedere e sentire, ed \u00e8 il motivo per cui Rika ha ricordi di tutti i frammenti."
             ],
-            "seen": true,
-            "display_answer": 1
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "I passi misteriosi": {
             "title": "I passi misteriosi",
@@ -61,8 +66,9 @@
                 "Tutti loro erano affetti dalla sindrome di Hinamizawa che li rendeva paranoici... ma ancora non mi spiego cosa ci fosse dietro Keiichi in quel momento.",
                 "Avere la sindrome di Hinamizawa ti permette di sentire i passi di Hanyu. Hanyu li stava seguendo."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "Tabula rasa.": {
             "title": "Tabula rasa.",
@@ -71,8 +77,9 @@
                 "",
                 "Il genocidio \u00e8 un protocollo eseguito dai Mountain Dogs nell'evenienza che Rika dovesse morire. Takano uccide Rika e lo attiva di proposito per tramandare la leggenda della maledizione al resto del mondo."
             ],
-            "seen": true,
-            "display_answer": 1
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "": {
             "title": "",
@@ -87,13 +94,14 @@
     "1": {
         "La morte del primo anno.": {
             "title": "La morte del primo anno.",
-            "question": "Il capocantiere del progetto della diga \u00e8 stato linciato e smembrato. Ttutti i presenti hanno nascosto una parte del corpo ciascuno per dividere la colpa. Tutte le parti sono state ritrovate, tranne quella nascosta dal loro leader.\nUn caso a se stante, o l'inizio di una serie?",
+            "question": "Il capocantiere del progetto della diga \u00e8 stato linciato e smembrato. Tutti i presenti hanno nascosto una parte del corpo ciascuno per dividere la colpa. Tutte le parti sono state ritrovate, tranne quella nascosta dal loro leader.\nUn caso a se stante, o l'inizio di una serie?",
             "answers": [
                 "",
                 "Il capocantiere \u00e8 stato ucciso da uno dei suoi dipendenti, impazzito per via della sindrome di Hinamizawa."
             ],
-            "seen": true,
-            "display_answer": 1
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "La scomparsa del primo anno.": {
             "title": "La scomparsa del primo anno.",
@@ -102,8 +110,9 @@
                 "",
                 "\u00c8 stato catturato dai Mountain Dogs di Takano come paziente affetto dalla sindrome ed \u00e8 morto in seguito a numerosi esperimenti."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "La morte del secondo anno.": {
             "title": "La morte del secondo anno.",
@@ -113,8 +122,9 @@
                 "L'unica spiegazione plausibile rimasta \u00e8 che sia stato un tragico incidente.",
                 "Satoko lo spinge gi\u00f9 dal dirupo per paranoia causata della sindrome di Hinamizawa."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "La scomparsa del secondo anno.": {
             "title": "La scomparsa del secondo anno.",
@@ -124,8 +134,9 @@
                 "L'unica spiegazione plausibile rimasta \u00e8 che sia stato un tragico incidente.",
                 "Satoko la spinge gi\u00f9 dal dirupo per paranoia causata della sindrome di Hinamizawa."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "La morte del terzo anno.": {
             "title": "La morte del terzo anno.",
@@ -135,19 +146,21 @@
                 "Non ci sono prove per dire che non sia stata una morte naturale.",
                 "\u00c8 stato avvelenato dai mountain dogs."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "La scomparsa del terzo anno": {
             "title": "La scomparsa del terzo anno",
-            "question": "La madre di Rika \u00e8 scomparsa lasciando un messaggio dove dice di dovere placare l'ira di Oyashiro-same, si suppone che si sia lanciata nella palude, ma il corpo non \u00e8 mai stata ritrovato.",
+            "question": "La madre di Rika \u00e8 scomparsa lasciando un messaggio dove dice di dovere placare l'ira di Oyashiro-sama, si suppone che si sia lanciata nella palude, ma il corpo non \u00e8 mai stata ritrovato.",
             "answers": [
                 "",
                 "Il suo \u00e8 effettivamente un suicidio.",
-                "\u00c8 stata catturata dai Moutain dogs perch\u00e8 minacciava di interferire con le ricerche di Irie e Takano, e hanno condotto esperimenti su di lei."
+                "\u00c8 stata catturata dai Mountain Dogs perch\u00e9 minacciava di interferire con le ricerche di Irie e Takano, e hanno condotto esperimenti su di lei."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "La morte del quarto anno.": {
             "title": "La morte del quarto anno.",
@@ -156,8 +169,9 @@
                 "",
                 "Non c'\u00e8 ormai ombra di dubbio che sia stato Satoshi. Devono essere stati i Sonozaki a fornire un finto colpevole per depistare la polizia e fargli chiudere le investigazioni."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "La scomparsa del quarto anno": {
             "title": "La scomparsa del quarto anno",
@@ -168,8 +182,9 @@
                 "La teoria di Shion era sbagliata e i Sonozaki non c'entrano nulla. Satoshi \u00e8 scomparso per qualche altro motivo.",
                 "Satoshi ha contratto la sindrome di Hinamizawa ed \u00e8 ancora oggi in coma nel sotterraneo segreto della clinica di Irie."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "HO CAPITO!"
         },
         "La morte di Tomitake.": {
             "title": "La morte di Tomitake.",
@@ -180,20 +195,22 @@
                 "Non sono stati i Sonozaki, ma qualcuno gli ha iniettato una qualche sostanza che lo ha portato alla pazzia e al suicidio violento. Che sia stata Rika?",
                 "Tomitake \u00e8 stato iniettato con il siero che causa la sindrome di Hinamizawa da Takano. Una volta sveglio \u00e8 impazzito e ha cominciato a mulinare un bastone, per poi squarciarsi la gola."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "La morte di Takano.": {
             "title": "La morte di Takano.",
-            "question": "In ogni frammento il cadavere di Takano viene ritrovato in un serbatoio di petrolio molto lontano da Hinamizawa. Chi \u00e8 il colpevole e perch\u00e8?",
+            "question": "In ogni frammento il cadavere di Takano viene ritrovato in un serbatoio di petrolio molto lontano da Hinamizawa. Chi \u00e8 il colpevole e perch\u00e9?",
             "answers": [
                 "",
-                "Takano viene designata un nemico del villaggio quando si intrufola nel magazzino sacro e viene uccisa dalla famiglia sonozaki.",
-                "I sonozaki non hanno nulla a che fare con la maledizione, chi diamine pu\u00f2 essere stato allora?",
+                "Takano viene designata un nemico del villaggio quando si intrufola nel magazzino sacro e viene uccisa dalla famiglia Sonozaki.",
+                "I Sonozaki non hanno nulla a che fare con la maledizione, chi diamine pu\u00f2 essere stato allora?",
                 "Takano non \u00e8 morta, il cadavere \u00e8 un sostituto preparato dai Mountain Dogs. Le impronte dentali sono state manipolate in modo che coincidano."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "Il detective Ooishi": {
             "title": "Il detective Ooishi",
@@ -202,8 +219,9 @@
                 "",
                 "Il capocantiere, vittima del primo anno, era il suo mentore. Vuole portare i suoi assassini alla giustizia."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "": {
             "title": "",
@@ -223,8 +241,9 @@
                 "",
                 "Keiichi ha parlato quasi solo con Mion, fino alla chiamata dove \u00e8 stato invitato ad Angel Mort, dove per la prima volta ha parlato con Shion"
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "Shion o Mion?": {
             "title": "Shion o Mion?",
@@ -233,8 +252,9 @@
                 "",
                 "Shion imprigiona Mion e interpreta entrambi i ruoli a partire da quel punto. Continua a telefonare a Keiichi per usarlo come esca."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "Mion o... Mion?": {
             "title": "Mion o... Mion?",
@@ -243,8 +263,9 @@
                 "",
                 "Lo fa per placare l'altra.\nLe sorelle sono state scambiate da bambine. Quella che abbiamo sempre chiamato Shion sarebbe dovuta essere la capofamiglia, e odia la gemella per non avere salvato Satoshi pur avendone il potere."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "Lo spirito di Satoshi.": {
             "title": "Lo spirito di Satoshi.",
@@ -253,10 +274,11 @@
                 "",
                 "Sta chiaramente uscendo pazza anche lei, e ha delle allucinazioni di ci\u00f2 che vorrebbe vedere.",
                 "Shion \u00e8 affetta dalla sindrome di Hinamizawa, e ha delle allucinazioni di ci\u00f2 che vorrebbe vedere.",
-                "Shion \u00e8 affetta dalla sindrome di Hinamizawa, il che la rende in grado di sentire Hanyuu vagamente, e si convince che sia Satoshi perch\u00e8 \u00e8 ci\u00f2 che vorrebbe."
+                "Shion \u00e8 affetta dalla sindrome di Hinamizawa, il che la rende in grado di sentire Hanyuu vagamente, e si convince che sia Satoshi perch\u00e9 \u00e8 ci\u00f2 che vorrebbe."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "I tonfi nel magazzino.": {
             "title": "I tonfi nel magazzino.",
@@ -264,10 +286,11 @@
             "answers": [
                 "",
                 "Sappiamo che Shion stava gi\u00e0 andando fuori di testa, ma forse questo indizio suggerisce che anche Tomitake fosse particolarmente influenzabile.",
-                "Essere affetti dalla a sindrome di Hinamizawa li rende capaci di sentire Hanyuu vagamente. \nHanyuu si arrabbia e salta sul pavimento del tempio Furude perch\u00e8 Takano sta inventando bugie su Oyashiro-sama."
+                "Essere affetti dalla a sindrome di Hinamizawa li rende capaci di sentire Hanyuu vagamente.\nHanyuu si arrabbia e salta sul pavimento del tempio Furude perch\u00e9 Takano sta inventando bugie su Oyashiro-sama."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "Sospetti di Mion al Watanagashi.": {
             "title": "Sospetti di Mion al Watanagashi.",
@@ -277,8 +300,9 @@
                 "In quel momento non si erano ancora scambiate, perci\u00f2 era davvero Mion a porre quella domanda.",
                 "Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "La notizia dell'intrusione.": {
             "title": "La notizia dell'intrusione.",
@@ -287,8 +311,9 @@
                 "",
                 "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "I corpi nel pozzo.": {
             "title": "I corpi nel pozzo.",
@@ -297,8 +322,9 @@
                 "",
                 "\u00c8 Shion, chiaramente in uno stato mentale alterato, a torturare e uccidere ognuno di loro per paura di essere punita e per vendetta contro il sistema che ha ucciso Satoshi.\nPer quanto riguarda Satoko, Shion non perdona il fatto che lei sia stata graziata al contrario di suo fratello."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "HO CAPITO!"
         },
         "La posizione di Kimiyoshi.": {
             "title": "La posizione di Kimiyoshi.",
@@ -307,8 +333,9 @@
                 "",
                 "Sebbene non possiamo escluderlo al 100%, \u00e8 altamente probabile che non sapesse molto, dato che anche in procinto di morte non ha rivelato niente di concreto."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "La posizione di Rika.": {
             "title": "La posizione di Rika.",
@@ -317,8 +344,9 @@
                 "",
                 "Non partecipa alle riunioni, e dalle sue conversazioni con Shion e Keiichi sembra poco interessata a mantenere la tradizione.\nNonostante tutti gli anziani la trattino con riverenza sembra essere alquanto impotente."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "La siringa nel pozzo.": {
             "title": "La siringa nel pozzo.",
@@ -328,8 +356,9 @@
                 "Rika ha attaccato Shion e ha cercato di iniettarle il contenuto, ma il piano le si \u00e8 ritorto contro.",
                 "In realt\u00e0 la siringa era la cura per la sindrome di Hinamizawa. Rika ha percepito il pericolo e stava cercando di fare tornare in se Shion."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "L'agguato di Rika.": {
             "title": "L'agguato di Rika.",
@@ -338,18 +367,20 @@
                 "",
                 "Rika possiede i ricordi di centinaia di frammenti, ha capito cosa era successo poich\u00e8 lo ha gi\u00e0 visto accadere e ha cercato di iniettarle la cura per la sindrome.\nSi suicida per non essere torturata da Shion, consapevole di risvegliarsi in un altro frammento."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "L'ira di Mion.": {
             "title": "L'ira di Mion.",
             "question": "Perch\u00e8 mentre Mion tiene la scala per Keiichi inizia a dare di matto e dire che Satoko \u00e8 maledetta?",
             "answers": [
                 "",
-                "Shion, non Mion, viene triggerata quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo aver contribuito alla dipartita di Satoshi."
+                "Shion, non Mion, viene adirata quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo aver contribuito alla dipartita di Satoshi."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "Il discorso finale di Mion.": {
             "title": "Il discorso finale di Mion.",
@@ -358,8 +389,9 @@
                 "",
                 "Shion, non Mion, sta mischiando le sue teorie con storie inventate per togliersi dai piedi Rena e Keiichi."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "MACCERTO!"
         },
         "Il demone di Mion.": {
             "title": "Il demone di Mion.",
@@ -368,8 +400,9 @@
                 "",
                 "Shion, non Mion, a questo punto \u00e8 convinta di essere posseduta da un demone, ed \u00e8 completamente impazzita."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
         },
         "Mion zombie.": {
             "title": "Mion zombie.",
@@ -378,8 +411,9 @@
                 "",
                 "Mion viene spinta gi\u00f9 da Shion e muore. Inutile dire che successivamente \u00e8 Shion a impersonarla."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "CI SONO!"
         },
         "La morte di Shion.": {
             "title": "La morte di Shion.",
@@ -388,20 +422,33 @@
                 "",
                 "Shion cade dalla grondaia cercando di riarrampicarsi fino al suo appartamento."
             ],
-            "seen": true,
-            "display_answer": 0
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "HO CAPITO!"
         },
         "La morte di Keiichi.": {
             "title": "La morte di Keiichi.",
             "question": "Keiichi vede il cadavere di Mion insanguinato che lo tormenta prima di essere ritrovato morto, dopo che tutte e due le sorelle sono confermate morte. Come DIAMINE si spiega questa?",
             "answers": [
                 "",
-                "Keiichi \u00e8 morto di arresto cardiaco, cio che ha visto erano illusioni dovute alla paranoia.",
-                "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, cio che ha visto erano illusioni dovute alla paranoia."
+                "Keiichi \u00e8 morto di arresto cardiaco, ci\u00f2 che ha visto erano illusioni dovute alla paranoia.",
+                "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, ci\u00f2 che ha visto erano illusioni dovute alla paranoia."
+            ],
+            "seen": false,
+            "display_answer": 0,
+            "reaction": "EUREKA!"
+        },
+        "": {
+            "title": "",
+            "question": "",
+            "answers": [
+                ""
             ],
             "seen": true,
             "display_answer": 0
-        },
+        }
+    },
+    "3": {
         "": {
             "title": "",
             "question": "",
