@@ -117,7 +117,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Misteri esterni.md",
+                "file": "Taccuino Development.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -257,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misteri esterni.md",
+                "file": "Taccuino Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +274,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misteri esterni.md",
+                "file": "Taccuino Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Misteri esterni.md"
+                "file": "Taccuino Development.md"
               }
             }
           }
@@ -322,9 +322,9 @@
   },
   "active": "703093b24daca5bf",
   "lastOpenFiles": [
+    "Misteri esterni.md",
     "BKG.md",
     "Check larry ending.md",
-    "Misteri esterni.md",
     "Hound e Crunter.md",
     "Backstory di Check e Hanabi.md",
     "Hanabi.md",

@@ -9,7 +9,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "CI SONO!"
         },
         "Vittime seriali.": {
             "title": "Vittime seriali.",
@@ -20,7 +20,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "EUREKA!"
         },
         "I Sonozaki.": {
             "title": "I Sonozaki.",
@@ -43,7 +43,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "Oyashiro-sama esiste?": {
             "title": "Oyashiro-sama esiste?",
@@ -55,7 +55,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "MACCERTO!"
         },
         "I passi misteriosi": {
             "title": "I passi misteriosi",
@@ -102,7 +102,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "La scomparsa del primo anno.": {
             "title": "La scomparsa del primo anno.",
@@ -113,7 +113,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "La morte del secondo anno.": {
             "title": "La morte del secondo anno.",
@@ -125,7 +125,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "EUREKA!"
         },
         "La scomparsa del secondo anno.": {
             "title": "La scomparsa del secondo anno.",
@@ -137,7 +137,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "La morte del terzo anno.": {
             "title": "La morte del terzo anno.",
@@ -149,7 +149,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "EUREKA!"
         },
         "La scomparsa del terzo anno": {
             "title": "La scomparsa del terzo anno",
@@ -161,7 +161,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "HO CAPITO!"
         },
         "La morte del quarto anno.": {
             "title": "La morte del quarto anno.",
@@ -185,7 +185,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "CI SONO!"
         },
         "La morte di Tomitake.": {
             "title": "La morte di Tomitake.",
@@ -198,7 +198,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "La morte di Takano.": {
             "title": "La morte di Takano.",
@@ -211,7 +211,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "Il detective Ooishi": {
             "title": "Il detective Ooishi",
@@ -222,7 +222,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "": {
             "title": "",
@@ -245,7 +245,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "EUREKA!"
         },
         "Shion o Mion?": {
             "title": "Shion o Mion?",
@@ -256,7 +256,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "MACCERTO!"
         },
         "Mion o... Mion?": {
             "title": "Mion o... Mion?",
@@ -267,7 +267,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "EUREKA!"
         },
         "Lo spirito di Satoshi.": {
             "title": "Lo spirito di Satoshi.",
@@ -280,7 +280,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "MACCERTO!"
         },
         "I tonfi nel magazzino.": {
             "title": "I tonfi nel magazzino.",
@@ -292,7 +292,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "HO CAPITO!"
         },
         "Sospetti di Mion al Watanagashi.": {
             "title": "Sospetti di Mion al Watanagashi.",
@@ -303,7 +303,7 @@
                 "Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion."
             ],
             "seen": false,
-            "display_answer": 0,
+            "display_answer": 2,
             "reaction": "CI SONO!"
         },
         "La notizia dell'intrusione.": {
@@ -315,7 +315,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "I corpi nel pozzo.": {
             "title": "I corpi nel pozzo.",
@@ -337,7 +337,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "CI SONO!"
         },
         "La posizione di Rika.": {
             "title": "La posizione di Rika.",
@@ -359,8 +359,8 @@
                 "In realt\u00e0 la siringa era la cura per la sindrome di Hinamizawa. Rika ha percepito il pericolo e stava cercando di fare tornare in se Shion."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "display_answer": 2,
+            "reaction": "EUREKA!"
         },
         "L'agguato di Rika.": {
             "title": "L'agguato di Rika.",
@@ -371,7 +371,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "L'ira di Mion.": {
             "title": "L'ira di Mion.",
@@ -393,7 +393,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "MACCERTO!"
         },
         "Il demone di Mion.": {
             "title": "Il demone di Mion.",
@@ -426,7 +426,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "HO CAPITO!"
         },
         "La morte di Keiichi.": {
             "title": "La morte di Keiichi.",
@@ -437,8 +437,8 @@
                 "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, ci\u00f2 che ha visto erano illusioni dovute alla paranoia."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "display_answer": 2,
+            "reaction": "CI SONO!"
         },
         "": {
             "title": "",
@@ -461,7 +461,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "MACCERTO!"
+            "reaction": "HO CAPITO!"
         },
         "La trasmittente.": {
             "title": "La trasmittente.",
@@ -474,8 +474,8 @@
             "display_answer": 1,
             "reaction": "MACCERTO!"
         },
-        "La corruzzione del BKG": {
-            "title": "La corruzzione del BKG",
+        "La corruzzione del BKG.": {
+            "title": "La corruzzione del BKG.",
             "question": "Che cosa DIAMINE \u00e8 successo al BKG in mia assenza?!",
             "answers": [
                 "",
@@ -483,7 +483,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "Comandante Lambdadelta.": {
             "title": "Comandante Lambdadelta.",
@@ -495,7 +495,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "MACCERTO!"
+            "reaction": "HO CAPITO!"
         },
         "La paranoia di Larry.": {
             "title": "La paranoia di Larry.",
@@ -506,7 +506,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "EUREKA!"
+            "reaction": "MACCERTO!"
         },
         "Perch\u00e8 Rika?": {
             "title": "Perch\u00e8 Rika?",
@@ -516,17 +516,17 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
-        "Che fine ha fatto Check alla fine del terzo frammento?": {
-            "title": "Che fine ha fatto Check alla fine del terzo frammento?",
-            "question": "Il Check di quel frammento aveva avuto una rivelazione che lo ha portato a rintracciare il colpevole. Tuttavia non mi \u00e8 permesso ricordarlo.\n\nChe cosa \u00e8 successo poco prima della mia morte?",
+        "La rivelazione di Check.": {
+            "title": "La rivelazione di Check.",
+            "question": "Il Check del terzo frammento aveva avuto una rivelazione che lo ha portato a rintracciare il colpevole. Tuttavia non mi \u00e8 permesso ricordarlo.\n\nChe cosa \u00e8 successo poco prima della mia morte?",
             "answers": [
                 ""
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "Bernkastel.": {
             "title": "Bernkastel.",
@@ -542,11 +542,12 @@
             "title": "Lambdadelta.",
             "question": "Si definisce \"strega della certezza\" ed \u00e8 tanto infantile quando spietata.\nHa rivelato la sua mano quando stavo per risolvere il mistero. Non lo ammetterebbe mai, ma sembra temere molto la mia presenza.\n\nLe sue parole hanno un effetto sulla reat\u00e0. Un potere terrificante se non arginato, ma sembra che Bern riesca a tenerla sotto controllo fino a un certo punto.",
             "answers": [
-                ""
+                "",
+                "Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding "
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "L'inganno dei Sonozaki.": {
             "title": "L'inganno dei Sonozaki.",
@@ -556,7 +557,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "CI SONO!"
         },
         "La maledizione di Oyashiro-sama.": {
             "title": "La maledizione di Oyashiro-sama.",
@@ -566,7 +567,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "La Certezza di Lambdadelta.": {
             "title": "La Certezza di Lambdadelta.",
@@ -576,10 +577,10 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "HO CAPITO!"
         },
-        "Hanabi": {
-            "title": "Hanabi",
+        "Hanabi.": {
+            "title": "Hanabi.",
             "question": "Io e lui un tempo eravamo rivali e compagni di guerra. Potevo sempre affidargli le mie spalle sul campo di battaglia. Non \u00e8 la persona con pi\u00f9 tatto del mondo, ma \u00e8 un genio del combattimento e della strategia; mi ha sempre dato del filo da torcere dall'inizio pur con meno anni di esperienza.\n\nQuando decisi di lasciare la mia posizione per fondare il BKG, lui lo prese come un tradimento, e poco tempo dopo mi giunse notizia che era rimasto vittima di un'operazione in Afghanistan.\n\nCredevo che il nostro prossimo duello sarebbe stato alle porte del Valhalla, ma il destino aveva altri piani in serbo.",
             "answers": [
                 ""

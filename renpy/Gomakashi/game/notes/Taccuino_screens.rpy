@@ -64,6 +64,8 @@ screen tq_question_page(left, right, forward, backward):
 
         current_page = (left["title"], right["title"])
 
+
+
     # left page
     vbox:
         xalign 0.2

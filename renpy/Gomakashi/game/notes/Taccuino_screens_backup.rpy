@@ -59,6 +59,27 @@ screen tq_question_page(left, right, forward, backward):
 
         current_page = (left["title"], right["title"])
 
+        #we can fit about 550 characters at max size between
+        #sum length of all page text
+        #in the rewrite make this a method of the page object: right.get_tsize()
+
+
+        import math
+
+        text_length_r = len(right['question']) + len(right["answers"][ans_right])
+        text_length_l = len(left['question']) + len(left["answers"][ans_left])
+
+        shrink_factor = 10
+        shrink_limit = 550
+
+        shrink_r = max(0, math.ceil((text_length_r - shrink_limit) / shrink_factor))
+        shrink_l = max(0, math.ceil((text_length_l - shrink_limit) / shrink_factor))
+
+        right_tsize= 35 - shrink_r
+        left_tsize= 35 - shrink_l
+
+
+
     # left page
     vbox:
         xalign 0.2
@@ -84,7 +105,7 @@ screen tq_question_page(left, right, forward, backward):
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size left_tsize
                 font "static/Caveat-Regular.ttf"
 
 
@@ -107,9 +128,10 @@ screen tq_question_page(left, right, forward, backward):
                     size 50
                     font "static/Caveat-Regular.ttf"
         else:
-            add separator_think:
-                xalign 0.0
-                xoffset -20
+            if left["title"]!="":
+                add separator_think:
+                    xalign 0.0
+                    xoffset -20
 
 
         null height 20
@@ -120,7 +142,7 @@ screen tq_question_page(left, right, forward, backward):
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size left_tsize
                 font "static/Caveat-Regular.ttf"
 
 
@@ -149,7 +171,7 @@ screen tq_question_page(left, right, forward, backward):
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size right_tsize
                 font "static/Caveat-Regular.ttf"
 
         null height 20
@@ -185,7 +207,7 @@ screen tq_question_page(left, right, forward, backward):
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size right_tsize
                 font "static/Caveat-Regular.ttf"
 
 

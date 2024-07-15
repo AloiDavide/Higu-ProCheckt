@@ -1,4 +1,12 @@
 
+- [ ] To make the taccuino actually update I'll need to both update the json and call a method or function that re-reads the json
+- [x] Make text size dynamic
+	- base size is 35
+	- we can fit about 550 characters at max size between question and answer.
+	- [x] sum length of all the displaying text
+	- [x] scale it down one pixel every 20 characters?
+	- [ ] in the rewrite make this a method of the page object: right.get_tsize()
+
 ### Implementation
 - A json contains all the pages.
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
@@ -40,6 +48,11 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] call it from the show page method
 - [?] Add an option to show consecutive answers as appends?
 	- [x] No, if we want the next answer to reiterate on the previous by cutting it off, I'll just invent a syntax for it. Then it gets converted to strikethrough text with html when passing to the json.
+- [ ] add a visual flair if question not seen
+	- [ ] may require a rewrite of the grid
+	- [ ] if the object rewrite works I maybe can use simple vboxes and handle the column splits in backend
+	- [ ] make the unread pages bold and glow dark red. on hover just change the outline strength
+
 
 ## Refactoring
 Backend
@@ -56,14 +69,10 @@ Backend
 		- [ ] whenever a page is shown,  make it also update the status in the corresponding object and call the dump method of taccuino
 		
 Frontend
-- [ ] make the unread pages bold and glow dark red. on hover just change the outline strength
 - [ ] Fix the way pages look for the title in the dictionary to use the key
 - [ ] make the forward and backward flags not jump around so much
-- [ ] fix left and right question pages duplication
-- [ ] add a visual flair if question not seen
-	- [ ] may require a rewrite of the grid
-	- [ ] if the object rewrite works I maybe can use simple vboxes and handle the column splits in backend
-	- [ ] if possible remove left and right distinction
+- [ ] unify code for left and right question pages
+
 	
 ## Question Pages
 - [x] Make the titles textbuttons
@@ -71,8 +80,8 @@ Frontend
 	- [x] Implement the method
 	- [x] make button call it with the right arguments
 	- [x] make the page screen template
-		- [ ] make check separator trigger at random if a flag is ticked
-			- [ ] complete it with horizontal shit
+		- [x] make check separator trigger at random if a flag is ticked
+			- [x] complete it with horizontal shit
 		- [x] manage frames to limit height variation
 		- [x] manage fonts
 		- [x] test with longer text

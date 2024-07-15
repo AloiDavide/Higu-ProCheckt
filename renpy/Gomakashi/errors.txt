@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene2.1.1.rpy", line 16: is not terminated with a newline. (Check strings and parenthesis.)
-(Perhaps you left out a ' at the end of the first line.)
-        cr "Siamo solo delle voci... nASCOSTE NEI PUNTI CIECHI DEI FRAMENTI. Solo tu puoi sentirci." 'sfruttiamo l\'interstizio tra un frammento e l\'altro"
+File "game/notes/Taccuino_screens_backup.rpy", line 70: invalid syntax
+    text_length_l = left['question'] left["answers"][ans_left]
+                                      ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Jul 14 23:11:55 2024
+Mon Jul 15 21:43:47 2024
