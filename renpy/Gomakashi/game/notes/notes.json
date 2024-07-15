@@ -8,19 +8,19 @@
                 "A Hinamizawa sembra vigere un sistema dove secondo il volere delle tre famiglie i nemici del villaggio vengono eliminati ogni anno senza bisogno di un ordine diretto. Rendendo i casi apparentemente scollegati."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "CI SONO!"
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "Vittime seriali.": {
             "title": "Vittime seriali.",
-            "question": "Nonostante gli eventi cambino sostanzialmente da un frammento a un altro, Tomitake e Takano muoiono sempre nello stesso modo. Se riuscissi a risolvere i loro casi avrei in mano una chiave di volta di questo mondo.",
+            "question": "Nonostante gli eventi cambino sostanzialmente da un frammento a un altro, Tomitake e Takano muoiono sempre nello stesso modo. Se riuscissi a risolvere i loro casi avrei in mano una chiave di volta di questo mistero.",
             "answers": [
                 "",
                 "Takano \u00e8 il colpevole. Uccide Tomitake e finge la sua morte per diffondere ancora di pi\u00f9 la paura della maledizione."
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "CI SONO!"
         },
         "I Sonozaki.": {
             "title": "I Sonozaki.",
@@ -31,7 +31,7 @@
                 "I Sonozaki non sono mai stati dietro gli incidenti del Watanagashi. Oryou ha l'abitudine di comportarsi come se fosse in controllo di qualsiasi cosa accade intorno a lei anche se non lo \u00e8 veramente, e questo ha tratto in inganno tante persone, tra cui Ooishi, Akasaka e Shion."
             ],
             "seen": false,
-            "display_answer": 0,
+            "display_answer": 1,
             "reaction": "HO CAPITO!"
         },
         "Le conoscenze di Rika": {
@@ -43,7 +43,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "Oyashiro-sama esiste?": {
             "title": "Oyashiro-sama esiste?",
@@ -55,20 +55,20 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "I passi misteriosi": {
             "title": "I passi misteriosi",
             "question": "Diversi personaggi si sentono osservati e testimoniano di sentire dei passi alle proprie spalle, e alle volte una voce che si scusa. Rena, Keiichi, Satoshi, Shion... perfino Larry. Non pu\u00f2 essere un caso.",
             "answers": [
                 "",
-                "Tutti i casi erano in stati mentali alterati. Sarei tentato di spiegarlo con delle allucinazioni, ma non riesco a farlo quadrare con l'indizio della strega...",
+                "Tutti i casi erano in stati mentali alterati. Sarei tentato di spiegarlo con delle allucinazioni. Ma non riesco a farlo quadrare con l'indizio della strega...",
                 "Tutti loro erano affetti dalla sindrome di Hinamizawa che li rendeva paranoici... ma ancora non mi spiego cosa ci fosse dietro Keiichi in quel momento.",
                 "Avere la sindrome di Hinamizawa ti permette di sentire i passi di Hanyu. Hanyu li stava seguendo."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "EUREKA!"
+            "display_answer": 1,
+            "reaction": "HO CAPITO!"
         },
         "Tabula rasa.": {
             "title": "Tabula rasa.",
@@ -79,7 +79,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "CI SONO!"
         },
         "": {
             "title": "",
@@ -102,7 +102,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "CI SONO!"
         },
         "La scomparsa del primo anno.": {
             "title": "La scomparsa del primo anno.",
@@ -113,7 +113,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "CI SONO!"
         },
         "La morte del secondo anno.": {
             "title": "La morte del secondo anno.",
@@ -125,7 +125,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "La scomparsa del secondo anno.": {
             "title": "La scomparsa del secondo anno.",
@@ -137,7 +137,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "La morte del terzo anno.": {
             "title": "La morte del terzo anno.",
@@ -149,7 +149,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "La scomparsa del terzo anno": {
             "title": "La scomparsa del terzo anno",
@@ -161,7 +161,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "reaction": "EUREKA!"
         },
         "La morte del quarto anno.": {
             "title": "La morte del quarto anno.",
@@ -171,12 +171,12 @@
                 "Non c'\u00e8 ormai ombra di dubbio che sia stato Satoshi. Devono essere stati i Sonozaki a fornire un finto colpevole per depistare la polizia e fargli chiudere le investigazioni."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "display_answer": 1,
+            "reaction": "HO CAPITO!"
         },
         "La scomparsa del quarto anno": {
             "title": "La scomparsa del quarto anno",
-            "question": "Satoshi Houjou \u00e8 scomparso il giorno in cui avrebbe dovuto comprare il regalo di compleanno di Satoko, e se adesso chiedi di lui ti diranno che si \u00e8 trasferito o che \u00e8 scappato di casa. Che fine ha fatto veramente?",
+            "question": "Satoshi Houjou \u00e8 scomparso il giorno in cui avrebbe dovuto comprare l'orsacchiotto come regalo di compleanno per Satoko, e se adesso chiedi di lui ti diranno che si \u00e8 trasferito o che \u00e8 scappato di casa. Che fine ha fatto veramente? Chi ha comprato il peluche?",
             "answers": [
                 "",
                 "Satoshi era fortemente stressato dalla sua situazione familiare e ha finito per uccidere la zia. A quel punto \u00e8 stato forzatamente rimosso dai Sonozaki. Non sappiamo se sia ancora vivo.",
@@ -184,12 +184,12 @@
                 "Satoshi ha contratto la sindrome di Hinamizawa ed \u00e8 ancora oggi in coma nel sotterraneo segreto della clinica di Irie."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "CI SONO!"
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "La morte di Tomitake.": {
             "title": "La morte di Tomitake.",
-            "question": "In ogni frammento Il cadavere di Tomitake viene ritrovato in una strada di Hinamizawa. Sono presenti segni di colluttazione, e la gola \u00e8 stata lacerata dalle sue stesse unghie. C'entra la siringa che hanno provato a iniettare a Keiichi in Onikakushi?",
+            "question": "In ogni frammento il cadavere di Tomitake viene ritrovato nella stessa strada vicino Hinamizawa. Sono presenti segni di colluttazione, e la gola \u00e8 stata lacerata dalle sue stesse unghie. C'entra la siringa che hanno provato a iniettare a Keiichi in Onikakushi?",
             "answers": [
                 "",
                 "Tomitake viene designato un nemico del villaggio quando si intrufola nel magazzino sacro, quindi gli iniettano una qualche sostanza che lo porta alla pazzia e al suicidio violento.",
@@ -222,7 +222,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "HO CAPITO!"
         },
         "": {
             "title": "",
@@ -244,7 +244,7 @@
                 "Keiichi ha parlato quasi solo con Mion, fino alla chiamata dove \u00e8 stato invitato ad Angel Mort, dove per la prima volta ha parlato con Shion"
             ],
             "seen": false,
-            "display_answer": 0,
+            "display_answer": 1,
             "reaction": "EUREKA!"
         },
         "Shion o Mion?": {
@@ -255,8 +255,8 @@
                 "Shion imprigiona Mion e interpreta entrambi i ruoli a partire da quel punto. Continua a telefonare a Keiichi per usarlo come esca."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "display_answer": 1,
+            "reaction": "HO CAPITO!"
         },
         "Mion o... Mion?": {
             "title": "Mion o... Mion?",
@@ -266,8 +266,8 @@
                 "Lo fa per placare l'altra.\nLe sorelle sono state scambiate da bambine. Quella che abbiamo sempre chiamato Shion sarebbe dovuta essere la capofamiglia, e odia la gemella per non avere salvato Satoshi pur avendone il potere."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "EUREKA!"
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "Lo spirito di Satoshi.": {
             "title": "Lo spirito di Satoshi.",
@@ -279,8 +279,8 @@
                 "Shion \u00e8 affetta dalla sindrome di Hinamizawa, il che la rende in grado di sentire Hanyuu vagamente, e si convince che sia Satoshi perch\u00e9 \u00e8 ci\u00f2 che vorrebbe."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "display_answer": 1,
+            "reaction": "CI SONO!"
         },
         "I tonfi nel magazzino.": {
             "title": "I tonfi nel magazzino.",
@@ -291,8 +291,8 @@
                 "Essere affetti dalla a sindrome di Hinamizawa li rende capaci di sentire Hanyuu vagamente.\nHanyuu si arrabbia e salta sul pavimento del tempio Furude perch\u00e9 Takano sta inventando bugie su Oyashiro-sama."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "HO CAPITO!"
+            "display_answer": 1,
+            "reaction": "CI SONO!"
         },
         "Sospetti di Mion al Watanagashi.": {
             "title": "Sospetti di Mion al Watanagashi.",
@@ -303,8 +303,8 @@
                 "Non lo sapeva. Semplicemente era gelosa del fatto che Keiichi stesse spendendo tempo con Shion."
             ],
             "seen": false,
-            "display_answer": 2,
-            "reaction": "CI SONO!"
+            "display_answer": 1,
+            "reaction": "EUREKA!"
         },
         "La notizia dell'intrusione.": {
             "title": "La notizia dell'intrusione.",
@@ -314,8 +314,8 @@
                 "\u00c8 Shion a spargere la voce, credendo che gi\u00e0 lo sapessero. \u00c8 sempre Shion ad incalzare Keiichi a riguardo per metterlo allerta."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "EUREKA!"
+            "display_answer": 1,
+            "reaction": "CI SONO!"
         },
         "I corpi nel pozzo.": {
             "title": "I corpi nel pozzo.",
@@ -326,7 +326,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "MACCERTO!"
         },
         "La posizione di Kimiyoshi.": {
             "title": "La posizione di Kimiyoshi.",
@@ -336,8 +336,8 @@
                 "Sebbene non possiamo escluderlo al 100%, \u00e8 altamente probabile che non sapesse molto, dato che anche in procinto di morte non ha rivelato niente di concreto."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "CI SONO!"
+            "display_answer": 1,
+            "reaction": "MACCERTO!"
         },
         "La posizione di Rika.": {
             "title": "La posizione di Rika.",
@@ -348,7 +348,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "La siringa nel pozzo.": {
             "title": "La siringa nel pozzo.",
@@ -359,8 +359,8 @@
                 "In realt\u00e0 la siringa era la cura per la sindrome di Hinamizawa. Rika ha percepito il pericolo e stava cercando di fare tornare in se Shion."
             ],
             "seen": false,
-            "display_answer": 2,
-            "reaction": "EUREKA!"
+            "display_answer": 1,
+            "reaction": "CI SONO!"
         },
         "L'agguato di Rika.": {
             "title": "L'agguato di Rika.",
@@ -371,7 +371,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "CI SONO!"
         },
         "L'ira di Mion.": {
             "title": "L'ira di Mion.",
@@ -381,8 +381,8 @@
                 "Shion, non Mion, viene adirata quando lo sente menzionare Satoshi. Odia Satoko e non perdona che lei sia stata risparmiata dopo aver contribuito alla dipartita di Satoshi."
             ],
             "seen": false,
-            "display_answer": 0,
-            "reaction": "CI SONO!"
+            "display_answer": 1,
+            "reaction": "HO CAPITO!"
         },
         "Il discorso finale di Mion.": {
             "title": "Il discorso finale di Mion.",
@@ -393,7 +393,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "HO CAPITO!"
         },
         "Il demone di Mion.": {
             "title": "Il demone di Mion.",
@@ -437,8 +437,8 @@
                 "Suggestionato da Ooishi, Keiichi ha sviluppato la sindrome di Hinamizawa all'ultimo, ci\u00f2 che ha visto erano illusioni dovute alla paranoia."
             ],
             "seen": false,
-            "display_answer": 2,
-            "reaction": "CI SONO!"
+            "display_answer": 0,
+            "reaction": "HO CAPITO!"
         },
         "": {
             "title": "",
@@ -461,11 +461,11 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "HO CAPITO!"
+            "reaction": "MACCERTO!"
         },
         "La trasmittente.": {
             "title": "La trasmittente.",
-            "question": "Questo pezzo di tecnologia radio futuristica mi permette di rimanere in contatto con il quartier generale ovunque io sia, e l'uso di una frequenza segreta .\nTuttavia, per qualche motivo smette di funzionare in ogni frammento quando arrivo a Hinamizawa. Che sia stata manomessa?",
+            "question": "Questo pezzo di tecnologia radio all'avanguardia mi permette di rimanere in contatto con il quartier generale ovunque io sia, e l'uso di una frequenza segreta .\nTuttavia, per qualche motivo smette di funzionare in ogni frammento quando arrivo a Hinamizawa. Che sia stata manomessa?",
             "answers": [
                 "",
                 "Sapere che il nemico ha preso il controllo del BKG spiega tutto.\nNon potevo usare la trasmittente non per un malfunzionamento, ma perch\u00e8 mi sono stati revocati i permessi.\nTuttavia... dal quartier generale possono ancora usarla per tracciare ogni mio movimento e perfino origliare le mie conversazioni."
@@ -483,7 +483,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "HO CAPITO!"
+            "reaction": "MACCERTO!"
         },
         "Comandante Lambdadelta.": {
             "title": "Comandante Lambdadelta.",
@@ -495,7 +495,7 @@
             ],
             "seen": false,
             "display_answer": 1,
-            "reaction": "HO CAPITO!"
+            "reaction": "MACCERTO!"
         },
         "La paranoia di Larry.": {
             "title": "La paranoia di Larry.",
@@ -516,7 +516,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "HO CAPITO!"
         },
         "La rivelazione di Check.": {
             "title": "La rivelazione di Check.",
@@ -536,18 +536,17 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "HO CAPITO!"
         },
         "Lambdadelta.": {
             "title": "Lambdadelta.",
             "question": "Si definisce \"strega della certezza\" ed \u00e8 tanto infantile quando spietata.\nHa rivelato la sua mano quando stavo per risolvere il mistero. Non lo ammetterebbe mai, ma sembra temere molto la mia presenza.\n\nLe sue parole hanno un effetto sulla reat\u00e0. Un potere terrificante se non arginato, ma sembra che Bern riesca a tenerla sotto controllo fino a un certo punto.",
             "answers": [
-                "",
-                "Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding Padding "
+                ""
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "MACCERTO!"
+            "reaction": "EUREKA!"
         },
         "L'inganno dei Sonozaki.": {
             "title": "L'inganno dei Sonozaki.",
@@ -557,7 +556,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "La maledizione di Oyashiro-sama.": {
             "title": "La maledizione di Oyashiro-sama.",
@@ -567,7 +566,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "EUREKA!"
+            "reaction": "CI SONO!"
         },
         "La Certezza di Lambdadelta.": {
             "title": "La Certezza di Lambdadelta.",
@@ -587,7 +586,7 @@
             ],
             "seen": false,
             "display_answer": 0,
-            "reaction": "CI SONO!"
+            "reaction": "MACCERTO!"
         },
         "": {
             "title": "",

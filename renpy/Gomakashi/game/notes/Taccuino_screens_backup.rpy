@@ -3,6 +3,9 @@
 #Backdrop with the notebook image
 screen taccuino():
     zorder 101
+
+
+
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
     frame:
@@ -23,6 +26,7 @@ screen tq_index_page(this_page, forward, backward):
 
 
     grid 2 7:
+
         xspacing 150
         #yspacing 70
         area (270,130,1440,860)
@@ -42,6 +46,7 @@ screen tq_index_page(this_page, forward, backward):
 # SPECIFIC QUESTIONS SCREEN
 #----------------------------
 screen tq_question_page(left, right, forward, backward):
+
     # left := dict - data of the left page
     # right := dict - data of the right page, or None if not present
     # forward := bool - is there a next page?
@@ -69,7 +74,7 @@ screen tq_question_page(left, right, forward, backward):
         text_length_r = len(right['question']) + len(right["answers"][ans_right])
         text_length_l = len(left['question']) + len(left["answers"][ans_left])
 
-        shrink_factor = 10
+        shrink_factor = 13
         shrink_limit = 550
 
         shrink_r = max(0, math.ceil((text_length_r - shrink_limit) / shrink_factor))
@@ -124,7 +129,7 @@ screen tq_question_page(left, right, forward, backward):
                     textalign 0.5
                     yalign 0.8
                     outlines [(2, "#000")]
-                    color "#6A0707"
+                    color "#8A0707"
                     size 50
                     font "static/Caveat-Regular.ttf"
         else:
@@ -189,7 +194,7 @@ screen tq_question_page(left, right, forward, backward):
                     textalign 0.5
                     yalign 0.8
                     outlines [(2, "#000")]
-                    color "#6A0707"
+                    color "#8A0707"
                     size 50
                     font "static/Caveat-Regular.ttf"
         else:

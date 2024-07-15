@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/notes/Taccuino_screens_backup.rpy", line 70: invalid syntax
-    text_length_l = left['question'] left["answers"][ans_left]
-                                      ^
+File "game/notes/Taccuino_screens.rpy", line 11: the id keyword argument was not given a value.
+    id
+      ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Mon Jul 15 21:43:47 2024
+Mon Jul 15 22:40:23 2024

@@ -7,6 +7,9 @@
 	- [x] scale it down one pixel every 20 characters?
 	- [ ] in the rewrite make this a method of the page object: right.get_tsize()
 
+
+I'm using an imagebutton to call a python function that does some stuff and then brings up a screen with renpy.show_screen(), but after the new screen appears, the mouse doesn't interact with its elements until I click on it once. Is there a way to give it focus immediately?
+
 ### Implementation
 - A json contains all the pages.
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.

@@ -9,6 +9,7 @@ def show_notebook():
     renpy.show_screen("taccuino")
     Taccuino.tq().show_index_page()
 
+
     global showing_notes
     showing_notes = True
 
@@ -82,6 +83,7 @@ class Taccuino:
 
         renpy.hide_screen("tq_question_page")
         renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw)
+
 
     def turn_index_page(self, forward: bool):
         self.index_page = self.index_page + 1 if forward else self.index_page - 1

@@ -2,7 +2,7 @@
 
 #-----------------------------------------------------------------
 #Backdrop with the notebook image
-screen taccuino():
+screen taccuino2():
     zorder 101
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
@@ -13,9 +13,12 @@ screen taccuino():
 #----------------------------
 #     INDEX PAGE SCREEN
 #----------------------------
-screen tq_index_page(this_page, forward, backward):
+screen tq_index_page2(this_page, forward, backward):
     zorder 102
     modal True
+
+
+
 
     # this_page := list of titles in the current page
 
@@ -46,7 +49,7 @@ screen tq_index_page(this_page, forward, backward):
 #----------------------------
 # SPECIFIC QUESTIONS SCREEN
 #----------------------------
-screen tq_question_page(left, right, forward, backward):
+screen tq_question_page2(left, right, forward, backward):
     # left := dict - data of the left page
     # right := dict - data of the right page, or None if not present
     # forward := bool - is there a next page?
@@ -204,7 +207,7 @@ screen tq_question_page(left, right, forward, backward):
 #          UI BUTTONS SCREEN
 #-----------------------------------
 
-screen taccuino_ui(forward, backward, current_page=None):
+screen taccuino_ui2(forward, backward, current_page=None):
     zorder 103
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
