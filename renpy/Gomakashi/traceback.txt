@@ -1,34 +1,22 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/scenes/2_0.rpy", line 228, in script
-    ltk "Comandante 001, nome in condice Lambdadelta."
-  File "game/inits.rpy", line 36, in static_voice
-    renpy.audio.play("audio/sfx/radio static.mp3")
-AttributeError: module 'renpy.audio' has no attribute 'play'
+AttributeError: 'TQ_Page' object has no attribute 'getDict'
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scenes/2_0.rpy", line 228, in script
-    ltk "Comandante 001, nome in condice Lambdadelta."
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
-    Say.execute(self)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
-    renpy.exports.say(who, what, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
-    who(what, *args, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
-    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
-    display_say(who,
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 735, in display_say
-    c("show_done", interact=interact, type=type, **cb_args)
-  File "game/inits.rpy", line 36, in static_voice
-    renpy.audio.play("audio/sfx/radio static.mp3")
-AttributeError: module 'renpy.audio' has no attribute 'play'
+  File "game/notes/TQ_Page_ren.py", line 2, in script
+    init python:
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/notes/TQ_Page_ren.py", line 48, in <module>
+    print(page.getDict())
+AttributeError: 'TQ_Page' object has no attribute 'getDict'
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Sat Jun 22 18:43:27 2024
+Sat Jul  6 12:43:59 2024

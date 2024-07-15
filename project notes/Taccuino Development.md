@@ -2,23 +2,18 @@
 ### Implementation
 - A json contains all the pages.
 - Toggle unread status of page in the json, and highlight it if true, turn it false and save when opened.
-- Every time the taccuino is called, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
+- Every time the game is loaded, the script reads the json file and either uses it directly or makes a ==Taccuino== object.
 
 
-## Refactor
-- [ ] Take out zorders if possible
-- [ ] Fix the way pages look for the title in the dictionary to use the key
-- [ ] make the forward and backward flags not jump around so much
-- [ ] fix left and right question pages duplication
 
 
 ## VFX
 - [x] main menu still uses corner button
 - [ ] Fix the mouse focus problem, ask on the discord ⏫ 
-- [ ] fix the exclamation reloading when the page is clicked
-- [ ] Review generale estetica alla fine 🔽 
+- [x] fix the exclamation reloading when the page is clicked
+- [x] fix check face showing up in blank pages
 - [ ] toggle button stays big and changes color while notes are open?
-	- [ ] Make the toggle button behave decently somehow
+- [ ] Make the toggle button not duplicate during swipe animations
 - [x] Decide on page transitions
 	- Maybe blinds for page turn and pixellate for topic change and entering specific page
 - [x] Make the toggle button also close it.
@@ -42,12 +37,34 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] display them dynamically
 	- [x] clicking the page button calls the right method.
 	- [x] It shows the new screen and hides the old one
-- [ ] Add an effect for unread questions (CHECK FACE), and remove it any time they are viewed by updating the dict.
-	- [ ] check the flag and add a visual flair
-	- [ ] implement the function that turns off the flag in the file
 	- [x] call it from the show page method
 - [?] Add an option to show consecutive answers as appends?
 	- [x] No, if we want the next answer to reiterate on the previous by cutting it off, I'll just invent a syntax for it. Then it gets converted to strikethrough text with html when passing to the json.
+
+## Refactoring
+Backend
+- [ ] Add an effect for unread questions (CHECK FACE), and remove it any time they are viewed by updating the dict.
+	- [ ] ==Yo this shit actually needs a rewrite== 
+		- [x] make a fucking page object
+		- [x] give the page object a constructor that takes the dict and makes itself
+		- [x] serialize it to json using `json.dumps(vars(page))`
+		- [ ] give Taccuino a list of page objects and pass that around, divide them by topic
+		- [ ] make the Taccuino class represent the full json
+		- [ ] make all references to the dictionaries in the screens reference the object instead
+		- [ ] make the external functions into methods
+		- [ ] have a method to update the json with the current state of the Taccuino object
+		- [ ] whenever a page is shown,  make it also update the status in the corresponding object and call the dump method of taccuino
+		
+Frontend
+- [ ] make the unread pages bold and glow dark red. on hover just change the outline strength
+- [ ] Fix the way pages look for the title in the dictionary to use the key
+- [ ] make the forward and backward flags not jump around so much
+- [ ] fix left and right question pages duplication
+- [ ] add a visual flair if question not seen
+	- [ ] may require a rewrite of the grid
+	- [ ] if the object rewrite works I maybe can use simple vboxes and handle the column splits in backend
+	- [ ] if possible remove left and right distinction
+	
 ## Question Pages
 - [x] Make the titles textbuttons
 - [x] Make the buttons call a method to show the specific page
@@ -71,7 +88,7 @@ Maybe it does make sense after all to keep objects for the book
 	- [x] Only include ones relevant right now
 	- [x] Generate real json from notes
 	- [x] Remember to add empty page to json for odd cases
-	- [ ] Spell check all text files
+	- [x] Spell check all text files
 - [ ] Once the flags start to change dynamically, make a way to generate the txt file from the json
 
 
@@ -101,43 +118,4 @@ Maybe it does make sense after all to keep objects for the book
 	- Answer
 		- Initially blank
 		- Can change multiple times
-
-
-
-#### Json structure
-- [ ] feed the txt file/s into a script to make the json
-- [ ] Change to have a list of answers
-- [ ] Have a field that indicates what index of answer to show (negative for none)
-- [ ] Have a function you can call from inside the scenes to update the pointer and seen status
-```Taccuino
-{  
-    "topics": [  
-      {  
-         "name" : "-Topic1-",  
-         "pages": [  
-            {  
-            "title":"-title1-",  
-            "question":"-question1-",  
-            "answer":"-answer1-",  
-            "seen":true  
-            },  
-            {  
-            "title":"-title2-",  
-            "question":"-question2-",  
-            "answer":"-answer2-",  
-            "seen":false  
-            }  
-         ]  
-      },  
-      {  
-         "name" : "-Topic2-",  
-         "pages": []  
-      }  
-   ]  
-}
-```
-
-
-
-Mini scena che lo sblocca con Check che sente la mancanza di larry
 

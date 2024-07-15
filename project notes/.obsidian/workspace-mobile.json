@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Taccuino.md",
+                "file": "Backstory di Check e Hanabi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,7 +86,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "Taccuino.md",
+            "file": "Backstory di Check e Hanabi.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
         "state": {
           "type": "outgoing-link",
           "state": {
-            "file": "Taccuino.md",
+            "file": "Backstory di Check e Hanabi.md",
             "linksCollapsed": false,
             "unlinkedCollapsed": true
           }
@@ -115,7 +115,7 @@
         "state": {
           "type": "outline",
           "state": {
-            "file": "Taccuino.md"
+            "file": "Backstory di Check e Hanabi.md"
           }
         }
       }
@@ -124,6 +124,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -134,11 +135,11 @@
   },
   "active": "e6469a3739721685",
   "lastOpenFiles": [
+    "Taccuino.md",
     "Taccuino Topics.md",
     "Taccuino Entries.md",
     "Taccuino Development.md",
     "notes topics.md",
-    "Taccuino.md",
     "Personaggi.md",
     "Higurashi - Gli indizi perduti..md",
     "Apparecchiare la scachhiera.md",

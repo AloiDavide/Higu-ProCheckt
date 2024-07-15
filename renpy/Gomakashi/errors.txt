@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/inits.rpy", line 37: invalid syntax
-            else return
-                  ^
+File "game/scenes/scene2.1.1.rpy", line 16: is not terminated with a newline. (Check strings and parenthesis.)
+(Perhaps you left out a ' at the end of the first line.)
+        cr "Siamo solo delle voci... nASCOSTE NEI PUNTI CIECHI DEI FRAMENTI. Solo tu puoi sentirci." 'sfruttiamo l\'interstizio tra un frammento e l\'altro"
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jun 22 18:40:47 2024
+Sun Jul 14 23:11:55 2024

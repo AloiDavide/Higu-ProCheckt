@@ -1,0 +1,1 @@
+Implementare chiamate alla metal gear in un futuro

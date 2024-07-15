@@ -22,8 +22,6 @@ Check vede lucina rossa su Larry e ha momento za wardo.
 
 Check esterno che ormai ha perso decide di andare da Check interno e lo sprona a ricordarsi le cose nel prossimo frammento. Bernkastel poi rimarrà sorpresa d questo fatto.
 
-Ci facciamo entrare la strega di larry? Nah troppo presto.
-
 Reveal alla fine che il cecchino era Hanabi, Check interno non lo vede.
 
 Ma hanabi non puo semplicemente essere un mountain dogs. Non si deve sapere che esistono fino a Minagoroshi.
@@ -32,4 +30,36 @@ Lui è semplicemente un mercenario e lavora per gente a caso, stavolta lo aveva 
 Eventually, il loro scontro finale sarà contemporaneo nei due layer. A parole e a lotta fisica. Prima con le armi e poi con i pugni.
 Mi ci impegno a scriverla.
 
+Larry: Non sono mai stato così felice di essere in errore.
 
+Come puo un semplice impostore aver fatto una cosa del genere
+
+
+Qualcuno dall'alto lo sponsorizza.
+
+Il BKG è una cellula antiterroristica che lavora.... Ma non si sostiene certo da solo.
+
+Il Giappone non ha più avuto un esercito dalla seconda guerra mondiale, ma quanto a servizi segreti non scherza.
+
+Come pensi che un giapponese come me si sia ritrovato a combattere per tutta l'asia e il medio oriente?
+
+Essermi distinto come militare all'estero mi è stata data l'occasione di creare la mia organizzazione.
+Sinceramente non ne potevo più di vedere compagni morire combattendo sul campo di battaglia per cause in cui non credevano.
+Il mio sogno col BKG era creare un luogo dove chi ha la voglia e la capacità potesse combattere per qualcosa di concreto, con trasparenza e orgoglio.
+
+Questa mia filosofia deve aver reso il BKG una pedina molto scomoda da muovere, una fazione o un altra deve aver deciso che la mia utilità era finita.
+
+Per questo motivo non abbiamo davanti un semplice impostore.
+
+Liberarsene non sarà semplice quanto tornare a casa base e spiegare la situazione.
+
+Terry: Qua tutto è andato a puttane. Non riusciamo più a contattare il nuovo comandante. 
+Questa è soltanto una mia teoria, ma credo che sia successo un imprevisto che nessuno si aspettava, neanche i nostri avversari.
+
+ck "Insomma, è il momento migliore per fargli perdere le nostre tracce. Prima che possano riprendere il controllo della situazione."
+
+ho un piano
+
+parlano di come la trasmittente va persa ma in modo smart, spiega la storia dietro essa
+
+Terry fa mi hanno scoperta quindi non posso piu scoprire cose

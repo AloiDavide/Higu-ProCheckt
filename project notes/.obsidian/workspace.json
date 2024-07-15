@@ -4,17 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "462e339b352fb433",
+        "id": "312ddc19e1adb1af",
         "type": "tabs",
-        "dimension": 27.307447485677912,
         "children": [
           {
-            "id": "fa0f026427e9ba07",
+            "id": "dd24ea85a4ae7b0e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Todo generale.md",
+                "file": "Scaletta Gomakashi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -22,12 +21,12 @@
             }
           },
           {
-            "id": "1f5c4cfd10899416",
+            "id": "b48a95c4e483104f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meakashi reread.md",
+                "file": "BKG.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -35,32 +34,12 @@
             }
           },
           {
-            "id": "f6c78a7e6ca2b7e7",
+            "id": "875c44256d7f6745",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutte le domande.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "eaf315b8897c4c46",
-        "type": "tabs",
-        "dimension": 43.34818586887333,
-        "children": [
-          {
-            "id": "d482b4765725a40b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Taccuino Entries.md",
+                "file": "Hanabi.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -68,7 +47,72 @@
             }
           },
           {
-            "id": "40ea21cc3c0f4d1d",
+            "id": "79d7832df28fe4dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cdca2d45371f5457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backstory di Check e Hanabi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "59979680b19495da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check larry ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "250aa2b47da9e6a4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hound e Crunter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f6a2bda535fd7b65",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hound e Crunter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "703093b24daca5bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -81,12 +125,64 @@
             }
           },
           {
-            "id": "584de261d4722107",
+            "id": "579500602a82e2d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Check larry ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "44b3e52a0d041f09",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "BKG.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7e1dc083fe63dd3e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Backstory di Check e Hanabi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f3987ced9c6eca3a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hanabi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "93744db0a7d23890",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Terry.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -94,27 +190,7 @@
             }
           }
         ],
-        "currentTab": 2
-      },
-      {
-        "id": "312ddc19e1adb1af",
-        "type": "tabs",
-        "dimension": 29.344366645448762,
-        "children": [
-          {
-            "id": "dd24ea85a4ae7b0e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "La cospirazione del BKG.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          }
-        ]
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -143,7 +219,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:new",
+                "query": "afg",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -160,7 +236,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -180,7 +257,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Misteri esterni.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -197,7 +274,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Misteri esterni.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -220,7 +297,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taccuino Development.md"
+                "file": "Misteri esterni.md"
               }
             }
           }
@@ -243,35 +320,39 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "584de261d4722107",
+  "active": "703093b24daca5bf",
   "lastOpenFiles": [
+    "BKG.md",
+    "Check larry ending.md",
     "Misteri esterni.md",
-    "Taccuino Entries.md",
+    "Hound e Crunter.md",
+    "Backstory di Check e Hanabi.md",
+    "Hanabi.md",
+    "Terry.md",
+    "Untitled.md",
+    "Todo generale.md",
+    "Scaletta Gomakashi.md",
+    "Post siringa.md",
+    "Check.md",
+    "Gomakashi.md",
+    "Lambda Takano.md",
+    "Larry.md",
+    "Higurashi - Gli indizi perduti..md",
+    "Meakashi reread.md",
+    "~syncthing~Backstory di Check e Hanabi.md.tmp",
+    "~syncthing~Check.md.tmp",
+    "~syncthing~Hanabi.md.tmp",
+    "Backstory tra Check e Hanabi.md",
+    "La cospirazione del BKG.md",
+    "Domande e opinioni di Check.md",
     "Tutte le domande.md",
+    "Gioco Bern VS Lambda.md",
+    "Taccuino Development.md",
+    "Taccuino Entries.md",
     "Pasted image 20240627213448.png",
     "Pasted image 20240627213406.png",
-    "Todo generale.md",
-    "La cospirazione del BKG.md",
     "Bernkastel.md",
-    "Hound e Crunter.md",
     "Takano isterica.md",
-    "Resa della strega.md",
-    "Post siringa.md",
-    "Scaletta Gomakashi.md",
-    "Check larry ending.md",
-    "Higurashi - Gli indizi perduti..md",
-    "Music Catalog.md",
-    "Kotaeshirushi.md",
-    "Kotaesagashi.md",
-    "Meakashi reread.md",
-    "Taccuino Development.md",
-    "Catologo musica.md",
-    "Misteri principali.md",
-    "Le tre famiglie - Domande wata.md",
-    "La serie di omicidi.md",
-    "Taccuino.md",
-    "message.md",
-    "Kabetaoshi.md",
     "Sonozaki.txt",
     "~syncthing~Taccuino.md.tmp",
     "~syncthing~notes topics.md.tmp",
