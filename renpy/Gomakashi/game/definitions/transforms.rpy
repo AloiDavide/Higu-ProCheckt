@@ -4,12 +4,12 @@ init:
     transform codec_right:
         xalign 1.0
         xoffset -50
-        yoffset 50
+        yoffset 30
 
     transform codec_left:
         xalign 0.0
         xoffset 50
-        yoffset 50
+        yoffset 30
 
     transform flip:
         xzoom -1
@@ -24,6 +24,14 @@ init:
     transform reset:
         xoffset 0
         yoffset 0
+
+    transform static_left:
+        xalign 0.1
+        yalign 0.11
+
+    transform static_right:
+        xalign 0.9
+        yalign 0.11
 
     image check_objection = Transform("sprites/ck/wright.png", xoffset=-658)
     image hanabi_objection = Transform("sprites/hb/von karma.png", xoffset=-693)

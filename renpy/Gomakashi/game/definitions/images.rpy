@@ -55,6 +55,9 @@ image night_road = im.Scale("bg/night_road.webp", 1920, 1080)
 image night_crossroad = im.Scale("bg/night_crossroad.webp", 1920, 1080)
 image night_small_shrine = im.Scale("bg/night_small_shrine.webp", 1920, 1080)
 image night_hinamizawa = im.Scale("bg/night_hinamizawa.webp", 1920, 1080)
+image forest_path_night = im.Scale("bg/forest_path_night.webp", 1920, 1080)
+image swamp = im.Scale("bg/swamp.png", 1920, 1080)
+
 
 
 
@@ -90,3 +93,19 @@ image lamb black = im.Scale("sprites/lambda siluett.png", 640, 1080)
 image lamb blackB= im.Scale("sprites/lambda siluett B.png", 640, 1080)
 
 image crystalball = "frags/crystalball.png"
+
+image static = "sprites/static/static1.png"
+
+image eye ="sprites/evil_eye.png"
+
+image static talk:
+    "sprites/static/static1.png"
+    pause 0.2
+    "sprites/static/static2.png"
+    pause 0.2
+    "sprites/static/static3.png"
+    pause 0.2
+    "sprites/static/static4.png"
+    pause 0.2
+
+    repeat

@@ -1,7 +1,7 @@
 init:
-
-    def head_tilt_func(img):
-        return Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
+    python:
+        def head_tilt_func(img):
+            return Transform(Crop((150, 80, 350, 350), img), rotate=-15, align=(0.5,0.5), offset=(-658, -258), transform_anchor=True, rotate_pad=False)
 
     transform head_tilt:
         crop (150, 80, 350, 350)

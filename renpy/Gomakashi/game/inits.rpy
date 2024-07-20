@@ -25,19 +25,27 @@ init -1 python:
             renpy.restart_interaction()
 
 
+
 init -1 python:
     def static_voice(event, interact=True, **kwargs):
         if not interact:
             return
 
+        channel_free = not renpy.sound.is_playing()
 
         if event == "show_done":
-            if not renpy.sound.is_playing():
+            renpy.show("static talk")
+            if channel_free:
                 renpy.sound.play("audio/sfx/radio static.mp3")
             else:
                 return
         elif event == "slow_done":
+            renpy.show("static")
+            renpy.restart_interaction()
+
             renpy.sound.stop()
+
+
 
 
 init -1 python:

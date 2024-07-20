@@ -1,5 +1,5 @@
 init:
-layeredimage lamb:
+    layeredimage lamb:
         group pose:
             attribute normal default:
                 "sprites/ld/normal.png"

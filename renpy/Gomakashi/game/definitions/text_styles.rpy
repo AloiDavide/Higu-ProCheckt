@@ -12,7 +12,7 @@ init:
     style codec is text:
             size 35
             xpos 367
-            ypos -50
+            ypos -170
 
             ymaximum 1000
             textalign 0.0

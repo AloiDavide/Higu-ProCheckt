@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/assets.rpy", line 243: invalid syntax
-    Character(None, what_style= "codec", window_background="frame_null.png" image="larry", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
-                                                                             ^
+File "game/scenes/scene2.0.rpy", line 383: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    yalign 2.0
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jul 20 16:33:21 2024
+Sat Jul 20 20:12:18 2024

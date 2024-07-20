@@ -11,11 +11,13 @@ define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wi
 define old1 = Character("Vecchio col bastone", who_color = "#999", what_style= "wide", who_style = "border")
 define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= "wide", who_style = "border")
 define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
-define ltk = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
+define ltk2 = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
 
 
 #Codec characters
-define la = Character(None, what_style= "codec", window_background="gui/frame_null.png", image="larry", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
+define lac = Character(None, what_style= "codec", window_background="gui/frame_null.png", image="larry", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=functools.partial(lipflap, name="larry", mouths=["yep", "nope", "worried", "smile"]))
+define ltk = Character(None, what_style = "codec", window_background="gui/frame_null.png", who_color= "#000", image="static", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
+
 
 
 # Novel characters

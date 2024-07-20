@@ -1,3 +1,5 @@
+
+
 label scene2_0:
 
     stop music fadeout 4
@@ -217,74 +219,77 @@ label scene2_0:
 
     stop music
 
+    show codec onlayer overlayer
 
     show larry at codec_right
-    show codec
+
+    show static at static_left
 
 
 
-    la "Agente semplice F32, nome in codice Larry."
+    lac "Agente semplice F32, nome in codice Larry."
 
     stop sound
     play music "audio/higu/festivals_main.mp3"
 
-    show larry -notes worried
+
 
 
     ltk "Comandante 001, nome in condice Lambdadelta."
 
-    n "È lui... {w}Il misterioso comandante designato al posto di Check per sventare i suoi piani. {w}Questa è la seconda volta che mi contatta direttamente. Deve davvero essere un'emergenza senza precedenti."
+    lac "Signorsì capitano. Al momento non ho ancora prove schiaccianti per incriminare Check, ma ormai sono sicuro che nasconde qualcosa."
 
-    show larry nope
-    la "Signorsì capitano. Al momento non ho ancora prove schiaccianti per incriminare Check, ma ormai sono sicuro che nasconde qualcosa."
+    nvl clear
+    lan "Il misterioso comandante designato al posto di Check per sventare i suoi piani... {w}Questa è la seconda volta che mi contatta direttamente. Deve davvero essere un'emergenza senza precedenti."
+
 
     ltk "*** Rispondimi Larry."
 
     ltk "Dove... Dove si trova? ****"
 
-    n "Sento delle interferenze... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?{w} Se solo Gerry fosse qua al mio posto..."
 
-    la "Dov'è Check adesso? Beh, dovrebbe trovarsi ancora nel rifugio. {w}L'intero villaggio è sull'attenti per la scomparsa di altre due persone, è improbabile che si sia mosso."
+    lan "Sento delle interferenze... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?{w} Se solo Gerry fosse qua al mio posto..."
 
-    la "Ma non posso esserne certo. Per non destare sospetti sto seguendo il suo ordine di pattugliare la montagna. {w}Dovrei andare a verificare?"
+    lac "Dov'è Check adesso? Beh, dovrebbe trovarsi ancora nel rifugio. {w}L'intero villaggio è sull'attenti per la scomparsa di altre due persone, è improbabile che si sia mosso."
 
-    show larry scared
+    lac "Ma non posso esserne certo. Per non destare sospetti sto seguendo il suo ordine di pattugliare la montagna. {w}Dovrei andare a verificare?"
+
+    show larry scared worried drop
 
     ltk "Lascia perdere e rispondi alla mia domanda!"
 
     ltk "Voglio ** sapere dov'è ****."
 
-    la "Mi-m-m-mi perdoni. Non ho sentito bene... L-la trasmissione è disturbata."
+    show larry tilt nope
+    lac "Mi-m-m-mi perdoni. Non ho sentito bene... L-la trasmissione è disturbata."
 
 
     camera at sshake
 
     play sound "audio/sfx/wake up.ogg"
     show larry close worried
-    ltk "{cps=*0.5}DOVE È RIKA FURUDE?!{/cps}"
+    ltk "{cps=*0.4}HO CHIESO DOVE È RIKA FURUDE!{/cps}"
 
     show larry scared
-    n """Cosa? Rika? Come dovrei fare a sapere che fine ha fatto Rika Furude?
-
+    lan """Cosa? Rika? Come dovrei fare a sapere che fine ha fatto Rika Furude?
     Se lo chiede a me... vuol dire che Check è veramente responsabile per le sparizioni?
-
     È stato lui a rapire tutti. Ma quando è successo?
 
-    E perchè solo Rika è così importante?"""
+    Perchè solo Rika è così importante?"""
+
+    lac "Comandante, ecco, io non...... {w=1}{nw}"
+
+    #play music "<from 134.4>audio/higu/festivals_main.mp3"
 
 
-
-    la "Comandante, ecco, io non...... {w=1}{nw}"
-
-
+    show eye at static_left with Dissolve(0.2)
+    show larry close
 
 
-    play music "<from 134.4>audio/higu/festivals_main.mp3"
-    show evil_eyes_glitch with Dissolve(0.2)
 
     ltk "Acolta bene questa è la tua nuova missione. {w}Voglio che la trovi al più presto. Devo sapere con assoluta {b}CERTEZZA{/b} se è viva o morta... o sarà tutto finito."
 
-    la "Ma la mia copertura... {w}Cosa devo fare con Check?"
+    lac "Ma la mia copertura... {w}Cosa devo fare con Check?"
 
     ltk "Non importa! Se hai il tempo di rispondere esegui i miei ordini. MUOVITI!"
 
@@ -293,58 +298,114 @@ label scene2_0:
     ltk "Trovala senza perdere tempo o non te la caverai con un espulsione. {w}La mia maledizione si abbatterà su di te. HAI CAPITO?"
 
 
+    nvl clear
 
-    n "Che succede al comandante Lambdadelta? {w}Riesco a capire anche attraverso i filtri che sta parlando con voce spezzata... sembra in preda al panico."
+    lan """Che sta succedendo al comandante? Non era così ieri notte.{p}
+    È evidente anche attraverso i filtri che sta parlando con voce spezzata... sembra in preda al panico.{p}
+    Davvero la situazione è così grave?{p}
+    Non posso farcela io da solo, devo chiedere rinforzi.
+    """
+    show larry evil nope -tilt
+    lac "Comandante....{p}Io........."
 
     show larry worried scared
+    extend "\nSento qualcuno avvicinarsi!"
 
     play sound "audio/sfx/wake up.ogg"
 
-    "CAMBIA SFONDO E POI BOSCHI UPON BOSCHI"
+    scene forest_path_night at flip
+    hide codec
+    hide eye
+    hide static
+    with PushMove(0.2, 'pushup')
 
-    la "Chi va la!!!"
-
-    n "Un momento fa... Posso giurare di aver sentito il rumore di un passo dietro di me. -swipe camera to another angle?-"
-
-    n "Ma appena mi giro non c'è nessuno."
-
-    n "Non c'è verso, DEVE essere lui. Nessun altro si sarebbe avvicinato così tanto prima di percepirlo."
-
-    la "Capo? è lei? Non mi faccia spaventare, esca fuori."
-
-    la "Sto sorvegliando le strade come mi ha detto."
-
-    n "Nessuna risposta... Ha visto attraverso la mia facciata."
-
-    n "L'unica cosa sensata in questo momento è correre."
-
-    la "Comandante Lambdadelta! {w}È Check! Mi ha scoperto. Deve aver sentito tutto! Che devo fare?"
-
-    n "Appoggio l'orecchio alla trasmittente in attesa di istruzioni, ma quello che sento è tutt'altro."
-
-    ltk "TROVA RIKA TROVA RIKA TROVA RIKA TROVA RI A TR VA RIKA  ROVA  IKA TRO A RIKA T O A RI A"
-
-    la "Comandante! Ho bisogno di rinforzi. Non posso farcela da solo."
-
-    ltk "MALEDIZIONEMALEDIZIONEMALEDIZIONEALEIZIOEMLEDIONLEDIZONEMLEDIZEZIONZIODIZINE"
-
-    n "Ahhh! Sento i suoi passi subito dietro di me. {w}È così vicino, ma per qualche miracolo non è ancora riuscito ad attaccarmi."
-
-    anon "Heeeey! Venite qua. Ho visto qualcuno che corre sul fianco della montagna!"
+    show larry worried scared drop at right
 
 
-    "larry slips and falls with the swamp in background"
-    show larry cry worried
+    la "Chi va la?!"
 
-    la "DANNAZZIONE!"
-    n "Lo sento avvicinarsi ma non ho più dove correre."
+
+    n "Un momento fa... Giuro di aver sentito il rumore di un passo dietro di me. {w}Ma non c'è nessuno."
+
+    n "La spiegazione è una sola, DEVE essere lui. Nessun altro si sarebbe avvicinato così tanto prima che lo notassi."
+
+    show larry evil yep
+    la "Capo? è lei? {w}Non mi faccia spaventare, esca fuori."
+
+    la "Sto sorvegliando il versante come voleva...."
+
+    show larry scared
+    n "Nessuna risposta... Ha visto attraverso la mia facciata?{w} Se ha sentito la conversazione... è la fine."
+
+    n "Devo correre"
+
+    show codec onlayer overlayer
+
+    show larry at codec_right
+
+    show static at static_left
+
+    with PushMove(0.2, 'pushdown')
+
+    show eye at static_left
+    show larry worried
+
+    lac "Comandante Lambdadelta! {p}È Check! Mi ha scoperto. Deve aver sentito tutto! Che devo fare?"
+
+    ltk "TROVA RIKA"
+
+    lac "Comandante! Ho bisogno di rinforzi. Non posso farcela da solo."
+
+    ltk "TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RI A TR VA RIKA  ROVA  IKA TRO A RIKA T O A RI A"
+
+    lac "Sento i suoi passi subito dietro di me! {w}Si sta avvicinando! {p}PER FAVORE MI AIUTI!"
+
+    anon "Heeeey! Venite qua. {w}Ho visto qualcuno correre sul fianco della montagna!"
+
+    play sound "audio/sfx/furu.ogg"
+    lac "AAAAAAAAAAAAH!"
+
+
+    scene swamp
+    hide codec
+    hide eye
+    hide static
+
+    with PushMove(0.2, 'pushup')
+
+    play sound "audio/sfx/slam.mp3"
+    pause 1
+
+    show larry cry worried drop at right:
+        yoffset 700
+        linear 2 yoffset 300
+
+    pause 2
+
+    la "AAAAARGH DANNAZZIONE!"
+
+    n "La mia gamba... non posso più correre!"
+
+    show larry at flip
+    pause 1
+    show larry at unflip
+
+    n "Lo sento ancora avvicinarsi..."
     show larry evil
-    la "Non ho scelta."
 
-    "ciafffff"
+    show larry evil at unflip
+    la "So che è una pazzia... ma non ho altra scelta."
 
-    "fade to black"
+    camera:
+        xalign 0.2 yalign 0.7
+        ease 1 zoom 3
 
+    pause 0.5
+
+    play sound "audio/sfx/splash.mp3"
+
+    scene black with Fade(8,3,0)
+    stop music fadeout 10
 
 
     return
