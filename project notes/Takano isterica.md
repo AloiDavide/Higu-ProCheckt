@@ -4,15 +4,24 @@
 
 
 - [ ] Time the music with renpy
+	- [ ] just make it fit
+		- [ ] the first change is only slightly late but not really
+		- [ ] serve padding di pochi secondi durante la fuga
 	- [ ] make differennt parts start at the right time
 	- [ ] set the auto speed in the code
 	- [ ] tell check to use the auto speed
 
-- [ ] "have some kind of phone view with an image of some incognito on half the screen"
-	- [ ] find the visual static effect
-	- [ ] maybe split screen maybe not
+- [ ] add codec call sounds?
+
+- [ ] make run sequence better
+- [ ] make old dudes more realistic
+
+- [ ] extra credit, a crazier fear face for larry
+
+- [x] "have some kind of phone view with an image of some incognito on half the screen"
+	- [x] find the visual static effect
+	- [x] maybe split screen maybe not
 - [x] put an electric hum sound on lambdadelta's text
-- [ ] per la corsa metti linee cinetiche in prima persona e belle transizioni
 - [x] Larry non ha scelta e si butta nel fiume
 
 ---

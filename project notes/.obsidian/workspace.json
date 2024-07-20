@@ -182,7 +182,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Terry.md",
+                "file": "Takano isterica.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "99c217bdbc1e621f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Todo generale.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -190,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -219,7 +232,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "afg",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -257,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Takano isterica.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -274,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Takano isterica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -297,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taccuino Development.md"
+                "file": "Takano isterica.md"
               }
             }
           }
@@ -320,17 +333,19 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "703093b24daca5bf",
+  "active": "93744db0a7d23890",
   "lastOpenFiles": [
+    "Todo generale.md",
+    "Takano isterica.md",
+    "Hanabi.md",
+    "Terry.md",
+    "Taccuino Development.md",
     "Misteri esterni.md",
     "BKG.md",
     "Check larry ending.md",
     "Hound e Crunter.md",
     "Backstory di Check e Hanabi.md",
-    "Hanabi.md",
-    "Terry.md",
     "Untitled.md",
-    "Todo generale.md",
     "Scaletta Gomakashi.md",
     "Post siringa.md",
     "Check.md",
@@ -347,12 +362,10 @@
     "Domande e opinioni di Check.md",
     "Tutte le domande.md",
     "Gioco Bern VS Lambda.md",
-    "Taccuino Development.md",
     "Taccuino Entries.md",
     "Pasted image 20240627213448.png",
     "Pasted image 20240627213406.png",
     "Bernkastel.md",
-    "Takano isterica.md",
     "Sonozaki.txt",
     "~syncthing~Taccuino.md.tmp",
     "~syncthing~notes topics.md.tmp",

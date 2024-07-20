@@ -21,6 +21,7 @@ use director
 
 ---
 
+
 ## [[Taccuino]]
 - [ ] Complete Mechanics
 	- 90%
@@ -34,13 +35,18 @@ use director
 	- [x] main menu
 	- [x] chapter select menu
 
+
+## Menus
+- [ ] Tips menu layout
+- [ ] Footprints in tips menu
+
 ## [[Music Catalog]]
 - [ ] 
 
-## Minor adds
+## Minor
 - [x] Tooltip style
 - [ ] Cursor
-- [ ] Footprints in tips menu
+
 
 ## Tech upgrade
 DOPO FINE MEAKASHI
