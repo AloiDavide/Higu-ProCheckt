@@ -217,6 +217,12 @@ label scene2_0:
 
     stop music
 
+
+    show larry at codec_right
+    show codec
+
+
+
     la "Agente semplice F32, nome in codice Larry."
 
     stop sound
