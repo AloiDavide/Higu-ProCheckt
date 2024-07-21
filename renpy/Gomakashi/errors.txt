@@ -2,9 +2,7 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene2.0.rpy", line 383: Line is indented, but the preceding show statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    yalign 2.0
-    ^
+File "game/scenes/scene2.1.0.rpy", line 85: Indentation mismatch.
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Jul 20 20:12:18 2024
+Sat Jul 20 22:36:27 2024

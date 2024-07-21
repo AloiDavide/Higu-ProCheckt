@@ -182,7 +182,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Terry.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -270,7 +270,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Terry.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +287,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Takano isterica.md",
+                "file": "Terry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -310,7 +310,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Takano isterica.md"
+                "file": "Terry.md"
               }
             }
           }
@@ -335,14 +335,14 @@
   },
   "active": "93744db0a7d23890",
   "lastOpenFiles": [
-    "Todo generale.md",
+    "Check larry ending.md",
     "Takano isterica.md",
+    "Todo generale.md",
     "Hanabi.md",
     "Terry.md",
     "Taccuino Development.md",
     "Misteri esterni.md",
     "BKG.md",
-    "Check larry ending.md",
     "Hound e Crunter.md",
     "Backstory di Check e Hanabi.md",
     "Untitled.md",

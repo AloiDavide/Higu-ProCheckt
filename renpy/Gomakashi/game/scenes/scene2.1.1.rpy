@@ -1,10 +1,14 @@
-label scene2_1_1:
-    """(Hanabi a schermo)
-    Tutto stava andando secondo i piani di Hanabi.
-    Non è stato difficile per lui, d' altronde tutto quello che ha dovuto fare è ingannare Check, che è estremamente facile dal momento che si inganna da solo.
-    Un lavoro facile, ma ben riuscito. Non deve far altro che far esaurire il tempo e tornare da Lambdadelta.
-    Ma, stranamente...
-    Li, inebriato nella sua gloria, comincia a sentire delle voci."""
+label scene2_1_1_3234:
+
+    n "Tutto stava andando secondo i piani di Hanabi."
+
+    n "Non è stato difficile per lui, d' altronde tutto quello che ha dovuto fare è ingannare Check, che è estremamente facile dal momento che si inganna da solo."
+
+    n "Un lavoro facile, ma ben riuscito. Non deve far altro che far esaurire il tempo e tornare da Lambdadelta."
+
+    n "Ma, stranamente..."
+
+    n "Li, inebriato nella sua gloria, comincia a sentire delle voci."
 
 
     cr "Congratulazioni... Un piano ben riuscito, giusto? Una vittoria meritata."
