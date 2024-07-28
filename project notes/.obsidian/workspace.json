@@ -21,175 +21,6 @@
             }
           },
           {
-            "id": "b48a95c4e483104f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BKG.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "875c44256d7f6745",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hanabi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "79d7832df28fe4dc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "cdca2d45371f5457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backstory di Check e Hanabi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "59979680b19495da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check larry ending.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "250aa2b47da9e6a4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hound e Crunter.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6a2bda535fd7b65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hound e Crunter.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "703093b24daca5bf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Taccuino Development.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "579500602a82e2d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check larry ending.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "44b3e52a0d041f09",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "BKG.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7e1dc083fe63dd3e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Backstory di Check e Hanabi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f3987ced9c6eca3a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Hanabi.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "93744db0a7d23890",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Terry.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "99c217bdbc1e621f",
             "type": "leaf",
             "state": {
@@ -201,9 +32,69 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d361f7df9b71af49",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Music Catalog.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ca670a3cec03aa29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Check larry ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "852dbffd91af427b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Hound e Crunter.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2bda02cdbc83b8ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Metarivali ending.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d259e014f71afc36",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 13
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -270,7 +161,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Terry.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -287,7 +177,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Terry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -309,9 +198,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Terry.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -333,20 +220,24 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "93744db0a7d23890",
+  "active": "d259e014f71afc36",
   "lastOpenFiles": [
-    "Check larry ending.md",
-    "Takano isterica.md",
-    "Todo generale.md",
-    "Hanabi.md",
-    "Terry.md",
-    "Taccuino Development.md",
-    "Misteri esterni.md",
-    "BKG.md",
     "Hound e Crunter.md",
-    "Backstory di Check e Hanabi.md",
-    "Untitled.md",
+    "Metarivali ending.md",
+    "Todo generale.md",
+    "Check larry ending.md",
     "Scaletta Gomakashi.md",
+    "Music Catalog.md",
+    "Crunter notes.md",
+    "Crunter read this.md",
+    "BKG.md",
+    "Taccuino Development.md",
+    "Backstory di Check e Hanabi.md",
+    "Terry.md",
+    "Takano isterica.md",
+    "Hanabi.md",
+    "Misteri esterni.md",
+    "Untitled.md",
     "Post siringa.md",
     "Check.md",
     "Gomakashi.md",
@@ -360,12 +251,8 @@
     "Backstory tra Check e Hanabi.md",
     "La cospirazione del BKG.md",
     "Domande e opinioni di Check.md",
-    "Tutte le domande.md",
-    "Gioco Bern VS Lambda.md",
-    "Taccuino Entries.md",
     "Pasted image 20240627213448.png",
     "Pasted image 20240627213406.png",
-    "Bernkastel.md",
     "Sonozaki.txt",
     "~syncthing~Taccuino.md.tmp",
     "~syncthing~notes topics.md.tmp",

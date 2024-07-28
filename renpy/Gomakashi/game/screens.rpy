@@ -363,7 +363,6 @@ style navigation_button_text:
 ## Used to display the main menu when Ren'Py starts.
 ##
 ## https://www.renpy.org/doc/html/screen_special.html#main-menu
-default persistent.light_novel = False
 
 
 

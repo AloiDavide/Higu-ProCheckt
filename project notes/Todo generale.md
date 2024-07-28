@@ -21,13 +21,13 @@ use director
 
 ---
 
-
+- [ ] Nomi alle scene
+- [x] Thumbnails
+- [ ] bocca molto negativa per hanabi
 ## [[Taccuino]]
 - [ ] Complete Mechanics
 	- 90%
-- [ ] Complete Content
-	- 90%
-- [ ] Add something about Irie
+- [x] Complete Content
 ## Sound design
 - [ ] Compressione audio
 - [x] find and add sounds to
@@ -45,7 +45,7 @@ use director
 
 ## Minor
 - [x] Tooltip style
-- [ ] Cursor
+- [ ] Cursor responsiveness
 
 
 ## Tech upgrade

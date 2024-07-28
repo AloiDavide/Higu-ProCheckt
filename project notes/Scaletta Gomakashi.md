@@ -28,6 +28,8 @@ Keiichi, Rena, Satoshi, e ora anche Shion. Tutti loro sentono le presenze... un 
 [[Post siringa]]
 [[Takano isterica]]
 
+Completati questi tre appaiono gli squarci, da uno esce Hound che da a check il taccuino, Dall'altro esce crunter che parla a 
+
 ### Finale
 [[Metarivali ending]]
 [[Check larry ending]]
@@ -39,8 +41,11 @@ Breve introspezione di Bern
 - Deve essere evidenterrimo che Rika è il suo re.
 
 
-Finale
-- Pace con Larry e morte per altro motivo, scena con Check che si ricorda il tradimento di Larry alla fine, sprite di Larry con il braccio dietro la schiena, ma invece della pistola ha qualcosaltro. 
-- Check sconfitto, reveal del potere di Bern che lo fa riprovare (i loop). Hanabi è un poco preoccupato ma pensa che basta vincere ancora.
+
+
+Inizio tsumi, muovere in nota apposita
+- Flashback Check Hanabi
 - Inizio di Tsumi: Allora Mion era Shion anche in Onikakushi?
+- Check incalza Hanabi sul perchè li ha aiutati nel processo.
+	- Risponde che era per avere l'occasione di saldare i conti.
 - Check was getting onto something with the psychological stress being tied to crazy episodes. Per risolvere la maledizinone dovrà pensare allo stato mentale di tutti gli affetti, Larry incluso.

@@ -217,6 +217,10 @@ label scene2_0:
 
     n "Mi faccio coraggio, e dopo aver controllo ancora una volta di non essere ascoltato, rispondo."
 
+
+
+
+
     stop music
 
     show codec onlayer overlayer
@@ -406,6 +410,6 @@ label scene2_0:
 
     scene black with Fade(8,3,0)
     stop music fadeout 10
-
+    $persistent.first = True
 
     return

@@ -2,6 +2,8 @@ Dopo la scorsa scena Larry washes up e Check lo trova e lo soccorre.
 Quando si sveglia ha una scena alla Onikakushi, ma senza fraintendimento del pennarello, poi arriva Terry.
 Check gli dice ho parlato con Terry e mi ha detto tutto, e poi lo dice anche a lui.
 
+Larry dice ho perso il taccuino.
+
 Tutto questo si vede in un flashback dopo tra lo sparo e fuga e la lotta finale.
 
 Hanabi è un super sniper e li becca facilmente, Check vedendo la pallottola nel tempo fermo dice che solo qualcuno del suo calibro potrebbe farlo da quella distanza.
@@ -9,8 +11,6 @@ Hanabi è un super sniper e li becca facilmente, Check vedendo la pallottola nel
 
 La scena dovrebbe ricalcare la scena che abbiamo fatto in Meakashi.
 Poi dopo un fake out si rivela che erano in cahoots e gli aveva spiegato tutto. Quindi Check ha ideato la Messinscena.
-
-Larry si è ripreso dopo che Takano chiude le comunicazioni ma non ha detto tutto a Check e decide solo alla fine di aiutarlo. 
 
 Larry fa finta di sparare a Check ma spara alla trasmittente e spiega a Check che li stanno seguendo
 dove ha preso la pistola? Boh rubata a un poliziotto
@@ -45,6 +45,10 @@ Come pensi che un giapponese come me si sia ritrovato a combattere per tutta l'a
 
 Essermi distinto come militare all'estero mi è stata data l'occasione di creare la mia organizzazione.
 Sinceramente non ne potevo più di vedere compagni morire combattendo sul campo di battaglia per cause in cui non credevano.
+
+Avevo anche un rivale coi fiocchi.
+L'unico rimpianto è stato non accompagnare gli ultimi momenti del mio compagno più fidato. è morto durante una missione in Afghanistan poco dopo la mia dipartita.
+
 Il mio sogno col BKG era creare un luogo dove chi ha la voglia e la capacità potesse combattere per qualcosa di concreto, con trasparenza e orgoglio.
 
 Questa mia filosofia deve aver reso il BKG una pedina molto scomoda da muovere, una fazione o un altra deve aver deciso che la mia utilità era finita.
@@ -63,3 +67,7 @@ ho un piano
 parlano di come la trasmittente va persa ma in modo smart, spiega la storia dietro essa
 
 Terry fa mi hanno scoperta quindi non posso piu scoprire cose
+
+
+Hanabi: I'm a ghost and I'm back to haunt you
+forse per dopo

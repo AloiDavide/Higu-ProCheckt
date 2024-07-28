@@ -81,5 +81,6 @@ label scene2_2:
     pause 3
 
     scene black with longFade
+    $persistent.third = True
 
     return

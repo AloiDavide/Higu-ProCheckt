@@ -42,8 +42,8 @@ init:
         group eyes:
             attribute smug default:
                 "sprites/hb/eyes/smug.png"
-            attribute smug2 default:
-                "sprites/hb/eyes/smug.png"
+            attribute smug2:
+                "sprites/hb/eyes/smug2.png"
             attribute fury:
                 "sprites/hb/eyes/fury.png"
             attribute ohno:

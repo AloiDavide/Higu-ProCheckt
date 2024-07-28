@@ -16,7 +16,9 @@ image mion_jumpscare = im.Scale("cg/mion_jumpscare.webp", 1920, 1080)
 image sisters = im.Scale("cg/sisters.webp", 1920, 1080)
 image evil_eyes = im.Scale("cg/evil_eyes.webp", 1920, 1080)
 image evil_eyes_glitch = im.Scale("cg/evil_eyes_glitch.png", 1920, 1080)
-
+image rena_shion = im.Scale("cg/rena_shion.webp", 1920, 1080)
+image rika_shion = im.Scale("cg/rika_shion.webp", 1920, 1080)
+image rika_moon = im.Scale("cg/rika_moon.webp", 1920, 1080)
 
 #BACKGROUNDS
 image codec = im.Scale("bg/codec.png", 1920, 1080)

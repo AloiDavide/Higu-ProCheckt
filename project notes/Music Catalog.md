@@ -14,6 +14,10 @@ Epic good
 [Night when the invisible scares you](https://music.youtube.com/watch?v=TRF5vvM3MZU&list=PL0YDec1hvdtU_2JXMxO-sByllanTyTrfb) This wasn't eve used in the games IDT.
 
 
+Moody flashback songs
+[Frozen memories](https://music.youtube.com/watch?v=gR6aS2m9HEE)
+[Lies lies lies](https://music.youtube.com/watch?v=9D1MewtrV1M&list=RDAMVMgR6aS2m9HEE)
+
 # Umineko
 
 usa canzone di ange a rokkenjima
