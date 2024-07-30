@@ -35,11 +35,21 @@ screen tips():
             yalign 0.1
 
     if persistent.first and persistent.second and persistent.third:
-        label "extras":
-            xalign 0.5
+
+
+        imagebutton:
+                xalign 1.0
+                tooltip "Metodo Socratico"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Jump("scene2_1_X")
     else:
         label "no extras":
             xalign 0.5
+
+
 
 
     hbox xalign 0.5 yalign 0.7 spacing 100:
@@ -52,7 +62,7 @@ screen tips():
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("scene1_0")
+                action Call("scene1_0")
 
         null width 100
 
@@ -63,7 +73,7 @@ screen tips():
                 hover t22b
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("scene2_2")
+                action Call("scene2_2")
 
             imagebutton:
                 tooltip "scene2_1"
@@ -71,7 +81,7 @@ screen tips():
                 hover t21b
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("scene2_1")
+                action Call("scene2_1")
 
             imagebutton:
                 tooltip "scene2_0"
@@ -79,7 +89,7 @@ screen tips():
                 hover t20b
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("scene2_0")
+                action Call("scene2_0")
 
 
 

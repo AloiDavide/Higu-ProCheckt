@@ -75,7 +75,7 @@ label scene2_1:
     show hnb close
     hb "Questa battaglia era praticamente decisa prima di iniziare! "
 
-    show hnb -close
+    show hnb -close grin
     show check angry
     hide mion_jumpscare
     show sonozakitchen onlayer underlayer with purple_flash

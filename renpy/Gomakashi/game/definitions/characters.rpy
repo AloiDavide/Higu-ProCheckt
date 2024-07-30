@@ -14,8 +14,8 @@ define anon = Character("???", who_color = "#999", what_style= "wide", who_style
 define ltk2 = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
 
 
-define cr = Character("Crunter", who_color = "#00b83b", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
-define hd = Character("Hound", who_color = "#f37530", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
+define cr = Character("?¿?", who_color = "#00b83b", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
+define hd = Character("¿?¿", who_color = "#f37530", what_style= "wide", who_style = "border", image="check", callback=functools.partial(lipflap, name="check", mouths=["yep", "nope", "worried", "smile", "shout"]))
 
 
 #Codec characters

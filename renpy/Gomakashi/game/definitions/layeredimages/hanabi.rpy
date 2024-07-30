@@ -61,7 +61,7 @@ init:
             attribute nope:
                 "sprites/hb/mouths/nope0.png"
             attribute nopper:
-                "sprites/hb/mouths/nope0.png"
+                "sprites/hb/mouths/annoyed0.png"
             attribute sneer:
                 "sprites/hb/mouths/sneer0.png"
             attribute grin:
@@ -99,7 +99,7 @@ init:
     image hb_yepper_talk:
         "sprites/hb/mouths/yep2.png"
         .2
-        "sprites/hb/mouths/yep3.png"
+        "sprites/hb/mouths/yep4.png"
         .2
         repeat
 

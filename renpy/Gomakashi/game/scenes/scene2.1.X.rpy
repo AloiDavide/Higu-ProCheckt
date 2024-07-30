@@ -1,18 +1,23 @@
 label scene2_1_X:
+    scene fragplane
+    show hnb nope
+    hb "Che cringiata!"
 
-    hb "Ancora a ripetere le stesse crigiate. Pensa di meritare la vittoria dopo quello che ha fatto."
+    hb "Ancora a ripetere le stesse scuse patetiche. Pensa di meritare la vittoria dopo quello che ha fatto."
 
+    show hnb fury fist
     hb "Pagherà con la distruzione di tutto ciò che ha costruito."
 
     n "Tutto stava andando secondo i piani di Hanabi."
 
+    show hnb yep -fury -fist
     hb "Già, tutto secondo i miei piani."
 
     n "Non è stato difficile per lui, d'altronde tutto quello che ha dovuto fare è ingannare Check, che è estremamente facile dal momento che si inganna da solo."
 
     hb "Puoi dirlo forte!"
 
-    n "Un lavoro facile, ma ben riuscito. Non deve far altro che far esaurire il tempo e tornare da Lambdadelta."
+    n "Un lavoro facile, ma ben riuscito. Non gli resta che far scadere il tempo e tornare da Lambdadelta vittorioso."
 
     n "Mmhh?"
 

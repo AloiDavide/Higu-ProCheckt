@@ -86,15 +86,20 @@
             }
           },
           {
-            "id": "d259e014f71afc36",
+            "id": "97bfa9f7243b8ff5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -161,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Todo generale.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Todo generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +205,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Todo generale.md"
+              }
             }
           }
         ],
@@ -220,18 +229,18 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "d259e014f71afc36",
+  "active": "99c217bdbc1e621f",
   "lastOpenFiles": [
-    "Hound e Crunter.md",
-    "Metarivali ending.md",
+    "Taccuino Development.md",
     "Todo generale.md",
-    "Check larry ending.md",
+    "Metarivali ending.md",
     "Scaletta Gomakashi.md",
     "Music Catalog.md",
+    "Check larry ending.md",
+    "Hound e Crunter.md",
     "Crunter notes.md",
     "Crunter read this.md",
     "BKG.md",
-    "Taccuino Development.md",
     "Backstory di Check e Hanabi.md",
     "Terry.md",
     "Takano isterica.md",
