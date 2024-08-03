@@ -7,11 +7,11 @@
 ## Planning
 - [x] 
 ## Draft
-- [ ] L2
-- [ ] L1
-- [ ] L0
+- [x] L2
+- [x] L1
+- [x] L0
 ## Implementation
-- [ ] L2
+- [x] L2
 - [ ] L1
 - [ ] L0
 use director
@@ -20,13 +20,17 @@ use director
 
 
 ---
-
+- [x] more aesthetic fixes to notes
+- [x] mouse fix
+- [ ] draw cosmic tear
+- [ ] write 2.T into 2.X so we don't need a second tear?
+	- [ ] separate kodamas trigger different scenes?
+	- [ ] get my personality figured out
 - [ ] Nomi alle scene
 - [x] Thumbnails
-- [ ] bocca molto negativa per hanabi
+- [x] nuovi frame per hanabi
 ## [[Taccuino]]
-- [ ] Complete Mechanics
-	- 90%
+- [x] Complete Mechanics
 - [x] Complete Content
 ## Sound design
 - [ ] Compressione audio
@@ -35,10 +39,6 @@ use director
 	- [x] main menu
 	- [x] chapter select menu
 
-
-## Menus
-- [ ] Tips menu layout
-- [ ] Footprints in tips menu
 
 ## [[Music Catalog]]
 - [ ] 

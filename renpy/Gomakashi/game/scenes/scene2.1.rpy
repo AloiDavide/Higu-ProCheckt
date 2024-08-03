@@ -1,4 +1,5 @@
 label scene2_1:
+    call hide_menu
 
     scene sonozakitchen with Dissolve(4)
     show witch_flowers with purple_flash
@@ -8,25 +9,6 @@ label scene2_1:
     show check at flip
     show hnb fury at right
     with squares
-    ""
-
-    hb "yepAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb yepper
-    hb "yepperAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-
-    show hnb grin
-    hb "grinAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb evilgrin
-    hb "evilgrinAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb devil
-    hb "devilAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb sneer
-    hb "sneerAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb nope
-    hb "nopeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-    show hnb nopper
-    hb "nopperAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-
 
     show hnb grin
     hb "HANANANANANA! CHECK! È TUTTO QUI QUELLO CHE SAI FARE?"
@@ -82,10 +64,12 @@ label scene2_1:
     ck "Non è ancora finita, ho una nuova teoria! Questa volta ci sono!"
     
     hb "Avanti, sentiamo!"
-    
+
+    show check think nope
     ck "Come già stabilito, I Sonozaki sono in larga parte legati a molti omicidi del passato di Hinamizawa!{w} Ma c'è un altra sconosciuta organizazione che sta ordendo un complotto, e loro sono la causa degli eventi che non tornano!"
 
     ck "Ecco, così ha senso."
+    show check angry worried
 
     hb "HANANANANANA! Ovvio Check, quando qualcosa non riesci ad inquadrarlo, è stato un misterioso complotto! Ma certo!"
 
@@ -137,7 +121,7 @@ label scene2_1:
 
     hb "Si! Forza! Continua a sparare alla cieca come un pivellino che non ha mai tenuto un fucile in mano. {p}Questi anni lontato dal fronte ti hanno rammollito. Nemmeno tu hai idea di cosa stai dicendo."
 
-    hb "Sei sull'orlo della sconfitta. Non vedo l'ora che tu scompaia, è l'unica cosa che ti meriti."
+    hb "Sei sull'orlo della sconfitta. Non vedo l'ora che tu perda e scompaia definitivamente, è l'unica cosa che ti meriti."
 
     stop music fadeout 3
     ck "......."
@@ -151,7 +135,7 @@ label scene2_1:
     
     ck "..."
 
-    show hnb nope fist
+    show hnb nopper fist
     hb "Non hai il diritto di criticarmi quando sei stato tu il primo a cambiare. Quando hai abbandonando il tuo dovere!"
     show hnb -fist
     ck "Credevo che un giorno avresti capito le mie motivazioni."
@@ -162,16 +146,30 @@ label scene2_1:
 
     hb "E questo sarebbe tutto? Tsk..."
 
-    show hnb fury fist
-    hb "Check... la vita è una guerra, non si può sfuggire dalla realtà e dalle proprie responsabilità."
-
-    hb "Hai visto il risultato di costruire un'organizzazione sugli ideali? Un castello di carte sarebbe crollato meno facilmente."
+    show hnb smug2 nope
+    hb "Check... la vita intera è una guerra, non si può sfuggire alla realtà delle proprie responsabilità. {w}Altrimenti stai solo scaricando sugli altri il peso dei tuoi problemi."
 
 
-    ck "E tu invece? Sei andato in Afghanistan e ci hai lasciato le penne. {w}Vuoi dirmi che era quella la morte che volevi?"
-    show hnb smug2 nope -fist
-    hb "Tanto alla fine si finisce sempre per scaricare sugli altri il peso di scelte difficili. Proprio come nella tua teoria su Satoko."
+    hb "Dovresti saperlo. Non è esattamente di questo che stai accusando Satoko?"
 
+    show check shout
+    ck "Quello che ho fatto io è stato scegliere un dovere rispetto a un altro.{w} Non devo delle scuse a NESSUNO."
+
+    show hnb fury nopper fist
+    hb "Hai costruito un'organizzazione sugli ideali e guarda il risultato! Un castello di carte sarebbe crollato meno facilmente!"
+
+
+    ck "E tu invece? Sei andato in Afghanistan e ci hai lasciato le PENNE! {w}Vuoi dirmi che era quella la morte che volevi?"
+
+    show hnb yepper
+    hb "Se credi che basterà una conversazione per farmi sparire come un fantasma hai letto troppe storie. {w}Non ho mai avuto rimpianti. Nè in vita nè dopo."
+
+    show hnb nopper
+    hb "Sono qua per un solo motivo. {w}Impedire a {i}TE{/i} di evadere di nuovo la tua condanna."
+
+    hb "Il tuo destino è morire ad Hinamizawa con il BKG in frantumi. {w}Non lascerò che tu abbia la possibilità di cambiarlo, fosse anche una in un millione."
+
+    show check sus nope
     ck "Hanabi... davvero, cosa diavolo è successo in Afghanistan..."
 
     stop music fadeout 3
@@ -180,7 +178,7 @@ label scene2_1:
     
     pause 2
 
-    show hnb snope grin
+    show hnb -fist smug grin
 
     play music "audio/umi/the candles dance.mp3"
 
@@ -188,19 +186,30 @@ label scene2_1:
 
     hb "Magari questa volta tornerai con una teoria lontanamente plausibile. Hanananana."
 
-    ck "Vedo che non mi lasci altra scelta che batterti. Molto bene, se lo proponi non ho motivo di rifiutare."
+    show check -sus
+    ck "Non mi lasci altra scelta che batterti. Molto bene allora, non ho motivo di rifiutare."
 
     show hnb fury
-    hb "Preparati, perchè farò a pezzi tutte le tue teorie una per una."
+    hb "Farò a pezzi tutte le tue teorie una per una."
 
     hb "Forse comincerò proprio dimostrando l'innocenza di Satoko. Visto che detesti così tanto dubitare di lei posso sollevarti da quel peso."
 
     ck "Fai del tuo peggio Hanabi."
 
+    hb "Non serve che me lo dici. "
+    play sound "audio/sfx/laugh.mp3"
+    extend "Hananananana!"
 
-    hb "Non serve che me lo dici. Hananananana!"
+    play sound "audio/sfx/teleport.wav"
+    hide check
+    hide hnb
+    with squares
+
+    stop music fadeout 10
+    scene black with Dissolve(8)
 
     $persistent.second = True
 
+    jump start
 
     return

@@ -1,4 +1,7 @@
+
 init:
+    image napalm_flip = Transform("sprites/hb/napalm_flip.png", xoffset=-30)
+
     layeredimage hnb:
 
         group body:
@@ -9,11 +12,11 @@ init:
 
 
         group flippable:
-            attribute unflip default if_any "defa":
+            attribute napalm_left default if_any "defa":
                 "sprites/hb/napalm.png"
 
-            attribute flip:
-                "sprites/hb/napalm_flip.png"
+            attribute napalm_right:
+                "napalm_flip"
 
         group shades:
             attribute shadesUp default:

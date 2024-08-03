@@ -34,6 +34,19 @@
             }
           },
           {
+            "id": "97bfa9f7243b8ff5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
             "id": "d361f7df9b71af49",
             "type": "leaf",
             "state": {
@@ -86,12 +99,12 @@
             }
           },
           {
-            "id": "97bfa9f7243b8ff5",
+            "id": "c4ad92952c1161c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Post siringa.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -99,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -166,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Todo generale.md",
+                "file": "Post siringa.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Todo generale.md",
+                "file": "Post siringa.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -206,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Todo generale.md"
+                "file": "Post siringa.md"
               }
             }
           }
@@ -229,11 +242,11 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "99c217bdbc1e621f",
+  "active": "c4ad92952c1161c8",
   "lastOpenFiles": [
+    "Metarivali ending.md",
     "Taccuino Development.md",
     "Todo generale.md",
-    "Metarivali ending.md",
     "Scaletta Gomakashi.md",
     "Music Catalog.md",
     "Check larry ending.md",

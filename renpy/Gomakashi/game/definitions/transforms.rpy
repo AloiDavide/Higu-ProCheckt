@@ -37,6 +37,8 @@ init:
     image hanabi_objection = Transform("sprites/hb/von karma.png", xoffset=-693)
     image leftdist = Transform("sprites/ck/f_distinctive.png", xoffset=70, yoffset=-30)
 
+
+
     define flash = Fade(0.1, 0.0, 0.5, color="#fff")
     define purple_flash = Fade(0.1, 0.0, 0.5, color="#7E3FFF")
     define purple_quick = Fade(0.1, 0.0, 0.1, color="#7E3FFF")

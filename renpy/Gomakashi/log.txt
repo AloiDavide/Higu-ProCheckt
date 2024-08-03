@@ -1,17 +1,17 @@
-2024-07-30 13:30:53 UTC
+2024-08-03 15:54:08 UTC
 Windows-10-10.0.22631
 Ren'Py 8.2.1.24030407
 
-Early init took 0.38s
-Loading error handling took 0.06s
-Loading script took 0.41s
-Loading save slot metadata took 0.13s
+Early init took 0.13s
+Loading error handling took 0.04s
+Loading script took 0.40s
+Loading save slot metadata took 0.10s
 Loading persistent took 0.00s
 {'title': 'Example Title', 'question': 'Example Question?', 'answers': ['Answer 1', 'Answer 2'], 'seen': True, 'display_answer': 1, 'reaction': 'Example Reaction'}
-Running init code took 0.11s
-Loading analysis data took 0.02s
+Running init code took 0.07s
+Loading analysis data took 0.01s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.12s
+Reloading save slot metadata took 0.02s
 Index archives took 0.00s
 Dump and make backups took 0.04s
 Cleaning cache took 0.00s
@@ -20,18 +20,18 @@ Initial gc took 0.03s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.01s
+Creating interface object took 0.00s
 Cleaning stores took 0.00s
 Init translation took 0.02s
 Build styles took 0.00s
-Load screen analysis took 0.03s
+Load screen analysis took 0.02s
 Analyze screens took 0.00s
 Save screen analysis took 0.00s
-Prepare screens took 0.06s
+Prepare screens took 0.05s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
+Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.07s
+Interface start took 0.05s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1920, 1080)
@@ -41,12 +41,8 @@ Vendor: "b'ATI Technologies Inc.'"
 Renderer: b'AMD Radeon RX 6600'
 Version: b'4.6.0 Compatibility Profile Context 24.3.1.240312'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1863, 1048) drawable=(1863, 1048)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
 controller: '030000005e040000ff02000000007200' 'Controller (Xbox One For Windows)' 1
 Screen sizes: virtual=(1920, 1080) physical=(1920, 1057) drawable=(1920, 1057)
 Maximum texture size: 4096x4096
-Showing specific page for:
-Oyashiro-sama esiste?
-Showing specific page for:
-I Sonozaki.

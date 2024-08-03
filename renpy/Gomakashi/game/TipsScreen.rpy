@@ -10,9 +10,45 @@
 default persistent.first = False
 default persistent.second = False
 default persistent.third = False
+default persistent.notes = False
+
+screen curtains():
+    frame:
+        mousearea:
+            area (0,0,1920, 1080)
+
+screen prism():
+    zorder 4
+    python:
+        rainbow = "overlay/rainbow.png"
+        white_beam = "overlay/white_beam.png"
+        rainbow_reverse = "overlay/rainbow.png"
+    if True:
+        add rainbow:
+            pos (478,340)
+
+        add white_beam:
+            pos (-60,580)
+
+#         add rainbow_reverse:
+#             pos (1136,340)
+#             xzoom -1
+
+screen secret():
+    python:
+        cut = "overlay/cut.png"
+    imagebutton:
+        xalign 1.0
+        idle cut
+        hover cut
+        focus_mask cut
+        hover_sound "audio/sfx/darkso cursor.mp3"
+        activate_sound "audio/sfx/stone slide magic.mp3"
+        action Jump("scene2_X")
 
 
 screen tips():
+    zorder 5
     python:
         damA = im.Scale("thumbnails/damA.png", 360, 225)
         dam_overB = im.Scale("thumbnails/dam_overB.png", 360, 225)
@@ -24,6 +60,9 @@ screen tips():
         t22a = im.Scale("thumbnails/2.2.a.png", 360, 225)
         t22b = im.Scale("thumbnails/2.2.b.png", 360, 225)
 
+
+
+
         #persistent._clear()
 
     #312, 195
@@ -34,27 +73,14 @@ screen tips():
             xalign 0.5
             yalign 0.1
 
-    if persistent.first and persistent.second and persistent.third:
-
-
-        imagebutton:
-                xalign 1.0
-                tooltip "Metodo Socratico"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Jump("scene2_1_X")
-    else:
-        label "no extras":
-            xalign 0.5
 
 
 
 
-    hbox xalign 0.5 yalign 0.7 spacing 100:
 
-        vbox xalign 0.5 yalign 0.5 spacing 30:
+    hbox xalign 0.13 yalign 0.7 spacing 300:
+
+        vbox yalign 0.5 spacing 30:
 
             imagebutton:
                 tooltip "Metodo Socratico"
@@ -62,36 +88,47 @@ screen tips():
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene1_0")
+                action Jump("scene1_0")
 
-        null width 100
 
-        vbox xalign 0.5 yalign 0.5 spacing 30:
+
+        vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "scene2_2"
+                tooltip "Scacco Matto."
                 idle t22a
                 hover t22b
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene2_2")
+                action Jump("scene2_2")
+
+
 
             imagebutton:
-                tooltip "scene2_1"
-                idle t21a
-                hover t21b
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene2_1")
-
-            imagebutton:
-                tooltip "scene2_0"
+                tooltip "Il Demone e l'Assistente."
                 idle t20a
                 hover t20b
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene2_0")
+                action Jump("scene2_0")
+
+            imagebutton:
+                tooltip "Condanna."
+                idle t21a
+                hover t21b
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Jump("scene2_1")
 
 
+
+#         vbox yalign 0.5 spacing 30:
+#             imagebutton:
+#                 tooltip "Metodo Socratico"
+#                 idle damA
+#                 hover dam_overB
+#                 hover_sound "audio/sfx/darkso cursor.mp3"
+#                 activate_sound "audio/sfx/stone slide magic.mp3"
+#                 action Call("scene1_0")
 
 
 

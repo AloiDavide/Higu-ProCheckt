@@ -3,9 +3,6 @@
 #Backdrop with the notebook image
 screen taccuino():
     zorder 101
-
-
-
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
     frame:
@@ -15,7 +12,7 @@ screen taccuino():
 #----------------------------
 #     INDEX PAGE SCREEN
 #----------------------------
-screen tq_index_page(this_page, forward, backward):
+screen tq_index_page(this_page, forward, backward, pb):
     zorder 102
     modal True
 
@@ -37,7 +34,7 @@ screen tq_index_page(this_page, forward, backward):
                 text_style "handwritten_index"
                 action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
-    use taccuino_ui(forward=forward, backward=backward)
+    use taccuino_ui(forward=forward, backward=backward, stay=pb)
 
 
 
@@ -224,7 +221,7 @@ screen tq_question_page(left, right, forward, backward):
 #          UI BUTTONS SCREEN
 #-----------------------------------
 
-screen taccuino_ui(forward, backward, current_page=None):
+screen taccuino_ui(forward, backward, current_page=None, stay=False):
     zorder 103
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
@@ -236,7 +233,17 @@ screen taccuino_ui(forward, backward, current_page=None):
         bookmarks = ["overlay/"+color+" bookmark.png" for color in colors]
         bookmarks_hover = ["overlay/"+color+" bookmark ext.png" for color in colors]
 
+        topic = Taccuino.tq().current_topic
+
+
+
     # Topic Bookmarks
+    if topic > 0:
+        mousearea:
+            area (0.11, 0.05, 0.3, 0.45)
+            hovered [Function(Taccuino.tq().show_index_page, None, None, False), Show("help")]
+            unhovered [Function(Taccuino.tq().show_index_page, None, None, True), Hide("help")]
+
     vbox:
         xsize 200
         xalign 0.122
@@ -245,10 +252,14 @@ screen taccuino_ui(forward, backward, current_page=None):
 
         for i in range(4):
             imagebutton:
-                idle bookmarks[i]
-                hover bookmarks_hover[i]
-                hover_xoffset 5
-                action [Function(Taccuino.tq().show_index_page,0,i), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
+                if stay and i==topic:
+                    idle bookmarks_hover[i]
+                    action SetVariable("stay",False)
+                else:
+                    idle bookmarks[i]
+                    hover bookmarks_hover[i]
+
+                    action [Function(Taccuino.tq().show_index_page,0,i, topic==0), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
 
     # Page Turn
@@ -285,5 +296,10 @@ screen taccuino_ui(forward, backward, current_page=None):
             hover im.Scale("overlay/notes_icon.png", 100, 100)
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
-            action [Function(hide_notebook), With(easeoutbottom)]
+            action [Function(hide_notebook)]
 
+screen help:
+    #marker of whn I enter the textarea
+    zorder 104
+    label "":
+        xalign 0.5

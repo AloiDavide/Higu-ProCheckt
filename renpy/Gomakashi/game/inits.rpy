@@ -45,6 +45,30 @@ init -1 python:
 
             renpy.sound.stop()
 
+init -1 python:
+    def green_flare(event, interact=True, **kwargs):
+        if not interact:
+            return
+
+        if event == "show_done":
+            renpy.show("fragplane greenflare_talk")
+
+        elif event == "slow_done":
+            renpy.show("fragplane greenflare")
+            renpy.restart_interaction()
+
+
+    def orange_flare(event, interact=True, **kwargs):
+        if not interact:
+            return
+
+        if event == "show_done":
+            renpy.show("fragplane orangeflare_talk")
+
+        elif event == "slow_done":
+            renpy.show("fragplane orangeflare")
+            renpy.restart_interaction()
+
 
 
 

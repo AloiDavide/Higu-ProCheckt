@@ -242,7 +242,7 @@ screen quick_menu():
     zorder 100
 
 
-    if notes:
+    if persistent.notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
@@ -252,9 +252,9 @@ screen quick_menu():
             activate_sound "audio/sfx/multiple pageflips.mp3"
 
             if showing_notes:
-                action [Function(hide_notebook), With(easeoutbottom)]
+                action [Function(hide_notebook)]
             else:
-                action [Function(show_notebook), With(easeinbottom)]
+                action [Function(show_notebook)]
 
     if quick_menu:
 
@@ -280,7 +280,6 @@ init python:
     config.overlay_screens.append("quick_menu")
 
 default quick_menu = True
-default notes = True
 
 style quick_button is default
 style quick_button_text is button_text
@@ -453,7 +452,7 @@ screen main_menu():
             xsize 350
             xpos 0.05
             ypos 0.68
-            color "#0000cf"
+            color "#3030df"
             font "static/Caveat-Bold.TTF"
 
         text "(titolo di prova)":
@@ -462,10 +461,10 @@ screen main_menu():
             xsize 350
             xpos 0.05
             ypos 0.9
-            color "#0000cf"
+            color "#3030df"
             font "static/Caveat-Bold.TTF"
 
-    if notes:
+    if persistent.notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
@@ -474,7 +473,7 @@ screen main_menu():
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
             #action ToggleScreen("taccuino", transition=easeinbottom)
-            action [Function(show_notebook), With(easeinbottom)]
+            action [Function(show_notebook)]
 
 
     ## This empty frame darkens the main menu.

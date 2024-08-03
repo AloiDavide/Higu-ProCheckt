@@ -20,14 +20,16 @@ I'm using an imagebutton to call a python function that does some stuff and then
 
 ## VFX
 - [x] main menu still uses corner button
-- [ ] Fix the mouse focus problem, ask on the discord ⏫ 
+- [x] Fix the mouse focus problem, ask on the discord ⏫
 - [x] fix the exclamation reloading when the page is clicked
 - [x] fix check face showing up in blank pages
-- [ ] toggle button stays big and changes color while notes are open?
+- [x] toggle button stays big and changes color while notes are open?
+	- [x] black bg becomes dark red while keeping outlines
 - [ ] Make the toggle button not duplicate during swipe animations
 - [x] Decide on page transitions
 	- Maybe blinds for page turn and pixellate for topic change and entering specific page
 - [x] Make the toggle button also close it.
+- [ ] Figure out a way to make the transition that doesn't steal the mouse focus
 
 
 
@@ -74,7 +76,8 @@ Backend
 Frontend
 - [ ] Fix the way pages look for the title in the dictionary to use the key
 - [ ] make the forward and backward flags not jump around so much
-- [ ] unify code for left and right question pages
+- [ ] unify code for left and right question pages. 
+- [ ] Look into vpgrid for automatic gridding off question titles without needing to pad the list.
 
 	
 ## Question Pages

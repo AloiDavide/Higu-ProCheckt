@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene2.1.X.rpy", line 3: expected statement.
-    Ancora le stesse sciocchezze. Pensa di meritare la vittoria dopo quello che ha fatto.
-                                ^
+File "game/scenes/scene2.0.rpy", line 345: expected statement.
+    fragplane orangeflare_talk
+                              ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Jul 28 12:55:51 2024
+Sat Aug  3 17:14:38 2024

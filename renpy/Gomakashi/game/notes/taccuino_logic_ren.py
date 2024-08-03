@@ -62,7 +62,7 @@ class Taccuino:
         return Taccuino.instance
 
     # calls the index screen
-    def show_index_page(self, page=None, topic=None):
+    def show_index_page(self, page=None, topic=None, persistent_bookmark=True):
         if page is None:
             page = self.index_page
         else:
@@ -82,7 +82,9 @@ class Taccuino:
         this_page = padded_titles[page * self.per_page:(page + 1) * self.per_page]
 
         renpy.hide_screen("tq_question_page")
-        renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw)
+        renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw, pb=persistent_bookmark)
+
+
 
 
     def turn_index_page(self, forward: bool):

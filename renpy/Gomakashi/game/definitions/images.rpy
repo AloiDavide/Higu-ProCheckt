@@ -26,7 +26,6 @@ image black = im.Scale("bg/black.jpg", 1920, 1080)
 image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
 image purplenoise = im.Scale("bg/purplenoise.png", 1920, 1080)
 image red = im.Scale("bg/red.png", 1920, 1080)
-image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
 image bern_fancy = im.Scale("bg/bern fancy.png", 1920, 1080)
 image bern_kekkai = im.Scale("bg/bern kekkai.png", 1920, 1080)
 image bern_kekkai_closeup = im.Scale("bg/bern kekkai closeup.png", 1920, 1080)
@@ -110,4 +109,66 @@ image static talk:
     "sprites/static/static4.png"
     pause 0.2
 
+    repeat
+
+
+init python:
+    import random
+    def randgap(n):
+        gap = 0.1 * random.randrange(1, n)
+        print(gap)
+        return round(gap,1)
+
+
+image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
+image fragplane greenflare = im.Scale("bg/greenflare0.png", 1920, 1080)
+image fragplane orangeflare = im.Scale("bg/orangeflare0.png", 1920, 1080)
+
+
+image fragplane greenflare_talk:
+    im.Scale("bg/greenflare0.png", 1920, 1080)
+    pause randgap(3)
+    im.Scale("bg/greenflare1.png", 1920, 1080)
+    pause 0.05
+    im.Scale("bg/greenflare2.png", 1920, 1080)
+    pause randgap(3)
+    im.Scale("bg/greenflare1.png", 1920, 1080)
+    pause 0.05
+    im.Scale("bg/greenflare0.png", 1920, 1080)
+    pause randgap(3)
+    im.Scale("bg/greenflare1.png", 1920, 1080)
+    pause 0.05
+    im.Scale("bg/greenflare2.png", 1920, 1080)
+    pause randgap(3)
+    im.Scale("bg/greenflare1.png", 1920, 1080)
+    pause 0.05
+    repeat
+
+image fragplane orangeflare_talk:
+    im.Scale("bg/orangeflare0.png", 1920, 1080)
+    pause randgap(5)
+    im.Scale("bg/orangeflare1.png", 1920, 1080)
+    pause 0.07
+    im.Scale("bg/orangeflare2.png", 1920, 1080)
+    pause randgap(5)
+    im.Scale("bg/orangeflare1.png", 1920, 1080)
+    pause 0.07
+    im.Scale("bg/orangeflare0.png", 1920, 1080)
+    pause randgap(5)
+    im.Scale("bg/orangeflare1.png", 1920, 1080)
+    pause 0.07
+    im.Scale("bg/orangeflare2.png", 1920, 1080)
+    pause randgap(5)
+    im.Scale("bg/orangeflare1.png", 1920, 1080)
+    pause 0.07
+    repeat
+
+
+
+image codec_open =Movie(play="images/codec open.webm")
+
+image forest_running:
+    "bg/forest_path_night_double.webp"
+    xalign 1.0
+    linear 1.5 xalign 0.0
     repeat

@@ -1,4 +1,6 @@
 label scene1_0:
+    call hide_menu
+
     $notes=False
     play music "audio/higu/short dawn at the end of time.mp3" fadein(5)
 
@@ -654,7 +656,7 @@ label remember:
 
     show fragplane with Dissolve(1.5)
     play sound "audio/sfx/truth.mp3"
-    bk "{color=#0000cf}\"La ragazza battezzata Mion Sonozaki non era vittima di alcuna possessione demoniaca, tuttavia era convinta di quel che diceva.\"{/color}"
+    bk "{color=#3030df}\"La ragazza battezzata Mion Sonozaki non era vittima di alcuna possessione demoniaca, tuttavia era convinta di quel che diceva.\"{/color}"
 
     hide fragplane with Dissolve(1.5)
 
@@ -1056,5 +1058,7 @@ label scene1_2:
 
     stop music fadeout(9)
     show black with Dissolve(10)
+
+    jump start
 
     return

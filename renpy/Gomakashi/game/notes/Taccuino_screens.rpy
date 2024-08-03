@@ -268,5 +268,5 @@ screen taccuino_ui2(forward, backward, current_page=None):
             hover im.Scale("overlay/notes_icon.png", 100, 100)
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
-            action [Function(hide_notebook), With(easeoutbottom)]
+            action [Function(hide_notebook)]
 

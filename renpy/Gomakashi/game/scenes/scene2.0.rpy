@@ -1,7 +1,5 @@
-
-
 label scene2_0:
-
+    call hide_menu
     stop music fadeout 4
 
     scene night_hinamizawa with longFade
@@ -42,9 +40,9 @@ label scene2_0:
 
     pause 0.5
 
-    n "Si sono fermati in modo sospetto... uno dei due è caduto in ginocchio. {w}Che stanno facendo?"
+    n "Si sono fermati in modo sospetto... Che stanno facendo?"
 
-    old1 "O grande Oyashiro-sama. Ti prego calma la tua ira."
+    old1 "Oyashiro-sama. Ti prego calma la tua ira."
 
     old2 "Idiota! Non lo devi neanche pensare. {w}Oyashiro-sama non può maledire un membro delle stimate tre famiglie. È semplicemente impossibile!"
 
@@ -56,13 +54,7 @@ label scene2_0:
 
     old2 "E poi i trasgressori sono già stati puniti tutti, no?"
 
-    old1 "Ma no, ma che dici. Dov'eri ieri quando Mion ha parlato a nome dei Sonozaki?"
-
-    old1 "Nel magazzino rituale era entrato anche il figlio dei Maebara. Se qualcun altro merita di essere rapito dai demoni è quello screanzato."
-
-    play sound "sfx/down.ogg"
-
-    pause 0.5
+    old1 "Dov'eri ieri sera? Non hai sentito il discorso di Mion? {w}Nel magazzino rituale era entrato anche il figlio dei Maebara. Se qualcuno merita di essere rapito dai demoni è quello screanzato."
 
     old1 "Oyashiro-sama. Abbi pietà per loro."
 
@@ -74,9 +66,9 @@ label scene2_0:
 
     n "Ammesso che li abbiano giudicati responsabili del cambio del lucchetto. Perchè loro prima di Keiichi?"
 
-    n "E poi c'è Satoko. {w}È scomparsa anche lei ma non sembra importare a nessuno."
+    n "E poi c'è Satoko. {w}Non ho ancora sentito nessuno chiamare il suo nome."
 
-    n "Oltre ai ragazzi non ho sentito un solo abitante chiamarla. È come se tutti accettassero la sua sparizione come qualcosa di ovvio."
+    n "Tranne i ragazzi, tutti si concentrano solo su Rika. È come se gli adulti accettassero la sparizione di Satoko come qualcosa di ovvio."
 
     play sound 'audio/sfx/bushes1.mp3'
 
@@ -203,31 +195,38 @@ label scene2_0:
 
     Ma allora perchè questa sensazione?
     """
-    play music "audio/sfx/vibration.mp3"
+
+    #play music "audio/sfx/vibration.mp3"
+
     play sound "audio/higu/festivals_start.mp3"
+    play music "audio/sfx/codec call.mp3"
     pause 0.7
     show larry -tilt
+    window hide
 
-
-    n "{b}BZZZZZ BZZZZZ BZZZZZ{/b}"
+    pause 1
 
     n "La trasmittente... è già l'orario stabilito?"
 
-    n "Chi sarà questa volta? Sarà Terry? Oppure..."
+    n "Questa volta sarà Terry? Oppure..."
 
-    n "Mi faccio coraggio, e dopo aver controllo ancora una volta di non essere ascoltato, rispondo."
-
-
-
+    n "In ogni caso, non mi lascerò sfuggire nanche una parola. Questo taccuino è la mia arma."
 
 
     stop music
+    window hide
+    show codec_open with Dissolve(0.3)
+
+    pause 3
+
+    hide codec_open
 
     show codec onlayer overlayer
 
     show larry at codec_right
 
     show static at static_left
+
 
 
 
@@ -244,7 +243,7 @@ label scene2_0:
     lac "Signorsì capitano. Al momento non ho ancora prove schiaccianti per incriminare Check, ma ormai sono sicuro che nasconde qualcosa."
 
     nvl clear
-    lan "Il misterioso comandante designato al posto di Check per sventare i suoi piani... {w}Questa è la seconda volta che mi contatta direttamente. Deve davvero essere un'emergenza senza precedenti."
+    lan "Lambdadelta. Il misterioso comandante designato al posto di Check per sventare i suoi piani. {p}È la seconda volta che mi contatta direttamente. Deve davvero essere un'emergenza senza precedenti."
 
 
     ltk "*** Rispondimi Larry."
@@ -252,7 +251,7 @@ label scene2_0:
     ltk "Dove... Dove si trova? ****"
 
 
-    lan "Sento delle interferenze... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?{w} Se solo Gerry fosse qua al mio posto..."
+    lan "La chiamata ha interferenze... Sarà per via della montagna? Oppure ho sbagliato qualcosa nelle riparazioni?"
 
     lac "Dov'è Check adesso? Beh, dovrebbe trovarsi ancora nel rifugio. {w}L'intero villaggio è sull'attenti per la scomparsa di altre due persone, è improbabile che si sia mosso."
 
@@ -275,8 +274,8 @@ label scene2_0:
     ltk "{cps=*0.4}HO CHIESO DOVE È RIKA FURUDE!{/cps}"
 
     show larry scared
-    lan """Cosa? Rika? Come dovrei fare a sapere che fine ha fatto Rika Furude?
-    Se lo chiede a me... vuol dire che Check è veramente responsabile per le sparizioni?
+    lan """Cosa? Rika? Come dovrei fare a sapere che fine ha fatto Rika Furude?{p}
+    Se lo chiede a me... allora Check è veramente responsabile per le sparizioni?{p}
     È stato lui a rapire tutti. Ma quando è successo?
 
     Perchè solo Rika è così importante?"""
@@ -304,15 +303,17 @@ label scene2_0:
 
     nvl clear
 
-    lan """Che sta succedendo al comandante? Non era così ieri notte.{p}
-    È evidente anche attraverso i filtri che sta parlando con voce spezzata... sembra in preda al panico.{p}
+    lan """Che succede al comandante? Non era così ieri.{p}
+    Si nota anche attraverso i filtri alla voce... sembra in preda al panico.{p}
     Davvero la situazione è così grave?{p}
-    Non posso farcela io da solo, devo chiedere rinforzi.
+    Non posso farcela da solo, devo chiedere rinforzi.
     """
     show larry evil nope -tilt
-    lac "Comandante....{p}Io........."
+    lac "Comandante.... "
 
     show larry worried scared
+    extend "Io........."
+
     extend "\nSento qualcuno avvicinarsi!"
 
     play sound "audio/sfx/wake up.ogg"
@@ -331,6 +332,8 @@ label scene2_0:
 
     n "Un momento fa... Giuro di aver sentito il rumore di un passo dietro di me. {w}Ma non c'è nessuno."
 
+    n "L'ho sentito! Non me lo sto immaginando! Era vicino, troppo vicino."
+
     n "La spiegazione è una sola, DEVE essere lui. Nessun altro si sarebbe avvicinato così tanto prima che lo notassi."
 
     show larry evil yep
@@ -341,10 +344,11 @@ label scene2_0:
     show larry scared
     n "Nessuna risposta... Ha visto attraverso la mia facciata?{w} Se ha sentito la conversazione... è la fine."
 
-    n "Devo correre"
+    n "C'è solo una opzione rimasta... Devo correre."
 
     show codec onlayer overlayer
-
+    hide forest_path_night
+    show forest_running onlayer underlayer
     show larry at codec_right
 
     show static at static_left
@@ -360,14 +364,16 @@ label scene2_0:
 
     lac "Comandante! Ho bisogno di rinforzi. Non posso farcela da solo."
 
-    ltk "TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RI A TR VA RIKA  ROVA  IKA TRO A RIKA T O A RI A"
+    ltk "TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RIKA TROVA RI A TR VA RIKA  ROVA  IKA TRO A RIKA T O A RI A"
 
     lac "Sento i suoi passi subito dietro di me! {w}Si sta avvicinando! {p}PER FAVORE MI AIUTI!"
 
     anon "Heeeey! Venite qua. {w}Ho visto qualcuno correre sul fianco della montagna!"
 
+
+    lac "Mi hanno senti... "
     play sound "audio/sfx/furu.ogg"
-    lac "AAAAAAAAAAAAH!"
+    extend "AAAAAAAAAAAAAHH!{w=0.5}{nw}"
 
 
     scene swamp
@@ -376,15 +382,14 @@ label scene2_0:
     hide static
 
     with PushMove(0.2, 'pushup')
-
     play sound "audio/sfx/slam.mp3"
-    pause 1
+    pause 2
 
     show larry cry worried drop at right:
-        yoffset 700
-        linear 2 yoffset 300
+        yoffset 1000
+        linear 3 yoffset 300
 
-    pause 2
+    pause 3
 
     la "AAAAARGH DANNAZZIONE!"
 
@@ -395,10 +400,30 @@ label scene2_0:
     show larry at unflip
 
     n "Lo sento ancora avvicinarsi..."
-    show larry evil
 
     show larry evil at unflip
-    la "So che è una pazzia... ma non ho altra scelta."
+
+    n "Lambdadelta non ragiona e Check è sulle mie tracce... questa per me è la fine ma devo almeno portare al sicuro il mio taccuino."
+
+    la "Il mio tac...... "
+
+    show larry scared
+    extend "Dov'è finito?"
+
+    show larry at flip
+    pause 0.5
+    show larry at unflip
+    pause 0.5
+    show larry at flip
+    pause 0.5
+    show larry at unflip
+
+    la "....... tutto il mio lavoro!"
+
+    show larry evil
+    la "Non posso lasciarmi catturare prima di averlo trovato. O nessuno saprà mai quello che ho scoperto!"
+
+    la "So che è una pazzia........ ma non ho altra scelta."
 
     camera:
         xalign 0.2 yalign 0.7
@@ -411,5 +436,10 @@ label scene2_0:
     scene black with Fade(8,3,0)
     stop music fadeout 10
     $persistent.first = True
+
+    camera:
+        zoom 1
+
+    jump start
 
     return

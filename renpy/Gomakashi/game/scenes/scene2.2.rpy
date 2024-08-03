@@ -1,5 +1,5 @@
 label scene2_2:
-    n "2_2"
+    call hide_menu
 
     stop music fadeout 4
 
@@ -64,23 +64,51 @@ label scene2_2:
     ld "Bern, è questo il massimo che sai fare?"
 
     show bern chira
-    bk "Non nego la sua totale incompetenza..."
+    bk "Non nego la sua totale mancanza di risultati. Tuttavia..."
 
     show bern yoko
-    bk "Ma chissà, non è impossibile che tirando 100 dadi tutte le facce finiscano sul 6... Arrendendosi prima di tirare, invece, non si vince mai."
 
-    bk "Lambda, tu non riesci ancora a comprendere il suo ruolo indiscutibile nella mia vittoria. {w}Anche se, devo dire, Hanabi è tutt'altro che scarso. Ci sa fare il ragazzo."
+    bk "Questo non cambia il suo ruolo indiscutibile nella mia vittoria."
 
-    ld "Vero? è tanto utile quanto arrogante! Tutto quello che deve fare è continuare a vincere!"
+    bk "E poi, non è impossibile che tirando 100 dadi tutte le facce finiscano sul 6..."
 
-    stop music fadeout 4
+
+
+    bk "Sbaglio o anche tu hai alte aspettative per la tua pedina? {w}Il compito che hai assegnato ad Hanabi non è da poco."
+
+    stop music fadeout 5
+    bk "No, forse nel tuo caso è sbagliato parlare di aspettative. "
+
+    show lamb psycho mad
+    play sound "audio/sfx/truth.mp3"
+    play music "audio/umi/nighteyes.mp3"
+
+    extend "{color=#3030df}Si tratta piuttosto di una profonda malizia.{/color} {w}Sbaglio?"
+
+    ld "Che sia utile non lo nego ma è troppo arrogante! Avrei dovuto trovarmi una pedina con una personalità migliore."
+
+    ld "So già che otterrò da lui quello che voglio, non ci sono mai stati dubbi. {w}Non faccio mai una mossa che non porti al successo assicurato."
+
+    ld "Ma allo stesso tempo questa è una buona occasione per insegnargli a portare rispetto. "
+
+    play sound "audio/sfx/laugh.mp3"
+    extend "Ohohohohoho!"
 
     bk "Quasi mi dispiace per lui...{w} Sapevo che eri crudele, ma non pensavo che avresti preparato per i tuoi alleati un destino peggiore dei tuoi avversari. {w}Sai che di questo passo resterai senza amici, vero?"
 
-    show lamb psycho mad
+    show lamb bent b_defa b_yep
+    ""
+    ld "Dici queste cattiverie per punzecchiarmi, ma in realtà senza di me saresti sola soletta senza nessuno con cui giocare. {w}Introversa e cupa come sei scommetto che non usciresti neanche mai di casa."
+
+    show lamb close cat
+    ld "Lo sai? Quelle come te si chiamano tsunde..dere....tundre. Quelle lì."
+
+
     pause 3
 
     scene black with longFade
     $persistent.third = True
+
+    jump start
 
     return
