@@ -96,15 +96,43 @@ label scene2_2:
 
     bk "Quasi mi dispiace per lui...{w} Sapevo che eri crudele, ma non pensavo che avresti preparato per i tuoi alleati un destino peggiore dei tuoi avversari. {w}Sai che di questo passo resterai senza amici, vero?"
 
-    show lamb bent b_defa b_yep
+    show lamb bent b_defa byep
     ""
     ld "Dici queste cattiverie per punzecchiarmi, ma in realtà senza di me saresti sola soletta senza nessuno con cui giocare. {w}Introversa e cupa come sei scommetto che non usciresti neanche mai di casa."
 
-    show lamb close cat
-    ld "Lo sai? Quelle come te si chiamano tsunde..dere....tundre. Quelle lì."
+    show lamb -bent close cat
+    ld "Lo sai? Quelle come te si chiamano tsu..sun..dre..."
 
+    bk "Tsundere?"
 
-    pause 3
+    show lamb yep defa
+    ld "Ecco quello. {w}Mi sembra che viene dal latino. Forse...{p}Significa che non dici mai quello che pensi davvero."
+
+    bk "Sai come gli antichi romani chiamavano quelle come te?"
+
+    ld "Come?"
+
+    show bern chira
+    play sound "audio/sfx/truth.mp3"
+    bk "{color=#3030df}{i}Baka{/i}{/color}{p}Significa che come Bacco, dio del vino, porti sempre allegria."
+
+    show bern yoko
+    show lamb surprise
+    ld "Hai visto che quando vuoi sai essere sincera? {w}Come ricompensa, io Lambdadelta, autentica \"{i}baka{/i}\", accorcerò la tua sentenza e ti darò il colpo di grazia a breve."
+
+    ld "Tornerò presto. Non avrai nemmeno il tempo di sentire la mia mancanza."
+
+    play sound "audio/sfx/teleport.wav"
+    hide lamb with squares
+    pause 2
+
+    bk "Idiota..."
+
+    play sound "audio/sfx/teleport.wav"
+    hide bern with squares
+
+    stop music fadeout 8
+    pause 2
 
     scene black with longFade
     $persistent.third = True

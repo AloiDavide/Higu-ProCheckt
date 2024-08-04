@@ -6,7 +6,7 @@ define la = Character("Larry", who_color = "#fad861", what_style= "wide", who_st
 define witch = Character("???", who_color = "#3030df", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b"]))
 define bk = Character("Bernkastel", who_color = "#3030df", what_style= "wide", who_style = "border", image="bern", callback=functools.partial(lipflap, name="bern", mouths=["a", "b", "noflap"]))
 define hb = Character("Hanabi", who_color = "#cc4f33", what_style= "wide", who_style = "border", image="hnb", callback=functools.partial(lipflap, name="hnb", mouths=["yep", "yepper", "nope", "nopper", "sneer", "grin", "evilgrin", 'devil']))
-define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "b_yep"]))
+define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border", image="lamb", callback=functools.partial(lipflap, name="lamb", mouths=["yep","cat","mal","scary","smirk","pout","nag","mad", "byep"]))
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
 define old1 = Character("Vecchio col bastone", who_color = "#999", what_style= "wide", who_style = "border")
 define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= "wide", who_style = "border")

@@ -1,15 +1,19 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While processing text tag {w1} in 'Mi hanno senti... {done}{fast}AAAAAAAAAAAAAHH!{w1}'.:
-  File "game/scenes/scene2.0.rpy", line 374, in script
-    lac "Mi hanno senti... "
-Exception: Unknown text tag 'w1'
+Compiling ATL code at game/definitions/images.rpy:156
+  File "game/scenes/scene2.X.rpy", line 56, in script
+    hd "Questa è una richiesta che non possiamo esaudire. {w}Per spiegarlo in modo che anche un principiante possa capire... ti stiamo parlando da dietro i punti ciechi di questo frammento. {w}Uscire allo scoperto sarebbe un rischio che non siamo disposti a correre."
+  File "game/inits.rpy", line 66, in orange_flare
+    renpy.show("fragplane orangeflare_talk")
+  File "game/definitions/images.rpy", line 156, in <module>
+    pause randgap(no,mo)
+NameError: name 'no' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/scenes/scene2.0.rpy", line 374, in script
-    lac "Mi hanno senti... "
+  File "game/scenes/scene2.X.rpy", line 56, in script
+    hd "Questa è una richiesta che non possiamo esaudire. {w}Per spiegarlo in modo che anche un principiante possa capire... ti stiamo parlando da dietro i punti ciechi di questo frammento. {w}Uscire allo scoperto sarebbe un rischio che non siamo disposti a correre."
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
@@ -20,51 +24,37 @@ Full traceback:
     self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
     display_say(who,
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
-    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
-    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
-    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2818, in interact_core
-    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 1352, in draw_screen
-    surftree = renpy.display.render.render_screen(
-  File "render.pyx", line 486, in renpy.display.render.render_screen
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 754, in render
-    child = renpy.display.render.render(self.child, w, h, st, at)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 900, in render
-    surf = render(child, width, height, cst, cat)
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\layout.py", line 1361, in render
-    surf = render(child,
-  File "render.pyx", line 170, in renpy.display.render.render
-  File "render.pyx", line 260, in renpy.display.render.render
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\text\text.py", line 2276, in render
-    virtual_layout = Layout(self, width, height, renders, drawable_res=False, size_only=True)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\text\text.py", line 640, in __init__
-    self.paragraphs = self.segment(text.tokens, style, renders, text)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\text\text.py", line 1394, in segment
-    raise Exception("Unknown text tag %r" % text)
-Exception: Unknown text tag 'w1'
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 735, in display_say
+    c("show_done", interact=interact, type=type, **cb_args)
+  File "game/inits.rpy", line 66, in orange_flare
+    renpy.show("fragplane orangeflare_talk")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 739, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\transform.py", line 1095, in _duplicate
+    rv.take_execution_state(self)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 546, in take_execution_state
+    block = self.compile()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 671, in compile
+    block = self.atl.compile(self.context)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 873, in compile
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 873, in <listcomp>
+    statements = [ i.compile(ctx) for i in self.statements ]
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 1246, in compile
+    duration = ctx.eval(self.duration)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\atl.py", line 392, in eval
+    return renpy.python.py_eval(expr, locals=self.context)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/definitions/images.rpy", line 156, in <module>
+    pause randgap(no,mo)
+NameError: name 'no' is not defined
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 1.0
-Sat Aug  3 17:45:43 2024
+Sat Aug  3 19:20:15 2024

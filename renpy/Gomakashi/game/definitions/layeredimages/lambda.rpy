@@ -53,10 +53,8 @@ init:
                 "sprites/ld/mouths/pout0.png"
             attribute mad:
                 "sprites/ld/mouths/mad0.png"
-            attribute b_yep if_all "bent":
-                "sprites/ld/mouths/b_yep.png"
-            attribute b_yep_talk if_all "bent":
-                "sprites/ld/mouths/b_yep.png"
+            attribute byep default if_all "bent":
+                "sprites/ld/mouths/byep.png"
             attribute b_scary if_all "bent":
                 "sprites/ld/mouths/b_scary.png"
 
@@ -77,6 +75,9 @@ init:
                 "nag_talk"
             attribute mad_talk:
                 "mad_talk"
+            attribute byep_talk if_all "bent":
+#                 "sprites/ld/mouths/byep.png"
+                "byep_talk"
 
 
     image ld_yep_talk:
@@ -113,5 +114,12 @@ init:
         "sprites/ld/mouths/mad1.png"
         .2
         "sprites/ld/mouths/mad2.png"
+        .2
+        repeat
+
+    image byep_talk:
+        "sprites/ld/mouths/byep.png"
+        .2
+        "sprites/ld/mouths/byep2.png"
         .2
         repeat

@@ -11,12 +11,13 @@
 - [x] L1
 - [x] L0
 ## Implementation
-- [x] L2
-- [ ] L1
-- [ ] L0
-use director
+- [ ] L2
+- [x] L1
+- [x] L0
+- [x] LX
+- [ ] LT
 ## Review
-- [ ] 
+- [ ] Final review
 
 
 ---

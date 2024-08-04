@@ -25,7 +25,7 @@ screen prism():
         rainbow_reverse = "overlay/rainbow.png"
     if True:
         add rainbow:
-            pos (478,340)
+            pos (476,340)
 
         add white_beam:
             pos (-60,580)
@@ -38,6 +38,7 @@ screen secret():
     python:
         cut = "overlay/cut.png"
     imagebutton:
+        tooltip "Metamagia"
         xalign 1.0
         idle cut
         hover cut
@@ -45,6 +46,15 @@ screen secret():
         hover_sound "audio/sfx/darkso cursor.mp3"
         activate_sound "audio/sfx/stone slide magic.mp3"
         action Jump("scene2_X")
+
+    $ tooltip = GetTooltip()
+    if tooltip:
+        text "[tooltip]":
+            outlines [(4, "#000")]
+            xalign 0.5
+            yalign 0.16
+            size 60
+            font "static/yuminl.ttf"
 
 
 screen tips():
@@ -63,12 +73,12 @@ screen tips():
 
 
 
-        #persistent._clear()
+
 
     #312, 195
     #336, 210
     #360, 225
-    $view = str(persistent.first)+" "+str(persistent.second)+" "+str(persistent.third)
+    $view = str(persistent.third)+" "+str(persistent.first)+" "+str(persistent.second)
     label view:
             xalign 0.5
             yalign 0.1

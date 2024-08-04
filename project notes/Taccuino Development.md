@@ -25,7 +25,7 @@ I'm using an imagebutton to call a python function that does some stuff and then
 - [x] fix check face showing up in blank pages
 - [x] toggle button stays big and changes color while notes are open?
 	- [x] black bg becomes dark red while keeping outlines
-- [ ] Make the toggle button not duplicate during swipe animations
+- [x] Make the toggle button not duplicate during swipe animations
 - [x] Decide on page transitions
 	- Maybe blinds for page turn and pixellate for topic change and entering specific page
 - [x] Make the toggle button also close it.

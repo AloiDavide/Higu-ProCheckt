@@ -1,6 +1,8 @@
 label scene2_X:
+    pause 0.3
     stop music
     call hide_menu
+
     scene fragplane with ImageDissolve("diagonal_crop.png", 2, ramplen=4)
 #     scene fragplane with CropMove(
 #         time=1.0,
@@ -106,7 +108,7 @@ label scene2_X:
 
 
     show hnb yep:
-        linear 1 xalign 0.5
+        linear 1 center
 
     pause 1
 
@@ -118,9 +120,108 @@ label scene2_X:
     show hnb fury fist
     hb "Ci penserò con calma quando avrò distrutto Check."
 
+    window hide
+
+    stop music fadeout 5
+    show hnb:
+        easein 1.5 offscreenleft
+
+    pause 5
+
+    play music "audio/higu/dancers5.mp3" fadein 4
+    show check think nope sor p:
+        offscreenright
+        easein 2 center
+    pause 2
+
+
+    ck "Pensa Check pensa. Deve esserci qualcosa che ti sfugge."
+
+    n "In quel momento, mentre Check era profondamente assorto nei suoi ragionamenti, fu un ricordo nostalgico a distrarlo."
+
+    show check sus yep
+
+    ck "Se solo Larry fosse quì... {w}Avrei accesso a tutte le informazioni importanti invece di affidarmi alla memoria."
+
+    n "Ritrovandosi di nuovo a lavorare da solo, Check si rese conto per la prima volta quanto nonostante tutto la presenza del suo giovane assistente semplificasse qualsiasi indagine."
+
+    ck "Spero non se la stia passando troppo male. {w}Quando tornerò devo ricordare a me stesso di dargli un aumento."
+
+    show check:
+        ease 1 left
+    pause 1
+
+    show fragplane orangeflare
+    show taccuino_prop:
+        anchor (0.5,0.5)
+        pos (770,440)
+        zoom 0.1
+
+        parallel:
+            linear 1 zoom 1
+
+        parallel:
+            easein 1 pos (0.7,0.5)
+
+    pause 1
+    show fragplane
+    pause 1
+    show check angry nope fp at flip
+    pause 0.5
+
+    show check:
+        linear 1 center
+
+    pause 2
+
+    ck "Cosa? Un taccuino quì?"
+
+    show taccuino_prop at flip:
+        ease 0.5 align (0.65, 0.3)
+
+    ck"......{w} Ma questo è... identico a quello di Larry! {w}Anche la calligrafia, non c'è dubbio, è la sua."
+
+    show check sus
+    ck "Non ho la minima idea di come ha fatto a finire in questo posto{w}, ma se alle informazioni già presenti aggiungessi quelle che ho scoperto...."
+
+    show check -sus smile
+    ck "Forse ho ancora una possibilità."
+
+
+    play sound "audio/sfx/secret_unlock.mp3"
+
+    n "Check ha sbloccato: {color=#780000}{b}Taccuino delle indagini{/b}{/color}."
+
+
+
+    stop music fadeout 5
+    hide taccuino_prop
+    show check:
+        easein 1.5 offscreenright
+
+    pause 4
+
+    play sound "audio/sfx/teleport.wav"
+
+    show fragplane greenflare with Dissolve(2)
+
+    cr "Sicuro? Non è un po'troppo?"
+
+    hd "Non ti preoccupare, non verremo scoperti per così poco."
+
+    cr "Non parlo di quello, lo sai."
+
+    hd "È importante anche per noi che si dia una vegliata il prima possibile... E poi, non è che gli stiamo dando una soluzione."
+
+    hd "Non capisco proprio perchè dovresti obiettare."
+
+    cr "Mmmmhhhhh. Anche questo risvolto sembra interessante. {w}Va bene, te l'approvo."
+
+
+
     stop music fadeout 8
     scene black with longFade
-
+    $persistent.notes = True
     jump start
 
     return

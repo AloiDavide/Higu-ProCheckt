@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene2.0.rpy", line 345: expected statement.
-    fragplane orangeflare_talk
-                              ^
+File "game/script.rpy", line 10: expected statement.
+    persistent._clear()
+                       ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Aug  3 17:14:38 2024
+Sun Aug  4 22:10:35 2024

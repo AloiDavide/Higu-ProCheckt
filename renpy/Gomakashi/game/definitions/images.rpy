@@ -75,6 +75,7 @@ image judge_table = im.Scale("overlay/judge table.png", 1920, 1080)
 image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
 image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
+image taccuino_prop = "overlay/taccuino_prop.png"
 
 
 #FRAGMENTS
@@ -114,8 +115,8 @@ image static talk:
 
 init python:
     import random
-    def randgap(n):
-        gap = 0.1 * random.randrange(1, n)
+    def randgap(n,m):
+        gap = 0.1 * random.randrange(n, m)
         print(gap)
         return round(gap,1)
 
@@ -124,41 +125,47 @@ image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
 image fragplane greenflare = im.Scale("bg/greenflare0.png", 1920, 1080)
 image fragplane orangeflare = im.Scale("bg/orangeflare0.png", 1920, 1080)
 
+define ng=1
+define mg=3
+define no=2
+define mo=5
 
 image fragplane greenflare_talk:
+
+
     im.Scale("bg/greenflare0.png", 1920, 1080)
-    pause randgap(3)
+    pause randgap(ng,mg)
     im.Scale("bg/greenflare1.png", 1920, 1080)
     pause 0.05
     im.Scale("bg/greenflare2.png", 1920, 1080)
-    pause randgap(3)
+    pause randgap(ng,mg)
     im.Scale("bg/greenflare1.png", 1920, 1080)
     pause 0.05
     im.Scale("bg/greenflare0.png", 1920, 1080)
-    pause randgap(3)
+    pause randgap(ng,mg)
     im.Scale("bg/greenflare1.png", 1920, 1080)
     pause 0.05
     im.Scale("bg/greenflare2.png", 1920, 1080)
-    pause randgap(3)
+    pause randgap(ng,mg)
     im.Scale("bg/greenflare1.png", 1920, 1080)
     pause 0.05
     repeat
 
 image fragplane orangeflare_talk:
     im.Scale("bg/orangeflare0.png", 1920, 1080)
-    pause randgap(5)
+    pause randgap(no,mo)
     im.Scale("bg/orangeflare1.png", 1920, 1080)
     pause 0.07
     im.Scale("bg/orangeflare2.png", 1920, 1080)
-    pause randgap(5)
+    pause randgap(no,mo)
     im.Scale("bg/orangeflare1.png", 1920, 1080)
     pause 0.07
     im.Scale("bg/orangeflare0.png", 1920, 1080)
-    pause randgap(5)
+    pause randgap(no,mo)
     im.Scale("bg/orangeflare1.png", 1920, 1080)
     pause 0.07
     im.Scale("bg/orangeflare2.png", 1920, 1080)
-    pause randgap(5)
+    pause randgap(no,mo)
     im.Scale("bg/orangeflare1.png", 1920, 1080)
     pause 0.07
     repeat

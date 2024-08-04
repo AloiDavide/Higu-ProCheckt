@@ -112,7 +112,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -179,7 +179,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Post siringa.md",
+                "file": "Taccuino Development.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +196,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Post siringa.md",
+                "file": "Taccuino Development.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +219,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Post siringa.md"
+                "file": "Taccuino Development.md"
               }
             }
           }
@@ -242,11 +242,12 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c4ad92952c1161c8",
+  "active": "97bfa9f7243b8ff5",
   "lastOpenFiles": [
+    "Todo generale.md",
+    "Post siringa.md",
     "Metarivali ending.md",
     "Taccuino Development.md",
-    "Todo generale.md",
     "Scaletta Gomakashi.md",
     "Music Catalog.md",
     "Check larry ending.md",
@@ -260,7 +261,6 @@
     "Hanabi.md",
     "Misteri esterni.md",
     "Untitled.md",
-    "Post siringa.md",
     "Check.md",
     "Gomakashi.md",
     "Lambda Takano.md",
