@@ -26,6 +26,7 @@ define gui.show_name = False
 define config.version = "2.0"
 
 
+
 ## Text that is placed on the game's about screen. Place the text between the
 ## triple-quotes, and leave a blank line between paragraphs.
 
