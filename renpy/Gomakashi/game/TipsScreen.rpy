@@ -34,14 +34,34 @@ screen prism():
 #             pos (1136,340)
 #             xzoom -1
 
+
+define churntime = 1.5
+image churning:
+        "overlay/cut.png"
+        "overlay/orange cut.png" with Dissolve(churntime)
+        pause churntime
+        "overlay/green cut.png" with Dissolve(churntime)
+        pause churntime
+        "overlay/cut.png" with Dissolve(churntime)
+        pause churntime
+        repeat
+
+
+
 screen secret():
     python:
         cut = "overlay/cut.png"
+        cut_orange = "overlay/orange cut.png"
+        cut_green = "overlay/green cut.png"
+
+
+
+
     imagebutton:
         tooltip "Metamagia"
         xalign 1.0
         idle cut
-        hover cut
+        hover "churning"
         focus_mask cut
         hover_sound "audio/sfx/darkso cursor.mp3"
         activate_sound "audio/sfx/stone slide magic.mp3"
@@ -78,10 +98,10 @@ screen tips():
     #312, 195
     #336, 210
     #360, 225
-    $view = str(persistent.third)+" "+str(persistent.first)+" "+str(persistent.second)
-    label view:
-            xalign 0.5
-            yalign 0.1
+#     $view = str(persistent.third)+" "+str(persistent.first)+" "+str(persistent.second)
+#     label view:
+#             xalign 0.5
+#             yalign 0.1
 
 
 
@@ -104,7 +124,7 @@ screen tips():
 
         vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Scacco Matto."
+                tooltip "Scacco Matto"
                 idle t22a
                 hover t22b
                 hover_sound "audio/sfx/darkso cursor.mp3"
@@ -114,7 +134,7 @@ screen tips():
 
 
             imagebutton:
-                tooltip "Il Demone e l'Assistente."
+                tooltip "Il Demone e l'Assistente"
                 idle t20a
                 hover t20b
                 hover_sound "audio/sfx/darkso cursor.mp3"
@@ -122,7 +142,7 @@ screen tips():
                 action Jump("scene2_0")
 
             imagebutton:
-                tooltip "Condanna."
+                tooltip "Condanna"
                 idle t21a
                 hover t21b
                 hover_sound "audio/sfx/darkso cursor.mp3"

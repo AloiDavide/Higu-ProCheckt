@@ -440,6 +440,6 @@ label scene2_0:
     camera:
         zoom 1
 
-    jump start
+    jump mid_start
 
     return

@@ -4,15 +4,6 @@ label scene2_X:
     call hide_menu
 
     scene fragplane with ImageDissolve("diagonal_crop.png", 2, ramplen=4)
-#     scene fragplane with CropMove(
-#         time=1.0,
-#         mode='custom',
-#         startcrop=(1.0, 0.0, 0.0, 0.0),
-#         startpos=(1.0, 0.0),
-#         endcrop=(0.0, 0.0, 1.0, 1.0),
-#         endpos=(0.0, 0.0),
-#         topnew=True
-#     )
 
     pause 2
 
@@ -97,7 +88,7 @@ label scene2_X:
     show hnb grin
     hb "Non c'è niente da capire, non ho alcuna possibilità di sconfitta! Hananananana!"
 
-    hd "Molto bene. Non abbiamo intenzione di abusare ulteriormente del tuo tempo."
+    hd "Molto bene. Non abbiamo intenzione di abusare ulteriormente del tua pazienza."
 
     cr "Arrivederci. Che I tuoi risultati siano proporzionali al tuo impegno."
 
@@ -211,17 +202,17 @@ label scene2_X:
 
     cr "Non parlo di quello, lo sai."
 
-    hd "È importante anche per noi che si dia una vegliata il prima possibile... E poi, non è che gli stiamo dando una soluzione."
+    hd "È importante anche per noi che si dia una svegliata il prima possibile... E poi, non è che gli stiamo dando una soluzione."
 
     hd "Non capisco proprio perchè dovresti obiettare."
 
-    cr "Mmmmhhhhh. Anche questo risvolto sembra interessante. {w}Va bene, te l'approvo."
+    cr "Mmmmhhhhh. Anche questo risvolto sembra interessante. {w}Va bene, te l'approvo. {p}Questa volta."
 
 
 
     stop music fadeout 8
     scene black with longFade
     $persistent.notes = True
-    jump start
+    jump mid_start
 
     return

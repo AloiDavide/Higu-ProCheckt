@@ -14,7 +14,7 @@ label scene2_2:
     show lamb unhappy smirk at right
     with squares
 
-    play music "audio/umi/golden sneer.mp3" fadein 4
+    play music "audio/umi/golden sneer.mp3" fadein 1
 
 
 
@@ -42,7 +42,7 @@ label scene2_2:
     bk "C'è differenza tra il coraggio e la stupidità. Non ha senso continuare a giocare da una posizione dove puoi contare le mosse allo scacco matto."
 
     show lamb defa smirk
-    ld "Sei molto spericolata se pensi di poterti permettere di lasciarti scappare una qualsiasi occasione... {w}Quante partite ti mancano? Quanto ancora può resistere il tuo re? "
+    ld "Sei molto spericolata se pensi di poterti permettere di lasciarti scappare un'occasione... {w}Quante partite ti mancano? Quanto ancora può resistere il tuo re? "
 
     bk "Lambda... Se devo dirti la verità sono confusa. {w}Sai, non è da te lasciarti scappare un vantaggio. {p}È molto fuori personaggio."
 
@@ -58,7 +58,7 @@ label scene2_2:
 
 
     ld "Non ho mai visto nessuno cadere in una trappola dopo l' altra in quel modo! {w}Non riuscirebbe a centrarle così efficienemente neanche provandoci! {w}Se fossi in te esploderei per l'imbarazzo."
-
+    show lamb smirk
     ld "E questo sarebbe il tuo asso nella manica Bern? La tua pedina? {w}È per colpa sua che mi sarei dovuta preoccupare?"
 
     ld "Bern, è questo il massimo che sai fare?"
@@ -79,16 +79,17 @@ label scene2_2:
     stop music fadeout 5
     bk "No, forse nel tuo caso è sbagliato parlare di aspettative. "
 
-    show lamb psycho mad
-    play sound "audio/sfx/truth.mp3"
+
+
     play music "audio/umi/nighteyes.mp3"
 
-    extend "{color=#3030df}Si tratta piuttosto di una profonda malizia.{/color} {w}Sbaglio?"
+    extend "Si tratta piuttosto di una profonda malizia. {w}Sbaglio?"
 
     ld "Che sia utile non lo nego ma è troppo arrogante! Avrei dovuto trovarmi una pedina con una personalità migliore."
 
     ld "So già che otterrò da lui quello che voglio, non ci sono mai stati dubbi. {w}Non faccio mai una mossa che non porti al successo assicurato."
 
+    show lamb psycho mad
     ld "Ma allo stesso tempo questa è una buona occasione per insegnargli a portare rispetto. "
 
     play sound "audio/sfx/laugh.mp3"
@@ -96,8 +97,20 @@ label scene2_2:
 
     bk "Quasi mi dispiace per lui...{w} Sapevo che eri crudele, ma non pensavo che avresti preparato per i tuoi alleati un destino peggiore dei tuoi avversari. {w}Sai che di questo passo resterai senza amici, vero?"
 
+
+    stop music fadeout 8
+
+    scene black with longFade
+    $persistent.third = True
+
+    jump mid_start
+
+    return
+
+label cut_content:
+
     show lamb bent b_defa byep
-    ""
+
     ld "Dici queste cattiverie per punzecchiarmi, ma in realtà senza di me saresti sola soletta senza nessuno con cui giocare. {w}Introversa e cupa come sei scommetto che non usciresti neanche mai di casa."
 
     show lamb -bent close cat
@@ -130,13 +143,5 @@ label scene2_2:
 
     play sound "audio/sfx/teleport.wav"
     hide bern with squares
-
-    stop music fadeout 8
-    pause 2
-
-    scene black with longFade
-    $persistent.third = True
-
-    jump start
 
     return

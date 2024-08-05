@@ -1059,6 +1059,6 @@ label scene1_2:
     stop music fadeout(9)
     show black with Dissolve(10)
 
-    jump start
+    jump mid_start
 
     return

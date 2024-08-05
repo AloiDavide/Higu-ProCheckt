@@ -126,7 +126,7 @@ label scene2_1:
     stop music fadeout 3
     ck "......."
 
-    play music "audio/higu/lies lies.mp3" fadein 3
+    play music "audio/higu/lies lies.mp3"
 
     show hnb smug nope
     ck "Sei cambiato Hanabi, non sei sempre stato così acido... che ti è successo?"
@@ -162,7 +162,7 @@ label scene2_1:
     ck "E tu invece? Sei andato in Afghanistan e ci hai lasciato le PENNE! {w}Vuoi dirmi che era quella la morte che volevi?"
 
     show hnb yepper
-    hb "Se credi che basterà una conversazione per farmi sparire come un fantasma hai letto troppe storie. {w}Non ho mai avuto rimpianti. Nè in vita nè dopo."
+    hb "Se credi che basterà una conversazione per farmi sparire come un fantasma hai letto troppe storie. {w}Non ho mai avuto rimpianti."
 
     show hnb nopper
     hb "Sono qua per un solo motivo. {w}Impedire a {i}TE{/i} di evadere di nuovo la tua condanna."
@@ -210,6 +210,6 @@ label scene2_1:
 
     $persistent.second = True
 
-    jump start
+    jump mid_start
 
     return

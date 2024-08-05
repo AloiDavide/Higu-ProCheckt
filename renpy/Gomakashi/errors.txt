@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 10: expected statement.
-    persistent._clear()
-                       ^
+File "game/TipsScreen.rpy", line 49: expected a keyword argument or child statement.
+    "overlay/cut.png"
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Aug  4 22:10:35 2024
+Mon Aug  5 11:57:54 2024

@@ -113,22 +113,30 @@ image static talk:
     repeat
 
 
-init python:
-    import random
-    def randgap(n,m):
-        gap = 0.1 * random.randrange(n, m)
-        print(gap)
-        return round(gap,1)
+
 
 
 image fragplane = im.Scale("bg/fragplane.png", 1920, 1080)
 image fragplane greenflare = im.Scale("bg/greenflare0.png", 1920, 1080)
 image fragplane orangeflare = im.Scale("bg/orangeflare0.png", 1920, 1080)
 
+
+
+
+init python:
+    import random
+    def randgap(n,m):
+        gap = 0.05 * random.randrange(n, m)
+        print(gap)
+        return round(gap,1)
+
+
+
+
 define ng=1
 define mg=3
-define no=2
-define mo=5
+define no=4
+define mo=8
 
 image fragplane greenflare_talk:
 
