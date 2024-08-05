@@ -1,7 +1,7 @@
 label scene2_X:
     pause 0.3
     stop music
-    call hide_menu from _call_hide_menu_4
+    call hide_menu
 
     scene fragplane with ImageDissolve("diagonal_crop.png", 2, ramplen=4)
 

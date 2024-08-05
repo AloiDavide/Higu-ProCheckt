@@ -1,5 +1,5 @@
 label scene2_0:
-    call hide_menu from _call_hide_menu_1
+    call hide_menu
     stop music fadeout 4
 
     scene night_hinamizawa with longFade

@@ -1,5 +1,5 @@
 label scene2_1:
-    call hide_menu from _call_hide_menu_2
+    call hide_menu
 
     scene sonozakitchen with Dissolve(4)
     show witch_flowers with purple_flash

@@ -15,7 +15,7 @@ label start:
     pause 1.5
 
 
-    call hide_menu from _call_hide_menu_5
+    call hide_menu
     play sound "audio/sfx/heavy door open.mp3"
     scene sonozakitchen with Fade(1.5,0,1.5)
     pause 1.5

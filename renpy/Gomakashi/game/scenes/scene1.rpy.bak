@@ -1,5 +1,5 @@
 label scene1_0:
-    call hide_menu from _call_hide_menu
+    call hide_menu
 
     $notes=False
     play music "audio/higu/short dawn at the end of time.mp3" fadein(5)
