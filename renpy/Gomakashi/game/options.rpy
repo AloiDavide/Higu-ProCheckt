@@ -38,7 +38,7 @@ define gui.about = _p("""
 ## distribution. This must be ASCII-only, and must not contain spaces, colons,
 ## or semicolons.
 
-define build.name = "Higurashi: Gli indizi perduti - Gomakashi"
+define build.name = "Higurashi-Indizi-Perduti-Gomakashi"
 
 
 ## Sounds and music ############################################################
