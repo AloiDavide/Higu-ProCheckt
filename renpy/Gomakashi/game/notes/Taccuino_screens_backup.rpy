@@ -34,7 +34,7 @@ screen tq_index_page(this_page, forward, backward, pb):
                 text_style "handwritten_index"
                 action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
-    use taccuino_ui(forward=forward, backward=backward, stay=pb)
+    use taccuino_ui(forward=forward, backward=backward, stay=pb, isIndex=True)
 
 
 
@@ -221,7 +221,7 @@ screen tq_question_page(left, right, forward, backward):
 #          UI BUTTONS SCREEN
 #-----------------------------------
 
-screen taccuino_ui(forward, backward, current_page=None, stay=False):
+screen taccuino_ui(forward, backward, current_page=None, stay=False, isIndex=False):
     zorder 103
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
@@ -238,11 +238,11 @@ screen taccuino_ui(forward, backward, current_page=None, stay=False):
 
 
     # Topic Bookmarks
-    if topic > 0:
-        mousearea:
-            area (0.11, 0.05, 0.3, 0.45)
-            hovered [Function(Taccuino.tq().show_index_page, None, None, False), Show("help")]
-            unhovered [Function(Taccuino.tq().show_index_page, None, None, True), Hide("help")]
+    if topic > 0 and isIndex:
+            mousearea:
+                area (0.11, 0.05, 0.3, 0.45)
+                hovered [Function(Taccuino.tq().show_index_page, None, None, False), Show("help")]
+                unhovered [Function(Taccuino.tq().show_index_page, None, None, True), Hide("help")]
 
     vbox:
         xsize 200
@@ -254,7 +254,6 @@ screen taccuino_ui(forward, backward, current_page=None, stay=False):
             imagebutton:
                 if stay and i==topic:
                     idle bookmarks_hover[i]
-                    action SetVariable("stay",False)
                 else:
                     idle bookmarks[i]
                     hover bookmarks_hover[i]

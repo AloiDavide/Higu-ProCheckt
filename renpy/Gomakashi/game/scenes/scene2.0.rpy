@@ -437,6 +437,8 @@ label scene2_0:
     stop music fadeout 10
     $persistent.first = True
 
+    hide forest_running
+
     camera:
         zoom 1
 
