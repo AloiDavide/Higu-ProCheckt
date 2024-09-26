@@ -30,9 +30,12 @@ screen prism():
         add white_beam:
             pos (-60,580)
 
-#         add rainbow_reverse:
-#             pos (1136,340)
-#             xzoom -1
+        add rainbow_reverse:
+            pos (1136,340)
+            xzoom -1
+
+        add white_beam:
+            pos (1800,580)
 
 
 define churntime = 1.5
@@ -108,7 +111,7 @@ screen tips():
 
 
 
-    hbox xalign 0.13 yalign 0.7 spacing 300:
+    hbox xalign 0.5 yalign 0.7 spacing 300:
 
         vbox yalign 0.5 spacing 30:
 
@@ -151,14 +154,14 @@ screen tips():
 
 
 
-#         vbox yalign 0.5 spacing 30:
-#             imagebutton:
-#                 tooltip "Metodo Socratico"
-#                 idle damA
-#                 hover dam_overB
-#                 hover_sound "audio/sfx/darkso cursor.mp3"
-#                 activate_sound "audio/sfx/stone slide magic.mp3"
-#                 action Call("scene1_0")
+        vbox yalign 0.5 spacing 30:
+            imagebutton:
+                tooltip "Metodo Socratico"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Call("scene3_0")
 
 
 

@@ -1,9 +1,9 @@
 
 # Gomakashi part 2
 
-- [ ] L2 [[Resa della strega]]
-- [ ] L1 [[Post siringa]]
-- [ ] L0 [[Takano isterica]]
+- [x] L2 [[Resa della strega]]
+- [x] L1 [[Post siringa]]
+- [x] L0 [[Takano isterica]]
 ## Planning
 - [x] 
 ## Draft
@@ -11,23 +11,22 @@
 - [x] L1
 - [x] L0
 ## Implementation
-- [ ] L2
+- [x] L2
 - [x] L1
 - [x] L0
 - [x] LX
-- [ ] LT
+- [x] LT
 ## Review
-- [ ] Final review
+- [x] Final review
 
 
 ---
 - [x] more aesthetic fixes to notes
 - [x] mouse fix
-- [ ] draw cosmic tear
-- [ ] write 2.T into 2.X so we don't need a second tear?
-	- [ ] separate kodamas trigger different scenes?
-	- [ ] get my personality figured out
-- [ ] Nomi alle scene
+- [x] draw cosmic tear
+- [x] write 2.T into 2.X so we don't need a second tear?
+	- [x] get my personality figured out
+- [x] Nomi alle scene
 - [x] Thumbnails
 - [x] nuovi frame per hanabi
 ## [[Taccuino]]
@@ -45,12 +44,9 @@
 - [ ] 
 
 ## Minor
-- [x] Tooltip style
-- [ ] Cursor responsiveness
 
 
-## Tech upgrade
-DOPO FINE MEAKASHI
-- [ ] Install the animation plugin.
-- [ ] Learn how to use it.
-
+## How to actually start
+- [ ] Inspiration from ost
+- [ ] Read back notes
+- [ ] 2 minute rule, make one interaction

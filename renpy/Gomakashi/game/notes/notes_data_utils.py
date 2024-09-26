@@ -1,5 +1,6 @@
 import json
 import random
+
 esclamazioni = ["EUREKA!", "CI SONO!", "HO CAPITO!", "MACCERTO!"]
 def get_ans_index(lst):
     for i, item in enumerate(lst):
@@ -107,7 +108,7 @@ def randomize_reactions():
 
 
 
-parse_notes()
+# parse_notes()
 
 #ncheck_all_from_txt("misteri_esterni.txt")
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/TipsScreen.rpy", line 49: expected a keyword argument or child statement.
-    "overlay/cut.png"
-    ^
+File "game/scenes/scene 3.0.rpy", line 10: expected end of line
+    window hide with dissolve
+                ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Mon Aug  5 11:57:54 2024
+Thu Sep 26 15:31:20 2024

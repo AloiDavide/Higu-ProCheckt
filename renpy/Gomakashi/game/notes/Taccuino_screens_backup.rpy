@@ -1,7 +1,7 @@
 
 #-----------------------------------------------------------------
 #Backdrop with the notebook image
-screen taccuino():
+screen btaccuino():
     zorder 101
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
@@ -12,7 +12,7 @@ screen taccuino():
 #----------------------------
 #     INDEX PAGE SCREEN
 #----------------------------
-screen tq_index_page(this_page, forward, backward, pb):
+screen btq_index_page(this_page, forward, backward, pb):
     zorder 102
     modal True
 
@@ -42,7 +42,7 @@ screen tq_index_page(this_page, forward, backward, pb):
 #----------------------------
 # SPECIFIC QUESTIONS SCREEN
 #----------------------------
-screen tq_question_page(left, right, forward, backward):
+screen btq_question_page(left, right, forward, backward):
 
     # left := dict - data of the left page
     # right := dict - data of the right page, or None if not present
@@ -221,7 +221,7 @@ screen tq_question_page(left, right, forward, backward):
 #          UI BUTTONS SCREEN
 #-----------------------------------
 
-screen taccuino_ui(forward, backward, current_page=None, stay=False, isIndex=False):
+screen btaccuino_ui(forward, backward, current_page=None, stay=False, isIndex=False):
     zorder 103
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
@@ -297,7 +297,7 @@ screen taccuino_ui(forward, backward, current_page=None, stay=False, isIndex=Fal
             activate_sound "audio/sfx/multiple pageflips.mp3"
             action [Function(hide_notebook)]
 
-screen help:
+screen bhelp:
     #marker of whn I enter the textarea
     zorder 104
     label "":

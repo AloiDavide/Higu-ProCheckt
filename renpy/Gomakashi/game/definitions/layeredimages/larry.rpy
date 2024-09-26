@@ -19,6 +19,8 @@ init:
                 "sprites/la/defa.png"
             attribute notes:
                 "sprites/la/notes.png"
+            attribute hide_arm:
+                "sprites/la/hide arm.png"
 
 
         group head:
@@ -58,6 +60,10 @@ init:
                 "sprites/la/eyes/focus.png"
             attribute evil:
                 "sprites/la/eyes/evil.png"
+            attribute direct:
+                "sprites/la/eyes/direct.png"
+            attribute directevil:
+                "sprites/la/eyes/evil_direct.png"
 
 
         group eyes:
@@ -74,6 +80,10 @@ init:
                 "sprites/la/eyes/focus.png"
             attribute evil:
                 "sprites/la/eyes/evil.png"
+            attribute direct:
+                "sprites/la/eyes/direct.png"
+            attribute directevil:
+                "sprites/la/eyes/evil_direct.png"
 
         group mouth:
             if_all "tilt" at head_tilt

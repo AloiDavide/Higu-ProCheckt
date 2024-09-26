@@ -1,8 +1,7 @@
 
-
 #-----------------------------------------------------------------
 #Backdrop with the notebook image
-screen taccuino2():
+screen taccuino():
     zorder 101
     $taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 
@@ -13,35 +12,44 @@ screen taccuino2():
 #----------------------------
 #     INDEX PAGE SCREEN
 #----------------------------
-screen tq_index_page2(this_page, forward, backward):
+screen tq_index_page(titles, forward, backward, pb):
     zorder 102
     modal True
-
-
-
 
     # this_page := list of titles in the current page
 
     # suppose I instead pass a list of page objects in here
     # TQ keeps it padded with empty objects so it always has a multiple of 14 items
 
-
-    grid 2 7:
-        xspacing 150
-        #yspacing 70
+    vpgrid:
+        scrollbars "vertical"
+        vscrollbar_unscrollable "hide"
+        cols 2
+        rows 7
+        xspacing 500
+        yspacing 50
         area (270,130,1440,860)
-        for t in this_page:
+        for t in titles:
             textbutton t:
                 xalign 0.0
                 yalign 0.5
-                if t.seen:
-                    text_style "handwritten_index"
-                else:
-                    text_style "handwritten_index_highlight"
-                    #make the unread ones bold and glow dark red. on hover just change
-                action [Function(TQ.get().show_question_page, t.title), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
+                text_style "handwritten_index"
+                action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
-    use taccuino_ui(forward=forward, backward=backward)
+
+#     grid 2 7:
+#
+#         xspacing 150
+#         #yspacing 70
+#         area (270,130,1440,860)
+#         for t in this_page:
+#             textbutton t:
+#                 xalign 0.0
+#                 yalign 0.5
+#                 text_style "handwritten_index"
+#                 action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
+
+    use taccuino_ui(forward=forward, backward=backward, stay=pb, isIndex=True)
 
 
 
@@ -49,34 +57,47 @@ screen tq_index_page2(this_page, forward, backward):
 #----------------------------
 # SPECIFIC QUESTIONS SCREEN
 #----------------------------
-screen tq_question_page2(left, right, forward, backward):
-    # left := dict - data of the left page
-    # right := dict - data of the right page, or None if not present
-    # forward := bool - is there a next page?
-    # backward := bool - is there a previous page?
+screen tq_question_page(left, right, forward, backward):
     zorder 102
     modal True
 
+    use tq_question(left, 0.2)
+
+    use tq_question(right, 0.8)
+
+    $ current_page = (left["title"], right["title"])
+    use taccuino_ui(current_page=current_page, forward=forward, backward=backward)
+
+
+screen tq_question(page, position):
+    zorder 103
+    modal True
+
+
+    $separator_think = im.Scale("overlay/comic check think.png", 150, 150)
+    $separator_eureka = im.Scale("overlay/comic check eureka.png", 150, 150)
+#     $tsize = page.get_tsize()
 
     python:
-        separator_think = im.Scale("overlay/comic check think.png", 150, 150)
-        separator_eureka = im.Scale("overlay/comic check eureka.png", 150, 150)
+        import math
 
-        ans_left = left['display_answer']
-        ans_right = right['display_answer']
+        text_length = len(page['question']) + len(page["answers"][page["display_answer"]])
 
-        current_page = (left["title"], right["title"])
+        shrink_factor = 13
+        shrink_limit = 550
+
+        shrink = max(0, math.ceil((text_length - shrink_limit) / shrink_factor))
+
+        tsize= 35 - shrink
 
 
-
-    # left page
     vbox:
-        xalign 0.2
+        xalign position
         null height 120
 
         # title
 
-        text left["title"]:
+        text page["title"]:
             xalign 0.5
             textalign 0.0
             xsize 600
@@ -88,20 +109,20 @@ screen tq_question_page2(left, right, forward, backward):
         null height 40
 
         # question
-        text left["question"]:
+        text page["question"]:
                 xalign 0.0
                 textalign 0.0
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size tsize
                 font "static/Caveat-Regular.ttf"
 
 
         null height 20
 
         # separator if answer present
-        if ans_left > 0:
+        if page["display_answer"] > 0:
             hbox:
                 xalign 0.0
                 xoffset -20
@@ -109,105 +130,37 @@ screen tq_question_page2(left, right, forward, backward):
 
                 add separator_eureka
 
-                text left["reaction"]:
+                text page["reaction"]:
                     textalign 0.5
                     yalign 0.8
                     outlines [(2, "#000")]
-                    color "#6A0707"
+                    color "#8A0707"
                     size 50
                     font "static/Caveat-Regular.ttf"
         else:
-            add separator_think:
-                xalign 0.0
-                xoffset -20
-
-
-        null height 20
-        # correct answer
-        text left["answers"][ans_left]:
-                xalign 0.0
-                textalign 0.0
-                xsize 600
-                outlines [(0, "#000")]
-                color "#000"
-                size 35
-                font "static/Caveat-Regular.ttf"
-
-
-
-
-    # right page
-    vbox:
-        xalign 0.8
-        null height 120
-        # title
-        text right["title"]:
-            xalign 0.5
-            textalign 0.5
-            xsize 600
-            outlines [(0, "#000")]
-            color "#000"
-            size 55
-            font "static/Caveat-Bold.ttf"
-
-        null height 40
-
-        # question
-        text right["question"]:
-                xalign 0.0
-                textalign 0.0
-                xsize 600
-                outlines [(0, "#000")]
-                color "#000"
-                size 35
-                font "static/Caveat-Regular.ttf"
-
-        null height 20
-
-        # separator if answer present
-        if ans_right > 0:
-            hbox:
-                xalign 0.0
-                xoffset -20
-                spacing 100
-
-                add separator_eureka
-
-                text right["reaction"]:
-                    textalign 0.5
-                    yalign 0.8
-                    outlines [(2, "#000")]
-                    color "#6A0707"
-                    size 50
-                    font "static/Caveat-Regular.ttf"
-        else:
-            if right["title"]!="":
+            if page["title"]!="":
                 add separator_think:
                     xalign 0.0
                     xoffset -20
 
-
         null height 20
+
         # correct answer
-        text right["answers"][ans_right]:
+        text page["answers"][page["display_answer"]]:
                 xalign 0.0
                 textalign 0.0
                 xsize 600
                 outlines [(0, "#000")]
                 color "#000"
-                size 35
+                size tsize
                 font "static/Caveat-Regular.ttf"
-
-
-    use taccuino_ui(current_page=current_page, forward=forward, backward=backward)
-
 
 
 #------------------------------------
 #          UI BUTTONS SCREEN
 #-----------------------------------
 
-screen taccuino_ui2(forward, backward, current_page=None):
+screen taccuino_ui(forward, backward, current_page=None, stay=False, isIndex=False):
     zorder 103
     python:
         bw = im.Scale("overlay/bw.png", 70, 40)
@@ -219,7 +172,17 @@ screen taccuino_ui2(forward, backward, current_page=None):
         bookmarks = ["overlay/"+color+" bookmark.png" for color in colors]
         bookmarks_hover = ["overlay/"+color+" bookmark ext.png" for color in colors]
 
+        topic = Taccuino.tq().current_topic
+
+
+
     # Topic Bookmarks
+    if topic > 0 and isIndex:
+            mousearea:
+                area (0.11, 0.05, 0.3, 0.45)
+                hovered [Function(Taccuino.tq().show_index_page, None, None, False), Show("help")]
+                unhovered [Function(Taccuino.tq().show_index_page, None, None, True), Hide("help")]
+
     vbox:
         xsize 200
         xalign 0.122
@@ -228,10 +191,13 @@ screen taccuino_ui2(forward, backward, current_page=None):
 
         for i in range(4):
             imagebutton:
-                idle bookmarks[i]
-                hover bookmarks_hover[i]
-                hover_xoffset 5
-                action [Function(Taccuino.tq().show_index_page,0,i), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
+                if stay and i==topic:
+                    idle bookmarks_hover[i]
+                else:
+                    idle bookmarks[i]
+                    hover bookmarks_hover[i]
+
+                    action [Function(Taccuino.tq().show_index_page,0,i, topic==0), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
 
     # Page Turn
@@ -270,3 +236,8 @@ screen taccuino_ui2(forward, backward, current_page=None):
             activate_sound "audio/sfx/multiple pageflips.mp3"
             action [Function(hide_notebook)]
 
+screen help:
+    #marker of whn I enter the textarea
+    zorder 104
+    label "":
+        xalign 0.5

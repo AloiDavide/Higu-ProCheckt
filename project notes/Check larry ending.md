@@ -1,3 +1,26 @@
+- [x] Make hiding larry
+- [x] Pick test background
+- [ ] make gun scene
+- [x] Eyes should be normal
+
+- Cold open sulla scena di Watanagashi dove Larry spara a Check.
+	- The song is lies lies lies, Larry's descent theme
+	- Maybe forfeit
+- Come discusso in precedenza, è un fake out e in realtà ha sparato alla trasmittente.
+- Decidono sul piano di azione per allontanarsi e ricongiungersi con la parte del BKG a loro alleata.
+- Si scopre cosa è successo veramente alla fine della scena precedente.
+	- Offscreen, Check trova Larry a valle e lo soccorre.
+	- C'è un parallelo di Keiichi che si sveglia in camera sua in Onikakushi, ma stavolta niente misunderstanding del pennarello, e non finisce in tragedia.
+	- Con il supporto di Terry Check riesce a calmare Larry come la scorsa volta. [Small town] [ Air prizz]
+- Somehow li trovano e li stanno cecchinando.
+- Cecchinano Larry e il tempo si ferma.
+- Sad scene.
+- FORSE abbiamo un interazione con Check esterno?
+- Check remarka che è un cecchino con abilità fuori dal comune.
+- Check muore.
+- Reveal che il cecchino era Hanabi interno.
+
+
 Dopo la scorsa scena Larry washes up e Check lo trova e lo soccorre.
 Quando si sveglia ha una scena alla Onikakushi, ma senza fraintendimento del pennarello, poi arriva Terry.
 Check gli dice ho parlato con Terry e mi ha detto tutto, e poi lo dice anche a lui.

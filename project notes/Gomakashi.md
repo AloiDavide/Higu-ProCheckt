@@ -54,3 +54,10 @@ Inizialmente sembra non avere ottenuto nessuna informazione utile sulla morte di
 ## Eventi interni al frammento
 Abbiamo già mostrato la downfall di Larry in Tatari, ripeterla sarebbe superfluo, ma va ripresa sulla fine.
 Check credeva che fosse morto.
+
+
+
+
+
+
+

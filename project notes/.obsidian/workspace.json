@@ -13,7 +13,20 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Scaletta Gomakashi.md",
+                "file": "Gomakashi.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a3f8dcd54d9533af",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timeline streghe.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -27,19 +40,6 @@
               "type": "markdown",
               "state": {
                 "file": "Todo generale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97bfa9f7243b8ff5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Taccuino Development.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,12 +73,12 @@
             }
           },
           {
-            "id": "852dbffd91af427b",
+            "id": "67c961736d914d75",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hound e Crunter.md",
+                "file": "Music Catalog.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -86,33 +86,15 @@
             }
           },
           {
-            "id": "2bda02cdbc83b8ea",
+            "id": "e457231efeadfaae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Metarivali ending.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c4ad92952c1161c8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Post siringa.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -163,7 +145,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -179,7 +162,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Check larry ending.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +179,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Taccuino Development.md",
+                "file": "Check larry ending.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +202,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Taccuino Development.md"
+                "file": "Check larry ending.md"
               }
             }
           }
@@ -242,16 +225,21 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "97bfa9f7243b8ff5",
+  "active": "ca670a3cec03aa29",
   "lastOpenFiles": [
-    "Todo generale.md",
-    "Post siringa.md",
-    "Metarivali ending.md",
-    "Taccuino Development.md",
-    "Scaletta Gomakashi.md",
     "Music Catalog.md",
     "Check larry ending.md",
+    "Todo generale.md",
+    "Breve introspezione di Bern.md",
     "Hound e Crunter.md",
+    "Taccuino Development.md",
+    "Timeline streghe.md",
+    "poteri cheat.md",
+    "Higurashi - Gli indizi perduti..md",
+    "Gomakashi.md",
+    "Scaletta Gomakashi.md",
+    "Metarivali ending.md",
+    "Post siringa.md",
     "Crunter notes.md",
     "Crunter read this.md",
     "BKG.md",
@@ -260,19 +248,14 @@
     "Takano isterica.md",
     "Hanabi.md",
     "Misteri esterni.md",
-    "Untitled.md",
     "Check.md",
-    "Gomakashi.md",
     "Lambda Takano.md",
     "Larry.md",
-    "Higurashi - Gli indizi perduti..md",
     "Meakashi reread.md",
     "~syncthing~Backstory di Check e Hanabi.md.tmp",
     "~syncthing~Check.md.tmp",
     "~syncthing~Hanabi.md.tmp",
     "Backstory tra Check e Hanabi.md",
-    "La cospirazione del BKG.md",
-    "Domande e opinioni di Check.md",
     "Pasted image 20240627213448.png",
     "Pasted image 20240627213406.png",
     "Sonozaki.txt",

@@ -30,17 +30,20 @@ label start:
     show frag_overlay
 
 
+
     show screen curtains
     show screen tips
     pause 1.5
+    " "
     play music ["<silence 2.0>", "audio/higu/asagiri.mp3"]
-    play sound "<to 2.0>audio/sfx/beam.mp3"
-    show screen prism with CropMove(3.0, "wiperight")
+    play sound "<to 4.0>audio/sfx/beam.mp3"
+    show screen prism with CropMove(4.0, "wiperight")
     stop sound
+    pause 1
 
 
     if persistent.first and persistent.second and persistent.third:
-        play sound "audio/sfx/secret_unlock.mp3"
+#         play sound "audio/sfx/secret_unlock.mp3"
         show screen secret with Dissolve(1)
 
     while True:

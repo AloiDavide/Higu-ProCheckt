@@ -251,7 +251,7 @@ screen quick_menu():
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
 
-            if showing_notes:
+            if TQ.get().showing:
                 action [Function(hide_notebook)]
             else:
                 action [Function(show_notebook)]

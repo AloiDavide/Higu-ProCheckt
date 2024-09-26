@@ -2,7 +2,7 @@
 init python:
 """
 import json
-showing_notes = False
+
 
 
 def show_notebook():

@@ -2,7 +2,10 @@
 init python:
 """
 import json
+import math
 
+shrink_factor = 13
+shrink_limit = 550
 
 class TQ_Page:
 
@@ -17,6 +20,13 @@ class TQ_Page:
 
     def asDict(self):
         return vars(self)
+
+    def get_tsize(self):
+        # we can fit about 550 characters at max size between all sections
+        text_length = len(self.question) + len(self.answers[self.display_answer])
+        shrink = max(0, math.ceil((text_length - shrink_limit) / shrink_factor))
+
+        return 35 - shrink
 
     def __repr__(self):
         return (f"Page(title={self.title}, \n"
@@ -42,7 +52,9 @@ json_string = '''
 }
 '''
 
-json_data = json.loads(json_string)
-page = TQ_Page(json_data)
+# json_data = json.loads(json_string)
+# page = TQ_Page(json_data)
+#
+# print(page.asDict())
+# print(page)
 
-print(page.asDict())

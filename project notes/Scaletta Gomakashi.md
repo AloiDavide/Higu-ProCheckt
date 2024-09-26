@@ -33,12 +33,8 @@ Completati questi tre appaiono gli squarci, da uno esce Hound che da a check il 
 ### Finale
 [[Metarivali ending]]
 [[Check larry ending]]
-Breve introspezione di Bern
-- Vuole vincere tanto
-- Non è felice di questa situazione
-- Fa capire che Bern e Rika sono collegate, duh
-- Rika ha un qualche vantaggio grosso
-- Deve essere evidenterrimo che Rika è il suo re.
+[[Breve introspezione di Bern]]
+
 
 
 

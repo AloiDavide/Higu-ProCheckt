@@ -61,6 +61,8 @@ Maybe it does make sense after all to keep objects for the book
 
 ## Refactoring
 Backend
+
+
 - [ ] Add an effect for unread questions (CHECK FACE), and remove it any time they are viewed by updating the dict.
 	- [ ] ==Yo this shit actually needs a rewrite== 
 		- [x] make a fucking page object
@@ -74,10 +76,12 @@ Backend
 		- [ ] whenever a page is shown,  make it also update the status in the corresponding object and call the dump method of taccuino
 		
 Frontend
+
+
 - [ ] Fix the way pages look for the title in the dictionary to use the key
 - [ ] make the forward and backward flags not jump around so much
-- [ ] unify code for left and right question pages. 
-- [ ] Look into vpgrid for automatic gridding off question titles without needing to pad the list.
+- [x] unify code for left and right question pages.
+- [ ] Look into vpgrid for automatic gridding of question titles without needing to pad the list.
 
 	
 ## Question Pages
@@ -108,7 +112,7 @@ Frontend
 
 
 ## Unlocking the feature
-- [ ] Hai sbloccato: Appunti di check (in outline orenji)
+- [x] Hai sbloccato: Appunti di check (in outline orenji)
 
 
 
