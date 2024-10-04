@@ -1,0 +1,30 @@
+
+- [[Lambdadelta]] offre il potere a Takano per un motivo x, magari noia.
+- Il [[piano di Takano]] incappa in Hanyuu.
+- Hanyuu fa loopare Rika, il che genera [[Bernkastel]].
+- [[Bernkastel|Bern]] si ritrova a giocare contro [[Lambdadelta|Lambda]] mentre impara a vivere la vita da strega, ma non è in una buona posizione, considerando che Rika non è capace. Di questo passo perderà di sicuro se non fa qualcosa.
+- Bern eleva Check, ma non gli dice tutta la verità per controllarlo meglio e avere un vantaggio su di lui nell'evenienza che le andasse contro un giorno.
+- Questo porta Bern in vantaggio secondo la [[legge della bilancia]].
+- Adesso Lambda è in grado di usare il giallo reality bending, e lo fa in modo avventato bloccando Check in fretta e furia.
+- Lambda crea Hanabi e si palesa.
+- Bern offre a Lambda di ribilanciare il playing field mandando le rispettive pedine a combattersi da un altra parte.
+- Lambda accetta ma ha una rika in tasca per aggirare questo vincolo.
+- Check e Hanabi giocano per conto loro, torna lo status quo di prima che arrivasse Check.
+- Check perde il primo round, ma non viene distrutto perchè direttamente legato a Bernkastel.
+- Check vince il secondo round ma Hanabi sclera e loro finiscono nelle backrooms dei frammenti.
+- Bern vede che check ha vinto ma non torna, Bern è in trouble perchè ha bisogno delle informazioni di Check per ribaltare la partita, in particolare la natura della terza barriera.
+- Bern decide di usare Larry per recuperare Check, questa volta gli deve dare informazioni.
+- Tecnicamente, la [[legge della bilancia]] farebbe in modo che Lambda torna ad avere il giallo attivo. Lei però se lo è precluso da sola quindi non lo puo comunque usare per cambiare le regole.
+- Lambda tenta di interferire con i poteri normali ma fallisce. 
+- Larry riesce a far tornare Check e Hanabi. Festa e abbracci. 
+- Larry, non bloccato da nessuna regola, puo fare da tramite tra Bern e Check. Inoltre Hanabi ha defectato all'altro team.
+- Lambdadelta perde se non fa niente.
+- Lambda tira fuori la Rika in tasca per invalidare la restrizione e riprende il controllo dei suoi [[Legge della bilancia|poteri cheat]], stavolta 0 a 3, il che la rende praticamente godlike (scene belle alla flowey).
+- Prima disintegra Larry, poi forza Hanabi a tornare dalla sua parte riscrivendo la realtà.
+- Bern fa finta che era inevitabile e da tutta la colpa a Lambda mentre in realtà era solo l'ultimo esperimento di cui aveva bisogno.
+- Bern adesso ha tutte le informazioni che le servivano, e Check non è più necessario. Avendo capito empiricamente il funzionamento della [[legge della bilancia]] decide di scartare check.
+- Con il suo powerup mette tutti i pezzi nella meta campo di Lambda e crea il mondo perfetto per svolgere matsuribayashi.
+- Questo ci porta al capitolo 8 canonico dove Check Larry Hanabi etc non sono mai esistiti.
+- Miotsukushi magari è la versione in cui Bern non ha quello che voleva ma Rika vince uguale.
+- Saikoroshi è qualcosa che organizza Bernkastel liberarsi da Rika? È sicuramente plausibile con i suoi nuovi poteri, e nonostante sia un piano fortemente crudele, sarebbe in grado di giustificarsi dicendo che lo ha fatto per il bene di Rika.
+- Entrambe le streghe vanno a fare le voyager fino a umineko.
