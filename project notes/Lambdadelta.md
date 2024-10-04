@@ -6,13 +6,9 @@ tags:
 ---
 
 La strega della certezza, con il potere di rendere 100% tutto ciò che non è 0%.
-
-
-Gioca solo per vincere
-## Poteri
-- Ciò che dice in Giallo diventa verità quasi incontrovertibile (until we find a counter, possibly Bern).
-- Le prime due regole andranno rotte eventualmente.
-## Ruolo
+Gioca solo per vincere.
+## Poteri quando in vantaggio
+- Ciò che dice in Giallo diventa verità incontrovertibile.
 
 ## Personalità
 - Tonta solo in superfice.

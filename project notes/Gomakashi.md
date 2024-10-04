@@ -22,7 +22,7 @@ Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
 
 # [[Scaletta Gomakashi]]
 
-# [[Todo generale]]
+# [[Tasklist generale]]
 
 
 ---
@@ -40,7 +40,7 @@ Sfondo scelta tip: diverse parti della casa Sonozaki ad ogni tip sbloccato
 
 
 ## Risultati
-Check perde perchè non è in grado di formulare una teoria vincente, vedasi [[Gioco Check VS Hanabi]] per le wincon.
+Check perde perchè non è in grado di formulare una teoria vincente, vedasi [[Gioco di Check e Hanabi]] per le wincon.
 
 Hanabi a Check: Ha fatto tutto shion senza complotto alcuno, era evidentemente posseduta. Eri sicuro che erano stati i sonozaki e hai seguito capelli verdi per scoprirlo, ma era una perdita di tempo, non hai una teoria funzionante e sembra tutto paranormale come prima.
 

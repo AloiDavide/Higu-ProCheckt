@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "dd24ea85a4ae7b0e",
+            "id": "7241d17b6ff3d0ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Gomakashi.md",
+                "file": "Higurashi - Gli indizi perduti..md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,80 +21,20 @@
             }
           },
           {
-            "id": "a3f8dcd54d9533af",
+            "id": "c557259cf15b3142",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Timeline streghe.md",
+                "file": "Epilogo interno.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "99c217bdbc1e621f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Todo generale.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d361f7df9b71af49",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Music Catalog.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca670a3cec03aa29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Check larry ending.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "67c961736d914d75",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Music Catalog.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e457231efeadfaae",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "ef434ea8bf77f4e2",
@@ -162,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Check larry ending.md",
+                "file": "Epilogo interno.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -179,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Check larry ending.md",
+                "file": "Epilogo interno.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Check larry ending.md"
+                "file": "Epilogo interno.md"
               }
             }
           }
@@ -222,40 +161,42 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "workspaces:Manage workspace layouts": false
+      "workspaces:Manage workspace layouts": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "ca670a3cec03aa29",
+  "active": "c557259cf15b3142",
   "lastOpenFiles": [
-    "Music Catalog.md",
-    "Check larry ending.md",
-    "Todo generale.md",
-    "Breve introspezione di Bern.md",
+    "Scaletta Gomakashi.md",
+    "Gomakashi.md",
+    "Higurashi - Gli indizi perduti..md",
+    "Gioco di Check e Hanabi.md",
+    "Timeline partita streghe.md",
+    "Bernkastel.md",
+    "Lambdadelta.md",
+    "Teorie e opinioni di Check (metà meakashi).md",
+    "Gioco di Bern e Lambda.md",
+    "Legge della bilancia.md",
+    "tre difese.md",
+    "poteri cheat.md",
+    "Teorie e opinioni di Check (fine meakashi).md",
+    "Pasted image 20240929225047.png",
+    "Character index.md",
+    "Soundtrack Catalog.md",
+    "Tasklist generale.md",
+    "Tasks Plugin - Review and check your Statuses 2024-09-29 22-31-58.md",
+    "Gomakashi part 3.md",
+    "Epilogo streghe.md",
+    "Hanabi.md",
+    "Epilogo Metarivali.md",
+    "Epilogo interno.md",
     "Hound e Crunter.md",
     "Taccuino Development.md",
-    "Timeline streghe.md",
-    "poteri cheat.md",
-    "Higurashi - Gli indizi perduti..md",
-    "Gomakashi.md",
-    "Scaletta Gomakashi.md",
-    "Metarivali ending.md",
     "Post siringa.md",
     "Crunter notes.md",
-    "Crunter read this.md",
-    "BKG.md",
-    "Backstory di Check e Hanabi.md",
-    "Terry.md",
-    "Takano isterica.md",
-    "Hanabi.md",
-    "Misteri esterni.md",
-    "Check.md",
-    "Lambda Takano.md",
-    "Larry.md",
-    "Meakashi reread.md",
     "~syncthing~Backstory di Check e Hanabi.md.tmp",
     "~syncthing~Check.md.tmp",
     "~syncthing~Hanabi.md.tmp",
-    "Backstory tra Check e Hanabi.md",
     "Pasted image 20240627213448.png",
     "Pasted image 20240627213406.png",
     "Sonozaki.txt",
@@ -270,7 +211,6 @@
     "Pasted image 20240402194557.png",
     "Pasted image 20240402194232.png",
     "Pasted image 20240402194043.png",
-    "Pasted image 20240322223017.png",
     "Untitled.canvas",
     "~syncthing~Higurashi - Gli indizi perduti..md.tmp"
   ]

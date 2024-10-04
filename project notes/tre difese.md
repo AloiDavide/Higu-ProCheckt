@@ -12,7 +12,7 @@ Equivalenti alle tre regole di Ryuukishi.
 Queste sono le forze principali che contribuiscono a rendere il lieto fine quasi impossibile.
 
 ## L'inganno dei Sonozaki
-*Il combotton't*
+*Il comblotton't*
 La tendenza dei Sonozaki a fingersi responsabili di qualsiasi evento nel villaggio, attirando immediatamente il sospetto di chiunque cerca un colpevole umano.
 Le indagini di Ooishi e Shion vengono bloccate da questa barriera, e a loro volta la perpetuano.
 - Scoperta alla fine di Meakashi

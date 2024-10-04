@@ -2,21 +2,17 @@
 tags:
   - index
 ---
-
-# Note centrali narrativa
-- ### [[Timeline streghe]] 
-- ### [[Gioco Bern VS Lambda]]
-- ### [[Gioco Check VS Hanabi]]
-- ### [[tre difese]]
-- ### [[Domande e opinioni di Check]]
-
-# Indici
-- ### [[Music Catalog]]
-- ### [[Personaggi]]
+# Note principali
+- ### [[Tasklist generale]]
+- ### [[Teorie e opinioni di Check (fine meakashi)]]
+- ### [[Timeline partita streghe]] 
+- ### [[Gioco di Bern e Lambda]]
+- ### [[Soundtrack Catalog]] 🎼
+- ### [[Character index]] 
 
 ---
 
-# Archi degli indizi perduti
+# Archi
 
 ### [[Yougisamashi]] - Suspicion rousing arc
 Parallelo di  Tatarigoroshi
@@ -68,7 +64,7 @@ Icon: Booh
 - Scrittura e narrativa
 - Supervisione della regia
 
-## Alice (Lali)
+## Alice
 - Creazione sprite originali.
 
 ## Check

@@ -9,18 +9,18 @@ La strega dei miracoli che ha vissuto il 10% di mille anni.
 ## Poteri
 - Il suo potere consiste nel tentare infinite volte fino a che non raggiunge il risultato voluto. In un certo senso è un equivalente al potere di [[Lambdadelta|Lambda]] ma con meccaniche diverse.
 - Le frasi che dice in <font color="#00b0f0">Blu</font> sono comparabili al rosso di Beatrice, ma le è proibito fornire a Check delle soluzioni ai misteri.
-- Verso la fine deve fare qualcosa che solidifica il suo ruolo di strega dei miracoli.
+- Dopo che scarta Check diventa la strega dei miracoli.
 
 
-## Ruolo
+## Ruolo ==(outdated)==
 - Nel corso dei loop causati da [[Hanyuu]], [[Rika]] sviluppa una coscienza meta e diventa una strega che si auto nomina [[Bernkastel]]. Non è così diverso da come viene generata *MARIA*.
 - [[Hanyuu]] è furniture di Bernkastel? Chi dei due è veramente l'origine dei loop? Che Bern ne sia allo stesso tempo causa ed effetto? Tutto questo puo essere lasciato sul vago.
-- Bern non ha evocato Check di sua volontà, sono stati [[Hound e Crunter]] a farglielo trovare.
+- Opzionalmente Bern non ha evocato Check di sua volontà, sono stati [[Hound e Crunter]] a farglielo trovare.
 - Dopo avere battuto [[Lambdadelta|Lambda]] si separa infine definitivamente da Rika e diventa una strega superiore, libera di vagare il mare di frammenti.
 - ==OPTIONAL==: Saikoroshi è qualcosa che organizza Bernkastel liberarsi da Rika? È sicuramente plausibile con i suoi poteri, e nonostante sia un piano fortemente crudele, sarebbe in grado di giustificarsi dicendo che lo ha fatto per il bene di Rika.
 
 ## Personalità worst case
-==Non sappiamo ancora se avrà un twist crudele, ma ecco delle idee nel caso lo abbia==
+Assumendo un heel turn, ecco un profilo possibile
 - Con il passare del tempo diventa sempre più dissociata dalla sua origine umana e mostra tendenze psicopatiche. 
 - Mostra sempre una espressione deadpan inscrutabile, ma si presenta come una persona estremamente ragionevole.
 - È intelligente ed eloquente, è in grado di comprendere ciò che gli altri pensano e desiderano, e sa esprimere al momento giusto compassione, ammirazione o debolezza per guadagnare alleati. Tuttavia nella sua testa anche lei li vede soltanto come pedine.

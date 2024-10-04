@@ -28,14 +28,13 @@ Keiichi, Rena, Satoshi, e ora anche Shion. Tutti loro sentono le presenze... un 
 [[Post siringa]]
 [[Takano isterica]]
 
-Completati questi tre appaiono gli squarci, da uno esce Hound che da a check il taccuino, Dall'altro esce crunter che parla a 
 
 ### Finale
-[[Metarivali ending]]
-[[Check larry ending]]
-[[Breve introspezione di Bern]]
+[[Epilogo interno]]
+[[Epilogo Metarivali]]
+[[Epilogo streghe]]
 
-
+Welcome to Tsumihoroboshi
 
 
 
