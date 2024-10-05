@@ -118,7 +118,7 @@ Il Giappone non ha più avuto un esercito dalla seconda guerra mondiale, ma quan
 
 Come pensi che un giapponese come me si sia ritrovato a combattere per tutta l'asia e il medio oriente?
 
-Essermi distinto come militare all'estero mi è stata data l'occasione di creare la mia organizzazione.
+Dopo che mi sono distinto all'estero mi è stata data l'occasione di creare la mia organizzazione.
 Sinceramente non ne potevo più di vedere compagni morire combattendo sul campo di battaglia per cause in cui non credevano.
 
 Avevo anche un rivale coi fiocchi.

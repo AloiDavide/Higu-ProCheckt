@@ -1,5 +1,5 @@
 
-- [ ] To make the taccuino actually update I'll need to both update the json and call a method or function that re-reads the json
+- [ ] To make the taccuino actually update in real time I'll need to both update the json and call a method or function that re-reads it and loads the page
 - [x] Make text size dynamic
 	- base size is 35
 	- we can fit about 550 characters at max size between question and answer.

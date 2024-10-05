@@ -1,58 +1,53 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 46, in script call
-    while True:
-  File "renpy/common/00console.rpy", line 1171, in script
-    python in _console:
-  File "renpy/common/00console.rpy", line 1173, in <module>
-    console.interact()
-  File "renpy/common/00console.rpy", line 609, in interact
-    line = ui.interact()
-TypeError: missing a required argument: 'this_page'
+  File "game/script.rpy", line 50, in script call
+    pause
+  File "game/scenes/scene 3.0.rpy", line 92, in script
+    "L'ultimo suono a uscire dall'altoparlante fu il botto di un esplosione, mentre due messaggi di errore a schermo notificavano tutti i presenti dell'improvvisa perdita di segnale, sia del canale audio, sia della geolocalizzazione."
+OSError: Couldn't find file 'audio/sfx/office.mp3'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 46, in script call
-    while True:
-  File "renpy/common/00console.rpy", line 1171, in script
-    python in _console:
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 823, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\python.py", line 1178, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00console.rpy", line 1173, in <module>
-    console.interact()
-  File "renpy/common/00console.rpy", line 609, in interact
-    line = ui.interact()
+  File "game/script.rpy", line 50, in script call
+    pause
+  File "game/scenes/scene 3.0.rpy", line 92, in script
+    "L'ultimo suono a uscire dall'altoparlante fu il botto di un esplosione, mentre due messaggi di errore a schermo notificavano tutti i presenti dell'improvvisa perdita di segnale, sia del canale audio, sia della geolocalizzazione."
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
+    Say.execute(self)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\exports.py", line 1493, in say
+    who(what, *args, **kwargs)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1394, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 1045, in do_display
+    display_say(who,
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\character.py", line 741, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ui.py", line 301, in interact
     rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2165, in interact
     repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, pause_modal=pause_modal, **kwargs) # type: ignore
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2687, in interact_core
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\displayable.py", line 431, in visit_all
-    d.visit_all(callback, seen)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 480, in visit_all
-    callback(self)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 2687, in <lambda>
-    root_widget.visit_all(lambda d : d.per_interact())
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 491, in per_interact
-    self.update()
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\screen.py", line 697, in update
-    self.screen.function(**self.scope)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\parameter.py", line 429, in apply_arguments
-    return parameters.apply(args or (), kwargs or {}, ignore_errors)
-  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\parameter.py", line 283, in apply
-    raise TypeError(msg) # from None
-TypeError: missing a required argument: 'this_page'
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\display\core.py", line 3022, in interact_core
+    renpy.audio.audio.periodic()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1205, in periodic
+    raise_(exc[0], exc[1], exc[2])
+  File "lib/python3.9/future/utils/__init__.py", line 444, in raise_
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1183, in periodic_thread_main
+    periodic_pass()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 1125, in periodic_pass
+    c.periodic()
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 534, in periodic
+    topf = load(filename)
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\audio\audio.py", line 72, in load
+    rv = renpy.loader.load(fn, directory="audio")
+  File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\loader.py", line 672, in load
+    raise IOError("Couldn't find file '%s'." % name)
+OSError: Couldn't find file 'audio/sfx/office.mp3'.
 
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 2.1
-Sun Aug 11 18:39:28 2024
+Fri Oct  4 09:47:01 2024

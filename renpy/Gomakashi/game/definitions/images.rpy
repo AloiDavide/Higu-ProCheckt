@@ -59,7 +59,7 @@ image night_small_shrine = im.Scale("bg/night_small_shrine.webp", 1920, 1080)
 image night_hinamizawa = im.Scale("bg/night_hinamizawa.webp", 1920, 1080)
 image forest_path_night = im.Scale("bg/forest_path_night.webp", 1920, 1080)
 image swamp = im.Scale("bg/swamp.png", 1920, 1080)
-
+image monitor_room = im.Scale("bg/monitor_room.png", 1920, 1080)
 
 
 

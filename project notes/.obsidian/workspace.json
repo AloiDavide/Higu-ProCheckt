@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7241d17b6ff3d0ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Higurashi - Gli indizi perduti..md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c557259cf15b3142",
             "type": "leaf",
             "state": {
@@ -32,9 +19,34 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f276db85b71c9da0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasklist generale.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bda9c5ebc880d17e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taccuino Development.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -167,6 +179,10 @@
   },
   "active": "c557259cf15b3142",
   "lastOpenFiles": [
+    "Taccuino Development.md",
+    "Taccuino.md",
+    "Tasklist generale.md",
+    "Epilogo interno.md",
     "Scaletta Gomakashi.md",
     "Gomakashi.md",
     "Higurashi - Gli indizi perduti..md",
@@ -183,17 +199,13 @@
     "Pasted image 20240929225047.png",
     "Character index.md",
     "Soundtrack Catalog.md",
-    "Tasklist generale.md",
     "Tasks Plugin - Review and check your Statuses 2024-09-29 22-31-58.md",
     "Gomakashi part 3.md",
     "Epilogo streghe.md",
     "Hanabi.md",
     "Epilogo Metarivali.md",
-    "Epilogo interno.md",
     "Hound e Crunter.md",
-    "Taccuino Development.md",
     "Post siringa.md",
-    "Crunter notes.md",
     "~syncthing~Backstory di Check e Hanabi.md.tmp",
     "~syncthing~Check.md.tmp",
     "~syncthing~Hanabi.md.tmp",
