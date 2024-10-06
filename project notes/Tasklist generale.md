@@ -13,8 +13,8 @@
 
 - [B] [[Epilogo interno]] scene 3.0
 	- [O] Crazy larry fakeout
-	- [B] Reunion flashback
-	- [B] Plan of action
+	- [O] Reunion flashback
+	- [O] Plan of action and stakeout
 	- [B] Hanabi reveal
 - [ ] [[Epilogo Metarivali]] scene 3.1
 	- [ ] 
@@ -26,6 +26,12 @@
 
 ## Assets
 - [ ] Improve check's range of expression.
+	- [ ] Angrier
+	- [x] More caring
+	- [x] smilier
+	- [x] look into camera
+	- [x] occhi aperti ma sopracciglia da chiusi
+- [ ] Angry larry needed
 - [?] Real hanabi gets a new more sober wardrobe?
 
 ## [[Taccuino]]

@@ -60,7 +60,7 @@ image night_hinamizawa = im.Scale("bg/night_hinamizawa.webp", 1920, 1080)
 image forest_path_night = im.Scale("bg/forest_path_night.webp", 1920, 1080)
 image swamp = im.Scale("bg/swamp.png", 1920, 1080)
 image monitor_room = im.Scale("bg/monitor_room.png", 1920, 1080)
-
+image tenjou = im.Scale("bg/tenjou.webp", 1920, 1080)
 
 
 #OVERLAYS
@@ -182,6 +182,7 @@ image fragplane orangeflare_talk:
 
 
 image codec_open =Movie(play="images/codec open.webm")
+image war = Movie(size=(1920, 1080), play="images/war_footage.webm")
 
 image forest_running:
     "bg/forest_path_night_double.webp"

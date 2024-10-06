@@ -11,13 +11,8 @@
             "id": "c557259cf15b3142",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Epilogo interno.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           },
           {
@@ -45,8 +40,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3e45bddc68bf6913",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timeline partita streghe.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb7021a0f886f5c4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gioco di Bern e Lambda.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -92,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -113,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Epilogo interno.md",
+                "file": "Tasklist generale.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Epilogo interno.md",
+                "file": "Tasklist generale.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Epilogo interno.md"
+                "file": "Tasklist generale.md"
               }
             }
           }
@@ -162,8 +183,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,22 +197,22 @@
       "obsidian-kanban:Create new board": false
     }
   },
-  "active": "c557259cf15b3142",
+  "active": "f276db85b71c9da0",
   "lastOpenFiles": [
+    "Epilogo interno.md",
+    "Tasklist generale.md",
+    "Gioco di Bern e Lambda.md",
+    "Legge della bilancia.md",
+    "Timeline partita streghe.md",
     "Taccuino Development.md",
     "Taccuino.md",
-    "Tasklist generale.md",
-    "Epilogo interno.md",
     "Scaletta Gomakashi.md",
     "Gomakashi.md",
     "Higurashi - Gli indizi perduti..md",
     "Gioco di Check e Hanabi.md",
-    "Timeline partita streghe.md",
     "Bernkastel.md",
     "Lambdadelta.md",
     "Teorie e opinioni di Check (metà meakashi).md",
-    "Gioco di Bern e Lambda.md",
-    "Legge della bilancia.md",
     "tre difese.md",
     "poteri cheat.md",
     "Teorie e opinioni di Check (fine meakashi).md",

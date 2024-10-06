@@ -24,7 +24,8 @@
 - Bern fa finta che era inevitabile e da tutta la colpa a Lambda mentre in realtà era solo l'ultimo esperimento di cui aveva bisogno.
 - Bern adesso ha tutte le informazioni che le servivano, e Check non è più necessario. Avendo capito empiricamente il funzionamento della [[legge della bilancia]] decide di scartare check.
 - Con il suo powerup mette tutti i pezzi nella meta campo di Lambda e crea il mondo perfetto per svolgere matsuribayashi.
-- Questo ci porta al capitolo 8 canonico dove Check Larry Hanabi etc non sono mai esistiti.
+- Da qua in poi niente di deciso
+- Questo ci porta al capitolo 8 canonico dove Check Larry Hanabi etc magari non sono mai esistiti.
 - Miotsukushi magari è la versione in cui Bern non ha quello che voleva ma Rika vince uguale.
-- Saikoroshi è qualcosa che organizza Bernkastel liberarsi da Rika? È sicuramente plausibile con i suoi nuovi poteri, e nonostante sia un piano fortemente crudele, sarebbe in grado di giustificarsi dicendo che lo ha fatto per il bene di Rika.
+- Optional head canon - Saikoroshi è qualcosa che organizza Bernkastel liberarsi da Rika? È sicuramente plausibile con i suoi nuovi poteri, e nonostante sia un piano fortemente crudele, sarebbe in grado di giustificarsi dicendo che lo ha fatto per il bene di Rika.
 - Entrambe le streghe vanno a fare le voyager fino a umineko.

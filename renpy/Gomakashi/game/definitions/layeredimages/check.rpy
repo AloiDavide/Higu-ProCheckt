@@ -14,15 +14,17 @@ init:
 
         group eyes:
             attribute neutral default:
-                "sprites/ck/neutral.png"
+                "sprites/ck/eyes/neutral.png"
             attribute angry:
-                "sprites/ck/angry.png"
+                "sprites/ck/eyes/angry.png"
             attribute close:
-                "sprites/ck/close.png"
+                "sprites/ck/eyes/close.png"
             attribute sus:
-                "sprites/ck/sus.png"
+                "sprites/ck/eyes/sus.png"
             attribute think:
-                "sprites/ck/think.png"
+                "sprites/ck/eyes/think.png"
+            attribute direct:
+                "sprites/ck/eyes/direct.png"
 
         attribute shades if_any ["sor", "objection"] default:
             "sprites/ck/round_shades.png"

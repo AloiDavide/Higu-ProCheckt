@@ -20,11 +20,10 @@ label start:
     scene sonozakitchen with Fade(1.5,0,1.5)
     pause 1.5
 
-    #Remove comments to add third step
 
-    #play sound "audio/sfx/heavy door close.mp3"
-    #scene basement with Fade(1,0,1.5)
-    #pause 1.5
+    play sound "audio/sfx/heavy door close.mp3"
+    scene basement with Fade(1,0,1.5)
+    pause 1.5
 
     play sound "audio/sfx/glass crack.mp3"
     show frag_overlay
@@ -34,7 +33,7 @@ label start:
     show screen curtains
     show screen tips
     pause 1.5
-    " "
+
     play music ["<silence 2.0>", "audio/higu/asagiri.mp3"]
     play sound "<to 4.0>audio/sfx/beam.mp3"
     show screen prism with CropMove(4.0, "wiperight")

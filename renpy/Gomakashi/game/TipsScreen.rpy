@@ -168,6 +168,13 @@ screen tips():
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
+                action Call("sc301")
+            imagebutton:
+                tooltip "Metodo Socratico"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
                 action Call("sc302")
             imagebutton:
                 tooltip "Metodo Socratico"
@@ -176,13 +183,6 @@ screen tips():
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
                 action Call("sc303")
-            imagebutton:
-                tooltip "Metodo Socratico"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("sc304")
 
 
 

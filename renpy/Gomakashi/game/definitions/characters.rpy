@@ -10,9 +10,11 @@ define ld = Character("Lambdadelta", who_color = "#ffe674", what_style= "wide", 
 define bent_ld = Character("lambdadelta", who_color = "#ffe674", what_style= "wide", who_style = "border")
 define old1 = Character("Vecchio col bastone", who_color = "#999", what_style= "wide", who_style = "border")
 define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= "wide", who_style = "border")
-define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
 define ltk2 = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
-
+define te = Character("Terry", who_color = "#0090ca", what_style= "wide", who_style = "border")
+define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
+define oko_anon = Character("???", who_color = "#6a8c75", what_style= "wide", who_style = "border")
+define hb_anon = Character("???", who_color = "#cc4f33", what_style= "wide", who_style = "border")
 
 define cr = Character("??¿??¿?", who_color = "#00b83b", what_style= "wide", who_style = "border", image="check", callback=green_flare)
 define hd = Character("?¿¿??", who_color = "#f37530", what_style= "wide", who_style = "border", image="check", callback=orange_flare)

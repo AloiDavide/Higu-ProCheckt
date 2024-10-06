@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene 3.0.rpy", line 10: expected end of line
-    window hide with dissolve
-                ^
+File "game/scenes/scene 3.0.rpy", line 322: play requires a channel
+    play
+        ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Thu Sep 26 15:31:20 2024
+Sun Oct  6 19:21:55 2024

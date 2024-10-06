@@ -21,6 +21,8 @@ init:
                 "sprites/la/notes.png"
             attribute hide_arm:
                 "sprites/la/hide arm.png"
+            attribute transmitter:
+                "sprites/la/transmitter.png"
 
 
         group head:
