@@ -1,1 +1,0 @@
-Cellula anti terroristica.
