@@ -207,24 +207,43 @@ label sc301:
         ease 1 center
     show check:
         ease 1 offscreenleft
-    pause 1
+    pause 1.5
 
-    show larry tilt
+    play music "audio/higu/words of atonement.mp3" fadein 3
+    show larry tilt with Dissolve(0.01)
+    show red:
+        alpha 0.1
+    show black behind larry
+    with Dissolve(3)
+
     n "...... rieccolo"
+
+
 
     n "C'è un pensiero fastidioso nei meandri della mia testa che cerca di venire a galla contro la mia volontà."
 
+    show red behind larry:
+        alpha 0.2
+    with Dissolve(1)
     n "\"{i}Che prove hai che stanno dicendo la verità?{/i}\" ... mi sussurra."
 
+    show red behind larry:
+        alpha 0.3
+    with Dissolve(1)
     n "\"{i}È così che suonava la voce di Terry?{/i}\" ... \"{i}Quando è l'ultima volta che l'hai sentita?{/i}\" ... \"{i}Cosa faresti se fosse un altro inganno?{/i}\""
 
-
+    show red behind larry:
+        alpha 0.4
+    with Dissolve(1)
     show larry -tilt
-    n "Respingo quel presentimento in fondo alla palude da cui è uscito. {w}Ho sbagliato, niente di nuovo... Ma in confronto alle altre volte."
 
+    n "Respingo quel presentimento in fondo alla palude da cui è uscito. Ho sbagliato, niente di nuovo... Ma in confronto alle altre volte.{w}{nw}"
+
+    hide red with Dissolve(2)
     show larry cry
     n "Non sono mai stato così felice di essere in errore."
 
+    hide black
     show larry:
         ease 1 right
     show check angry:
@@ -353,6 +372,7 @@ label sc302:
 label sc303:
     call hide_menu
 
+    "------------sc303 Hanabi reveal-------------"
     "------------sc303 Hanabi reveal-------------"
 
     "Hanabi ha previsto tutto e lo trova."

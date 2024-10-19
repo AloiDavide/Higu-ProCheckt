@@ -30,6 +30,17 @@ init:
             outlines [(2, "#000", 1,1)]
             font "static/Caveat-Regular.ttf"
 
+    style beach_text is text:
+            size 45
+            xpos 180
+            ypos 60
+
+            ymaximum 1000
+            textalign 0.0
+            xmaximum 1200
+            outlines [(4, "#000", 1,1)]
+            font "static/Caveat-Regular.ttf"
+
     style wideN is text:
             size 35
             xpos 367

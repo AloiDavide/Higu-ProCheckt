@@ -61,15 +61,12 @@ label mid_start:
 
 
     show screen curtains
+    show screen secret
     show screen tips
 
     play music "audio/higu/asagiri.mp3"
     show screen prism
-    pause 2
 
-    if persistent.first and persistent.second and persistent.third:
-        play sound "audio/sfx/secret_unlock.mp3"
-        show screen secret with Dissolve(1)
 
     while True:
         pause

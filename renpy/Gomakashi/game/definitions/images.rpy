@@ -61,6 +61,8 @@ image forest_path_night = im.Scale("bg/forest_path_night.webp", 1920, 1080)
 image swamp = im.Scale("bg/swamp.png", 1920, 1080)
 image monitor_room = im.Scale("bg/monitor_room.png", 1920, 1080)
 image tenjou = im.Scale("bg/tenjou.webp", 1920, 1080)
+image spiaggiadeiframmenti = im.Scale("bg/spiaggiadeiframmenti.png", 1920, 1080)
+
 
 
 #OVERLAYS

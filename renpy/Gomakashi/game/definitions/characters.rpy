@@ -28,3 +28,6 @@ define ltk = Character(None, what_style = "codec", window_background="gui/frame_
 
 # Novel characters
 define lan = Character("", kind=nvl, who_color = "#fad861", what_style= "notes_dialogue", who_style = "border")
+define bernn = Character("", kind=nvl, who_color = "#fad861", what_style= "beach_text", who_style = "border")
+
+define novel = Character("", kind=nvl, who_color = "#fad861", who_style = "border")
