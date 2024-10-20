@@ -1,10 +1,10 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While loading <renpy.display.im.Image object ('gui/nvl.png') at 0x0000000008016e50>:
-  File "game/script.rpy", line 35, in script call
-    pause 1.5
-  File "game/scenes/scene 3.3.rpy", line 13, in script
-    lan """
+While loading <renpy.display.im.Image object ('gui/nvl.png') at 0x0000000012d80ee0>:
+  File "game/script.rpy", line 49, in script call
+    pause
+  File "game/scenes/scene 3.3.rpy", line 15, in script
+    bernn """
   File "renpy/common/00nvl_mode.rpy", line 380, in do_display
     renpy.display_say(
 OSError: Couldn't find file 'gui/nvl.png'.
@@ -12,10 +12,10 @@ OSError: Couldn't find file 'gui/nvl.png'.
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 35, in script call
-    pause 1.5
-  File "game/scenes/scene 3.3.rpy", line 13, in script
-    lan """
+  File "game/script.rpy", line 49, in script call
+    pause
+  File "game/scenes/scene 3.3.rpy", line 15, in script
+    bernn """
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 2557, in execute
     Say.execute(self)
   File "C:\Users\Davide\OneDrive\Desktop\higu proCheckt\renpy-8.2.1-sdk\renpy\ast.py", line 615, in execute
@@ -77,4 +77,4 @@ OSError: Couldn't find file 'gui/nvl.png'.
 Windows-10-10.0.22631 AMD64
 Ren'Py 8.2.1.24030407
 Higurashi: Gli indizi perduti - Gomakashi 2.1
-Sat Oct 19 23:06:11 2024
+Sun Oct 20 12:35:49 2024

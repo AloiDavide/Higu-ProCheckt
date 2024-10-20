@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/scenes/scene 3.3.rpy", line 46: expected end of line
-    play music "<silence 6>","audio/umi/wingless.mp3"
-                            ^
+File "game/screens.rpy", line 1406: expected 'word' not found.
+    default.persistent.nvl_no_bg = False
+           ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sat Oct 19 23:35:35 2024
+Sun Oct 20 12:32:41 2024

@@ -10,6 +10,8 @@ label scene3_3:
     scene spiaggiadeiframmenti with Dissolve(4)
     "---sc330---"
 
+    $persistent.nvl_no_bg = True
+
     bernn """
 Il mare è un mondo inesplorato.
 Si dice che oltre l' 80\% di esso non abbia mai visto nessun essere umano.
@@ -20,7 +22,8 @@ Sembra strano ma questa è la verità. Questo fenomeno ha un nome:
 
 {clear}
 
-Ho sempre sognato il mare. All' inizio avevo un infinità di sogni, come le isole nel mare. Da non fraintendere, persino allora sapevo che le persone non possono mai ottenere tutto ciò che vogliono nella vita. A scuola c'è una grossa biblioteca, piena di libri interessanti, ed un giorno mi sono resa conto che non avrei mai potuti leggere tutti. Ho contato quanti libri vi fossero, ho moltiplicato per il numero delle pagine, 150 pagine a libro sembrava un approssimazione adeguata.
+Ho sempre sognato il mare. All' inizio avevo un infinità di sogni, come le isole nel mare. Da non fraintendere, persino allora sapevo che le persone non possono mai ottenere tutto ciò che vogliono nella vita.{p}
+A scuola c'è una grossa biblioteca, piena di libri interessanti, ed un giorno mi sono resa conto che non avrei mai potuti leggere tutti. Ho contato quanti libri vi fossero, ho moltiplicato per il numero delle pagine, 150 pagine a libro sembrava un approssimazione adeguata.
 
 
 Ho considerato quanto tempo avrei impiegato per ogni pagina, ed ho deciso che semplicemente non bastava il tempo nella vita. Bisogna fare delle scelte, prendere una decisione su cosa sia la cosa più importante. I sogni sono così.
@@ -45,7 +48,7 @@ Data la mia condizione, questo era purtroppo tutt' altro che garantito. Ma se le
     stop music fadeout 3
 
     play music ["audio/umi/wingless.mp3"]
-
+    $persistent.nvl_no_bg = False
     bernn """
 
 Non potevo sapere che il futuro mi sarebbe stato strappato dalle mani.{p}
