@@ -241,13 +241,18 @@ screen quick_menu():
     ## Ensure this appears on top of other screens.
     zorder 100
 
+    python:
+        if Taccuino.tq().hasNew():
+            icon = "overlay/notes_icon_active.png"
+        else:
+            icon = "overlay/notes_icon.png"
 
     if persistent.notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
-            idle im.Scale("overlay/notes_icon.png", 50, 50)
-            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            idle im.Scale(icon, 50, 50)
+            hover im.Scale(icon, 100, 100)
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
 
@@ -464,12 +469,18 @@ screen main_menu():
             color "#3030df"
             font "static/Caveat-Bold.TTF"
 
+    python:
+        if Taccuino.tq().hasNew():
+            icon = "overlay/notes_icon_active.png"
+        else:
+            icon = "overlay/notes_icon.png"
+
     if persistent.notes:
         imagebutton:
             xalign 0.01
             yalign 0.01
-            idle im.Scale("overlay/notes_icon.png", 50, 50)
-            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            idle im.Scale(icon, 50, 50)
+            hover im.Scale(icon, 100, 100)
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
             #action ToggleScreen("taccuino", transition=easeinbottom)

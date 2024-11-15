@@ -20,21 +20,23 @@ screen tq_index_page(titles, forward, backward, pb):
 
     # suppose I instead pass a list of page objects in here
     # TQ keeps it padded with empty objects so it always has a multiple of 14 items
-
+    $important = Transform("overlay/important.png", offset=(0,0), align=(0.5,0.5))
     vpgrid:
         scrollbars "vertical"
         vscrollbar_unscrollable "hide"
         cols 2
         rows 7
-        xspacing 500
-        yspacing 50
-        area (270,130,1440,860)
+        area (150,130,1840,960)
         for t in titles:
-            textbutton t:
+            textbutton t[0]:
+                if not t[1]:
+                    background important
+                xsize 800
+                ysize 130
                 xalign 0.0
                 yalign 0.5
                 text_style "handwritten_index"
-                action [Function(Taccuino.tq().show_question_page, t), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
+                action [Function(Taccuino.tq().show_question_page, t[0]), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/multiple pageflips.mp3", relative_volume=2)]
 
 
 #     grid 2 7:
@@ -83,7 +85,7 @@ screen tq_question(page, position):
 
         text_length = len(page['question']) + len(page["answers"][page["display_answer"]])
 
-        shrink_factor = 13
+        shrink_factor = 18
         shrink_limit = 550
 
         shrink = max(0, math.ceil((text_length - shrink_limit) / shrink_factor))
@@ -227,11 +229,18 @@ screen taccuino_ui(forward, backward, current_page=None, stay=False, isIndex=Fal
                 action [Function(Taccuino.tq().turn_index_page, False), With(Pixellate(0.6,3)), Play("sound", "audio/sfx/pageflip.mp3")]
 
     # Exit Button
-    imagebutton:
+    python:
+        if Taccuino.tq().hasNew():
+            icon = "overlay/notes_icon_active.png"
+        else:
+            icon = "overlay/notes_icon.png"
+
+    if persistent.notes:
+        imagebutton:
             xalign 0.01
             yalign 0.01
-            idle im.Scale("overlay/notes_icon.png", 50, 50)
-            hover im.Scale("overlay/notes_icon.png", 100, 100)
+            idle im.Scale(icon, 50, 50)
+            hover im.Scale(icon, 100, 100)
             hover_sound "audio/sfx/pageflip.mp3"
             activate_sound "audio/sfx/multiple pageflips.mp3"
             action [Function(hide_notebook)]

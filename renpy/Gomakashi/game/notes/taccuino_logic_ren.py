@@ -4,7 +4,6 @@ init python:
 import json
 
 
-
 def show_notebook():
     renpy.show_screen("taccuino")
     Taccuino.tq().show_index_page()
@@ -61,6 +60,13 @@ class Taccuino:
 
         return Taccuino.instance
 
+    def hasNew(self):
+        return any(
+            not entry.get("seen", True)
+            for group in self.tq_data.values()
+            for entry in group.values()
+        )
+
     # calls the index screen
     def show_index_page(self, page=None, topic=None, persistent_bookmark=True):
         if page is None:
@@ -75,14 +81,16 @@ class Taccuino:
         self.titles = list(self.tq_data[str(topic)].keys())
 
         padded_titles = pad_titles(self.titles, self.per_page)
+        read_flags = [self.tq_data[str(topic)][title]["seen"] for title in padded_titles]
 
         bw = False if page == 0 else True
         fw = False if (page + 1) * self.per_page == len(padded_titles) else True
 
-        this_page = padded_titles[page * self.per_page:(page + 1) * self.per_page]
+        page_data = list(zip(padded_titles, read_flags))
+        this_page = page_data[page * self.per_page:(page + 1) * self.per_page]
 
         renpy.hide_screen("tq_question_page")
-        renpy.show_screen("tq_index_page", this_page=this_page, forward=fw, backward=bw, pb=persistent_bookmark)
+        renpy.show_screen("tq_index_page", titles=this_page, forward=fw, backward=bw, pb=persistent_bookmark)
 
 
 

@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1406: expected 'word' not found.
-    default.persistent.nvl_no_bg = False
-           ^
+File "game/screens.rpy", line 251: expected a keyword argument or child statement.
+    $icon = "overlay/notes_icon_active.png"
+    ^
 
 Ren'Py Version: Ren'Py 8.2.1.24030407
-Sun Oct 20 12:32:41 2024
+Sun Oct 27 12:14:00 2024

@@ -67,6 +67,7 @@ init:
         hover_color "#8A0707"
         size 45
         textalign 0.5
+        xalign 0.5
         font "static/Caveat-Regular.ttf"
 
     style menu_text:
