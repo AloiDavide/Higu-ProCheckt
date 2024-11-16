@@ -1,4 +1,6 @@
 *.rpyc
-*.save
+*.rpymc
 *.txt
-.idea/
+**.idea/
+**/cache/
+**/saves/
