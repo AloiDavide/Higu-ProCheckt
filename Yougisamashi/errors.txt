@@ -1,0 +1,26 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/wth4.rpy", line 257: expected statement.
+    Comunque sia, è chiaro che tu sia un’anomalia, sei come un personaggio di un romanzo che ne diventa il lettore, o come una pedina degli scacchi che all’improvviso ha preso vita e si è seduto al posto del giocatore, impossibile no? Eppure eccoti qua.
+                ^
+
+File "game/wth4.rpy", line 259: expected statement.
+    Non offenderti, non sto condannando la tua esistenza, tutt’altro, questa è un occasione imperdibile.
+                  ^
+
+File "game/wth4.rpy", line 363: expected statement.
+    Ascolta le mie parole, qualcuno o qualcosa di estremamente potente tiene tutt’ora in scacco ogni singolo frammento. Finchè questa situazione continua non c’è speranza di un lieto fine per quei ragazzi, né tanto meno per te e il tuo fidato collega.
+                         ^
+
+File "game/wth4.rpy", line 364: expected statement.
+    Purtroppo sto solo iniziando a capire come controbattere, ma tu che sei al contempo osservatore e pezzo sulla scacchiera potresti cambiare le cose.
+                                                            ^
+
+File "game/wth4.rpy", line 365: expected statement.
+    Se vuoi liberarti da questo ciclo di dolore, e salvare il BKG dalla corruzione, collaborare con me è l’unica via.
+                                               ^
+
+Ren'Py Version: Ren'Py 8.0.2.22081402
+Tue Jun 27 16:28:55 2023
