@@ -111,7 +111,7 @@ screen tips():
 
 
 
-    hbox xalign 0.5 yalign 0.7 spacing 300:
+    hbox xalign 0.5 yalign 0.7 spacing 30: #300
 
         vbox yalign 0.5 spacing 30:
 
@@ -153,43 +153,50 @@ screen tips():
                 action Jump("scene2_1")
 
 
-
         vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Metodo Socratico"
+                tooltip "Larry esplode"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene3_0")
+                action Call("gk300")
             imagebutton:
-                tooltip "Metodo Socratico"
+                tooltip "Larry flashback"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("sc301")
+                action Call("gk301")
             imagebutton:
-                tooltip "Metodo Socratico"
+                tooltip "The aftermath"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("sc302")
+                action Call("gk302")
+        vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Metodo Socratico"
+                tooltip "Hanabi reveal"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("sc303")
+                action Call("gk303")
             imagebutton:
-                tooltip "Metodo Socratico"
+                tooltip "Metarivali true ending"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("scene3_3")
+                action Call("gk321")
+            imagebutton:
+                tooltip "Spiaggia dei frammenti"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Call("gk330")
 
 
 
@@ -205,3 +212,15 @@ screen tips():
 
 
 
+screen welcome_tsumi():
+    vbox xalign 0.5 yalign 0.5 spacing 50:
+        add "overlay/welcome.png"
+
+        text "Ch.6 Tsumihoroboshi":
+            outlines [(3, "#101010")]
+            size 100
+            color "#f37530"
+            xalign 0.5
+            font "static/yuminl.ttf"
+
+    timer 30.0 action Return()

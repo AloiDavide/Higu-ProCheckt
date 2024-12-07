@@ -1,4 +1,4 @@
-label scene3_3:
+label gk330:
     call hide_menu
     stop music fadeout 4
 
@@ -8,7 +8,7 @@ label scene3_3:
 
     pause 1
     scene spiaggiadeiframmenti with Dissolve(4)
-    "---sc330---"
+    "---scene 330 - Spiaggia dei Frammenti---"
 
     $persistent.nvl_no_bg = True
 

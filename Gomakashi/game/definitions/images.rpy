@@ -62,7 +62,7 @@ image swamp = im.Scale("bg/swamp.png", 1920, 1080)
 image monitor_room = im.Scale("bg/monitor_room.png", 1920, 1080)
 image tenjou = im.Scale("bg/tenjou.webp", 1920, 1080)
 image spiaggiadeiframmenti = im.Scale("bg/spiaggiadeiframmenti.png", 1920, 1080)
-
+image vs_screen = im.Scale("bg/vs_screen.jpg", 1920, 1080)
 
 
 #OVERLAYS
@@ -82,6 +82,8 @@ image taccuino_prop = "overlay/taccuino_prop.png"
 
 
 #FRAGMENTS
+image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)
+image tsumi_prop = im.Scale("frags/tsumi fragment alpha.png", 1920, 1080)
 image meakashi_frag = im.Scale("frags/meakashi fragment.png", 1920, 1080)
 image meakashi_prop = im.Scale("frags/meakashi fragment alpha.png", 1920, 1080)
 image hima_frag = im.Scale("frags/hima fragment.png", 1920, 1080)

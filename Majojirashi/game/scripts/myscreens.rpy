@@ -136,6 +136,7 @@ screen welcome_meakashi():
 
     timer 15.0 action Return()
 
+
 screen rule1():
     text "Da ora in poi Bernkastel e Check non si possono scambiare informazioni inerenti alla partita.":
             outlines [(2, "#101010")]
