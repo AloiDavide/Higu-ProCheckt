@@ -169,12 +169,19 @@ screen tips():
                 activate_sound "audio/sfx/stone slide magic.mp3"
                 action Call("gk301")
             imagebutton:
-                tooltip "The aftermath"
+                tooltip "Metarivali part 1"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk302")
+                action Call("gk320")
+            imagebutton:
+                tooltip "Crediti totalmente veri"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Call("credits")
         vbox yalign 0.5 spacing 30:
             imagebutton:
                 tooltip "Hanabi reveal"

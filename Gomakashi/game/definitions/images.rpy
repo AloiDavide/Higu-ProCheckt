@@ -63,7 +63,8 @@ image monitor_room = im.Scale("bg/monitor_room.png", 1920, 1080)
 image tenjou = im.Scale("bg/tenjou.webp", 1920, 1080)
 image spiaggiadeiframmenti = im.Scale("bg/spiaggiadeiframmenti.png", 1920, 1080)
 image vs_screen = im.Scale("bg/vs_screen.jpg", 1920, 1080)
-
+image church_wall = im.Scale("bg/church_wall.png", 1920, 1080)
+image darkso_church = im.Scale("bg/darkso_church.jpg", 1920, 1080)
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
