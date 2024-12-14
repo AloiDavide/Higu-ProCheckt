@@ -114,14 +114,14 @@ label gk300:
     la "Se c'è un prossimo mondo mi ringrazierà."
 
     show check:
-        easeout 0.8 xalign 0.3
+        easeout 0.7 xalign 0.4
     ck "ASPETTA LARRY!...{nw}"
 
 
     play sound "audio/sfx/BANG.ogg"
 
 
-    scene black with Dissolve(0.5)
+    scene black with Dissolve(0.4)
     stop music fadeout 10
 
     pause 7

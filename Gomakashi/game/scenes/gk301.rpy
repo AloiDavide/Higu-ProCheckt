@@ -1,9 +1,59 @@
+label gk302:
+    call hide_menu
+    "------------sc302 The aftermath-------------"
+
+    play sound "audio/sfx/BANG.ogg"
+    pause 1
+
+    play sound "audio/sfx/office.mp3" fadein 6 volume 0.8 loop
+    scene monitor_room with Dissolve(5)
+
+    play music "audio/higu/silver mirror.mp3" fadein 2
+
+
+    n "L'ultimo suono a uscire dall'altoparlante fu il botto di un esplosione, seguito da due messaggi di errore a schermo."
+
+    n "{color=#f00}{i}Errore canale audio:{/i} Segnale interrotto.{p}{color=#f00}{i}Errore geolocalizazione:{/i} Segnale interrotto."
+
+
+    anon "Assurdo."
+
+    anon "Avete visto?"
+
+    anon "Si è davvero fatto esplodere."
+
+    anon "E ora?"
+
+    n "Nello sgomento generale, l'attenzione di tutti si spostò verso la figura seduta davanti al monitor centrale, apparentemente l'unica persona ad accogliere la notizia senza stupore o preoccupazione."
+
+    oko_anon "Maggiore, io e i miei uomini andiamo a verificare lo stato del luogo dell'esplosione."
+
+    n "L'uomo dai capelli verde scuro, visibilmente agitato fu il primo a prendere l'iniziativa."
+
+    hb_anon "No, tu resta qua."
+
+    oko_anon "Signore, ci dobbiamo assicurare che non scoppi un incendio, sarebbe un incubo da infangare."
+
+    hb_anon "Ho detto resta qua. {w}Mi serve qualcuno che risponda alle chiamate in mia assenza.{p}{nw}"
+
+    play music "audio/higu/gallery of madness.mp3" volume 1.5
+    play sound "audio/sfx/zbiin.ogg"
+
+    extend "Vado io."
+
+    n "Lo sguardo del maggiore in quel momento ammutolì tutti i presenti."
+
+    n "Istintivamente sapevano che la calma che vedevano era come quella di una bomba mentre conta i secondi all'esplosione."
+
+    stop music fadeout 10
+
 label gk301:
     call hide_menu
 
     scene tenjou with Dissolve(5)
 
     "------------scene 301 The flashback-------------"
+#     show sepia onlayer overlayer
     play music "audio/higu/silence.mp3" fadein 3
     n "Un soffitto sconosciuto..."
 
@@ -74,6 +124,7 @@ label gk301:
 
     ck "Come ben sai, il BKG è una cellula antiterroristica paramilitare che gode di una certa autonomia, ma non si sostiene certamente da solo."
 
+    "Change the music"
     play music "audio/higu/lies lies.mp3" fadein 2
     scene war with fade
 
@@ -149,7 +200,7 @@ label gk301:
     n "\"{i}Oppure questa è un allucinazione che stai avendo in punto di morte.... {w}Non vedi che è troppo perfetto per essere vero?{/i}\" "
 
     show larry -tilt
-    n "Basta così. {w}Respingo quel presentimento in fondo alla palude da cui è uscito. {w}La verità è più semplice di così... {w}ho sbagliato, niente di nuovo per me."
+    n "Basta così. {w}Rinnego quel presentimento in fondo alla palude da cui è uscito. {w}La verità è più semplice di così... {w}ho sbagliato, niente di nuovo per me."
 
     n "Solo che questa volta....."
 
@@ -177,7 +228,6 @@ label gk301:
     te "Larry, comandante. A nome di quel che resta del BKG, ci scusiamo profondamente."
 
     show check smile -angry
-    play music "audio/higu/spinning seesaw.mp3"
     ck "Ecchediamine, non pensavo di essere un capo così antipatico. Ehehahaha."
 
     show larry direct
@@ -189,7 +239,16 @@ label gk301:
     ck "Ecco il piano....."
     show check with Fade(2,0.5,2)
 
-    te "È così fuori di testa che può funzionare."
+    te "...."
+
+    la "Mhhh...."
+
+#     play music "audio/higu/spinning seesaw.mp3"
+    play music "audio/higu/fearlessness.mp3"
+
+    te "È un'idea così fuori di testa che può funzionare."
+
+
 
     te "Quella trasmittente è il loro principale punto di contatto. In questo modo quanto meno perderanno le vostre tracce."
 
@@ -211,72 +270,20 @@ label gk301:
     show check sus
     extend "penserò all'esplosione."
 
-    stop music fadeout 10
-    scene black with Dissolve(5)
-
-
-label gk302:
-    call hide_menu
-    "------------sc302 The aftermath-------------"
-
-    play sound "audio/sfx/BANG.ogg"
-    pause 1
-
-    play sound "audio/sfx/office.mp3" fadein 6 volume 0.8 loop
-    scene monitor_room with Dissolve(5)
-
-    play music "audio/higu/silver mirror.mp3" fadein 2
-
-
-    n "L'ultimo suono a uscire dall'altoparlante fu il botto di un esplosione, seguito da due messaggi di errore a schermo."
-
-    n "{color=#f00}{i}Errore canale audio:{/i} Segnale interrotto.{p}{color=#f00}{i}Errore geolocalizazione:{/i} Segnale interrotto."
-
-
-    anon "Assurdo."
-
-    anon "Avete visto?"
-
-    anon "Si è davvero fatto esplodere."
-
-    anon "E ora?"
-
-    n "Nello sgomento generale, l'attenzione di tutti si spostò verso la figura seduta davanti al monitor centrale, apparentemente l'unica persona ad accogliere la notizia senza stupore o preoccupazione."
-
-    oko_anon "Maggiore, io e i miei uomini andiamo a verificare lo stato del luogo dell'esplosione."
-
-    n "L'uomo dai capelli verde scuro, visibilmente agitato fu il primo a prendere l'iniziativa."
-
-    hb_anon "No, tu resta qua."
-
-    oko_anon "Signore, ci dobbiamo assicurare che non scoppi un incendio, sarebbe un incubo da infangare."
-
-    hb_anon "Ho detto resta qua. {w}Mi serve qualcuno che risponda alle chiamate in mia assenza.{p}{nw}"
-
-    play music "audio/higu/gallery of madness.mp3" volume 1.5
-    play sound "audio/sfx/zbiin.ogg"
-
-    extend "Vado io."
-
-    n "Lo sguardo del maggiore in quel momento ammutolì tutti i presenti."
-
-    n "Istintivamente sapevano che la calma che vedevano era come quella di una bomba mentre conta i secondi all'esplosione."
-
-    stop music fadeout 10
+    "transizione migliore"
 
     scene koya with longFade
     show check plain at left
     show check fp yep at flip
     show larry direct yep at right
 
-    play music "audio/higu/dancers5.mp3" volume 1.5
 
     ck "Una performance degna di un oscar ragazzo mio. {w}Ora non resta che dare fuoco al nascondiglio per rallentare le loro indagini."
 
     la "Il merito è suo per avere ideato il piano."
 
     show larry smile
-    la "Le trasmittenti in dotazione al BKG saranno anche impermeabili e ignifughe, peccato che non sono anche a prova di martello!"
+    la "Le trasmittenti in dotazione al BKG saranno anche impermeabili e ignifughe, peccato che non siano anche a prova di martello!"
 
     show check smile
     ck "E con quell'effetto sonoro sparato ad alto volume nel microfono, dall'altro lato dev'essere sembrata un esplosione abbastanza convincente."

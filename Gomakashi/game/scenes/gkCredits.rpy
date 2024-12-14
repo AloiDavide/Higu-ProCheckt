@@ -11,26 +11,37 @@ Un gioco che cela una vile tortura
 Che ne era in realtà lo scopo celato
 """
 
-    $credits_verse = """La strega giocando col suo bel pupazzo, dai capelli blu e la figura sottile
+    $credits_verseA = """La strega giocando col suo bel pupazzo, dai capelli blu e la figura sottile
 Lo stringe, lo lancia, lo strappa in due parti, eppure, mistero, si rialza ogni volta
 Finche tutto a un tratto, decenni e più dopo, si desta e si inchina con fare civile
 Le parla e la fissa con grande sarcasmo, che sfidi la strega? Che folle! Che stolta!
-
+"""
+    $credits_verseB = """
 La donzella blu è in decisivo svantaggio, decide "non posso combatter da sola"
 Agguanta un detective da dentro un frammento, gli dice "Messere ho bisogno di aiuto"
 Il povero uomo con gran diligenza decide di dar la sua ferma parola
 Ma tutto l' impegno di quel vasto mare non riesce a celar che no, non è astuto
-
+"""
+    $credits_verseC = """
 La strega curiosa appoggia il suo sguardo sul tristo detective ormai in alto mare
 "Ma questo è un affronto alquanto sgarbato, lei ha un sottoposto ed io non ne ho alcuno?"
 Decide, abbisogna di un degno compagno, che subito si appresta a resuscitare
 Un uomo dannato, un uomo finito, dal tristo destino, terribile e bruno
-
+"""
+    $credits_verseD = """
 Processo, sentenza, sia dunque un duello!, Agente scadente e soldato spietato
 Che c'è poi da dire, qualcuno è sorpreso? in quale altro modo poteva finire?
 Sconfitta schiacciante, sconfitta esemplare, cioè il risultato atteso e scontato.
 Si chiede il detective che attende la fine, è questo il destino che devo soffrire?
 """
+
+    $credits_epilogue = """
+Ben prima del tutto, una povera bimba, richiede alla strega dal giallo colore
+"Vorrei che i miei sforzi abbian certo successo" La strega negli occhi ha un vivace brio
+"Qual è il tuo obiettivo" lei chiede, cercando una tregua da noia, ozio e tepore
+Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
+"""
+
 
     python:
         separator = "overlay/credits_separator.png"
@@ -57,7 +68,10 @@ Si chiede il detective che attende la fine, è questo il destino che devo soffri
     vbox xalign 0.5 spacing 10:
 
 
+        null height 250
 
+        add separator:
+            xalign 0.5
 
         textbutton credits_chorusA:
             xalign 0.5
@@ -70,9 +84,21 @@ Si chiede il detective che attende la fine, è questo il destino che devo soffri
         add separator:
             xalign 0.5
 
-        textbutton credits_verse:
+        textbutton credits_verseA:
             xalign 0.5
             text_style "credits_green"
+
+        textbutton credits_verseB:
+            xalign 0.5
+            text_style "credits_orange"
+
+        textbutton credits_verseC:
+            xalign 0.5
+            text_style "credits_green"
+
+        textbutton credits_verseD:
+            xalign 0.5
+            text_style "credits_orange"
 
         add separator:
             xalign 0.5
@@ -85,7 +111,7 @@ Si chiede il detective che attende la fine, è questo il destino che devo soffri
             xalign 0.5
             text_style "credits_green"
 
-        null height 400
+        null height 250
 
         add "gui/HiguLogo.png":
             xalign 0.5
@@ -123,8 +149,17 @@ Si chiede il detective che attende la fine, è questo il destino che devo soffri
 
             null height 50
 
-        null height 100
-        text "FINE...":
+        add separator:
+            xalign 0.5
+
+        textbutton credits_epilogue:
+            xalign 0.5
+            text_style "credits_green"
+
+        add separator:
+            xalign 0.5
+
+        text "FINE DEL GIOCO":
             xalign 0.5
             textalign 0.5
             size 60
@@ -145,23 +180,26 @@ label credits_scene:
 
 
 
-    play music "audio/umi/black liliana.mp3"
-
+#     play music "audio/umi/black liliana.mp3"
+    play music "audio/umi/bring the fate.mp3" volume 1.3
 
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
     show screen credits onlayer overlayer
 
-    $scroll_duration = 230
+    $scroll_duration = 300
+    #circa 300
 
     camera overlayer:
         ypos 1080
-        linear scroll_duration ypos -5*1080
+        linear scroll_duration ypos -5*1080 -300
 
     $ _skipping = False
     $renpy.pause(scroll_duration, hard=True)
 
     hide screen credits
     $ _skipping = True
-    "STOP CREDITS"
+    "STOP CREDITS con risata e aggiungi autori poesia e trova un fine migliore. Rivedi velocità per coincidere con la musica."
+
+    "Actually put fine as a show after the screen ends. then they click and it becomes ...? "
 
     return
