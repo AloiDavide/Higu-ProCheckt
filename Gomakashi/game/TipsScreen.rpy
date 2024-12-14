@@ -181,7 +181,7 @@ screen tips():
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("credits")
+                action Call("credits_scene")
         vbox yalign 0.5 spacing 30:
             imagebutton:
                 tooltip "Hanabi reveal"

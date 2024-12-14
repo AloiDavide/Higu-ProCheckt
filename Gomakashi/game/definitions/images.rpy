@@ -66,6 +66,7 @@ image vs_screen = im.Scale("bg/vs_screen.jpg", 1920, 1080)
 image church_wall = im.Scale("bg/church_wall.png", 1920, 1080)
 image darkso_church = im.Scale("bg/darkso_church.jpg", 1920, 1080)
 
+
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
 image welcome = im.Scale("overlay/welcome.png", 1920, 1080)
@@ -194,3 +195,19 @@ image forest_running:
     xalign 1.0
     linear 1.5 xalign 0.0
     repeat
+
+image credits_background:
+    im.Scale("bg/sky_frag_double.png", 1920, 2160)
+    xzoom 1
+    yalign 0.0
+    linear 60 yalign 1.0
+
+    xzoom -1
+    yalign 0.0
+    linear 60 yalign 1.0
+
+
+    repeat
+
+
+

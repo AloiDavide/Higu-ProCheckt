@@ -30,4 +30,4 @@ define ltk = Character(None, what_style = "codec", window_background="gui/frame_
 define lan = Character("", kind=nvl, who_color = "#fad861", what_style= "notes_dialogue", who_style = "border")
 define bernn = Character("", kind=nvl, who_color = "#fad861", what_style= "beach_text", who_style = "border")
 
-define novel = Character("", kind=nvl, who_color = "#fad861", who_style = "border")
+define credits = Character("", kind=nvl, who_color = "#fad861", what_style="credits_style", who_style = "border", what_slow_cps=50)

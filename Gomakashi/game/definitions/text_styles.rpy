@@ -30,6 +30,24 @@ init:
             outlines [(2, "#000", 1,1)]
             font "static/Caveat-Regular.ttf"
 
+    style credits_green is text:
+            size 45
+            xalign 0.5
+            ymaximum 1000
+            textalign 0.5
+            color "#fff"
+            outlines [(2, "#00b83b", 1,1)]
+            font "static/Caveat-Regular.ttf"
+    style credits_orange is text:
+            size 45
+            xalign 0.5
+            ymaximum 1000
+            textalign 0.5
+            color "#fff"
+            outlines [(2, "#f37530", 1,1)]
+            font "static/Caveat-Regular.ttf"
+#     green 00b83b
+#     orange f37530
     style beach_text is text:
             size 45
             xpos 180
@@ -40,6 +58,12 @@ init:
             xmaximum 1200
             outlines [(4, "#000", 1,1)]
             font "static/Caveat-Regular.ttf"
+
+    style roles is text:
+            textalign 0.5
+            size 30
+            font "static/Caveat-Regular.ttf"
+
 
     style wideN is text:
             size 35
