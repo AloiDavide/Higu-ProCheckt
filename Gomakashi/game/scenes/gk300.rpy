@@ -65,6 +65,11 @@ label gk300:
 
     la "Ho fatto qualche modifica all'attrezzatura a sua insaputa. {w}Alla pressione di questo bottone posso causare un cortocircuito abbastanza potente da far saltare in aria questa baracca."
 
+    show check:
+        linear 0.5 left
+    show larry:
+        linear 0.5 right
+
     ck "Sapevo che eri un idiota, ma questa volta l'hai fatta grossa. {w}Ti aspetti che ti creda? Non vedi che così morirai anche tu?"
 
     play sound "audio/sfx/wake up.ogg" volume 1.5
@@ -105,18 +110,14 @@ label gk300:
     la "Possiamo farla finita quì ed evitare ulteriori tragedie. Questa è la nostra unica salvezza."
 
 
-    show check:
-        linear 0.5 left
-    show larry:
-        linear 0.5 right
 
     ck "VIA LE MANI DA QUEL PULSANTE!"
 
     la "Se c'è un prossimo mondo mi ringrazierà."
 
     show check:
-        easeout 0.7 xalign 0.4
-    ck "ASPETTA LARRY!...{nw}"
+        easeout 0.7 xalign 0.6
+    ck "FERMOOO!...{nw}"
 
 
     play sound "audio/sfx/BANG.ogg"

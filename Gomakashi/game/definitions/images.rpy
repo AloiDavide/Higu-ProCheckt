@@ -43,6 +43,7 @@ image basement2 = im.Scale("bg/basement2.png", 1920, 1080)
 image dam = im.Scale("bg/dam.png", 1920, 1080)
 image forest_path = im.Scale("bg/forest path.webp", 1920, 1080)
 image torakku = im.Scale("bg/torakku.png", 1920, 1080)
+image torakku_grayscale = im.Grayscale("bg/torakku.png")
 image koya = im.Scale("bg/koya.png", 1920, 1080)
 image clinic_room = im.Scale("bg/clinic room.png", 1920, 1080)
 image clinic_back = im.Scale("bg/clinic_back.webp", 1920, 1080)
@@ -81,7 +82,7 @@ image witness_table = im.Scale("overlay/witness table.png", 1920, 1080)
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
 image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 image taccuino_prop = "overlay/taccuino_prop.png"
-
+image you_died = "overlay/you_died.png"
 
 #FRAGMENTS
 image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)

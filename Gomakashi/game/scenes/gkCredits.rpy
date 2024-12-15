@@ -120,11 +120,11 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
         add separator:
             xalign 0.5
 
-        textbutton "~ La strega dei cifrari":
+        textbutton "~ La strega di boh":
             xalign 1.0
             text_style "credits_orange"
 
-        textbutton "~ La strega degli schemi":
+        textbutton "~ La strega di boh":
             xalign 1.0
             text_style "credits_green"
 
