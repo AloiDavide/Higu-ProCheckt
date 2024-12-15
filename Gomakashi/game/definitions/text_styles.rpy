@@ -30,6 +30,14 @@ init:
             outlines [(2, "#000", 1,1)]
             font "static/Caveat-Regular.ttf"
 
+    style credits_normal is text:
+            size 45
+            xalign 0.5
+            ymaximum 1000
+            textalign 0.5
+            color "#000"
+            outlines [(2, "#fff", 0,0)]
+            font "static/Caveat-Regular.ttf"
     style credits_green is text:
             size 45
             xalign 0.5

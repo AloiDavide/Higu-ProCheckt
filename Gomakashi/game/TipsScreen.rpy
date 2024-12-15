@@ -10,7 +10,7 @@
 default persistent.first = False
 default persistent.second = False
 default persistent.third = False
-default persistent.notes = False
+default persistent.notes = True
 
 screen curtains():
     frame:

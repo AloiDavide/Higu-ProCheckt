@@ -1,5 +1,6 @@
 label gk300:
     call hide_menu
+
     stop music fadeout 4
 
     play music("audio/sfx/cicadas.ogg") fadein 4

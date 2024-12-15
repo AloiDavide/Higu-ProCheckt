@@ -1,4 +1,4 @@
-screen credits():
+screen credits(scroll_duration):
     $credits_chorusA = """C' era un detective assai altisonante
 Dal tono di voce molto squillante
 Con fibra morale assai resistente
@@ -35,16 +35,23 @@ Sconfitta schiacciante, sconfitta esemplare, cioè il risultato atteso e scontat
 Si chiede il detective che attende la fine, è questo il destino che devo soffrire?
 """
 
-    $credits_epilogue = """
+    $credits_epilogueA = """
 Ben prima del tutto, una povera bimba, richiede alla strega dal giallo colore
 "Vorrei che i miei sforzi abbian certo successo" La strega negli occhi ha un vivace brio
 "Qual è il tuo obiettivo" lei chiede, cercando una tregua da noia, ozio e tepore
 Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
 """
 
+    $credits_epilogueB = """
+Il principio di tutto fu una povera bimba, per cui una strega provò simpatia
+"Vorrei la certezza che con i miei sforzi io possa renderere il destino mio."
+"Qual è il tuo obiettivo?" le chiese la strega, cercando una tregua dalla monotonia
+Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
+"""
+
 
     python:
-        separator = "overlay/credits_separator.png"
+        separator = im.FactorScale("overlay/credits_separator.png", 0.70)
 
         roles = {
             "CONCEPT" : ["Crunter", "HounDogs"],
@@ -59,7 +66,6 @@ Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
             "GAME ENGINE" : ["Ren'Py"],
             "STORIA ORIGINALE" : ["Ryuukishi07"],
             "ISPIRAZIONE" : ["Check", "Hanabi"],
-            "STREGHE" : ["Crunter", "HounDogs"],
             "DETECTIVE" : ["Check"]
         }
 
@@ -111,7 +117,18 @@ Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
             xalign 0.5
             text_style "credits_green"
 
-        null height 250
+        add separator:
+            xalign 0.5
+
+        textbutton "~ La strega dei cifrari":
+            xalign 1.0
+            text_style "credits_orange"
+
+        textbutton "~ La strega degli schemi":
+            xalign 1.0
+            text_style "credits_green"
+
+        null height 300
 
         add "gui/HiguLogo.png":
             xalign 0.5
@@ -152,19 +169,12 @@ Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
         add separator:
             xalign 0.5
 
-        textbutton credits_epilogue:
+        textbutton credits_epilogueB:
             xalign 0.5
-            text_style "credits_green"
+            text_style "credits_normal"
 
         add separator:
             xalign 0.5
-
-        text "FINE DEL GIOCO":
-            xalign 0.5
-            textalign 0.5
-            size 60
-            font "static/Caveat-Regular.ttf"
-
 
 
 label credits_scene:
@@ -184,22 +194,94 @@ label credits_scene:
     play music "audio/umi/bring the fate.mp3" volume 1.3
 
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
-    show screen credits onlayer overlayer
+
 
     $scroll_duration = 300
+    $stop_point = -5*1080 -800
     #circa 300
 
+    $ persistent.notes = False
+    $ quick_menu = False
+    $ _skipping = False
+
+    show screen credits(scroll_duration) onlayer overlayer
+
+    #scroll credits
     camera overlayer:
         ypos 1080
-        linear scroll_duration ypos -5*1080 -300
+        linear scroll_duration ypos stop_point
 
-    $ _skipping = False
+
     $renpy.pause(scroll_duration, hard=True)
 
-    hide screen credits
-    $ _skipping = True
-    "STOP CREDITS con risata e aggiungi autori poesia e trova un fine migliore. Rivedi velocità per coincidere con la musica."
+    "STOP CREDITS"
+    window hide
 
-    "Actually put fine as a show after the screen ends. then they click and it becomes ...? "
+    $ persistent.notes = True
+    $ quick_menu = True
+    $ _skipping = True
+
+    camera overlayer:
+        yalign 0.5
+        xalign 0.5
+    hide credits onlayer overlayer
+
+    show screen fine onlayer overlayer with dissolve
+
+    pause
+
+
+    hide screen fine onlayer overlayer
+    play sound "audio/sfx/laugh.mp3"
+    show screen fine2 onlayer overlayer
+    with squares
+
+    pause 2
+
+
+
+
+    camera overlayer:
+        zoom 1
+        easeout_expo 2.5 zoom 400
+
+    pause 2
+    hide screen fine2 onlayer overlayer
+
+
+
+    show meakashi_prop onlayer overlayer:
+        align (0.5, 0.5)
+        zoom 0.0025
+        easeout_expo 3.5 zoom 3.5
+
+    pause 3
+
+    scene hinamizawa onlayer overlayer
+    camera overlayer:
+        zoom 1
+
+    with Dissolve(1.5)
+
+    jump gk301
+
+
 
     return
+
+
+screen fine:
+    text "FINE DEL GIOCO":
+        xalign 0.5
+        yalign 0.5
+        textalign 0.5
+        size 60
+        font "static/Caveat-SemiBold.ttf"
+
+screen fine2:
+    text "FINE DEL GIOCO.......?":
+        xalign 0.5
+        yalign 0.5
+        textalign 0.5
+        size 60
+        font "static/Caveat-SemiBold.ttf"

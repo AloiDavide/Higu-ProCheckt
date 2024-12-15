@@ -4,6 +4,14 @@ label gk320:
     scene sky_frag
     show check sor p angry nope
     play music "audio/umi/red dread.mp3"
+    "Esce dalla esplosione di Larry e Check e hanabi lo percula."
+
+    hb "Se non sbaglio questa è la terza volta di fila che il tuo assistente va fuori di testa con te completamente allo scuro."
+
+    hb "Che c'è? Ti sei circondato di gente ancora più incapace di te per sentirti meno sdatto? {w}Se questo è il livello medio del BKG, non serviva neanche un complotto per tirarlo giù."
+
+    ck "Silenzio! Anche se di me puoi dire quello che vuoi non hai il diritto di criticare i miei sottoposti."
+
     hb "Check... questa è una totale sconfitta!"
 
     window hide

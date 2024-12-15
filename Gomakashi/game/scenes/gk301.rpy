@@ -1,12 +1,15 @@
-label gk302:
+label gk301:
     call hide_menu
-    "------------sc302 The aftermath-------------"
 
+    stop music fadeout 3
+    hide hinamizawa
+    scene monitor_room
+    with longFade
+    "------------sc301 The aftermath-------------"
     play sound "audio/sfx/BANG.ogg"
     pause 1
 
     play sound "audio/sfx/office.mp3" fadein 6 volume 0.8 loop
-    scene monitor_room with Dissolve(5)
 
     play music "audio/higu/silver mirror.mp3" fadein 2
 
@@ -47,13 +50,16 @@ label gk302:
 
     stop music fadeout 10
 
-label gk301:
+label gk302:
     call hide_menu
 
     scene tenjou with Dissolve(5)
 
-    "------------scene 301 The flashback-------------"
-#     show sepia onlayer overlayer
+    "------------scene 302 The flashback-------------"
+    show sepia onlayer overlayer at truecenter:
+        zoom 1.2
+        alpha 0.5
+
     play music "audio/higu/silence.mp3" fadein 3
     n "Un soffitto sconosciuto..."
 
@@ -96,6 +102,7 @@ label gk301:
     show check plain at left
     show check fp at flip
     show larry direct nope at right
+    hide sepia onlayer overlayer
     with longFade
 
 
@@ -169,6 +176,7 @@ label gk301:
         ease 1 offscreenleft
     pause 1.5
 
+    "maybe this song starts earlier"
     play music "audio/higu/words of atonement.mp3" fadein 3
     show larry tilt with Dissolve(0.01)
     show red:
