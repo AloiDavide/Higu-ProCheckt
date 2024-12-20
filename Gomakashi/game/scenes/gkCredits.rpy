@@ -169,7 +169,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
         add separator:
             xalign 0.5
 
-        textbutton credits_epilogueB:
+        textbutton credits_epilogueA:
             xalign 0.5
             text_style "credits_normal"
 

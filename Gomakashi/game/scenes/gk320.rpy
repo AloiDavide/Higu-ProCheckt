@@ -203,7 +203,6 @@ label gk320:
     hb "Tutte le tue teorie su complotti di Rika, Rena, Satoko, misteriose organizazioni varie, si sono rivelate completamente, completamente prive di fondamento!"
 
 
-
     jump gk330
     return
 

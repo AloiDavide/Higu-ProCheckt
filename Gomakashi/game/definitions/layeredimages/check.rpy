@@ -25,6 +25,12 @@ init:
                 "sprites/ck/eyes/think.png"
             attribute direct:
                 "sprites/ck/eyes/direct.png"
+            attribute kind:
+                "sprites/ck/eyes/kind.png"
+            attribute kindirect:
+                "sprites/ck/eyes/kindirect.png"
+            attribute fire:
+                "sprites/ck/eyes/fire.png"
 
         attribute shades if_any ["sor", "objection"] default:
             "sprites/ck/round_shades.png"
@@ -59,10 +65,12 @@ init:
             attribute nope:
                 "sprites/ck/mouths/nope0.png"
             attribute smile:
-                "sprites/ck/mouths/smile2.png"
+                "sprites/ck/mouths/smile0.png"
             attribute worried:
                 "sprites/ck/mouths/worried0.png"
             attribute shout:
+                "sprites/ck/mouths/worried0.png"
+            attribute shoutest:
                 "sprites/ck/mouths/worried0.png"
 
             attribute yep_talk:
@@ -75,6 +83,8 @@ init:
                 "worried_talk"
             attribute shout_talk:
                 "shout_talk"
+            attribute shoutest_talk:
+                "shoutest_talk"
 
 
     image yep_talk:
@@ -106,8 +116,15 @@ init:
         repeat
 
     image shout_talk:
-        "sprites/ck/mouths/shout1.png"
+        "sprites/ck/mouths/nope2.png"
         .2
         "sprites/ck/mouths/shout2.png"
+        .2
+        repeat
+
+    image shoutest_talk:
+        "sprites/ck/mouths/shout2.png"
+        .2
+        "sprites/ck/mouths/shout3.png"
         .2
         repeat
