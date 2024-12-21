@@ -83,6 +83,7 @@ image debris = im.Scale("overlay/debris.png", 1920, 1080)
 image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 image taccuino_prop = "overlay/taccuino_prop.png"
 image you_died = "overlay/you_died.png"
+image disintegrate = "overlay/disintegrate.png"
 
 #FRAGMENTS
 image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)

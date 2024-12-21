@@ -70,11 +70,10 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
         }
 
 
-
     vbox xalign 0.5 spacing 10:
 
 
-        null height 250
+        null height 100
 
         add separator:
             xalign 0.5
@@ -128,7 +127,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
             xalign 1.0
             text_style "credits_green"
 
-        null height 300
+        null height 320
 
         add "gui/HiguLogo.png":
             xalign 0.5
@@ -188,10 +187,15 @@ label credits_scene:
     scene credits_background with fade
 #     scene vortex with fade
 
-
-
-#     play music "audio/umi/black liliana.mp3"
+#     play music "audio/umi/fighy aroma.mp3"
+#     play music "audio/umi/black liliana.mp3" # the best
+#     play music "audio/umi/happy maria.mp3" # the best for poem
+#     play music "audio/umi/melody.mp3"
     play music "audio/umi/bring the fate.mp3" volume 1.3
+
+# Happy maria coming from Lambdadelta doing her final taunt
+# Into black liliana when the credits credit
+# Black liliana swella nel momento in cui esce l'ultima poesia
 
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 

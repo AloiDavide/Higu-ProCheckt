@@ -86,6 +86,15 @@ init:
             attribute shoutest_talk:
                 "shoutest_talk"
 
+        attribute t1:
+            "sprites/ck/target1.png"
+        attribute t2:
+            "sprites/ck/target2.png"
+        attribute t3:
+            "sprites/ck/target3.png"
+        attribute t4:
+            "sprites/ck/target4.png"
+
 
     image yep_talk:
         "sprites/ck/mouths/yep1.png"
