@@ -21,7 +21,7 @@ Sembra strano ma questa è la verità.
 
 {clear}
 
-Questo fenomeno ha un nome: "Isole fantasma"
+Questo fenomeno ha un nome: "Isole fantasma".
 
 Isole che per secoli sono state copiate nelle mappe, che si sono poi scoperte essere null'altro che un errore di un disattento sciagurato perdutosi in mare{w}, di un opportunista che voleva imbellire le cronache del suo viaggio rivelatosi inutile{w}, di un marinaio ubriaco che non sarebbe dovuto essere di vedetta quel giorno.
 
@@ -81,7 +81,7 @@ Ho iniziato a leggere tutti i libri della biblioteca.
 {clear}
 
 Con il tempo ho persino dimenticato.{p}
-L'unico modo che ancora mi rimane per scrutare nel mio più lontano passato è consultare questo frammento, ma anche dopo tanto tempo non mi ha detto nulla di nuovo..
+L'unico modo che ancora mi rimane per scrutare nel mio più lontano passato è consultare questo frammento, ma anche dopo tanto tempo non mi ha detto nulla di nuovo...
 
 Ormai quei giorni sono troppo diluiti nella mia memoria, troppo simili a loro stessi.
 
@@ -172,7 +172,7 @@ Il mio carceriere... è lei.
 
     ld "Non manca moltissimo. Tra non molto le preparazione saranno complete."
     bk "Bene, hai preparato qualcosa di perfettamente crudele immagino. Chi sarà stavolta la vittima della maledizione di Oyashiro-sama?"
-    ld "Parli come se fosse colpa mia, ma d'altronde fanno tutto da soli giusto?"
+    ld "Parli come se fosse colpa mia, ormai dovresti avere almeno abbastanza prospettiva per sapere quale è il mio ruolo."
     bk "Che tecnicalità..."
     ld "Chiunque io abbia scelto, non importa. Qualcuno vedrà gli occhi."
     ld "Ti aspetto, vedi di non fare tardi."

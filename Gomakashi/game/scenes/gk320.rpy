@@ -106,15 +106,15 @@ label gk320:
     with purple_flash
 
     ck "Non ancora... non è ancora finita..."
-    ck "Non posso arrendermi ora... non posso perdere ora"
+    ck "Non posso arrendermi ora... non posso perdere ora."
 
     show hnb fist devil
     hb "Se non riesci ancora ad accettare la realtà ti aiuterò io..."
 
     hb "Ripercorrendo tutti i tuoi più grandi errori nel corso di questo gioco!"
 
-    play sound "audio/sfx/truth.mp3"
-    hb "{color=#f00}ERRORE 1!{/color}"
+    play sound "audio/sfx/doon.mp3"
+    hb "ERRORE 1!"
     play sound "audio/sfx/teleport.wav"
     show sisters onlayer underlayer:
         zoom 0.5
@@ -145,10 +145,10 @@ label gk320:
 
     hb "È la prova del tuo errore! E non sarà l'ultima!"
 
-    play sound "audio/sfx/truth.mp3"
-    hb "{color=#f00}ERRORE 2!{/color}"
+    play sound "audio/sfx/doon.mp3"
+    hb "ERRORE 2!"
     play sound "audio/sfx/teleport.wav"
-    show rena_shion onlayer underlayer:
+    show mion_doll onlayer underlayer:
         zoom 0.5
         xalign 0.5
         yalign 0.3
@@ -171,7 +171,7 @@ label gk320:
 
     show check think worried
     call break_image
-    hide rena_shion
+    hide mion_doll
     hide frag_overlay
     with ImageDissolve(im.Scale("overlay/disintegrate.png", 1920, 1080), 1.5)
     ck "Gaahhr!"
@@ -181,8 +181,8 @@ label gk320:
     hb "Mion, Rika, Rena, Satoshi...{w} con i leader del villaggio scaggionati non puoi più dire che sono stati educati dall'infanzia credere alla maledizione!"
     hb "Il che ci porta a...."
 
-    play sound "audio/sfx/truth.mp3"
-    hb "{color=#f00}ERRORE 3!{/color}"
+    play sound "audio/sfx/doon.mp3"
+    hb "ERRORE 3!"
     play sound "audio/sfx/teleport.wav"
     show mion_jumpscare onlayer underlayer:
         zoom 0.5
@@ -294,8 +294,8 @@ label gk320:
     show hnb devil fury
 
 
-    play sound "audio/sfx/truth.mp3"
-    hb "E adesso sarà rivelato il tuo ultimo e più grande {color=#f00}ERRORE!!!{/color}"
+    play sound "audio/sfx/doon.mp3"
+    hb "E adesso sarà rivelato il tuo ultimo e più grande ERRORE!!!"
     camera:
         xalign 0.55
         yalign 0.15
@@ -303,6 +303,18 @@ label gk320:
     hb "Avere pensato per un solo momento di potercela fare. {p}HANANANANANANANANNAANANANNANAANANANANANANANANANANANANANNANANA"
 
     hb "Hai un minuto di tempo per dire le tue ultime preghiere. {w}Fallo contare."
+
+    hb "Sorelle.... FUOCO!"
+
+    camera at Shake((0, 0, 0, 0), 20.0, dist=3)
+    show organtank with dissolve
+
+    pause 2
+    show missile_swarm with pushdown
+
+    n "E fu così che con un frastuono assordante e una luce abbagliante, una pioggia di missili si levò verso il cielo per poi dirigersi sull'ormai inerme Check."
+
+
     stop music fadeout 3
 
     scene darkso_church
@@ -328,11 +340,11 @@ label gk320:
 
 Mi ahi scelto come tuo campione, come tua carta vincente, mi hai mostrato il mare dei frammenti e fatto scoprire il potere che avevo ottenuto da esso.
 
-E io non oh saputo darti altro che sconfitta e umiliazione.
+E io non ho saputo darti altro che sconfitta e umiliazione.
 
 Se per qualche miracolo mi dovessi salvare farò qualsiasi cosa per sdebitarmi.
 
-Grazie di tutto Bern...e scusami per la mia debolezza
+Grazie di tutto Bern...e scusami per la mia debolezza.
 """
 
     show check angry smile
@@ -340,8 +352,8 @@ Grazie di tutto Bern...e scusami per la mia debolezza
 
     ck "So che mi odi per le scelte che ho fatto, ma sappi che non mi è dispiaciuto confrontarmi ancora una volta con te."
 
-    ck "Sono pronto....... FAI DEL TUO PEGGIO!"
-
+    ck "Sono pronto!!!!"
+    "schermo bianco, esplosione suono"
     camera:
         xalign 0.5
         yalign 0.5
@@ -350,15 +362,7 @@ Grazie di tutto Bern...e scusami per la mia debolezza
     show organ
     show hnb nope fury
     with Dissolve(2)
-    hb "Sorelle.... FUOCO!"
 
-    camera at Shake((0, 0, 0, 0), 20.0, dist=3)
-    show organtank with dissolve
-
-    pause 2
-    show missile_swarm with pushdown
-
-    n "E fu così che con un frastuono assordante e una luce abbagliante, una pioggia di missili si levò verso il cielo e si abbattè sull'ormai inerme Check."
 
     n "Così come della chiesa non rimase che un cumulo di macerie e cenere. Anche le ambizioni di quell'uomo furono ridotte a niente più che una colonna di fumo nell'aria."
 

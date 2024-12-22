@@ -60,14 +60,15 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
             "IMPLEMENTAZIONE" : ["HounDogs"],
             "REVISIONI" : ["Crunter"],
             "CHARACTER DESIGN" : ["Alice"],
-            "ASSET ORIGINALI" : ["Alice"],
-            "ASSET NON ORIGINALI" : ["07th expansion"],
+            "ASSET ORIGINALI" : ["Alice", "HounDogs"],
             "ADATTAMENTO ASSET" : ["HounDogs"],
             "GAME ENGINE" : ["Ren'Py"],
             "STORIA ORIGINALE" : ["Ryuukishi07"],
-            "ISPIRAZIONE" : ["Check", "Hanabi"],
-            "DETECTIVE" : ["Check"]
+            "ISPIRAZIONE E TEORIE" : ["Check"],
+            "SUPPORTO MORALE" : ["Hanabi"]
         }
+
+        characters ["Check", "Hanabi", "Larry", "Terry", "Bernkastel", "Lambdadelta", "Comandante Lambdadelta"]
 
 
     vbox xalign 0.5 spacing 10:
@@ -199,7 +200,7 @@ label credits_scene:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 370
+    $scroll_duration = 350
     $stop_point = -5*1080 -420
     #circa 300
 
@@ -216,7 +217,6 @@ label credits_scene:
 
 
     $renpy.pause(scroll_duration, hard=True)
-    "stop"
 
     window hide
 
@@ -274,7 +274,7 @@ label credits_scene:
 
 
 screen fine:
-    text "FINE DEL GIOCO":
+    text "FINE":
         xalign 0.5
         yalign 0.5
         textalign 0.5
@@ -282,7 +282,7 @@ screen fine:
         font "static/Caveat-SemiBold.ttf"
 
 screen fine2:
-    text "FINE DEL GIOCO.......?":
+    text "FINE.......?":
         xalign 0.5
         yalign 0.5
         textalign 0.5

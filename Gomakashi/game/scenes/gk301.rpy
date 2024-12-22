@@ -21,7 +21,7 @@ label gk301:
 
     anon "Assurdo."
 
-    anon "Avete visto?"
+    anon "Avete sentito?"
 
     anon "Si è davvero fatto esplodere."
 
