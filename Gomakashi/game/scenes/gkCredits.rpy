@@ -199,7 +199,7 @@ label credits_scene:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 370
+    $scroll_duration = 3#370
     $stop_point = -5*1080 -420
     #circa 300
 
@@ -216,7 +216,7 @@ label credits_scene:
 
 
     $renpy.pause(scroll_duration, hard=True)
-
+    "stop"
 
     window hide
 
@@ -253,13 +253,13 @@ label credits_scene:
 
 
 
-    show meakashi_prop onlayer overlayer:
+    show meakashi_prop onlayer notes_layer:
         align (0.5, 0.5)
         zoom 0.0025
-        easeout_expo 3.5 zoom 3.5
+        easeout_expo 3.5 zoom 2.5
 
     pause 3
-
+    hide meakashi_prop onlayer notes_layer
     scene hinamizawa onlayer overlayer
     camera overlayer:
         zoom 1
