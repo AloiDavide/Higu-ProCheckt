@@ -199,7 +199,7 @@ label credits_scene:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 3#370
+    $scroll_duration = 370
     $stop_point = -5*1080 -420
     #circa 300
 
