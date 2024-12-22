@@ -73,7 +73,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
     vbox xalign 0.5 spacing 10:
 
 
-        null height 100
+        null height 530
 
         add separator:
             xalign 0.5
@@ -119,15 +119,15 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
         add separator:
             xalign 0.5
 
-        textbutton "~ La strega di boh":
-            xalign 1.0
-            text_style "credits_orange"
+#         textbutton "~ La strega di boh":
+#             xalign 1.0
+#             text_style "credits_orange"
+#
+#         textbutton "~ La strega di boh":
+#             xalign 1.0
+#             text_style "credits_green"
 
-        textbutton "~ La strega di boh":
-            xalign 1.0
-            text_style "credits_green"
-
-        null height 320
+        null height 500
 
         add "gui/HiguLogo.png":
             xalign 0.5
@@ -178,20 +178,19 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
 
 label credits_scene:
     call hide_menu
-    "Check is dead, slowly fade to black"
-
+    scene black
     camera:
         zoom 1.01
         xalign 0.5
 
-    scene credits_background with fade
+    scene credits_background with Dissolve(3)
 #     scene vortex with fade
 
 #     play music "audio/umi/fighy aroma.mp3"
 #     play music "audio/umi/black liliana.mp3" # the best
-#     play music "audio/umi/happy maria.mp3" # the best for poem
+    play music ["audio/umi/happy maria.mp3", "<silence 4>", "audio/umi/black liliana.mp3"] # the best for poem
 #     play music "audio/umi/melody.mp3"
-    play music "audio/umi/bring the fate.mp3" volume 1.3
+#     play music "audio/umi/bring the fate.mp3" volume 1.3
 
 # Happy maria coming from Lambdadelta doing her final taunt
 # Into black liliana when the credits credit
@@ -200,8 +199,8 @@ label credits_scene:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 300
-    $stop_point = -5*1080 -800
+    $scroll_duration = 370
+    $stop_point = -5*1080 -420
     #circa 300
 
     $ persistent.notes = False
@@ -218,7 +217,7 @@ label credits_scene:
 
     $renpy.pause(scroll_duration, hard=True)
 
-    "STOP CREDITS"
+
     window hide
 
     $ persistent.notes = True

@@ -130,7 +130,6 @@ label gk320:
 
     hb "Eppure era così ovvio! I gemelli che si scambiano sono uno dei clichè più vecchi!"
 
-
     call break_image
 
     hide sisters
@@ -161,22 +160,25 @@ label gk320:
     hb "Ricordo bene come all'inizio eri sicuro di trovare la soluzione seguendo la pista di Mion."
     hb "Ti sei lasciato influenzare dalle teorie del complotto di Shion, e hai continuato a credere che fossero le tre famiglie a tirare le fila della maledizione. {w}Anche quando perfino sotto tortura, Mion e il sindaco si sono dichiarati innocenti."
 
-    hb "E tutte quelle storie sull'indottrinamento del villaggio? {w}Mion, Rika, Rena, Satoshi... Non puoi più dire che sono stati educat per credere alla maledizione!"
-
+    hb "Sospettando la persona più innocente di tutti, Mion Sonozaki"
     show hnb close
-    hb "Dopotutto la confessione che hai visto era soltanto Shion che cercava disperatamente di giustificare le sue azioni. Ma lei a Hinamizawa non metteva piede da anni!"
+    hb "Anche la confessione con cui ti sei difeso all'inizio era soltanto lei che cercava disperatamente di giustificare le sue azioni."
 
     show hnb fury fist
     hb "Era la fantasia di una pazza assassina, non la verità!"
+
+
 
     show check think worried
     call break_image
     hide rena_shion
     hide frag_overlay
     with ImageDissolve(im.Scale("overlay/disintegrate.png", 1920, 1080), 1.5)
+    ck "Gaahhr!"
     show check angry t2 with dissolve
 
-
+    hb "Ricordi tutte quelle teorie sull'indottrinamento del villaggio che erano il tuo cavallo di battaglia?"
+    hb "Mion, Rika, Rena, Satoshi...{w} con i leader del villaggio scaggionati non puoi più dire che sono stati educati dall'infanzia credere alla maledizione!"
     hb "Il che ci porta a...."
 
     play sound "audio/sfx/truth.mp3"
@@ -188,11 +190,15 @@ label gk320:
         yalign 0.3
     with purple_flash
 
-    hb "Hai di nuovo fallito nell'individuare la causa della maledizione!"
+    show hnb evilgrin -fist
+    hb "Hai di nuovo fallito nello spiegare la maledizione di Oyashiro sama!"
 
     hb "Ormai è ovvio, Shion ha agito di conseguenza alla pazzia che la ha assalità! {w}Nessun piano premeditato, solo una follia distruttiva."
 
     hb "Cercando le prove di una serie di omicidi organizzati hai trovato solo l'ennesima vittima e carnefice. {w}Un caso da manuale dalla maledizione di Oyashiro-sama!"
+
+    hb "Inoltre, sospettando la persona più innocente di tutti, Mion Sonozaki, hai trascurato la raccolta di indizi sugli altri quesiti irrisolti. Come il perché Rika è in grado di prevedere tutti gli omicidi!"
+
 
     show check think worried
     call break_image
@@ -203,8 +209,10 @@ label gk320:
 
     hb "Niente di quello che hai previsto si é verificato, e brancoli nel buio tanto quanto all'inizio!"
 
-    "the church rises up with a description and a very fitting sound effect"
-    "music change to moon"
+    hb "Questo può essere descritto in un solo modo!!!!!!{w} FALLIMENTO TOTALE!!!!! {w}E c'è una sola punizione adatta per una performance così terribile!!!!!"
+
+#     play music "audio/higu/moon.mp3"
+    play music "audio/higu/chimamireta chinkon uta.mp3"
 
     #---------------------------------
     #Church
@@ -217,7 +225,7 @@ label gk320:
     hide sky_frag onlayer underlayer
     scene sky_frag
     with Dissolve(1)
-
+    play sound "audio/sfx/earth rumbling.mp3" volume 1.5
 
     camera at Shake((0, 0, 0, 0), 10.0, dist=10)
     show church_wall:
@@ -235,7 +243,9 @@ label gk320:
     pause 7
     scene darkso_church with Dissolve(1)
 
+    stop sound fadeout 4
     pause 4
+
     camera:
         xalign 0.5
         yalign 0.4
@@ -243,16 +253,155 @@ label gk320:
 
     pause 2
 
-    show check t1 t2 t3 sor p angry nope onlayer overlayer with squares:
+    show check t1 t2 t3 sor p angry shoutest onlayer overlayer with squares:
         xalign 0.55
 
+    ck "UNA CHIESA?!"
 
-    hb "Tutte le tue teorie su complotti di Rika, Rena, Satoko, misteriose organizazioni varie, si sono rivelate completamente, completamente prive di fondamento!"
+    camera:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+    hide check onlayer overlayer
+    show organ
+    show hnb evilgrin fury
+    with dissolve
+    hb "Grazie a quei marchi, dimostrazioni dei tuoi fallimenti, il prossimo sarà un attacco da cui non potrai difenderti, nasconderti o fuggire!"
+    hb "Sorelle della battaglia! Suonate il vostro organo e cantate la sinfonia che oblitererà questo povero stolto una volta per tutte!"
+
+    play sound "audio/sfx/moving_tank.mp3" volume 0.7
+    camera at Shake((0, 0, 0, 0), 20.0, dist=5)
+    show organtank with dissolve
+    pause 8
+    stop sound
+
+    scene darkso_church
+    show check t1 t2 t3 sor p angry shoutest onlayer overlayer
+    camera:
+        xalign 0.5
+        yalign 0.4
+        zoom 2.3
+    with dissolve
+    ck "COSA CAVOLO DANNAZZIONE CRIBBIO DIAMINE È QUELLO?!?!?!?!"
+
+
+    camera:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+    hide check onlayer overlayer
+    show organ
+    show hnb devil fury
 
 
     play sound "audio/sfx/truth.mp3"
-    hb "{color=#f00}ERRORE 4!{/color}"
-    hb "Avere pensato per un solo momento che potessi farcela."
-    jump gk330
+    hb "E adesso sarà rivelato il tuo ultimo e più grande {color=#f00}ERRORE!!!{/color}"
+    camera:
+        xalign 0.55
+        yalign 0.15
+        linear 0.2 zoom 2.3
+    hb "Avere pensato per un solo momento di potercela fare. {p}HANANANANANANANANNAANANANNANAANANANANANANANANANANANANANNANANA"
+
+    hb "Hai un minuto di tempo per dire le tue ultime preghiere. {w}Fallo contare."
+    stop music fadeout 3
+
+    scene darkso_church
+    show check t1 t2 t3 sor p angry shoutest onlayer overlayer
+    camera:
+        xalign 0.5
+        yalign 0.4
+        zoom 3
+
+    camera overlayer:
+        xalign 0.45
+        yalign 0.1
+        zoom 2
+    with Dissolve(2)
+
+    show check t4 worried with Dissolve(2)
+    play music "audio/higu/testament.mp3" fadein 3
+
+    ck "........"
+    show check think
+
+    ck """Mi dispiace Bern... la sola cosa di cui mi pento in tutta questa storia è di averti delusa.
+
+Mi ahi scelto come tuo campione, come tua carta vincente, mi hai mostrato il mare dei frammenti e fatto scoprire il potere che avevo ottenuto da esso.
+
+E io non oh saputo darti altro che sconfitta e umiliazione.
+
+Se per qualche miracolo mi dovessi salvare farò qualsiasi cosa per sdebitarmi.
+
+Grazie di tutto Bern...e scusami per la mia debolezza
+"""
+
+    show check angry smile
+    ck "E tu Hanabi... Credevo che il nostro prossimo duello sarebbe stato alle porte del Valhalla. Ma sembra che il destino avesse altri piani in serbo per noi."
+
+    ck "So che mi odi per le scelte che ho fatto, ma sappi che non mi è dispiaciuto confrontarmi ancora una volta con te."
+
+    ck "Sono pronto....... FAI DEL TUO PEGGIO!"
+
+    camera:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+    hide check onlayer overlayer
+    show organ
+    show hnb nope fury
+    with Dissolve(2)
+    hb "Sorelle.... FUOCO!"
+
+    camera at Shake((0, 0, 0, 0), 20.0, dist=3)
+    show organtank with dissolve
+
+    pause 2
+    show missile_swarm with pushdown
+
+    n "E fu così che con un frastuono assordante e una luce abbagliante, una pioggia di missili si levò verso il cielo e si abbattè sull'ormai inerme Check."
+
+    n "Così come della chiesa non rimase che un cumulo di macerie e cenere. Anche le ambizioni di quell'uomo furono ridotte a niente più che una colonna di fumo nell'aria."
+
+    stop music fadeout 10
+    scene bern_fancy with Fade(5,5,5)
+    play music "audio/umi/about face.mp3"
+    play sound "audio/sfx/teleport.wav"
+    show bern yoko at left
+    show lamb at right
+    with squares
+
+    ld "Veramente un finale strappalacrime. {w}Non ti sembra Bern? {w}Peccato che avevi già perso e non hai potuto vederlo."
+
+    bk "Lasciami indovinare, nel tuo caso sono lacrime dalle troppe risate vero?"
+
+    show lamb cat
+    ld "Ehe! Inizi a conoscermi."
+
+    ld "Certo che potresti essere un po'più sensibile. {w}Ti ha pure dedicato le sue ultime parole prima di schiattare, se solo le mie pedine fossero così leali e obbedienti."
+    show bern chira
+    bk "Che brutta personalità, eppure conosci meglio di me le implicazioni di questo esito."
+
+    show bern yoko
+    bk "Oppure vuoi soltanto sprecare il mio tempo?"
+
+    stop music fadeout 6
+    scene black with longFade
+
+
+    camera underlayer:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+
+    camera overlayer:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+
+    camera:
+        xalign 0.5
+        yalign 0.5
+        zoom 1
+    jump credits_scene
     return
 
