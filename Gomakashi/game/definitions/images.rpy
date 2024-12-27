@@ -69,7 +69,10 @@ image darkso_church = im.Scale("bg/darkso_church.jpg", 1920, 1080)
 image organ = im.Scale("bg/organ.png", 1920, 1080)
 image organtank = im.Scale("bg/organtank.jpg", 1920, 1080)
 image missile_swarm = im.Scale("bg/missile swarm.jpg", 1920, 1080)
-
+image koya_fire = im.Scale("bg/koya fire.png", 1920, 1080)
+image car = im.Scale("bg/car.webp", 1920, 1080)
+image car_fire_overlay = im.Scale("bg/car fire overlay.webp", 1920, 1080)
+image embers = im.Scale("bg/embers.webp", 1920, 1080)
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)

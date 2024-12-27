@@ -184,7 +184,7 @@ screen tips():
                 action Call("credits_scene")
         vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Hanabi reveal"
+                tooltip "Plan execution"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"

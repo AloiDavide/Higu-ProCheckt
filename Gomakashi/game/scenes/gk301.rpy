@@ -16,7 +16,7 @@ label gk301:
 
     n "L'ultimo suono a uscire dall'altoparlante fu il botto di un esplosione, seguito da due messaggi di errore a schermo."
 
-    n "{color=#f00}{i}Errore canale audio:{/i} Segnale interrotto.{p}{color=#f00}{i}Errore geolocalizazione:{/i} Segnale interrotto."
+    n "{i}Errore canale audio:{/i} Segnale interrotto.{p}{i}Errore geolocalizazione:{/i} Segnale interrotto."
 
 
     anon "Assurdo."
@@ -71,7 +71,7 @@ label gk302:
 
     ck "Larry, sei sveglio? {w}Resta sdraiato, non sei messo granchè."
 
-    show check direct yep plain with Dissolve(2)
+    show check kindirect yep plain with Dissolve(2)
     pause 1
     ck "Sei stato fortunato sai? Quando ti ho trovato eri già praticamente a valle. {w}Se la corrente non ti avesse spinto a riva saresti morto schiantato contro qualche roccia ancora prima di affogare."
 
@@ -79,7 +79,7 @@ label gk302:
 
     la "Capo? Ma perchè..."
 
-    show check direct calling
+    show check calling
     ck "Perchè non ti ho fatto fuori come diceva Lambdadelta?"
 
     n "La trasmittente! Ho fallito, ha scoperto di Lambdadelta!"
@@ -256,9 +256,20 @@ label gk302:
 
     te "È un'idea così fuori di testa che può funzionare."
 
+    te "Quella trasmittente è il loro principale punto di contatto. In questo modo perderanno le vostre tracce almeno temporaneamente."
 
+    show larry worried
+    la "Ma sarà abbastanza per convincerli che siamo morti?"
 
-    te "Quella trasmittente è il loro principale punto di contatto. In questo modo quanto meno perderanno le vostre tracce."
+    ck "Naah, non dei professionisti come loro. Sicuramente ci verranno a cercare."
+
+    te "Ma guadagnerete abbastanza tempo per far perdere le vostre tracce e unirvi alla nostra fazione!"
+
+    show check smile
+    show larry yep
+    ck "...O almeno è quello che penseranno."
+
+    ck "Se davvero Lambdadelta si trova a Hinamizawa, non avremo mai un'occasione migliore per scoprire la sua identità."
 
     show larry scared
     ck "Il successo dell'operazione dipenderà dalla tua performance Larry. Che ne dici?"
@@ -280,43 +291,164 @@ label gk302:
 
     "transizione migliore"
 
-    scene koya with longFade
-    show check plain at left
-    show check fp yep at flip
-    show larry direct yep at right
 
-
-    ck "Una performance degna di un oscar ragazzo mio. {w}Ora non resta che dare fuoco al nascondiglio per rallentare le loro indagini."
-
-    la "Il merito è suo per avere ideato il piano."
-
-    show larry smile
-    la "Le trasmittenti in dotazione al BKG saranno anche impermeabili e ignifughe, peccato che non siano anche a prova di martello!"
-
-    show check smile
-    ck "E con quell'effetto sonoro sparato ad alto volume nel microfono, dall'altro lato dev'essere sembrata un esplosione abbastanza convincente."
-
-    la "Vorrei vedere le loro facce in questo momento! {w}Non solo non possono più tracciare i nostri movimenti e origliare le conversazioni, ma adesso ci daranno sicuramente per morti."
-
-    show check yep
-    show larry nope
-    ck "Quello sarebbe l'ideale, ma non ci scommettere.{w} Anche loro sono professionisti, tra non molto verranno quì a indagare e se tra di loro c'è qualcuno con la giusta esperienza capiranno che qualcosa non va."
-
-    ck "Il vero obiettivo di questa operazione è guadagnare abbastanza tempo per far perdere le nostre tracce e unire le forze con la fazione di Terry."
-
-    show check smile
-    show larry yep
-    ck "...O almeno è quello che penseranno."
-
-    ck "Se davvero Lambdadelta si trova a Hinamizawa, non avremo mai un'occasione migliore per scoprire la sua identità. {w}Per essere stanziati sotto copertura in questo villaggio la sua scorta non può essere poi così grande."
-
-
-    "Check si apposta vicino per spioneggiare."
 
 label gk303:
     call hide_menu
+    scene koya_fire with longFade
+    "------------scene 303 Plan execution-------------"
+    play music "audio/higu/fearlessness.mp3"
 
-    "------------scene 303 Hanabi reveal-------------"
+    sgherro1 "Team 1, veniamo da ovest, la capanna sta bruciando e non ci sono tracce di sopravvissuti."
+    sgherro1 "Team 2, Anche da est tutto regolare, nessuna traccia di nessuno, la vettura è ancora parcheggiata fuori."
+    sgherro1 "Team 3, La zona circostante è tutta pulita, non vi sono tracce di pneumatici sulle strade. Tutti tranne il Team 2 tornino alla base. Tra poco il tenente verrà a controllare di persona."
+
+    "(Tutti se ne vanno tranne il team 2, composto da 2 persone.)"
+    "(Assalto a sorpresa di Check e Larry, stelle a schermo.)"
+
+    "(Da qui musica trionfale, non finisce fino a che non appare il mirino del fucile da cecchino.)"
+    show check plain at left
+    show check smile direct fp at flip
+    show larry smile direct at right
+    ck "Ragazzone, il tuo amico è ancora a nanna. Mettiamo le cose in chiaro, c'è in gioco la vita tua e del tuo compare qui. Abbiamo distrutto le radio e tornerete vivi solo se ci direte dove si trova il vostro capo."
+
+    sgherro1 "Nnngh... Era tutta una messa in scena?!"
+
+
+    ck "Una performance degna di un oscar ragazzo mio."
+
+    la "Il merito è suo per avere ideato il piano capo."
+
+    sgherro1 "Avete fatto saltare il aria la vostra base di proposito, siete pazzi!"
+
+    show check calling
+    la "Le trasmittenti in dotazione al BKG saranno anche impermeabili e ignifughe, peccato che non siano anche a prova di martello!"
+
+
+    ck "E con quell'effetto sonoro... dal vostro lato dev'essere sembrata un esplosione abbastanza convincente."
+
+    la "Infine è bastato dare fuoco alla baracca per farvi correre allo scoperto."
+
+    show check plain
+    ck "Senza più la possibilità di localizzare la trasmittente e origliare le nostre conversazioni, la vostra prossima mossa come professionisti poteva essere una sola... l'occasione perfetta per un agguato!"
+
+    show check angry nope:
+        parallel:
+            ease 1 zoom 1.5
+        parallel:
+            ease 1 yalign 0.2
+    ck "Avanti rispondi! Chi è Lambdadelta e dove si nasconde!?"
+    play sound "audio/sfx/down.ogg"
+    sgherro1 "Ahrg!{w} Lambdadelta? Vuoi dire il maggiore?{w} Hahahaha. Far arrabbiare quella persona è stato il vostro ultimo errore. Tra non molto ve la farà pagare {nw}"
+    play sound ["audio/sfx/furu.ogg", "audio/sfx/down.ogg"]
+    extend "GRAAAAGH!"
+
+
+    ck "Interessante... perchè non ci dici di più su questo maggiore?"
+    sgherro1 "Dovrete chiedere al mio cadavere."
+
+    show check smile
+    ck "Larry, ho un idea. Riempi la macchina con l'esplosivo plastico."
+
+    show larry scared worried
+    la "Con cosa scusi?"
+    show check neutral nope
+    n "..........."
+    show larry smile evil
+    la "....Ah si.... l'esplosivo che ci era avanzato! {w}Lo carico tutto nel bagagliaio."
+    show larry at flip:
+        linear 1 offscreenright
+
+#     show check yep fire:
+#         linear 1 xalign 0.5
+    pause 1
+    sgherro1 "Ma che diavolo..."
+
+    show check yep fire
+    ck "Attaccheremo i circuiti al contachilometri. E se scende sotto i 10 Km/h per troppo tempo... BOOM"
+    sgherro1 "Non potete fare sul serio"
+    ck "Possiamo eccome, serve una dimostrazione?"
+
+    show larry at unflip:
+        offscreenright
+        linear 1 right
+
+    la "Ecco fatto... adesso le manette"
+
+
+    show larry directevil:
+        parallel:
+            ease 1 zoom 1.5
+        parallel:
+            ease 1 yalign 0.2
+
+    sgherro1 "IIIIIIH State lontani!"
+
+    ck "Bene, mettiamolo in macchina."
+    show black with Dissolve(0.5)
+    play sound ["audio/sfx/furu.ogg","audio/sfx/down.ogg","audio/sfx/doon.mp3"]
+    pause 3
+
+    scene car
+    show embers
+    show larry directevil smile at right
+    show check plain at left
+    show check smile fire fp at flip
+    show car_fire_overlay
+    with Dissolve(0.5)
+    ck "Ecco il quanto, ora ti ammanettiamo al volante e tu guiderai verso est quanto più veloce possibile."
+
+    show check:
+        parallel:
+            ease 1 zoom 1.5
+        parallel:
+            ease 1 yalign -0.1
+    show larry:
+        parallel:
+            ease 1 zoom 1.5
+        parallel:
+            ease 1 yalign -0.1
+    ck "Se la chiave gira... boom. {w}Se stai fermo troppo a lungo... boom. {w}Se finisce la benzina e la macchina si spegne da sola, hai vinto."
+    ck "Ovviamente non è solo la tua vita che è in gioco. {w}Abbiamo legato e caricato il tuo compagno nel sedile di dietro."
+    sgherro2 "MHHHH MMHHHHHHH MMMMMMMMMMMMMMMHHHHHHHHHHHHM!"
+    la "Lo senti? Ti sta augurando buona fortuna."
+
+
+    sgherro1 "IIIIIIIIIH!!! {w}ABBIATE PIETÀ!!!"
+    sgherro1 "Volete sapere chi siamo? Ve lo dico io! Perciò smettetela con quegli esplosivi!"
+    sgherro1 "Siamo i {color=#ffe674}________ ____{/color}... abbiamo circa 90 uomini stanziati a Hinamizawa{w} La nostra base operativa è {color=#ffe674}___ __________ _____ _______ ____{/color}!"
+    sgherro1 "Il maggiore... Non so da dove viene esattamente o perchè è stato assegnato a questa operazione, ma so che è un veterano di guerra."
+
+    ck "Hai sentito Larry? Abbiamo un luogo da investigare.{w} Ci serve soltanto una traccia per fargli pensare che siamo scappati con questa automobile."
+    ck "Puoi attaccare il plastico."
+    la "Signorsi signore."
+    show larry:
+        ease 1 yoffset 600
+    pause 1
+
+    sgherro1 "ASPETTA QUESTO È UN CRIMINE DI GUERRA!!!!{w} DOVE È IL VOSTRO ONORE!!!!{w} DEMONI!!!!!!"
+    ck "Dovreste esserci abituati qua a Hinamizawa. Vedi almeno di non finire nella palude."
+    show larry:
+        ease 1 yoffset 0
+    pause 1
+    la "Tutto pronto capo, il timer sarà attivo tra 30 secondi."
+    ck "Premi il pedale amico. Buona fortuna!"
+    window hide
+    play sound "audio/sfx/speeding car.mp3" volume 1.5
+    pause 2.5
+
+    scene road_sunset with fade
+    sgherro1 "AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaahhhhhhhhhhhhhhhhhhh!!!!!!!"
+    pause 1
+    show larry direct yep at right
+    show check plain at left
+    show check yep direct fp at flip
+    with dissolve
+
+    ck "Era uno scherzone! Non c'era nessun esplosivo!"
+
+    la "Andiamo a fare il resto della scena in cui mi sparano."
+
 
     "Hanabi ha previsto tutto e lo trova."
 
