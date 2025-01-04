@@ -8,8 +8,6 @@ label gk330:
 
     pause 1
     scene spiaggiadeiframmenti with Dissolve(4)
-    "---scene 330 - Spiaggia dei Frammenti---"
-
 
     bernn """
 Il mare è un mondo inesplorato.{p}
@@ -168,10 +166,14 @@ Il mio carceriere... è lei.
 
     ld "Non manca moltissimo. Tra non molto le preparazione saranno complete."
     bk "Bene, hai preparato qualcosa di perfettamente crudele immagino. Chi sarà stavolta la vittima della maledizione di Oyashiro-sama?"
-    ld "Parli come se fosse colpa mia, ormai dovresti avere almeno abbastanza prospettiva per sapere quale è il mio ruolo."
+    show lamb frown pout
+    ld "Non lo so e non mi interessa, parli come se fosse direttamente colpa mia. {w}Ormai dovresti avere almeno una vaga idea di quale sia il mio ruolo."
     bk "Che tecnicalità..."
-    ld "Chiunque io abbia scelto, non importa. Qualcuno vedrà gli occhi."
-    ld "Ti aspetto, vedi di non fare tardi."
+    show lamb smugclose yep
+
+    ld "Qualunque sia la causa, non cambierà il risultato. È questo il vero significato di certezza."
+    show lamb unhappy nag
+    ld "Ma ora basta perdere tempo, guarda che ti aspetto, vedi di non fare tardi!"
 
     stop music fadeout 2
     hide lamb with squares

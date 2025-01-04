@@ -13,7 +13,6 @@ label gk300:
     show check plain sus worried at left
 
     play music "audio/higu/forfeit.mp3"
-    "------------scene 300 Larry explodes-------------"
 
     ck "DIAMINE! Stiamo perdendo tutti i testimoni. {w}Ora che anche Shion ci ha lasciato le penne rimane solo capelli chiari."
 

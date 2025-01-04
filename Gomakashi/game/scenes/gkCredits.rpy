@@ -62,13 +62,12 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
             "CHARACTER DESIGN" : ["Alice"],
             "ASSET ORIGINALI" : ["Alice", "HounDogs"],
             "ADATTAMENTO ASSET" : ["HounDogs"],
-            "GAME ENGINE" : ["Ren'Py"],
             "STORIA ORIGINALE" : ["Ryuukishi07"],
             "ISPIRAZIONE E TEORIE" : ["Check"],
             "SUPPORTO MORALE" : ["Hanabi"]
         }
 
-        characters ["Check", "Hanabi", "Larry", "Terry", "Bernkastel", "Lambdadelta", "Comandante Lambdadelta"]
+#         characters ["Check", "Hanabi", "Larry", "Terry", "Bernkastel", "Lambdadelta", "Comandante Lambdadelta"]
 
 
     vbox xalign 0.5 spacing 10:

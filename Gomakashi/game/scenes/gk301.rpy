@@ -328,8 +328,9 @@ label gk303:
 
     pause 1
     play sound "audio/sfx/bushes2.mp3"
-
+    play music "audio/higu/fearlessness.mp3"
     ck "Adesso Larry!"
+
     sgherro "Che diavolo!?{w} AAAHH!"
     play sound ["audio/sfx/furu.ogg","audio/sfx/slam.mp3","audio/sfx/down.ogg"]
     show koya_fire at sshake
@@ -346,7 +347,7 @@ label gk303:
     show check shoutest direct fp at flip
     show larry yep direct at right
     with Dissolve(4)
-    play music "audio/higu/fearlessness.mp3"
+
 
     ck "Sveglia ragazzone!"
     la "Peccato che il tuo compare sia ancora a nanna."
@@ -448,7 +449,7 @@ label gk303:
 
     ck "Se scende sotto i 15 Km/h per troppo tempo... BOOM."
     ck "Se il motore si spegne... BOOM."
-    ck "Se finisce la benzina e la macchina si spegne da sola, hai vinto.{w} Finora la possibilità di sopravvivere è del 97\%.{color=f37530}(?){/color}"
+    ck "Se finisce la benzina e la macchina si spegne da sola, hai vinto."
     la "Ovviamente non è solo la tua vita che è in gioco. {w}Il tuo compagno è legato nel sedile di dietro."
     sgherroImb "MHHHH MMHHHHHHH MMMMMMMMMMMMMMMHHHHHHHHHHHHM!"
     la "Lo senti? Ti sta augurando buona fortuna."
@@ -468,12 +469,12 @@ label gk303:
     ck "Avevo i miei sospetti. Era l'unico posto adatto ad un operazione del genere!"
     la "Chi lo avrebbe mai detto che si nascondevano ad Hinamizawa fin dall'inizio...."
     ck "Bene Larry, abbiamo un luogo da investigare.{w} Ci servirebbe soltanto un modo per depistare chi ci sta cercando."
-    ck "Un modo per, ad esempio, fargli pensare che siamo scappati con questa automobile...."
+#     ck "Un modo per, ad esempio, fargli pensare che siamo scappati con questa automobile...."
 
     show check smile direct
     show larry smile directevil
     with dissolve
-    sgherro "Oh no..."
+#     sgherro "Oh no..."
     ck "Larry, puoi attaccare il plastico."
     la "Signorsi signore."
 
@@ -484,10 +485,14 @@ label gk303:
     sgherro "ASPETTA QUESTO È UN CRIMINE DI GUERRA!!!!{w} È contro la convenzione di Ginevra!!!!"
     ck "Il suggerimento di Ginevra vorrai dire!"
     sgherro "SIETE DEI MOSTRI!!!!"
-    ck "Mostri? No... DEMONI!"
+    show check yep
+    ck "Mostri? "
     show larry:
         ease 1 yoffset 0
     pause 1
+    show check smile
+    extend "No... DEMONI!"
+
     la "Tutto pronto capo, il timer sarà attivo tra 30 secondi."
     ck "Premi il pedale amico. Buona fortuna!"
     window hide

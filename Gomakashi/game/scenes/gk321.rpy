@@ -102,7 +102,7 @@ label gk321:
     show check:
         ease 1 right
 
-    show hnb napalm_right fury at flip:
+    show hnb napalm_right fury nopper at flip:
         ease 1 left
     pause 1
     hb "Ma come diavolo... io dovrei avere vinto! Come cavolo fai ad essere ancora qui!"
@@ -123,6 +123,7 @@ label gk321:
 #     show torakku_grayscale behind check, hnb
 
     with purple_flash
+
     show you_died behind check, hnb:
         yoffset -300
     $ renpy.transition(Dissolve(2))
@@ -131,7 +132,7 @@ label gk321:
 
 
     ck "Ogni morte è una lezione Hanabi."
-
+    play sound "audio/sfx/glass crack.mp3"
     hide you_died with ImageDissolve(im.Scale("overlay/disintegrate.png", 1920, 1080), 1.5)
 
     ck "Questa volta io e Larry ci siamo andati così vicini che sei stato costretto a rivelare la tua mano. {w}Una via di uscita esiste, e noi la troveremo, non importa quanti tentativi ci vorranno!"
@@ -160,7 +161,7 @@ label gk321:
 
 
     bk "E di tutto questo suppongo che non avrai detto una parola ad Hanabi."
-
+    show lamb smirk evil
     ld "Alla fine non è altro che il mio burattino! {w}Anche se non può vincere, tutto quello che deve fare è restare imprigionato in un ciclo eterno di battaglie fino a che la mia partita non è finita! Fin dall' inizio era questo il suo scopo!"
 
     bk "In altre parole, un destino peggiore della morte."

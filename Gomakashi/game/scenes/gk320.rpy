@@ -16,7 +16,6 @@ label break_image:
 
 label gk320:
     call hide_menu from _call_hide_menu_10
-    "------------scene 320 Metarivali part 1-------------"
 
     scene black onlayer underlayer
     scene witch_flowers
@@ -128,7 +127,7 @@ label gk320:
 
     hb "Avresti dovuto accorgertene alla fine del secondo frammento, quando è stato confermato che Mion era già morta. {w}A quel punto c'era solo una possibile spiegazione."
 
-    hb "Eppure era così ovvio! I gemelli che si scambiano sono uno dei clichè più vecchi!"
+    hb "Eppure era così ovvio! I gemelli che si scambiano è uno dei clichè più vecchi e rivisti!"
 
     call break_image from _call_break_image
 
@@ -160,7 +159,7 @@ label gk320:
     hb "Ricordo bene come all'inizio eri sicuro di trovare la soluzione seguendo la pista di Mion."
     hb "Ti sei lasciato influenzare dalle teorie del complotto di Shion, e hai continuato a credere che fossero le tre famiglie a tirare le fila della maledizione. {w}Anche quando perfino sotto tortura, Mion e il sindaco si sono dichiarati innocenti."
 
-    hb "Sospettando la persona più innocente di tutti, Mion Sonozaki"
+    hb "Sospettando la persona più innocente di tutti, Mion Sonozaki."
     show hnb close
     hb "Anche la confessione con cui ti sei difeso all'inizio era soltanto lei che cercava disperatamente di giustificare le sue azioni."
 
@@ -177,7 +176,9 @@ label gk320:
     ck "Gaahhr!"
     show check angry t2 with dissolve
 
-    hb "Ricordi tutte quelle teorie sull'indottrinamento del villaggio che erano il tuo cavallo di battaglia?"
+    ck "Toglimi subito queste robe di dosso altrimenti..."
+    hb "Altrimenti cosa?"
+    hb "E non abbiamo finito. {w}Ricordi tutte quelle teorie sull'indottrinamento del villaggio che erano il tuo cavallo di battaglia?"
     hb "Mion, Rika, Rena, Satoshi...{w} con i leader del villaggio scaggionati non puoi più dire che sono stati educati dall'infanzia credere alla maledizione!"
     hb "Il che ci porta a...."
 
@@ -373,6 +374,7 @@ Grazie di tutto Bern...e scusami per la mia debolezza.
     show bern yoko at left
     show lamb at right
     with squares
+
 
     ld "Veramente un finale strappalacrime. {w}Non ti sembra Bern? {w}Peccato che avevi già perso e non hai potuto vederlo."
 
