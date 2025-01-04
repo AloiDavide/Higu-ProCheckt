@@ -178,7 +178,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
 
 
 label credits_scene:
-    call hide_menu from _call_hide_menu_13
+    call hide_menu
     scene black
     camera:
         zoom 1.01

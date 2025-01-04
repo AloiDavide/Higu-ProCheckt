@@ -1,5 +1,5 @@
 label gk330:
-    call hide_menu from _call_hide_menu_12
+    call hide_menu
     stop music fadeout 4
 
     scene black with Dissolve(4)
@@ -131,17 +131,21 @@ La vera libertà è il fare esattamente quello che si vuole, quando si vuole, co
     play music "audio/higu/over the sky.mp3"
 
 
-    show bern at flip, right
-    $ renpy.transition(Dissolve(30), layer="master")
+    show bern at flip, right with Dissolve(2):
+        alpha 0.3
 
 
     bernn "Aprii gli occhi, e per la prima volta vidi il mare."
 
-
+    show bern at flip:
+        alpha 0.6
+    with Dissolve(2)
 
     bernn "Non un mare salato, ma un mare di frammenti. Un mare dove le varie isole sono infiniti mondi, infinite possibilità.{p}La liberta di viaggiare per il mondo. Per i mondi."
 
-
+    show bern at flip:
+        alpha 0.9
+    with Dissolve(2)
     bernn "Mi sono innalzata al cielo. Ogni limite era svanito. il mondo era al mio servizio. Tutto era sul palmo delle mie mani.{p}Hinamizawa dall'alto era così piccola... sempre più piccola..."
 
     nvl clear
@@ -184,7 +188,6 @@ Sconfiggerò Lambdadelta usando come arma la sua stessa arroganza. E conquister�
 """
     hide bern with squares
 
-    stop sound fadeout 5
-    jump gk300
+    "Fade alla scena interna"
 
     return

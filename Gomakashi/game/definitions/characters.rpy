@@ -13,9 +13,11 @@ define old2 = Character("Vecchio con la barba", who_color = "#999", what_style= 
 define ltk2 = Character("Comandante Lambdadelta", what_style = "wide", who_color= "#000", who_style = "white_border", what_size = 45, what_font = "static/VT323-Regular.ttf", callback=static_voice)
 define te = Character("Terry", who_color = "#0090ca", what_style= "wide", who_style = "border")
 define anon = Character("???", who_color = "#999", what_style= "wide", who_style = "border")
-define sgherro1 = Character("Sgherro", who_color = "#999", what_style= "wide", who_style = "border")
-define sgherro2 = Character("Sgherro imbavagliato", who_color = "#999", what_style= "wide", who_style = "border")
+define sgherro = Character("Sgherro", who_color = "#999", what_style= "wide", who_style = "border")
+define sgherroImb = Character("Sgherro imbavagliato", who_color = "#999", what_style= "wide", who_style = "border")
 define sgherro3 = Character("Sgherro 3", who_color = "#999", what_style= "wide", who_style = "border")
+define sgherro1 = Character("Sgherro 1", who_color = "#999", what_style= "wide", who_style = "border")
+define sgherro2 = Character("Sgherro 2", who_color = "#999", what_style= "wide", who_style = "border")
 
 define oko_anon = Character("???", who_color = "#6a8c75", what_style= "wide", who_style = "border")
 define hb_anon = Character("???", who_color = "#cc4f33", what_style= "wide", who_style = "border")

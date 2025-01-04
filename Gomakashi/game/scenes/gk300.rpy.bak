@@ -1,8 +1,9 @@
 label gk300:
-    call hide_menu from _call_hide_menu_6
+    call hide_menu
 
+    stop music fadeout 4
 
-    play music ["<silence 4.0>", "audio/sfx/cicadas.ogg"] fadein 4
+    play music("audio/sfx/cicadas.ogg") fadein 4
 
 
     scene koya with longFade

@@ -73,6 +73,8 @@ image koya_fire = im.Scale("bg/koya fire.png", 1920, 1080)
 image car = im.Scale("bg/car.webp", 1920, 1080)
 image car_fire_overlay = im.Scale("bg/car fire overlay.webp", 1920, 1080)
 image embers = im.Scale("bg/embers.webp", 1920, 1080)
+image gael_arena = im.Scale("bg/gael_arena_frag.png", 1920, 1080)
+
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
@@ -90,6 +92,8 @@ image taccuino_overlay = im.Scale("overlay/taccuino.png", 1920, 1080)
 image taccuino_prop = "overlay/taccuino_prop.png"
 image you_died = "overlay/you_died.png"
 image disintegrate = "overlay/disintegrate.png"
+image smoke = "overlay/smoke.png"
+image debris = im.Scale("overlay/debris.png", 1920, 1080)
 
 #FRAGMENTS
 image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)
@@ -217,5 +221,43 @@ image credits_background:
 
     repeat
 
+image hnb_pacing:
+    "hnb nopper cigar napalm_left"
+    right
+    animation
 
+    ease 2 left
+    pause 0.3
+    "hnb nopper cigar napalm_right"
+    flip
+    pause 0.3
+    ease 2 right
+    pause 0.3
+    "hnb nopper cigar napalm_left"
+    unflip
+    pause 0.3
 
+    ease 2 left
+    pause 0.3
+    "hnb nopper cigar napalm_right"
+    flip
+    pause 0.3
+    ease 2 right
+    pause 0.3
+    "hnb nopper cigar napalm_left"
+    unflip
+    pause 0.3
+
+    ease 2 left
+    pause 0.3
+    "hnb nopper cigar napalm_right"
+    flip
+    pause 0.3
+    ease 2 right
+    pause 0.3
+    "hnb nopper cigar napalm_left"
+    unflip
+    pause 0.3
+
+    ease 2 left
+    pause 0.3

@@ -1,5 +1,5 @@
 label gk301:
-    call hide_menu from _call_hide_menu_7
+    call hide_menu
 
     stop music fadeout 3
     hide hinamizawa
@@ -51,7 +51,7 @@ label gk301:
     stop music fadeout 10
 
 label gk302:
-    call hide_menu from _call_hide_menu_8
+    call hide_menu
 
     scene tenjou with Dissolve(5)
 
@@ -287,130 +287,94 @@ label gk302:
 
     ck "Ben detto Larry. Tu prepara un copione, io invece... "
     show check sus
-    extend "penserò a simulare l'esplosione."
+    extend "penserò all'esplosione."
 
-    stop music fadeout 5
-    show black with Dissolve(5)
+    "transizione migliore"
+
 
 
 label gk303:
-    call hide_menu from _call_hide_menu_9
-    play audio "audio/sfx/fire.mp3" fadein 5 volume 0.1 loop
-    scene koya_fire with Dissolve(5)
-
-    play music "audio/higu/ancient times.mp3" fadein 3
-#     lay music "audio/higu/silver mirror.mp3" fadein 3
-
-
+    call hide_menu
+    scene koya_fire with longFade
     "------------scene 303 Plan execution-------------"
-    play sound "audio/sfx/bushes1.mp3"
-    sgherro1 "Team 1, veniamo da ovest, la capanna sta bruciando e non ci sono tracce di sopravvissuti."
-    sgherro2 "Team 2, Anche da est tutto regolare, nessuna traccia di nessuno, la loro vettura è ancora nascosta tra la vegetazione."
-    sgherro3 "Team 3, La zona circostante è tutta pulita, non vi sono tracce di pneumatici sulle strade."
-    play sound "audio/sfx/bushes1.mp3"
-    sgherro3 "Il maggiore si sta dirigendo sul luogo con la sua scorta.{w} Team 2, restate pronti a riceverlo, tutti gli altri si adoperino immediatamente per arginare l'incendio, dobbiamo farlo sembrare un incidente."
-    sgherro2 "Ricevuto."
-    play sound "audio/sfx/bushes3.mp3"
-    pause 2
-    sgherro "Mhh?"
-    window hide
-    camera:
-        xalign 1.0
-        yalign 0.9
-        ease 2 zoom 1.5
-
-    pause 3
-
-    camera:
-        xalign 1.0
-        yalign 0.9
-        ease 1 zoom 2
-
-    pause 1
-    play sound "audio/sfx/bushes2.mp3"
-
-    ck "Adesso Larry!"
-    sgherro "Che diavolo!?{w} AAAHH!"
-    play sound ["audio/sfx/furu.ogg","audio/sfx/slam.mp3","audio/sfx/down.ogg"]
-    show koya_fire at sshake
-    pause 2
-
-    show black with Dissolve(4)
-    camera:
-        xalign 0.5
-        yalign 0.5
-        zoom 1
-
-    hide black
-    show check plain at left
-    show check shoutest direct fp at flip
-    show larry yep direct at right
-    with Dissolve(4)
     play music "audio/higu/fearlessness.mp3"
 
-    ck "Sveglia ragazzone!"
-    la "Peccato che il tuo compare sia ancora a nanna."
+    sgherro1 "Team 1, veniamo da ovest, la capanna sta bruciando e non ci sono tracce di sopravvissuti."
+    sgherro1 "Team 2, Anche da est tutto regolare, nessuna traccia di nessuno, la vettura è ancora parcheggiata fuori."
+    sgherro1 "Team 3, La zona circostante è tutta pulita, non vi sono tracce di pneumatici sulle strade. Tutti tranne il Team 2 tornino alla base. Tra poco il tenente verrà a controllare di persona."
 
-    sgherro "Nnngh... Era tutta una messa in scena?!"
-    play sound "audio/sfx/down.ogg"
-    ck "Faccio io le domande!"
+    "(Tutti se ne vanno tranne il team 2, composto da 2 persone.)"
+    "(Assalto a sorpresa di Check e Larry, stelle a schermo.)"
 
-    ck "Mettiamo le cose in chiaro! L'unico modo che avete per uscirne vivi è dirci dove si trova il vostro capo!"
+    "(Da qui musica trionfale, non finisce fino a che non appare il mirino del fucile da cecchino.)"
+    show check plain at left
+    show check smile direct fp at flip
+    show larry smile direct at right
+    ck "Ragazzone, il tuo amico è ancora a nanna. Mettiamo le cose in chiaro, c'è in gioco la vita tua e del tuo compare qui. Abbiamo distrutto le radio e tornerete vivi solo se ci direte dove si trova il vostro capo."
 
-    la "È inutile che cerchi la tua radio, l'abbiamo presa noi."
+    sgherro1 "Nnngh... Era tutta una messa in scena?!"
 
 
+    ck "Una performance degna di un oscar ragazzo mio."
 
-    sgherro "Avete incendiato la vostra base di proposito!? siete pazzi!"
+    la "Il merito è suo per avere ideato il piano capo."
+
+    sgherro1 "Avete fatto saltare il aria la vostra base di proposito, siete pazzi!"
+
+    show check calling
+    la "Le trasmittenti in dotazione al BKG saranno anche impermeabili e ignifughe, peccato che non siano anche a prova di martello!"
 
 
-    show larry yep
+    ck "E con quell'effetto sonoro... dal vostro lato dev'essere sembrata un esplosione abbastanza convincente."
+
+    la "Infine è bastato dare fuoco alla baracca per farvi correre allo scoperto."
+
+    show check plain
+    ck "Senza più la possibilità di localizzare la trasmittente e origliare le nostre conversazioni, la vostra prossima mossa come professionisti poteva essere una sola... l'occasione perfetta per un agguato!"
+
     show check angry nope:
         parallel:
             ease 1 zoom 1.5
         parallel:
             ease 1 yalign 0.2
-
-    ck "Se non hai voglia di scoprire quanto possiamo essere pazzi, rispondi!"
-    ck "Chi è Lambdadelta e dove si nasconde!?"
+    ck "Avanti rispondi! Chi è Lambdadelta e dove si nasconde!?"
     play sound "audio/sfx/down.ogg"
-    sgherro "Ahrg!{w} Lambdadelta? Vuoi dire il maggiore?{w} Hahahaha. Far arrabbiare quella persona è stato il vostro ultimo errore... {nw}"
+    sgherro1 "Ahrg!{w} Lambdadelta? Vuoi dire il maggiore?{w} Hahahaha. Far arrabbiare quella persona è stato il vostro ultimo errore. Tra non molto ve la farà pagare {nw}"
     play sound ["audio/sfx/furu.ogg", "audio/sfx/down.ogg"]
     extend "GRAAAAGH!"
 
-    show check yep
+
     ck "Interessante... perchè non ci dici di più su questo maggiore?"
-    sgherro "Dovrete chiedere al mio cadavere!"
+    sgherro1 "Dovrete chiedere al mio cadavere."
 
     show check smile
-    ck "Larry, ho un idea. Riempi la macchina con l'esplosivo al plastico."
+    ck "Larry, ho un idea. Riempi la macchina con l'esplosivo plastico."
 
     show larry scared worried
     la "Con cosa scusi?"
     show check neutral nope
     n "..........."
-    show larry yep evil
-    la "....Si, certo capo, l'esplosivo avanzato! {w}Lo carico tutto nel bagagliaio come al solito?"
-    show check angry yep
-    ck "Esatto, e passami anche le manette."
+    show larry smile evil
+    la "....Ah si.... l'esplosivo che ci era avanzato! {w}Lo carico tutto nel bagagliaio."
     show larry at flip:
         linear 1 offscreenright
 
-
+#     show check yep fire:
+#         linear 1 xalign 0.5
     pause 1
+    sgherro1 "Ma che diavolo..."
 
-    sgherro "Ma che diavolo..."
-
-
-    ck "Forse essere ammanettato al volante di un'auto bomba ti scioglierà la lingua."
-    sgherro "Non potete fare sul serio!"
-    ck "Hai mai visto quel film in cui un terrorista pianta delle bombe su un autobus che esploderanno se l'autista rallenta?"
+    show check yep fire
+    ck "Attaccheremo i circuiti al contachilometri. E se scende sotto i 10 Km/h per troppo tempo... BOOM"
+    sgherro1 "Non potete fare sul serio"
+    ck "Possiamo eccome, serve una dimostrazione?"
 
     show larry at unflip:
         offscreenright
         linear 1 right
 
-    ck "Dammi una mano a caricare anche lui."
+    la "Ecco fatto... adesso le manette"
+
 
     show larry directevil:
         parallel:
@@ -418,22 +382,21 @@ label gk303:
         parallel:
             ease 1 yalign 0.2
 
-    sgherro "IIIIIIH State lontani pazzoidi!"
+    sgherro1 "IIIIIIH State lontani!"
 
+    ck "Bene, mettiamolo in macchina."
     show black with Dissolve(0.5)
-
-    play sound ["audio/sfx/furu.ogg","audio/sfx/down.ogg"]
+    play sound ["audio/sfx/furu.ogg","audio/sfx/down.ogg","audio/sfx/doon.mp3"]
     pause 3
 
     scene car
     show embers
-    show larry directevil yep at right
-    show check direct plain at left
-    show check smile fp at flip
+    show larry directevil smile at right
+    show check plain at left
+    show check smile fire fp at flip
     show car_fire_overlay
     with Dissolve(0.5)
-
-    ck "Ecco il quanto, attaccheremo i circuiti al contachilometri, e tu inizierai a guidare."
+    ck "Ecco il quanto, ora ti ammanettiamo al volante e tu guiderai verso est quanto più veloce possibile."
 
     show check:
         parallel:
@@ -445,46 +408,26 @@ label gk303:
             ease 1 zoom 1.5
         parallel:
             ease 1 yalign -0.1
-
-    ck "Se scende sotto i 15 Km/h per troppo tempo... BOOM."
-    ck "Se il motore si spegne... BOOM."
-    ck "Se finisce la benzina e la macchina si spegne da sola, hai vinto.{w} Finora la possibilità di sopravvivere è del 97\%.{color=f37530}(?){/color}"
-    la "Ovviamente non è solo la tua vita che è in gioco. {w}Il tuo compagno è legato nel sedile di dietro."
-    sgherroImb "MHHHH MMHHHHHHH MMMMMMMMMMMMMMMHHHHHHHHHHHHM!"
+    ck "Se la chiave gira... boom. {w}Se stai fermo troppo a lungo... boom. {w}Se finisce la benzina e la macchina si spegne da sola, hai vinto."
+    ck "Ovviamente non è solo la tua vita che è in gioco. {w}Abbiamo legato e caricato il tuo compagno nel sedile di dietro."
+    sgherro2 "MHHHH MMHHHHHHH MMMMMMMMMMMMMMMHHHHHHHHHHHHM!"
     la "Lo senti? Ti sta augurando buona fortuna."
 
-    sgherro "IIIIIIIIIH!!! {w}ABBIATE PIETÀ!!!"
 
-    ck "Sei ancora in tempo per parlare."
-    sgherro "Volete sapere chi siamo e da dove operiamo? Ve lo dico io! Perciò calma con quegli esplosivi!"
-#     sgherro "Siamo i {color=#ffe674}________ ____{/color}... abbiamo circa 90 uomini stanziati a Hinamizawa{w} La nostra base operativa è {color=#ffe674}___ __________ _____ _______ ____{/color}!"
-#     sgherro "Il maggiore... Non so da dove viene esattamente o perchè è stato assegnato a questa operazione, ma so che è un veterano di guerra."
+    sgherro1 "IIIIIIIIIH!!! {w}ABBIATE PIETÀ!!!"
+    sgherro1 "Volete sapere chi siamo? Ve lo dico io! Perciò smettetela con quegli esplosivi!"
+    sgherro1 "Siamo i {color=#ffe674}________ ____{/color}... abbiamo circa 90 uomini stanziati a Hinamizawa{w} La nostra base operativa è {color=#ffe674}___ __________ _____ _______ ____{/color}!"
+    sgherro1 "Il maggiore... Non so da dove viene esattamente o perchè è stato assegnato a questa operazione, ma so che è un veterano di guerra."
 
-
-    show check -direct nope
-    show larry evil nope
-    with Fade(2,1,2)
-
-    ck "Avevo i miei sospetti. Era l'unico posto adatto ad un operazione del genere!"
-    la "Chi lo avrebbe mai detto che si nascondevano ad Hinamizawa fin dall'inizio...."
-    ck "Bene Larry, abbiamo un luogo da investigare.{w} Ci servirebbe soltanto un modo per depistare chi ci sta cercando."
-    ck "Un modo per, ad esempio, fargli pensare che siamo scappati con questa automobile...."
-
-    show check smile direct
-    show larry smile directevil
-    with dissolve
-    sgherro "Oh no..."
-    ck "Larry, puoi attaccare il plastico."
+    ck "Hai sentito Larry? Abbiamo un luogo da investigare.{w} Ci serve soltanto una traccia per fargli pensare che siamo scappati con questa automobile."
+    ck "Puoi attaccare il plastico."
     la "Signorsi signore."
-
     show larry:
         ease 1 yoffset 600
     pause 1
 
-    sgherro "ASPETTA QUESTO È UN CRIMINE DI GUERRA!!!!{w} È contro la convenzione di Ginevra!!!!"
-    ck "Il suggerimento di Ginevra vorrai dire!"
-    sgherro "SIETE DEI MOSTRI!!!!"
-    ck "Mostri? No... DEMONI!"
+    sgherro1 "ASPETTA QUESTO È UN CRIMINE DI GUERRA!!!!{w} DOVE È IL VOSTRO ONORE!!!!{w} DEMONI!!!!!!"
+    ck "Dovreste esserci abituati qua a Hinamizawa. Vedi almeno di non finire nella palude."
     show larry:
         ease 1 yoffset 0
     pause 1
@@ -495,28 +438,18 @@ label gk303:
     pause 2.5
 
     scene road_sunset with fade
-    sgherro "AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaahhhhhhhhhhhhhhhhhhh!!!!!!!"
+    sgherro1 "AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaahhhhhhhhhhhhhhhhhhh!!!!!!!"
     pause 1
     show larry direct yep at right
     show check plain at left
     show check yep direct fp at flip
     with dissolve
 
+    ck "Era uno scherzone! Non c'era nessun esplosivo!"
 
-    ck "Una performance degna di un oscar ragazzo mio."
+    la "Andiamo a fare il resto della scena in cui mi sparano."
 
-    la "Il merito è del capo per avere ideato il piano."
 
-    la "Dopo quanto pensa che si accorgeranno che non c'è nessun esplosivo?"
-
-    ck "Abbastanza a lungo da depistarli."
-
-    ck "Tra il cercare noi e l'emergenza incendio, non avranno tanti uomini a disposizione per fare la guardia al quartier generale."
-
-    show check calling
-    ck "E ora che abbiamo le trasmittenti di quei due, le posizioni sono ribaltate."
-
-    "Loro usano le radio degli sgherri ma hanabi lo sa"
     "Hanabi ha previsto tutto e lo trova."
 
     hb "Proprio come ai vecchi tempi."
