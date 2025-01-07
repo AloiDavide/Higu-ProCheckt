@@ -73,6 +73,8 @@ init:
                 "sprites/hb/mouths/grin0.png"
             attribute devil:
                 "sprites/hb/mouths/yep3.png"
+            attribute ultrarage:
+                "sprites/hb/mouths/ultrarage0.png"
 
             attribute yep_talk:
                 "hb_yep_talk"
@@ -90,6 +92,8 @@ init:
                 "hb_sneer_talk"
             attribute devil_talk:
                 "hb_devil_talk"
+            attribute ultrarage_talk:
+                "hb_ultrarage_talk"
 
 
     image hb_yep_talk:
@@ -134,6 +138,12 @@ init:
         .2
         repeat
 
+    image hb_ultrarage_talk:
+        "sprites/hb/mouths/nope2.png"
+        .2
+        "sprites/hb/mouths/shout1.png"
+        .2
+        repeat
 
 
 

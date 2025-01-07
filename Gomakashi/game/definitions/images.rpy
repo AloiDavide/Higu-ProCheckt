@@ -74,7 +74,9 @@ image car = im.Scale("bg/car.webp", 1920, 1080)
 image car_fire_overlay = im.Scale("bg/car fire overlay.webp", 1920, 1080)
 image embers = im.Scale("bg/embers.webp", 1920, 1080)
 image gael_arena = im.Scale("bg/gael_arena_frag.png", 1920, 1080)
-
+image def_stand = im.Scale("bg/lawyer stand.png", 1920, 1080)
+image pros_stand = Transform(im.Scale("bg/lawyer stand.png", 1920, 1080), xzoom=-1)
+image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
@@ -94,6 +96,8 @@ image you_died = "overlay/you_died.png"
 image disintegrate = "overlay/disintegrate.png"
 image smoke = "overlay/smoke.png"
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
+image aura = "overlay/blue aura.png"
+
 
 #FRAGMENTS
 image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)
@@ -261,3 +265,27 @@ image hnb_pacing:
 
     ease 2 left
     pause 0.3
+
+
+
+image bubbling_aura_blue:
+    "overlay/blue aura.png"
+    parallel:
+        ease 0.03 xoffset 2
+        ease 0.03 xoffset -2
+        repeat
+    parallel:
+        ease 0.05 yoffset -5
+        ease 0.05 yoffset 5
+        repeat
+
+image bubbling_aura_red:
+    "overlay/red aura.png"
+    parallel:
+        ease 0.03 xoffset 2
+        ease 0.03 xoffset -2
+        repeat
+    parallel:
+        ease 0.05 yoffset -5
+        ease 0.05 yoffset 5
+        repeat

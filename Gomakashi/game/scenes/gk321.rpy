@@ -10,10 +10,10 @@ label gk321:
     show hnb nopper at right
 
     with dissolve
-    hb "Diamine!"
+    hb "Dannazione!"
 
     hide smoke onlayer overlayer
-    $ renpy.transition(Dissolve(20), layer="overlayer")
+    $ renpy.transition(Dissolve(30), layer="overlayer")
 
     hide hnb
     show hnb_pacing
@@ -32,38 +32,45 @@ label gk321:
     hb "Guarda che faccia tosta, pure da morto continua a causarmi problemi... {w}mi ha pure costretto a uscire allo scoperto."
     hb "Che urto! Che irritazione!"
 
+    n "Sebbene Hanabi avesse raggiunto il suo obbiettivo ultimo, non riusciva a ritenersi soddisfatto."
 
-    hb "...Ed ora come cavolo esco da qui?"
-
-
-    n "Per qualche motivo, Hanabi aveva ancora un brutto presentimento."
+    n "Tutti i suoi sensi, dal primo al sesto, gli urlavano che qualcosa non andava, e di non abbassare la guardia."
 
 
-    hb "Mhhhh..."
     hide hnb_pacing
-    show hnb ohno nopper at left
+    show hnb nopper at left
+
+    hb "....Ho un brutto presentimento. {w}Devo trovare un modo di uscire da quì."
+
+    hb "........"
+    show hnb ohno
     play music "audio/umi/dread of the grave.mp3"
 
-    hb "NO! IMPOSSIBILE!"
+    hb "NO! IMPOSSIBILE!!!"
     play sound ["audio/sfx/furu.ogg","audio/sfx/down.ogg"]
     camera at sshake
 
     show check fire shout p:
-        offscreenright
-        ease 0.2 xalign 0.3
+        ypos 1.0
+        xalign 1.2
+        parallel:
+            ease 0.2 ypos 0.0
+        parallel:
+            ease 0.2 xalign 0.3
     pause 0.2
     show hnb:
         ease 0.2 offscreenleft
     show check:
         ease 0.6 center
-    n "Nonostante i suoi acuti sensi e riflessi, non fece in tempo a scansarsi, e la forza del montante lo scaraventò a terra."
 
+    pause 1
+    n "Nonostante Hanabi avesse percepito la presenza di Check tra le macerie, l'incredulo stupore rallentò i suoi riflessi sovraumani a tal punto da non permettergli di evitare l'attacco, e la forza di un montante supersonico lo scaraventò a terra."
 
 
 
     ck "MA CHI DIAVOLO TI CREDI DI ESSERE PER PENSARE DI POTERMI SCONFIGGERE COSÌ FACILMENTE!!!"
     show check shoutest
-    play sound "audio/sfx/short doon.mp3" volume 1.5
+    play sound "audio/sfx/short doon.mp3" volume 2.5
     camera:
         xalign 0.5
         yalign 0.0
@@ -71,38 +78,40 @@ label gk321:
     ck "CREDEVI CHE QUESTO FOSSE TUTTO QUELLO CHE POSSO FARE? CREDEVI VERAMENTE CHE FOSSE COSÌ FACILE SBARAZZARTI DI ME?????"
 
     ck "NEANCHE PER SOGNO! LA NOSTRA BATTAGLIA È SOLO INIZIATA!!!"
-    play sound "audio/sfx/short doon.mp3" volume 1.5
+    play sound "audio/sfx/short doon.mp3" volume 2.5
     camera:
         xalign 0.5
         yalign 0.0
         zoom 1.6
-    ck "AVRAI VINTO LA BATTAGLIA MA NON HAI VINTO LA GUERRA! TUTTO QUELLO CHE è SUCCESSO FINORA NON È STATO ALTRO CHE UNA PREPARAZIONE PER LA TUA TOTALe SCONFITTA NELLA PROSSIMA PARTITA!!!"
-    play sound "audio/sfx/short doon.mp3" volume 1.5
+    ck "AVRAI VINTO LA BATTAGLIA MA NON HAI VINTO LA GUERRA! TUTTO QUELLO CHE è SUCCESSO FINORA NON È STATO ALTRO CHE UNA PREPARAZIONE PER LA TUA TOTALE SCONFITTA NELL PROSSIMO ROUND!!!"
+    play sound "audio/sfx/short doon.mp3" volume 2.5
     camera:
         xalign 0.5
         yalign 0.0
         zoom 1.9
     ck "NON SONO MAI STATO ARRABBIATO QUANTO IN QUESTO MOMENTO, LA PAGHERAI PER TUTTI I TUOI CRIMINI E LE TUE CRUDELTÀ!!!"
     ck "LA PROSSIMA VOLTA TI TRASFORMERÒ IN UN MUCCHIETTO DI POLVERE!!! SEI PRONTO????"
+
+    play sound "audio/sfx/earth rumbling.mp3" volume 1.5
     window hide
     camera:
         easein 1 zoom 1
     pause 1
     camera at Shake((0, 0, 0, 0), 4.0, dist=15)
 
-    play sound "audio/sfx/aura.mp3"
+
 
     show debris behind check, hnb:
         ypos 1080
         easeout 3 ypos 0
     pause 0.5
     ck "UUOOOOOOOOOOOHH!!!!!!!!!!!!!!"
+    stop sound fadeout 3
 
-    "(L' aura di Check esplode fino a spostare Hanabi, la scena dietro di loro si incrina.{color=f37530}(?){/color})"
     show check:
         ease 1 right
 
-    show hnb napalm_right fury nopper at flip:
+    show hnb napalm_right ultrarage fury at flip:
         ease 1 left
     pause 1
     hb "Ma come diavolo... io dovrei avere vinto! Come cavolo fai ad essere ancora qui!"
@@ -113,42 +122,140 @@ label gk321:
     ck "Non avrò risolto tutto questa volta, ma ora ho accesso a delle informazioni cruciali con cui interpretate gli altri frammenti!"
     ck "Lo scambio delle gemelle! l'innocenza dei Sonozaki! l'attacco di Rika!"
 
-    show check objection at pointing with purple_quick:
-        xoffset 300
+    camera at sshake
+    play sound "audio/sfx/short doon.mp3" volume 2.5
+
+#
+#     scene pros_stand
+#     show check objection p fire shoutest:
+#         xalign 0.8
+#     show lawyer_table at flip
+#
+#
+#
+#     with purple_flash
+#     pause 1
+    play sound "audio/sfx/zbiin.ogg"
+    play audio "audio/sfx/aura.mp3" volume 2 loop
+    show bubbling_aura_blue behind check
+    show bubbling_aura_blue at right:
+        xoffset 90
+        yoffset 350
+    ck "E SOPRATTUTTO TU HANABI! {w}Tu sei vivo ad Hinamizawa e sei parte della cospirazione ai danni del BKG!"
+
+    play sound "audio/sfx/damage2.mp3" volume 2.5
+    show hnb nopper at flip:
+        linear 0.2 xoffset -150
+        linear 1.2 xoffset 0
+
+    pause 2
+
+#     play sound "audio/sfx/short doon.mp3" volume 2.5
+#     scene def_stand
+#     show hnb napalm_right ultrarage fury at flip
+#     show lawyer_table
+#
+
+#     pause 1.5
 
 
-    ck "E soprattutto tu Hanabi! Tu sei vivo ad Hinamizawa e sei parte della cospirazione ai danni del BKG!"
-    hide check
-    show check fire shout p at right
+    hb "STA ZITTO! Non vedi che sei morto di nuovo?"
+    show hnb grin
+    show you_died:
+        yoffset -0
+    $ renpy.transition(Dissolve(1))
+
+    pause 1
+
+    hb "Cosa vuoi che cambi se questa volta sei sopravvissuto un po più a lungo? {w}Non hai potuto fare niente per cambiare il risultato."
+
+
+
 #     show torakku_grayscale behind check, hnb
 
-    with purple_flash
 
-    show you_died behind check, hnb:
-        yoffset -300
-    $ renpy.transition(Dissolve(2))
-
-    hb "Sta zitto! Non vedi che sei morto di nuovo?"
+#
 
 
+
+    show you_died behind check, bubbling_aura_blue
+    with dissolve
+    show hnb ultrarage
+    show check:
+        ease 1 center
+    show bubbling_aura_blue:
+        ease 1 xalign 0.4
+    pause 1
     ck "Ogni morte è una lezione Hanabi."
-    play sound "audio/sfx/glass crack.mp3"
-    hide you_died with ImageDissolve(im.Scale("overlay/disintegrate.png", 1920, 1080), 1.5)
+    ck "Questa volta io e Larry ci siamo andati così vicini che sei stato costretto a rivelare la tua mano."
 
-    ck "Questa volta io e Larry ci siamo andati così vicini che sei stato costretto a rivelare la tua mano. {w}Una via di uscita esiste, e noi la troveremo, non importa quanti tentativi ci vorranno!"
+    ck "Una via di uscita esiste, e giuro che noi la troveremo! Non importa quanti tentativi ci vorranno!"
+    show check shoutestOpen
+    show hnb at flip:
+        ease 0.3 offscreenleft
+    show bubbling_aura_blue:
+        parallel:
+            easeout 0.2 xzoom 2.3
+        parallel:
+            easeout 0.2 xoffset 0
+
+#     play sound "audio/sfx/glass crack.mp3"
+    play sound ["audio/sfx/truth.mp3"]
+#     play sound "audio/sfx/strike.mp3"
+    with Dissolve(0.01)
+    hide you_died
+    $ renpy.transition(ImageDissolve(im.Scale("overlay/disintegrate.png", 1920, 1080), 1.5), layer="master")
+
+    ck "HAAAAAAAAAAAAH!"
 
 
-    hb "Ggghhh... ma allora quale diavolo è la mia condizione di vittoria! Dannazione!"
+    stop audio fadeout 3
+    window hide
+    show check shoutest
+    show bubbling_aura_blue:
+        parallel:
+            easeout 1 xzoom 1
+        parallel:
+            easeout 1 xoffset 90
+    $renpy.pause(1, hard=True)
+    show hnb nopper at flip:
+        ease 1 left
+    show check:
+        ease 1 right
+    show bubbling_aura_blue:
+        ease 1 right
 
+    hb "Ggghhh... tu davvero non sai quando mollare."
 
+    "kuyashii eyes"
+    hb "Ma allora quale diavolo è la mia condizione di vittoria! Dannazione!"
 
+    n ".............."
+    show hnb evilgrin
+    hb "Hanana.{w} HANANANANANANANA!!!"
 
-    scene bern_fancy with fade
+    hb "Benissimo! Accetto la sfida!"
+    play audio "audio/sfx/aura.mp3" volume 2 loop
+    play sound "audio/sfx/zbiin.ogg"
+    show bubbling_aura_red behind hnb:
+        xoffset -180
+        yoffset -150
+    hb "Distruggerò le tue illusioni ancora ed ancora, fino a che non avrai più la forza di rialzarti."
+
+    ck "al prossimo round, mo tocca a voi scegliere frammento e persona"
+
+    hb "Ti avevo promesso che andavano da rena se non sbaglio. Hei voi due dateci il frammento."
+    stop audio
+    scene bern_fancy with pushdown
     play music "audio/umi/about face.mp3"
     play sound "audio/sfx/teleport.wav"
     show bern yoko at left
     show lamb at right
     with squares
+    "make a new channel and put your audio on there so you can actually stop it"
+    "renpy.music.register_channel(name, mixer, loop=None, stop_on_mute=True, tight=False, file_prefix='', file_suffix='', buffer_queue=True, movie=False, framedrop=True)link"
+    "consider changing ost but still epic"
+    ld "Hai sentito il facciatosto?"
 
     bk "Certamente non credevi anche tu che Check sarebbe semplicemente scomparso."
 
@@ -166,18 +273,19 @@ label gk321:
 
     bk "In altre parole, un destino peggiore della morte."
 
-    "(lambdadelta da un frammento)"
+    ld "Rena heh Che ne dici di questo?"
+    "lo esce"
+    bk "La scelta è tua, non mi interessa."
+    "(lambdadelta da un frammento che cade da questo screen a quello sotto)"
 
 
     show hnb evilgrin fury at right onlayer overlayer
     show check angry nope fp at left onlayer overlayer
     show check at flip
 
+
     show vs_screen
-    show tsumi_prop:
-        zoom 0.3
-        xalign 0.5
-        yalign 0.0
+
 
     show hnb:
         xoffset -450
@@ -189,11 +297,15 @@ label gk321:
         zoom 2
         xalign 0.5
         yalign 0.5
-    play sound "audio/sfx/zbiin.ogg"
-
     window hide
+    with pushup
+    play sound "audio/sfx/zbiin.ogg"
+    show tsumi_prop:
+        zoom 0.3
+        xalign 0.5
+        yalign - 0.4
+        ease 1 yalign 0.0
     pause 1
-    play music "audio/umi/dread of the grave.mp3"
     hb "Molto bene! Allora come stabilito stavolta sono io a decidere chi sarà la tua prospettiva!"
     hb "Perfetto. PROSSIMA PARTITA!"
     ck "MOLTO BENE! NON PERDERÒ PER NESSUNA RAGIONE AL MONDO! PROSSIMA PARTITA!"

@@ -22,7 +22,9 @@ init:
     transform pointing:
         xoffset -136
         yoffset 60
-
+    transform pointing_reverse:
+        xoffset 136
+        yoffset 60
     transform reset:
         xoffset 0
         yoffset 0

@@ -72,6 +72,8 @@ init:
                 "sprites/ck/mouths/worried0.png"
             attribute shoutest:
                 "sprites/ck/mouths/worried0.png"
+            attribute shoutestOpen:
+                "sprites/ck/mouths/shout3.png"
 
             attribute yep_talk:
                 "yep_talk"
@@ -84,6 +86,8 @@ init:
             attribute shout_talk:
                 "shout_talk"
             attribute shoutest_talk:
+                "shoutest_talk"
+            attribute shoutestOpen_talk:
                 "shoutest_talk"
 
         attribute t1:
