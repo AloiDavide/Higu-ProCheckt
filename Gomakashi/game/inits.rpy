@@ -1,3 +1,4 @@
+
 init -1 python:
     import random
     def rand():

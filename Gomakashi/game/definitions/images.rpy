@@ -23,6 +23,7 @@ image rika_moon = im.Scale("cg/rika_moon.webp", 1920, 1080)
 #BACKGROUNDS
 image codec = im.Scale("bg/codec.png", 1920, 1080)
 image black = im.Scale("bg/black.jpg", 1920, 1080)
+image white = im.Scale("bg/white.jpg", 1920, 1080)
 image blacknoise = im.Scale("bg/blacknoise.png", 1920, 1080)
 image purplenoise = im.Scale("bg/purplenoise.png", 1920, 1080)
 image red = im.Scale("bg/red.png", 1920, 1080)

@@ -155,55 +155,53 @@ screen tips():
 
         vbox yalign 0.5 spacing 30:
             imagebutton:
+                tooltip "Spiaggia dei frammenti"
+                idle damA
+                hover dam_overB
+                hover_sound "audio/sfx/darkso cursor.mp3"
+                activate_sound "audio/sfx/stone slide magic.mp3"
+                action Call("gk30")
+            imagebutton:
                 tooltip "Larry esplode"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk300")
-            imagebutton:
-                tooltip "Larry flashback"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk301")
+                action Call("gk31")
             imagebutton:
                 tooltip "Metarivali part 1"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk320")
+                action Call("gk32")
+
+
+
+
+        vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Crediti totalmente veri"
+                tooltip "Larry flashback"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("credits_scene")
-        vbox yalign 0.5 spacing 30:
+                action Call("gk330")
             imagebutton:
                 tooltip "Plan execution"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk303")
+                action Call("gk332")
             imagebutton:
                 tooltip "Metarivali true ending"
                 idle damA
                 hover dam_overB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk321")
-            imagebutton:
-                tooltip "Spiaggia dei frammenti"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk330")
+                action Call("gk34")
+
 
 
 
@@ -230,4 +228,4 @@ screen welcome_tsumi():
             xalign 0.5
             font "static/yuminl.ttf"
 
-    timer 30.0 action Return()
+    timer 10.0 action Return()

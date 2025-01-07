@@ -53,7 +53,8 @@ init:
                 "sprites/hb/eyes/ohno.png"
             attribute close:
                 "sprites/hb/eyes/close.png"
-
+            attribute kitsune:
+                "sprites/hb/eyes/kitsune.png"
 
 
         group mouth:
