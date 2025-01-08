@@ -477,11 +477,12 @@ Grazie di tutto Bern... e scusami per la mia debolezza.
 
     bk "Non ho nessun obbligo di soddisfare le tue aspettative... {w}Faccio soltanto ciò che è necessario per vincere. Niente di più e niente di meno, e sarà così fino alla fine."
 
-
+    $ renpy.block_rollback()
 
     stop music fadeout 10
-    scene black with longFade
-
+    scene black
+    $ renpy.transition(Fade(7,0,3), layer="master")
+    $ renpy.pause(10, hard=True)
 
     camera underlayer:
         xalign 0.5

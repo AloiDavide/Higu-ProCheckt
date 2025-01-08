@@ -30,7 +30,7 @@ Un uomo dannato, un uomo finito, dal tristo destino, terribile e bruno
 """
     $credits_verseD = """
 Processo, sentenza, sia dunque un duello!, Agente scadente e soldato spietato
-Che c'è poi da dire, qualcuno è sorpreso? in quale altro modo poteva finire?
+Che c'è poi da dire, qualcuno è sorpreso? In quale altro modo poteva finire?
 Sconfitta schiacciante, sconfitta esemplare, cioè il risultato atteso e scontato.
 Si chiede il detective che attende la fine, è questo il destino che devo soffrire?
 """
@@ -38,15 +38,15 @@ Si chiede il detective che attende la fine, è questo il destino che devo soffri
     $credits_epilogueA = """
 Ben prima del tutto, una povera bimba, richiede alla strega dal giallo colore
 "Vorrei che i miei sforzi abbian certo successo" La strega negli occhi ha un vivace brio
-"Qual è il tuo obiettivo" lei chiede, cercando una tregua da noia, ozio e tepore
-Un ghigno le appare nel volto alla folle risposta. "Diventerò un Dio."
+"Qual è il tuo obiettivo" lei chiede, cercando una tregua da noia e tepore
+Un ghigno sul volto alla folle risposta. "Diventerò un Dio."
 """
 
     $credits_epilogueB = """
-Il principio di tutto fu una povera bimba, per cui una strega provò simpatia
-"Vorrei la certezza che con i miei sforzi io possa renderere il destino mio."
-"Qual è il tuo obiettivo?" le chiese la strega, cercando una tregua dalla monotonia
-Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
+All'inizio di tutto una povera bimba, per cui una strega provò simpatia
+"Dammi la certezza che con i miei sforzi io possa renderere il destino mio."
+"Cos'è che brami?" rispose incuriosita, cercando una tregua dalla monotonia
+Un ghigno seguì la folle risposta. "Il mio obbiettivo è essere un Dio."
 """
 
 
@@ -127,7 +127,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
 #             xalign 1.0
 #             text_style "credits_green"
 
-        null height 500
+        null height 550
 
         add "gui/HiguLogo.png":
             xalign 0.5
@@ -168,7 +168,7 @@ Un ghigno seguì la sua folle risposta. "La mia ambizione è essere un Dio."
         add separator:
             xalign 0.5
 
-        textbutton credits_epilogueA:
+        textbutton credits_epilogueB:
             xalign 0.5
             text_style "credits_normal"
 
@@ -199,8 +199,8 @@ label gkCredits:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 350
-    $stop_point = -5*1080 -420
+    $scroll_duration = 3 #350
+    $stop_point = -5*1080 -40
     #circa 300
 
     $ persistent.notes = False
@@ -230,15 +230,15 @@ label gkCredits:
 
     show screen fine onlayer overlayer with dissolve
 
+    $ renpy.block_rollback()
     pause
-
 
     hide screen fine onlayer overlayer
     play sound "audio/sfx/laugh.mp3"
     show screen fine2 onlayer overlayer
     with squares
-
-    pause 2
+    $ renpy.block_rollback()
+    $renpy.pause(2, hard=True)
 
 
 
@@ -247,7 +247,7 @@ label gkCredits:
         zoom 1
         easeout_expo 2.5 zoom 400
 
-    pause 2
+    $renpy.pause(2, hard=True)
     hide screen fine2 onlayer overlayer
 
 
@@ -257,7 +257,7 @@ label gkCredits:
         zoom 0.0025
         easeout_expo 3.5 zoom 2.5
 
-    pause 3
+    $renpy.pause(3, hard=True)
     hide meakashi_prop onlayer notes_layer
     scene hinamizawa onlayer overlayer
     camera overlayer:
@@ -278,7 +278,8 @@ screen fine:
         yalign 0.5
         textalign 0.5
         size 60
-        font "static/Caveat-SemiBold.ttf"
+        outlines [(2, "#00b83b", 1,1)]
+        font "static/Winter Minie.ttf"
 
 screen fine2:
     text "FINE.......?":
@@ -286,4 +287,6 @@ screen fine2:
         yalign 0.5
         textalign 0.5
         size 60
-        font "static/Caveat-SemiBold.ttf"
+        outlines [(2, "#f37530", 1,1)]
+        font "static/Winter Minie.ttf"
+
