@@ -127,7 +127,7 @@ label gk32:
 
     hb "Avresti dovuto accorgertene alla fine del secondo frammento, quando è stato confermato che Mion era già morta. {w}A quel punto c'era solo una possibile spiegazione."
 
-    hb "Eppure era così ovvio! I gemelli che si scambiano è uno dei clichè più vecchi e rivisti!"
+    hb "Eppure era così ovvio! I gemelli che si scambiano è uno dei cliché più vecchi e rivisti!"
 
     call break_image from _call_break_image
 
@@ -179,7 +179,7 @@ label gk32:
     ck "Toglimi subito queste robe di dosso altrimenti..."
     hb "Altrimenti cosa?"
     hb "E non abbiamo finito. {w}Ricordi tutte quelle teorie sull'indottrinamento del villaggio che erano il tuo cavallo di battaglia?"
-    hb "Mion, Rika, Rena, Satoshi...{w} con i leader del villaggio scaggionati non puoi più dire che sono stati educati dall'infanzia credere alla maledizione!"
+    hb "Mion, Rika, Rena, Satoshi...{w} con i leader del villaggio scagionati non puoi più dire che sono stati educati dall'infanzia credere alla maledizione!"
     hb "Il che ci porta a...."
 
     play sound "audio/sfx/doon.mp3"
@@ -410,7 +410,7 @@ Grazie di tutto Bern... e scusami per la mia debolezza.
     $renpy.pause(5, hard=True)
 
     scene darkso_church
-    show check t1 t2 t3 sor p angry nope onlayer overlayer
+    show check t1 t2 t3 t4 sor p angry nope onlayer overlayer
     camera:
         xalign 0.6
         yalign 0.4
@@ -475,7 +475,7 @@ Grazie di tutto Bern... e scusami per la mia debolezza.
 
     ld "Bene, non vedo l'ora di vedere quale sia la tua prossima mossa. {w}Spero che sia qualcosa di più interessante di quei due."
 
-    bk "Non ho nessuna obbligazione di mantenere le tue aspettative..."
+    bk "Non ho nessun obbligo di soddisfare le tue aspettative..."
 
 
 

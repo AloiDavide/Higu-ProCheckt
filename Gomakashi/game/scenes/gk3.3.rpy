@@ -54,7 +54,7 @@ label gk331:
 
     scene tenjou with Dissolve(5)
 
-    "------------scene 302 The flashback-------------"
+
     show sepia onlayer overlayer at truecenter:
         zoom 1.2
         alpha 0.5
@@ -130,7 +130,7 @@ label gk331:
 
     ck "Come ben sai, il BKG è una cellula antiterroristica paramilitare che gode di una certa autonomia, ma non si sostiene certamente da solo."
 
-    "Change the music"
+
     play music "audio/higu/lies lies.mp3" fadein 2
     scene war with fade
 
@@ -175,7 +175,7 @@ label gk331:
         ease 1 offscreenleft
     pause 1.5
 
-    "maybe this song starts earlier"
+
     play music "audio/higu/words of atonement.mp3" fadein 3
     show larry tilt with Dissolve(0.01)
     show red:
@@ -282,7 +282,7 @@ label gk331:
     la "Però avete ragione."
 
     show larry direct yep
-    la "Ci posso riuscire. {w}No, ci DEVO riuscire! {w}È l'unico modo che ho per sdebitarmi."
+    la "Ci posso riuscire. {w}No, CI RIUSCIRÒ! {w}È l'unico modo che ho per sdebitarmi."
 
     ck "Ben detto Larry. Tu prepara un copione, io invece... "
     show check sus
@@ -301,7 +301,7 @@ label gk332:
 #     lay music "audio/higu/silver mirror.mp3" fadein 3
 
 
-    "------------scene 303 Plan execution-------------"
+
     play sound "audio/sfx/bushes1.mp3"
     sgherro1 "Team 1, veniamo da ovest, la capanna sta bruciando e non ci sono tracce di sopravvissuti."
     sgherro2 "Team 2, Anche da est tutto regolare, nessuna traccia di nessuno, la loro vettura è ancora nascosta tra la vegetazione."

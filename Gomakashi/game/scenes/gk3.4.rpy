@@ -4,9 +4,6 @@ label gk34:
     scene gael_arena
     show smoke onlayer overlayer
     with longFade
-    "------------scene 321 Metarivali part 2-------------"
-
-
     show hnb nopper at right
 
     with dissolve
@@ -32,7 +29,7 @@ label gk34:
     hb "Guarda che faccia tosta, pure da morto continua a causarmi problemi... {w}mi ha pure costretto a uscire allo scoperto."
     hb "Che urto! Che irritazione!"
 
-    n "Sebbene Hanabi avesse raggiunto il suo obbiettivo ultimo, non riusciva a ritenersi soddisfatto."
+    n "Sebbene Hanabi avesse raggiunto il suo obiettivo ultimo, non riusciva a ritenersi soddisfatto."
 
     n "Tutti i suoi sensi, dal primo al sesto, gli urlavano che qualcosa non andava, e di non abbassare la guardia."
 
@@ -64,11 +61,12 @@ label gk34:
         ease 0.6 center
 
     pause 1
-    n "Nonostante Hanabi avesse percepito la presenza di Check tra le macerie, l'incredulo stupore rallentò i suoi riflessi sovraumani a tal punto da non permettergli di evitare l'attacco, e la forza di un montante supersonico lo scaraventò a terra."
-
 
 
     ck "MA CHI DIAVOLO TI CREDI DI ESSERE PER PENSARE DI POTERMI SCONFIGGERE COSÌ FACILMENTE!!!"
+    n "Nonostante Hanabi avesse percepito la presenza di Check tra le macerie, l'incredulo stupore rallentò i suoi riflessi sovraumani a tal punto da non permettergli di evitare l'attacco, e la forza di un montante supersonico lo scaraventò a terra."
+
+
     show check shoutest
     play sound "audio/sfx/short doon.mp3" volume 2.5
     camera:
@@ -284,7 +282,7 @@ label gk34:
 
     with pushup
 
-    n ".........................................................."
+    n "..........................................................{p}.........................................................."
     play music "audio/umi/endless nine.mp3" fadein 2
     show hnb evilgrin fury
     hb "Hanana.{w} HANANANANANANANA!!!"
