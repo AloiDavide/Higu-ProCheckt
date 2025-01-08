@@ -516,23 +516,127 @@ label gk332:
 
     ck "Abbastanza a lungo da depistarli."
 
-    ck "Tra il cercare noi e l'emergenza incendio, non avranno tanti uomini a disposizione per fare la guardia al quartier generale."
 
     show check calling
     ck "E ora che abbiamo le trasmittenti di quei due, le posizioni sono ribaltate."
 
+    ck "Tra il cercare noi e l'emergenza incendio, non avranno tanti uomini a disposizione per fare la guardia al quartier generale."
+
+    ck "Non avremo mai più un'occasione come questa."
+
     "Loro usano le radio degli sgherri ma hanabi lo sa"
     "Hanabi ha previsto tutto e lo trova."
 
-    hb "Proprio come ai vecchi tempi."
 
-    ck "Pensavo che eri morto fra"
 
-    hb "I'm a ghost and I'm back to haunt you"
+    scene koya_fire with fade
 
-    "Shooty shooty shoot"
+    sgherro3 "Perchè ci avete messo così tanto! Abbiamo perso i contatti col team 2."
 
-    "------------Kojima moment-------------"
+    sgherro1 "Colpa del terrain"
+
+    hb_anon "Basta chiacchiere, qual'è la situazione?"
+
+    sgherro3 "Maggiore, stanno fuggendo, abbiamo avvistato la loro vettura allontanarsi e la strada è sbarrata."
+
+    hb_anon "..."
+
+    hb_anon "Ho capito, "
+
+    scene forest_path_sunset_A
+
+    show check plain at left
+    show larry direct yep at right
+
+    ck "Larry, voglio che tu ti nasconda non posso metterti in pericolo."
+
+    la "Ma capo..."
+
+    ck "La strada è libera."
+
+
+    "........Capo..."
+
+    hb "Larry, ho detto di no... {w}Larry?"
+
+    la "Si?"
+
+    play music "audio/higu/moon.mp3"
+    hb "La tua spalla!"
+
+    show larry with dissolve
+    "esce il primo sangue"
+
+    show check shoutest
+    hb "PRESTO AL RIPARO! SIAMO SOTTO TIRO"
+
+    show woods_sunset with pushleft
+    show check angry worried
+    ck "DANNAZZIONE! Siamo in una foresta! Come fa a prenderci di mira."
+
+    show forest_path_sunset_B with pushright
+
+    show larry hide_arm close worried tilt
+
+
+
+
+    la "La mia gamba."
+    ck "LARRY!"
+
+    play music "audio/sfx/vibration.mp3"
+    "bzz bzz"
+
+    hb_anon "Non muovere un muscolo."
+
+    "Opzionale cut a view mirino su larry"
+
+    show scope
+
+
+
+    hb_anon "Ho il ragazzo sotto tiro."
+
+    hb_anon "Bastardo, stai colpendo apposta i punti non letali!"
+
+    ck "Chi sei?! Sei tu Lambdadelta?!"
+
+    hb "Dovresti sapere il mio nome."
+
+    ck "Quella voce... e questa abilità col fucile... No, non puoi essere lui."
+
+    hb "Bingo."
+
+    play music "audio/higu/requiem for the disaster.mp3"
+
+    ck "Mi devi promettere di risparmiarlo."
+
+    hb "Senza te non ho motivo di uccidere quell'incapace."
+
+    scene mountain_sunset
+
+    show hnb nopper
+
+    hb "È finita."
+
+    hb "Recuperate il corpo."
+
+
+
+    sgherro3 "Cosa dobbiamo fare con l'assistente?"
+
+    hb_anon "Fate come volete, non è più un mio problema."
+
+    hb "Il mio ruolo in questa operazione si è esaurito, dite al vostro leader che farò ritorno a TOKYO già a partire da domani."
+
+    sgherro3 "Sissignore."
+
+    play sound "audio/sfx/bushes2.mp3"
+
+    hb "Questo non era nei piani."
+
+    hb "Se solo te ne fossi stato al tuo posto, questo non sarebbe successo."
+
 
     hb "Si signore. Quì Hanabi... {w}anzi... quì Lambdadelta."
 

@@ -75,9 +75,10 @@ image car = im.Scale("bg/car.webp", 1920, 1080)
 image car_fire_overlay = im.Scale("bg/car fire overlay.webp", 1920, 1080)
 image embers = im.Scale("bg/embers.webp", 1920, 1080)
 image gael_arena = im.Scale("bg/gael_arena_frag.png", 1920, 1080)
-image def_stand = im.Scale("bg/lawyer stand.png", 1920, 1080)
-image pros_stand = Transform(im.Scale("bg/lawyer stand.png", 1920, 1080), xzoom=-1)
-image lawyer_table = im.Scale("overlay/lawyer table.png", 1920, 1080)
+image mountain_sunset = im.Scale("bg/mountain_sunset.webp", 1920, 1080)
+image woods_sunset = im.Scale("bg/woods_sunset.webp", 1920, 1080)
+image forest_path_sunset_A = im.Scale("bg/forest_path_sunset_A.webp", 1920, 1080)
+image forest_path_sunset_B = im.Scale("bg/forest_path_sunset_B.webp", 1920, 1080)
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)
@@ -98,7 +99,7 @@ image disintegrate = "overlay/disintegrate.png"
 image smoke = "overlay/smoke.png"
 image debris = im.Scale("overlay/debris.png", 1920, 1080)
 image aura = "overlay/blue aura.png"
-
+image scope = im.Scale("overlay/scope.png", 1920, 1080)
 
 #FRAGMENTS
 image tsumi_frag = im.Scale("frags/tsumi fragment.png", 1920, 1080)
