@@ -475,7 +475,7 @@ Grazie di tutto Bern... e scusami per la mia debolezza.
 
     ld "Bene, non vedo l'ora di vedere quale sia la tua prossima mossa. {w}Spero che sia qualcosa di più interessante di quei due."
 
-    bk "Non ho nessun obbligo di soddisfare le tue aspettative..."
+    bk "Non ho nessun obbligo di soddisfare le tue aspettative... {w}Faccio soltanto ciò che è necessario per vincere. Niente di più e niente di meno, e sarà così fino alla fine."
 
 
 

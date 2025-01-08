@@ -329,8 +329,6 @@ label gk34:
 
     ld "Oh vedrai sarà esilarante, una tragedia così ironica da strappare una risata perfino a te."
 
-    "{color=#f37530}Lambdadelta sa che alla fine Keiichi farà rinsanire Rena o è un imprevisto che non si era mai verificato? Secondo me la seconda.{/color}"
-
     show tsumi_prop:
         ease 1 yalign 1.5
     pause 1
