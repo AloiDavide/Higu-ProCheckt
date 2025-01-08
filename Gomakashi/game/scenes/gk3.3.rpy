@@ -651,6 +651,6 @@ label gk332:
     hb ".... Ricevuto."
 
     show black with longFade
-    jump mid_start
+    jump gk34
 
     return

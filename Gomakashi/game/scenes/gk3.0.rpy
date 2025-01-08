@@ -187,6 +187,6 @@ Sconfigger√≤ Lambdadelta usando come arma la sua stessa arroganza. E conquister√
     hide bern with squares
 
     stop sound fadeout 5
-    jump gk300
+    jump gk31
 
     return

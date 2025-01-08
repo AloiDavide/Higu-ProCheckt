@@ -265,7 +265,7 @@ label gkCredits:
 
     with Dissolve(1.5)
 
-    jump gk301
+    jump gk330
 
 
 
