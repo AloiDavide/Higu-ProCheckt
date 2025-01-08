@@ -126,4 +126,4 @@ label gk31:
 
     pause 7
 
-    jump gk320
+    jump gk32
