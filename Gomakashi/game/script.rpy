@@ -8,7 +8,7 @@ define config.default_sfx_volume = 0.5
 
 label start:
     #$ persistent._clear()
-    $ persistent.notes = True
+
     stop music fadeout 4.5
     play sound "audio/sfx/heavy door open.mp3"
     scene sonozroom with Dissolve(3.5)

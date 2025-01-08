@@ -390,6 +390,6 @@ label gk34:
     $renpy.call_screen('welcome_tsumi')
     stop music fadeout 15
     $renpy.call_screen('welcome_tsumi')
-
+    $ persistent.notes = True
     $ MainMenu(confirm=False)()
     return

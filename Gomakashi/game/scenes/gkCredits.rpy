@@ -219,7 +219,7 @@ label gkCredits:
 
     window hide
 
-    $ persistent.notes = True
+
     $ quick_menu = True
     $ _skipping = True
 
