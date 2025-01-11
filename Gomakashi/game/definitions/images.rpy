@@ -77,8 +77,10 @@ image embers = im.Scale("bg/embers.webp", 1920, 1080)
 image gael_arena = im.Scale("bg/gael_arena_frag.png", 1920, 1080)
 image mountain_sunset = im.Scale("bg/mountain_sunset.webp", 1920, 1080)
 image woods_sunset = im.Scale("bg/woods_sunset.webp", 1920, 1080)
-image forest_path_sunset_A = im.Scale("bg/forest_path_sunset_A.webp", 1920, 1080)
-image forest_path_sunset_B = im.Scale("bg/forest_path_sunset_B.webp", 1920, 1080)
+image forest_path_winding_sunset = im.Scale("bg/forest_path_winding_sunset.webp", 1920, 1080)
+image forest_path_open = im.Scale("bg/forest_path_open.webp", 1920, 1080)
+image rural_road = im.Scale("bg/rural_road.webp", 1920, 1080)
+image rocky_wall_sunset = im.Scale("bg/rocky_wall_sunset.webp", 1920, 1080)
 
 #OVERLAYS
 image sepia = im.Scale("overlay/sepianoise2.png", 1920, 1080)

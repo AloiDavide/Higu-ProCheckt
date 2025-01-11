@@ -93,7 +93,8 @@ screen tips():
         t22a = im.Scale("thumbnails/2.2.a.png", 360, 225)
         t22b = im.Scale("thumbnails/2.2.b.png", 360, 225)
 
-
+        spiaggiaA = im.Scale("thumbnails/spiaggiaA.png", 360, 225)
+        cieloB = im.Scale("thumbnails/cieloB.png", 360, 225)
 
 
 
@@ -111,7 +112,7 @@ screen tips():
 
 
 
-    hbox xalign 0.5 yalign 0.7 spacing 30: #300
+    hbox xalign 0.5 yalign 0.7 spacing 300: #300
 
         vbox yalign 0.5 spacing 30:
 
@@ -155,52 +156,14 @@ screen tips():
 
         vbox yalign 0.5 spacing 30:
             imagebutton:
-                tooltip "Spiaggia dei frammenti"
-                idle damA
-                hover dam_overB
+                tooltip "Finale"
+                idle spiaggiaA
+                hover cieloB
                 hover_sound "audio/sfx/darkso cursor.mp3"
                 activate_sound "audio/sfx/stone slide magic.mp3"
                 action Call("gk30")
-            imagebutton:
-                tooltip "Larry esplode"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk31")
-            imagebutton:
-                tooltip "Metarivali part 1"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk32")
 
 
-
-
-        vbox yalign 0.5 spacing 30:
-            imagebutton:
-                tooltip "Larry flashback"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk330")
-            imagebutton:
-                tooltip "Plan execution"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk332")
-            imagebutton:
-                tooltip "Metarivali true ending"
-                idle damA
-                hover dam_overB
-                hover_sound "audio/sfx/darkso cursor.mp3"
-                activate_sound "audio/sfx/stone slide magic.mp3"
-                action Call("gk34")
 
 
 

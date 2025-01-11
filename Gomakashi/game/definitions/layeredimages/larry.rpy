@@ -129,6 +129,12 @@ init:
             attribute yep_talk:
                 "lar_smile_talk"
 
+        attribute b1:
+            "sprites/la/blood1.png"
+        attribute b2:
+            "sprites/la/blood2.png"
+        attribute b3:
+            "sprites/la/blood3.png"
 
 
     image lar_nope_talk:

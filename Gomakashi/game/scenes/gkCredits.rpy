@@ -46,7 +46,7 @@ Un ghigno sul volto alla folle risposta. "Diventerò un Dio."
 All'inizio di tutto una povera bimba, per cui una strega provò simpatia
 "Dammi la certezza che con i miei sforzi io possa renderere il destino mio."
 "Cos'è che brami?" rispose incuriosita, cercando una tregua dalla monotonia
-Un ghigno seguì la folle risposta. "Il mio obbiettivo è essere un Dio."
+Un ghigno seguì la folle risposta. "Il mio obiettivo è essere un Dio."
 """
 
 
@@ -199,7 +199,7 @@ label gkCredits:
 #     $renpy.show_screen("credits", credits_script, _layer="overlayer")
 
 
-    $scroll_duration = 3 #350
+    $scroll_duration = 350
     $stop_point = -5*1080 -40
     #circa 300
 

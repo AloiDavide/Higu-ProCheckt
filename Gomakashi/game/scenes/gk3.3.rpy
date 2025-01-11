@@ -32,11 +32,11 @@ label gk330:
 
     n "L'uomo dai capelli verde scuro, visibilmente agitato fu il primo a prendere l'iniziativa."
 
-    hb_anon "No, tu resta qua."
+    hb_anon "No capitano, lei resta qua."
 
     oko_anon "Signore, ci dobbiamo assicurare che non scoppi un incendio, sarebbe un incubo da infangare."
 
-    hb_anon "Ho detto resta qua. {w}Mi serve qualcuno che risponda alle chiamate in mia assenza.{p}{nw}"
+    hb_anon "Le ho detto di restare qua. {w}Mi serve qualcuno che diriga l'operazione in mia assenza.{p}{nw}"
 
     play music "audio/higu/gallery of madness.mp3" volume 1.5
     play sound "audio/sfx/zbiin.ogg"
@@ -499,7 +499,7 @@ label gk332:
     play sound "audio/sfx/speeding car.mp3" volume 1.5
     pause 2.5
 
-    scene road_sunset with fade
+    scene rural_road with fade
     sgherro "AAAAAAAAAAAAAAAAAAAAAAAAAaaaaaaaaaahhhhhhhhhhhhhhhhhhh!!!!!!!"
     pause 1
     show larry direct yep at right
@@ -510,147 +510,422 @@ label gk332:
 
     ck "Una performance degna di un oscar ragazzo mio."
 
-    la "Il merito è del capo per avere ideato il piano."
+    la "Tutto merito del piano capo! È bastato simulare il suono di un'esplosione e dare fuoco al nascondiglio per farli correre allo scoperto."
 
-    la "Dopo quanto pensa che si accorgeranno che non c'è nessun esplosivo?"
+    show check smile
+    show larry smile
+    ck "Le trasmittenti in dotazione al BKG saranno anche impermiabili ed ignifughe, ma non sono a prova di martello! Hahahahaha!"
 
-    ck "Abbastanza a lungo da depistarli."
+    show larry yep
+    la "Dopo quanto pensa che si accorgeranno che non c'è nessun esplosivo nella macchina?"
+
+    show check yep
+    ck "Abbastanza a lungo da depistarli..."
 
 
     show check calling
-    ck "E ora che abbiamo le trasmittenti di quei due, le posizioni sono ribaltate."
-
-    ck "Tra il cercare noi e l'emergenza incendio, non avranno tanti uomini a disposizione per fare la guardia al quartier generale."
-
-    ck "Non avremo mai più un'occasione come questa."
-
-    "Loro usano le radio degli sgherri ma hanabi lo sa"
-    "Hanabi ha previsto tutto e lo trova."
+    ck "E ora che abbiamo le radio di quei due, le posizioni sono ribaltate.{w} Adesso siamo noi a sentire tutto quello che dicono."
 
 
+
+
+#     play music "audio/higu/insanity.mp3"
 
     scene koya_fire with fade
 
-    sgherro3 "Perchè ci avete messo così tanto! Abbiamo perso i contatti col team 2."
-
-    sgherro1 "Colpa del terrain"
-
-    hb_anon "Basta chiacchiere, qual'è la situazione?"
-
     sgherro3 "Maggiore, stanno fuggendo, abbiamo avvistato la loro vettura allontanarsi e la strada è sbarrata."
 
-    hb_anon "..."
 
-    hb_anon "Ho capito, "
+    hb_anon "Razza di incompetenti..."
 
-    scene forest_path_sunset_A
 
-    show check plain at left
+    play sound "audio/sfx/codec call.mp3"
+
+    $ renpy.pause(3, hard=True)
+
+    hb_anon "Capitano, voglio immediatamente una squadra a inseguire quell'auto. {w}Vanno fermati a tutti i costi."
+
+    oko_anon "...... {w}Ricevuto..."
+
+    hb_anon "Dovete anche circondare il perimetro della montagna."
+
+    oko_anon "Cosa?! Perchè?"
+
+    hb_anon "Non è detto che siano scappati, potrebbe essere un'esca.{w} Travestitevi da forestali, pompieri o quello che volete ma fate in modo che non vi passino sotto il naso."
+
+    oko_anon "Maggiore! La deve smettere di fare di testa propria! {w}Abbiamo problemi più importanti di due fuggitivi adesso!"
+
+    oko_anon "Non ho più uomini da assegnarle come scorta!"
+
+    hb "Bah! Meglio così, dei dilettanti come voi mi rallenterebbero e basta."
+
+    scene forest_path_open with fade
+
+    play music "audio/higu/fearlessness.mp3"
+    show check calling at left
     show larry direct yep at right
 
-    ck "Larry, voglio che tu ti nasconda non posso metterti in pericolo."
+    ck "Pare che la nostra esca abbia funzionato.{w} Tra quella e l'emergenza incendio non hanno quasi più uomini a disposizione."
 
-    la "Ma capo..."
+    la "Vuol dire che il quartier generale è quasi sguarnito?"
 
-    ck "La strada è libera."
+    show check fp at flip
+    ck "Esatto, non avremo mai più un'occasione come questa."
+
+    show larry nope
+
+    la "Ma capo, anche se ci hanno detto il luogo non sappiamo come entrare."
+
+    ck "Sappiamo il loro punto debole, una persona che conosce tutti i loro segreti."
+
+    show check sus
+    ck "Ci farà il \"GENTILE FAVORE\" di aprirci, e servirà anche come ostaggio se ne avremo bisogno."
+
+    show larry yep
+    la "Ma certo! Bella pensata capo!"
+
+    show check plain
+    show check -sus
+
+    ck "Una volta che saremo entrati nel villaggio non potranno fare mosse avventate, anche la loro è un'operazione sotto copertura."
+
+    show check nope
+    show larry nope
+    ck "Ma non abbassare la guardia, pare che uno dei loro leader sia ancora sulle nostre tracce. {w}Faremo il giro dall'altro versante passando per il bosco."
+
+    show check angry
+    ck "Muoviamoci. E SIA CHIARO, NON LASCIARE TRACCE."
+
+    la "Chiaro."
+
+    stop music fadeout 5
+
+    scene forest_path_winding_sunset with longFade
+
+    play music "audio/sfx/cicadas.ogg" fadein 2
+    play sound "audio/sfx/bushes1.mp3"
+
+#     $ renpy.pause(4, hard=True)
+
+    show check plain nope:
+        offscreenright
+        ease 2 right
 
 
-    "........Capo..."
+    $ renpy.pause(1, hard=True)
 
-    hb "Larry, ho detto di no... {w}Larry?"
+    ck "La strada è libera. Possiamo procedere."
 
-    la "Si?"
+    play sound "audio/sfx/bushes1.mp3"
 
+    show larry worried:
+        left
+        flip
+        yoffset 900
+        pause 0.5
+        ease 2.5 yoffset 0
+
+    $ renpy.pause(3.5, hard=True)
+
+
+
+
+    ck "Ascoltami bene Larry, appena il sole sarà tramontato scenderò da questo versante e metterò in atto il piano. {w}Voglio che tu ti nasconda, e cerchi un occasione per scappare dal lato opposto mentre saranno concentrati su di me."
+    play music "audio/higu/silence.mp3" fadein 3
+    show larry direct
+    la "Ma capo... dev'esserci qualcosa che anche io posso fare."
+
+    la "Lo so. Sono stato solo un peso in questa missione. {w}Ma almeno adesso.{w} Almeno stavolta."
+
+    ck "Il tuo ruolo è cruciale. {w}Nel caso qualcosa andasse storto serve che almeno uno di noi riesca a portare fuori le informazioni che abbiamo."
+
+    ck "Ci sono! Inventati qualcosa per allertare la polizia, metterà ancora più alle strette i nostri avversari."
+
+    la "Ma in quel caso sarebbe troppo tardi."
+
+    show check think
+    ck "Senti, non posso metterti in pericolo più di quanto non ho già fatto."
+
+    show check fp at flip
+    ck "Questi sono ordini, non seguirmi."
+
+    la "Nnnnnnnnhhhhhhhh.........."
+
+    show larry scared nope
+    la "...............Capo..."
+
+
+    ck "Larry, ho detto di no..."
+
+    show check p -think at unflip
+    ck "Non mi convincerai a...{w} Larry?"
+    stop music fadeout 3
+    show larry hide_arm b1 with Dissolve(2)
+
+    show check angry shout
+    show larry worried
+
+    ck "La tua spalla!"
     play music "audio/higu/moon.mp3"
-    hb "La tua spalla!"
-
-    show larry with dissolve
-    "esce il primo sangue"
 
     show check shoutest
-    hb "PRESTO AL RIPARO! SIAMO SOTTO TIRO"
+    ck "PRESTO AL RIPARO! SIAMO SOTTO TIRO"
 
-    show woods_sunset with pushleft
-    show check angry worried
-    ck "DANNAZZIONE! Siamo in una foresta! Come fa a prenderci di mira."
+    scene woods_sunset with PushMove(0.5, "pushleft")
+    show check plain angry shout fp:
+        flip
+        offscreenleft
+        parallel:
+            ease 1 right
+        parallel:
+            pause 0.4
+            ease 0.6 yoffset 350
 
-    show forest_path_sunset_B with pushright
 
-    show larry hide_arm close worried tilt
+    $ renpy.pause(1, hard=True)
+    show check p at unflip
+    n "Non ho sentito lo sparo... un silenziatore?"
+    n "No! Nessuno era nelle vicinanze. Puo essere solo un cecchino!"
+
+    ck "DA QUESTA PARTE! STA GIÙ E NON DARGLI VISUALE!!!"
 
 
 
+    scene forest_path_winding_sunset
+    show larry hide_arm scared worried b1 at left, flip
 
-    la "La mia gamba."
+    with PushMove(0.5, "pushright")
+
+    la "AAaaAaAAaaaaAAa!"
+
+#     $ renpy.transition(Dissolve(1), layer="master")
+    show larry:
+        ease 1 offscreenright
+    $ renpy.pause(0.7, hard=True)
+    play sound ["audio/sfx/furu.ogg"]
+    show rocky_wall_sunset behind larry with PushMove(0.5, "pushleft")
+    play sound ["<silence 0.2>","audio/sfx/down.ogg"]
+    show larry b2:
+        offscreenleft
+        parallel:
+            ease 0.5 center
+        parallel:
+            pause 0.2
+            linear 0.3 yoffset 100
+
+    $ renpy.pause(0.5, hard=True)
+
+    show larry close worried tilt
+    $ renpy.pause(1, hard=True)
+    la "Aaah... Aaah... Aaah..."
+
+    scene woods_sunset with PushMove(0.5, "pushleft")
+    show check plain angry shout:
+        right
+        yoffset 350
+
     ck "LARRY!"
 
-    play music "audio/sfx/vibration.mp3"
-    "bzz bzz"
+    ck "DANNAZZIONE! Siamo in una FOTTUTA foresta! Come fa a prenderci di mira."
 
-    hb_anon "Non muovere un muscolo."
+    show check sus
+    play sound "audio/sfx/codec call.mp3"
+    $ renpy.pause(3, hard=True)
 
-    "Opzionale cut a view mirino su larry"
-
-    show scope
-
+    show check angry calling with dissolve
+    hb_anon "Non muovere un muscolo.{w} Ho il ragazzo sotto tiro."
 
 
-    hb_anon "Ho il ragazzo sotto tiro."
 
-    hb_anon "Bastardo, stai colpendo apposta i punti non letali!"
+    scene rocky_wall_sunset
+    show larry b1 b2 close worried tilt at center:
+        yoffset 100
+    show scope onlayer overlayer
+    camera:
+        zoom 0.7
+        yalign 0.5
+        xalign 0.8
+    with Dissolve(2)
 
+    camera:
+        linear 3 xalign 0.2
+        ease 1 zoom 1
+        parallel:
+            linear 2 yalign 0.3
+        parallel:
+            linear 2 xalign 0.5
+
+    hb_anon "Se fai mosse sospette o provi a scappare, il prossimo colpo sarà in mezzo alla fronte."
+
+    ck "Bastardo! Stai colpendo apposta i punti non letali!"
+
+    hb_anon "Bingo, risposta esatta."
+
+    hide scope
+    scene woods_sunset
+    show check angry shout calling:
+        right
+        yoffset 350
+
+    with dissolve
     ck "Chi sei?! Sei tu Lambdadelta?!"
 
-    hb "Dovresti sapere il mio nome."
+    hb_anon "Sai già il mio nome. Check."
 
-    ck "Quella voce... e questa abilità col fucile... No, non puoi essere lui."
 
-    hb "Bingo."
 
-    play music "audio/higu/requiem for the disaster.mp3"
+    ck "Quella voce... e questa abilità col fucile... {w}No! non puoi essere lui!"
+
+    hb "Bingo di nuovo."
+
+    ck "Ma mi hanno detto che tu eri morto..."
+
+    hb "Era una storia conveniente per il tipo di missioni di cui mi occupo."
+
+    hb "Questo lavoro invece era un po'diverso... {w}Mi hanno scelto specificamente per tenere te sotto controllo."
+
+    hb "E ora che sei uscito fuori controllo, non ti posso più permettere di scappare."
+
+    scene rocky_wall_sunset
+    show larry b1 b2 close worried tilt at center:
+        yoffset 100
+    show scope onlayer overlayer
+    camera:
+        zoom 1
+        yalign 0.6
+        xalign 0.5
+
+    with Dissolve(2)
+
+    camera:
+        ease 1 zoom 1.5
+        parallel:
+            linear 2 xalign 0.25
+        parallel:
+            linear 2 yalign 1.05
+
+
+    $ renpy.pause(4, hard=True)
+
+
+
+    la "AAAAAAAHH!!"
+    play sound "audio/sfx/chishibuki.ogg"
+    show larry b3 with Dissolve(2)
+
+    $ renpy.pause(1, hard=True)
+
+    camera:
+        zoom 1
+        yalign 0.5
+        xalign 0.5
+    hide scope
+    scene woods_sunset
+    with dissolve
+    show check plain angry shout:
+        right
+        yoffset 350
+
+    hb "La tua vita per la sua."
+
+
+
+    n "................"
 
     ck "Mi devi promettere di risparmiarlo."
 
     hb "Senza te non ho motivo di uccidere quell'incapace."
+    stop music fadeout 3
+
+    show check:
+        linear 1 yoffset 0
+    n "........................................"
+
+    play music "audio/higu/requiem for the disaster.mp3" fadein 3
+
+    show check:
+        pause 2
+        linear 4 offscreenleft
+
+    $ renpy.pause(6, hard=True)
+
+    scene rocky_wall_sunset
+    show larry b1 b2 b3 close worried tilt at center:
+        yoffset 200
+
+    with PushMove(0.5, "pushright")
+
+    show check plain angry shout:
+        offscreenright
+        ease 3 center
+    $ renpy.pause(4, hard=True)
+
+    ck "Molto bene. Accetto la proposta. {w}Dovrai passare sul mio cadavere!"
+
+
+    show larry cry:
+        ease 2 right
+
+
+    la "Capo...."
+
+    show scope onlayer overlayer with Dissolve(3)
+    camera:
+        xalign 0.4
+        parallel:
+            linear 2 zoom 1.7
+        parallel:
+            ease 2 yalign -0.2
+
+
+
+    $ renpy.pause(3, hard=True)
+
+
+    hb "Un vero idiota fino alla fine......"
+
+    play sound "audio/sfx/BANG.ogg"
+    camera:
+        zoom 1
+        yalign 0.5
+        xalign 0.5
+    hide scope
+    show black
+
+    pause 5
+
 
     scene mountain_sunset
 
-    show hnb nopper
+    show hnb nope napalm_right at flip:
+        xalign 0.7
+    with Dissolve(5)
 
-    hb "È finita."
+    play sound "audio/sfx/codec call.mp3"
+    $ renpy.pause(3, hard=True)
 
-    hb "Recuperate il corpo."
+    hb "È finita capitano."
 
+    hb "Recuperate il corpo di Check."
 
+    oko_anon ".... Roger.{w} Cosa dobbiamo fare con l'assistente?"
 
-    sgherro3 "Cosa dobbiamo fare con l'assistente?"
+    hb "Fate come volete, non è più un mio problema."
 
-    hb_anon "Fate come volete, non è più un mio problema."
+    hb "Il mio ruolo in questa operazione si è esaurito, mi ricongiungerò a Tokyo già a partire da domani."
 
-    hb "Il mio ruolo in questa operazione si è esaurito, dite al vostro leader che farò ritorno a TOKYO già a partire da domani."
+    oko_anon "Sissignore."
 
-    sgherro3 "Sissignore."
+    pause 2
 
-    play sound "audio/sfx/bushes2.mp3"
+    show hnb cigar with Dissolve(2)
 
-    hb "Questo non era nei piani."
+    hb "Niente di tutto ciò era era nei piani."
 
-    hb "Se solo te ne fossi stato al tuo posto, questo non sarebbe successo."
+    hb "Se solo te ne fossi stato al tuo posto non sarebbe successo... {p}Sia ora che allora."
 
-
-    hb "Si signore. Quì Hanabi... {w}anzi... quì Lambdadelta."
-
-    hb "Check è stato neutralizzato insieme al suo assistente."
-
-    hb "No signore, non abbiamo tracce degli altri disertori del BKG. {w}La trasmittente di Check è andata distrutta e il loro hacker ha rimosso dai server ogni traccia delle loro comunicazioni."
-
-    hb "Quanto al vostro obiettivo primario, se ha letto un giornale ultimamente saprà già che non è più raggiungibile. {w}Suppongo che il mio ruolo quì sia finito."
-
-    hb "..... Si signore, farò ritorno a TOKYO tempestivamente."
-
-    hb ".... Ricevuto."
-
-    show black with longFade
+    stop music fadeout 13
+    show black with Fade(10,2,5)
     jump gk34
 
     return
